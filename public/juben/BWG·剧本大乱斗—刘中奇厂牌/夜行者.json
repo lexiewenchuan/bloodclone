@@ -1,0 +1,149 @@
+[
+  {
+    "hint": "线上魔典支持直接输入剧本的URL。不必将此文件保存到你的电脑。",
+    "id": "_meta",
+    "name": "夜行者",
+    "author": "小烯社群—段时"
+  },
+  {
+    "id": "fff01a1e",
+    "team": "townsfolk",
+    "name": "守夜人（很多）",
+    "ability": "每局游戏限一次，在夜晚时，你可以选择一名玩家：他会得知你是守夜人。",
+    "image": "/blood-on-the-clocktower/image/downloaded/c572675fe4fcf02d2f4bd82c6d1b32aa.webp",
+    "setup": false,
+    "reminders": [
+      "失去能力"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3054,
+    "otherNight": 82,
+    "original_image": "https://www.bloodstar.xyz/p/C2H43g/night/_night.png"
+  },
+  {
+    "id": "4426ab1a",
+    "team": "outsider",
+    "name": "使节",
+    "ability": "每个夜晚限一次，一名玩家在使用自身能力选择邪恶玩家时会改为选中你，即使你已死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/7977644949d80584384216751d8aaaed.webp",
+    "setup": false,
+    "reminders": [
+      "已生效"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/shijie_600w.webp"
+  },
+  {
+    "id": "1f1c8685",
+    "team": "outsider",
+    "name": "政客",
+    "ability": "如果你是对你的阵营落败负最大责任的人，你转变阵营并获胜，即使你已死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/0af92d818b2185d1805f57cc5b2d03f1.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/politician_600w.webp"
+  },
+  {
+    "id": "06271f25",
+    "team": "outsider",
+    "name": "落难少女",
+    "ability": "所有爪牙都知道落难少女在场。每局游戏限一次，任意爪牙可以公开猜测你是落难少女，如果猜对，你的阵营落败。",
+    "image": "/blood-on-the-clocktower/image/downloaded/7b551d9199f0a757a2dd805b71f40707.webp",
+    "setup": false,
+    "reminders": [
+      "已被猜测"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 2004,
+    "otherNight": 0,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/damsel_600w.webp"
+  },
+  {
+    "id": "8ff03a3c",
+    "team": "minion",
+    "name": "亡命徒",
+    "ability": "每个夜晚，你要选择一名玩家：明天白天提名他的善良玩家会立刻死亡。如果只有三名存活的玩家，你失去此能力。",
+    "image": "https://www.bloodstar.xyz/p/C2H43g/night/4_night.png",
+    "setup": false,
+    "reminders": [
+      "选择",
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3026,
+    "otherNight": 104
+  },
+  {
+    "id": "1cd46f28",
+    "team": "minion",
+    "name": "炸弹人",
+    "ability": "如果你被处决，除三名玩家以外的其他所有玩家均会死亡。倒数十声后，被最多玩家手指指着的玩家死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/1272888575720c3a054f08844df49c86.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/boomdandy_600w.webp"
+  },
+  {
+    "id": "8a75e773",
+    "team": "minion",
+    "name": "科学怪人",
+    "ability": "恶魔拥有一个不在场的善良角色的能力，即使他醉酒或中毒。你和他都知道他获得了什么能力。",
+    "image": "/blood-on-the-clocktower/image/downloaded/195679dad49ae40a4422ebe053345e0b.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 5,
+    "otherNight": 0,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/boffin_600w.webp"
+  },
+  {
+    "id": "bb96648e",
+    "team": "demon",
+    "name": "诺-达鲺",
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡。与你邻近的两名镇民中毒。",
+    "image": "/blood-on-the-clocktower/image/downloaded/dc8aec83230dd0fc238ab7c6277ab6af.webp",
+    "setup": false,
+    "reminders": [
+      "死亡",
+      "中毒"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 59,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/noDashii_600w.webp"
+  },
+  {
+    "id": "20c40225",
+    "team": "demon",
+    "name": "痢蛭",
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡。在你的首个夜晚，你要选择一名存活的玩家：他中毒，只有当他处于死亡状态时你才会立即死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/6d3ebb6a70e41b82102c53de26414a4f.webp",
+    "setup": false,
+    "reminders": [
+      "死亡",
+      "中毒"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3013,
+    "otherNight": 65,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/lleech_600w.webp"
+  },
+  {
+    "id": "1cf271fe",
+    "team": "a jinxed",
+    "name": "科学怪人 & 政客",
+    "ability": "恶魔无法拥有政客的能力。",
+    "image": "",
+    "setup": false,
+    "firstNight": 0,
+    "otherNight": 0
+  }
+]

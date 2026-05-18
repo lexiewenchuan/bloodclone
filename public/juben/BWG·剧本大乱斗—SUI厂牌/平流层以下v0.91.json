@@ -1,0 +1,497 @@
+[
+  {
+    "hint": "线上魔典支持直接输入剧本的URL。不必将此文件保存到你的电脑。",
+    "id": "_meta",
+    "name": "平流层以下v0.91",
+    "author": "小付",
+    "status": [
+      {
+        "name": "小能猫俱乐部",
+        "skill": "如果您有兴趣参加线上/线下血染，可滴滴小红书@小付喝了喝了。"
+      },
+      {
+        "name": "天气事件",
+        "skill": "每晚，说书人将公开宣布“天气事件”，持续到下个黄昏。天气事件生效时，可能触发额外灾难气象。所有玩家都会得知具体效果。"
+      }
+    ]
+  },
+  {
+    "id": "f6ebe50e",
+    "team": "townsfolk",
+    "name": "郎中",
+    "ability": "每个夜晚，你要选择除你以外的一名玩家：你会得知一个与他能力相关的词语。",
+    "image": "/image/downloaded/0b09e085d3f549b91baba948b2b79b32.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 3060,
+    "otherNight": 109,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/langzhong_600w.webp"
+  },
+  {
+    "id": "152153a1",
+    "team": "townsfolk",
+    "name": "熊孩子",
+    "ability": "每个夜晚，你要选择一个镇民角色：他的能力会产生错误信息，直到下个黄昏。",
+    "image": "/image/downloaded/8421ca5e53d0b687a8cd59ffdcc2898a.webp",
+    "setup": false,
+    "reminders": [
+      "捣蛋"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3039,
+    "otherNight": 35,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/xionghaizi_600w.webp"
+  },
+  {
+    "id": "f8ee156b",
+    "team": "townsfolk",
+    "name": "侍女",
+    "ability": "每个夜晚，你要选择除你以外的两名存活的玩家：你会得知他们中有几人在当晚因其自身能力而被唤醒。",
+    "image": "/image/downloaded/87c51e89d13d66a4061ebef373eb67c7.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 3076,
+    "otherNight": 122,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/chambermaid_600w.webp"
+  },
+  {
+    "id": "1ec334fd",
+    "team": "townsfolk",
+    "name": "占卜师",
+    "ability": "每个夜晚，你要选择两名玩家：你会得知他们之中是否有恶魔。会有一名善良玩家始终被你的能力当作恶魔。",
+    "image": "/image/downloaded/373c82aaa45a5fff9387f54ce2bf775a.webp",
+    "setup": false,
+    "reminders": [
+      "干扰项"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3047,
+    "otherNight": 97,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/fortuneTeller_600w.webp"
+  },
+  {
+    "id": "d4f30628",
+    "team": "townsfolk",
+    "name": "筑梦师",
+    "ability": "每个夜晚，你要选择除你及旅行者以外的一名玩家：你会得知一个善良角色和一个邪恶角色，该玩家是其中一个角色。",
+    "image": "/image/downloaded/9f15bc4c3c5f4123c866ed3a0656a44d.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 3052,
+    "otherNight": 101,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/dreamer_600w.webp"
+  },
+  {
+    "id": "4becbe96",
+    "team": "townsfolk",
+    "name": "知府",
+    "ability": "每个夜晚*，你会得知今天是否有非镇民且非旅行者的玩家死亡。",
+    "image": "/image/downloaded/979baaf01d2a8a150141aa0a86f082f4.webp",
+    "setup": false,
+    "reminders": [
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 121,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/zhifu_600w.webp"
+  },
+  {
+    "id": "bbcbf3e7",
+    "team": "townsfolk",
+    "name": "赌徒",
+    "ability": "每个夜晚*，你要选择一名玩家并猜测该玩家的角色：如果你猜错了，你会死亡。",
+    "image": "/image/downloaded/654b0581e0ee674d4648906ba463164e.webp",
+    "setup": false,
+    "reminders": [
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 31,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/gambler_600w.webp"
+  },
+  {
+    "id": "256e8027",
+    "team": "townsfolk",
+    "name": "气象员",
+    "ability": "每局游戏限一次，在夜晚时，选择一个天气事件，它将不会在本局游戏出现，即使你已死亡。[+应劫者]",
+    "image": "/image/downloaded/e7eb1fe0164911c8a9b069c1433b0ed4.webp",
+    "setup": true,
+    "reminders": [
+      "限一次"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3,
+    "otherNight": 2,
+    "original_image": "https://i.postimg.cc/6QX7zVHR/Weathercaster.png"
+  },
+  {
+    "id": "0d156a61",
+    "team": "townsfolk",
+    "name": "工程师",
+    "ability": "每局游戏限一次，在夜晚时，你可以选择让恶魔变成你选择的恶魔角色，或让所有爪牙变成你选择的爪牙角色。",
+    "image": "/image/downloaded/e7032b9e07fefce588d8d140f94624de.webp",
+    "setup": false,
+    "reminders": [
+      "失去能力"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3010,
+    "otherNight": 18,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/engineer_600w.webp"
+  },
+  {
+    "id": "a52d8a5d",
+    "team": "townsfolk",
+    "name": "艺术家",
+    "ability": "每局游戏限一次，在白天时，你可以私下询问说书人一个是非问题，你会得知该问题的答案。",
+    "image": "/image/downloaded/6ce27898f27e273f464da1b732ab2d4f.webp",
+    "setup": false,
+    "reminders": [
+      "失去能力"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/artist_600w.webp"
+  },
+  {
+    "id": "915e25f1",
+    "team": "townsfolk",
+    "name": "方士",
+    "ability": "在你的首个夜晚，你要选择一个数字。在该数字对应的那一个夜晚，你会得知对应数量的在场角色。",
+    "image": "/image/downloaded/b5312bcc5e0aa51e71051e9bfe903f1f.webp",
+    "setup": false,
+    "reminders": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3075,
+    "otherNight": 119,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/fangshi_600w.webp"
+  },
+  {
+    "id": "8861792c",
+    "team": "townsfolk",
+    "name": "失忆者",
+    "ability": "你不知道你的能力是什么。每个白天你可以找说书人猜测一次，你会得知你的猜测有多准确。",
+    "image": "/image/downloaded/aa08d1b7d7110ea67f88c5b046878b85.webp",
+    "setup": false,
+    "reminders": [
+      "？"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 6,
+    "otherNight": 4,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/amnesiac_600w.webp"
+  },
+  {
+    "id": "3b5e5f88",
+    "team": "townsfolk",
+    "name": "农夫",
+    "ability": "当你在夜晚死亡时，一名存活的善良玩家会变成农夫。",
+    "image": "/image/downloaded/9f286da5a2419ab5f6fe8134ae55e546.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/farmer_600w.webp"
+  },
+  {
+    "id": "2e60f157",
+    "team": "townsfolk",
+    "name": "报丧女妖",
+    "ability": "如果恶魔杀死了你，所有玩家都会得知此事。从现在开始，你每天可以发起两次提名，每次投票时可以投两票。",
+    "image": "/image/downloaded/c91023aa8b40366d1a71f655f24ed68f.webp",
+    "setup": false,
+    "reminders": [
+      "具有能力"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/banshee_600w.webp"
+  },
+  {
+    "id": "4426ab1a",
+    "team": "outsider",
+    "name": "使节",
+    "ability": "每个夜晚限一次，一名玩家在使用自身能力选择邪恶玩家时会改为选中你，即使你已死亡。",
+    "image": "/image/downloaded/7977644949d80584384216751d8aaaed.webp",
+    "setup": false,
+    "reminders": [
+      "已生效"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/shijie_600w.webp"
+  },
+  {
+    "id": "9b1436f3",
+    "team": "outsider",
+    "name": "书童",
+    "ability": "在你的首个夜晚，你要选择除你以外的一名玩家：除首个夜晚以外，当他被邪恶玩家的能力选择或影响时，你会在当晚死亡。",
+    "image": "/image/downloaded/121a77f0b5ea1613668c6885cccfebea.webp",
+    "setup": false,
+    "reminders": [
+      "先生",
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3070,
+    "otherNight": 0,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/shutong_600w.webp"
+  },
+  {
+    "id": "d5b526da",
+    "team": "outsider",
+    "name": "酒鬼",
+    "ability": "你不知道你是酒鬼。你以为你是一个镇民角色，但其实你不是。",
+    "image": "/image/downloaded/8f7a6904ef81ddc1f303550c7f22c867.webp",
+    "setup": true,
+    "reminders": [],
+    "remindersGlobal": [
+      "是酒鬼"
+    ],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/drunk_600w.webp"
+  },
+  {
+    "id": "407b3a70",
+    "team": "outsider",
+    "name": "应劫者",
+    "ability": "如果你死亡，恶魔改为选择2个天气事件，这两个天气事件必定生效。。",
+    "image": "/image/downloaded/b4571f59c77f4736e85035b95ba4cd9a.webp",
+    "setup": false,
+    "reminders": [
+      "渡劫"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 3,
+    "original_image": "https://i.postimg.cc/MT48vXtF/image.png"
+  },
+  {
+    "id": "c62197a6",
+    "team": "minion",
+    "name": "教父",
+    "ability": "在你的首个夜晚，你会得知有哪些外来者角色在场。如果有外来者在白天死亡，你会在当晚被唤醒并且你要选择一名玩家：他死亡。[-1或+1外来者]",
+    "image": "/image/downloaded/a63451fec26b2a470c611e5f4b7048b7.webp",
+    "setup": true,
+    "reminders": [
+      "死于今日",
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3023,
+    "otherNight": 81,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/godfather_600w.webp"
+  },
+  {
+    "id": "b01de8e6",
+    "team": "minion",
+    "name": "女巫",
+    "ability": "每个夜晚，你要选择一名玩家：如果他明天白天发起提名，他死亡。如果只有三名存活的玩家，你失去此能力。",
+    "image": "/image/downloaded/606360ca98842ba0e524fe53f7510387.webp",
+    "setup": false,
+    "reminders": [
+      "被诅咒"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3027,
+    "otherNight": 38,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/witch_600w.webp"
+  },
+  {
+    "id": "559e85b7",
+    "team": "minion",
+    "name": "刺客",
+    "ability": "每局游戏限一次，在夜晚时*，你可以选择一名玩家：他死亡，即使因为任何原因让他不会死亡。",
+    "image": "/image/downloaded/9d5c3b9768ba210221816292c6b2cda1.webp",
+    "setup": false,
+    "reminders": [
+      "死亡",
+      "失去能力"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 80,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/assassin_600w.webp"
+  },
+  {
+    "id": "5fa33dec",
+    "team": "minion",
+    "name": "寡妇",
+    "ability": "在你的首个夜晚，你能查看魔典并选择一名玩家：他中毒。随后，始终会有一名善良玩家知道寡妇在场。",
+    "image": "/image/downloaded/e018f7488187253a6ec42ba2ef870c1f.webp",
+    "setup": false,
+    "reminders": [
+      "中毒"
+    ],
+    "remindersGlobal": [
+      "被知晓"
+    ],
+    "firstNight": 3018,
+    "otherNight": 0,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/widow_600w.webp"
+  },
+  {
+    "id": "35a9cea1",
+    "team": "demon",
+    "name": "天气之子",
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡。每晚，选择三个天气事件（非上次生效的两个天气事件），当天将生效其中两个天气事件。",
+    "image": "/image/downloaded/6b1ebd587384a5c8ce6b37d089a48f2c.webp",
+    "setup": false,
+    "reminders": [
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 4,
+    "otherNight": 3,
+    "original_image": "https://i.postimg.cc/fWtV5d4k/diy.png"
+  },
+  {
+    "id": "c218449e",
+    "team": "fabled",
+    "name": "雷电",
+    "ability": "当晚死亡的玩家失去投票标记但获得一次提名机会。",
+    "image": "/image/downloaded/63b38554a06b5ca3b5777b3e17181bd1.webp",
+    "setup": false,
+    "reminders": [
+      "雷击"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://i.postimg.cc/7PF2tTZx/lightning.png"
+  },
+  {
+    "id": "3311a338",
+    "team": "fabled",
+    "name": "暴雨",
+    "ability": "白天禁止任何形式的私聊",
+    "image": "/image/downloaded/0044d0d6ba2b4f81b2915077faed4980.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://i.postimg.cc/ZY8WqNx3/rainstorm-blue.png"
+  },
+  {
+    "id": "08976a33",
+    "team": "fabled",
+    "name": "寒潮",
+    "ability": "恶魔获得其伪装之一的能力。",
+    "image": "/image/downloaded/5a71a5685caa3f92b14739cce87735b1.webp",
+    "setup": false,
+    "reminders": [
+      "获得"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://i.postimg.cc/vmjLzn4X/coldwave-or.png"
+  },
+  {
+    "id": "930b62ec",
+    "team": "fabled",
+    "name": "台风",
+    "ability": "说书人获得一次打破规则的机会。",
+    "image": "/image/downloaded/93ade7cdde0d1b566b6be4aa1bfc407d.webp",
+    "setup": false,
+    "reminders": [
+      "打破规则"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://i.postimg.cc/3R3Lvbzc/typhoon.png"
+  },
+  {
+    "id": "ece3bbcf",
+    "team": "fabled",
+    "name": "大雾",
+    "ability": "镇民玩家的能力可能产生错误地生效。",
+    "image": "/image/downloaded/a8bd5ea901d3b52bd79b529ec864a6b7.webp",
+    "setup": false,
+    "reminders": [
+      "迷失"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://i.postimg.cc/KjQ19X9F/heavyfog-or.png"
+  },
+  {
+    "id": "eb1611fc",
+    "team": "fabled",
+    "name": "高温",
+    "ability": "未发起提名的玩家可能会发生不好的事。",
+    "image": "/image/downloaded/dc2ecec4ba452a312dbf776d50a59cc1.webp",
+    "setup": false,
+    "reminders": [
+      "已提名",
+      "不好的事"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://i.postimg.cc/pTxtcm5b/heatwave-blue.png"
+  },
+  {
+    "id": "f5c45dd4",
+    "team": "fabled",
+    "name": "沙尘",
+    "ability": "白天缩短至3分钟，提名环节发言至多5个字。",
+    "image": "/image/downloaded/7dce9467933641b2d70660d64c74a295.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://i.postimg.cc/nV3tTcHg/dust-blue.png"
+  },
+  {
+    "id": "46ec26d6",
+    "team": "fabled",
+    "name": "暴雪",
+    "ability": " 夜间行动的善良玩家可以放弃行动，否则可能死亡。",
+    "image": "/image/downloaded/e5eac34682827daa7d568bc5d1af6277.webp",
+    "setup": false,
+    "reminders": [
+      "放弃行动",
+      "死于暴雪"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://i.postimg.cc/90YCBSfw/image.png"
+  },
+  {
+    "id": "e544bd6a",
+    "team": "fabled",
+    "name": "天气事件",
+    "ability": "每晚，说书人将公开宣布“天气事件”，持续到下个黄昏。天气事件生效时，可能触发额外灾难气象。所有玩家都会得知具体效果。",
+    "image": "/image/downloaded/632e6873021b030e46382d4f7dbf7ce6.webp",
+    "setup": false,
+    "reminders": [
+      "？"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 5,
+    "otherNight": 4,
+    "original_image": "https://i.postimg.cc/Zq8cWQHt/Weather.png"
+  }
+]

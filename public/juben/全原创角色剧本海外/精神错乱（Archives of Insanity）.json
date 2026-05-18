@@ -1,0 +1,422 @@
+[
+  {
+    "hint": "线上魔典支持直接输入剧本的URL。不必将此文件保存到你的电脑。",
+    "id": "_meta",
+    "name": "精神错乱（Archives of Insanity）",
+    "author": "Soup1618"
+  },
+  {
+    "id": "b806cb13",
+    "team": "townsfolk",
+    "name": "侦探",
+    "ability": "在你的首个夜晚，你会得知两名其他玩家。如果他们之一的玩家在夜晚死亡，你会得知他的角色，但你只会得知一次。",
+    "image": "/image/downloaded/84f85cb4a15bc7cbea726eae934112a2.webp",
+    "setup": false,
+    "reminders": [
+      "被得知"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3070,
+    "otherNight": 116,
+    "original_image": "https://www.bloodstar.xyz/p/Sans/Archives_of_Insanity/1_archives_of_insanity.png"
+  },
+  {
+    "id": "be0d5afa",
+    "team": "townsfolk",
+    "name": "接待员",
+    "ability": "在你的首个夜晚，你会得知每种角色类型中的各一个角色，其中有且只有两个角色在场。如果你陷入癫狂，这些角色都在场或都不在场。",
+    "image": "/blood-on-the-clocktower/image/downloaded/c9ae27d3f6ec00c565b1d36f2872e1e3.webp",
+    "setup": false,
+    "reminders": [
+      "已登记"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3065,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/Sans/Archives_of_Insanity/_archives_of_insanity.png"
+  },
+  {
+    "id": "e0a9dfab",
+    "team": "townsfolk",
+    "name": "占星师",
+    "ability": "每个夜晚，你会得知三名玩家，他们属于不同阵营。",
+    "image": "/blood-on-the-clocktower/image/downloaded/1fd73f31150d3464d45bff2cecafe896.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 3048,
+    "otherNight": 100,
+    "original_image": "https://www.bloodstar.xyz/p/Sans/Archives_of_Insanity/6_archives_of_insanity.png"
+  },
+  {
+    "id": "a7344a76",
+    "team": "townsfolk",
+    "name": "抓鬼人",
+    "ability": "每个夜晚，你会得知有多少名癫狂玩家与邪恶玩家邻座。",
+    "image": "/blood-on-the-clocktower/image/downloaded/6e786b3472f4f2c5ea3f4182897a4490.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 3043,
+    "otherNight": 95,
+    "original_image": "https://www.bloodstar.xyz/p/Sans/Archives_of_Insanity/3_archives_of_insanity.png"
+  },
+  {
+    "id": "3527a3c2",
+    "team": "townsfolk",
+    "name": "研究员",
+    "ability": "每个夜晚，你会得知一名与你邻近的存活玩家的角色类型。",
+    "image": "/blood-on-the-clocktower/image/downloaded/738ba8dc6d189532f98589781983c29e.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 3059,
+    "otherNight": 111,
+    "original_image": "https://www.bloodstar.xyz/p/Sans/Archives_of_Insanity/5_archives_of_insanity.png"
+  },
+  {
+    "id": "5cbe5b0a",
+    "team": "townsfolk",
+    "name": "心理学家",
+    "ability": "每个夜晚，你要选择两名玩家，如果他们都属于善良阵营，他们恢复理智。",
+    "image": "/image/downloaded/d27576f8c960654ce840d20902350cf4.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 3026,
+    "otherNight": 80,
+    "original_image": "https://www.bloodstar.xyz/p/Sans/Archives_of_Insanity/9_archives_of_insanity.png"
+  },
+  {
+    "id": "c2b8522c",
+    "team": "townsfolk",
+    "name": "学士",
+    "ability": "每个夜晚，你可以选择一名玩家，你会得知他的阵营，然后一名玩家陷入癫狂。",
+    "image": "/image/downloaded/501d42664f02ec2330d83d7f82373c35.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 3015,
+    "otherNight": 69,
+    "original_image": "https://www.bloodstar.xyz/p/Sans/Archives_of_Insanity/2_archives_of_insanity.png"
+  },
+  {
+    "id": "5d7cb01c",
+    "team": "townsfolk",
+    "name": "博物馆员",
+    "ability": "每个夜晚，与你邻近的善良存活玩家恢复理智，然后你会得知你是否改变了任何玩家的精神状态。",
+    "image": "/blood-on-the-clocktower/image/downloaded/923b746c264d04c8ec2d507274a47656.webp",
+    "setup": false,
+    "reminders": [
+      "恢复理智"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3020,
+    "otherNight": 74,
+    "original_image": "https://www.bloodstar.xyz/p/Sans/Archives_of_Insanity/8_archives_of_insanity.png"
+  },
+  {
+    "id": "dfe97a7f",
+    "team": "townsfolk",
+    "name": "灵数师",
+    "ability": "每个夜晚，你会得知有多少对邻座的陷入癫狂的玩家。如果你陷入癫狂，你得知的数字会增加或减少1。",
+    "image": "/image/downloaded/56bfc165efae33a298bd77d0c1b9abcc.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 3032,
+    "otherNight": 85,
+    "original_image": "https://www.bloodstar.xyz/p/Sans/Archives_of_Insanity/7_archives_of_insanity.png"
+  },
+  {
+    "id": "1e8dae6d",
+    "team": "townsfolk",
+    "name": "卷宗管理员",
+    "ability": "每个夜晚，你要选择一个除你的角色以外的角色，你会得知三名玩家，如果该角色在场，其中一名玩家为该角色。",
+    "image": "/blood-on-the-clocktower/image/downloaded/e2d8c97fc462871120354588cbb70de6.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 3054,
+    "otherNight": 106,
+    "original_image": "https://www.bloodstar.xyz/p/Sans/Archives_of_Insanity/4_archives_of_insanity.png"
+  },
+  {
+    "id": "5b8f71e8",
+    "team": "townsfolk",
+    "name": "分析师",
+    "ability": "每局游戏限一次，夜晚，你可以选择得知所有陷入癫狂的玩家。一名玩家可能被你的能力当作错误的精神状态。",
+    "image": "/image/downloaded/8a7a2d01d8fed092f9bda6e2f732c5b1.webp",
+    "setup": false,
+    "reminders": [
+      "失去能力"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3037,
+    "otherNight": 90,
+    "original_image": "https://www.bloodstar.xyz/p/Sans/Archives_of_Insanity/11_archives_of_insanity.png"
+  },
+  {
+    "id": "d4811242",
+    "team": "townsfolk",
+    "name": "助理",
+    "ability": "每局游戏限一次，夜晚，你可以选择一名玩家，他恢复理智且当晚必定得知正确信息，他会得知自己被助理选中。",
+    "image": "/blood-on-the-clocktower/image/downloaded/8e6529667f35e52b378b73abde91e04c.webp",
+    "setup": false,
+    "reminders": [
+      "失去能力",
+      "理智&正确"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3009,
+    "otherNight": 64,
+    "original_image": "https://www.bloodstar.xyz/p/Sans/Archives_of_Insanity/10_archives_of_insanity.png"
+  },
+  {
+    "id": "c635e573",
+    "team": "townsfolk",
+    "name": "解梦师",
+    "ability": "如果你在夜晚死亡，你会得知说书人认为哪名善良玩家的逻辑链最接近这局游戏的真相。",
+    "image": "/blood-on-the-clocktower/image/downloaded/d0a9fa19fafbb8bb99240930ceea2da5.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 59,
+    "original_image": "https://www.bloodstar.xyz/p/Sans/Archives_of_Insanity/12_archives_of_insanity.png"
+  },
+  {
+    "id": "06c44a9d",
+    "team": "outsider",
+    "name": "患者:傀儡",
+    "ability": "每个夜晚，如果你邻近的存活玩家都陷入癫狂或都未陷入癫狂，你转变为善良阵营。否则，你转变为邪恶阵营。",
+    "image": "/image/downloaded/2310945962a52fe73c361e4fc59d5ac1.webp",
+    "setup": false,
+    "reminders": [
+      "融入邪恶"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3076,
+    "otherNight": 121,
+    "original_image": "https://www.bloodstar.xyz/p/Sans/Archives_of_Insanity/14_archives_of_insanity.png"
+  },
+  {
+    "id": "9aa561d1",
+    "team": "outsider",
+    "name": "患者:臆想",
+    "ability": "你不知道你是患者:臆想。你以为你是一个在场的镇民角色，但你不是。",
+    "image": "/image/downloaded/58587c9eb795ad5a78bca6eb48e6a08f.webp",
+    "setup": true,
+    "reminders": [],
+    "remindersGlobal": [
+      "是患者:臆想"
+    ],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/Sans/Archives_of_Insanity/13_archives_of_insanity.png"
+  },
+  {
+    "id": "76fe987d",
+    "team": "outsider",
+    "name": "患者:错乱",
+    "ability": "当你死亡时，当晚恶魔可以选择改变他的恶魔角色，你会得知恶魔是否更换了角色。",
+    "image": "/blood-on-the-clocktower/image/downloaded/3d480c28e481491753be4230dae5a847.webp",
+    "setup": false,
+    "reminders": [
+      "幻象崩溃"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 48,
+    "original_image": "https://www.bloodstar.xyz/p/Sans/Archives_of_Insanity/16_archives_of_insanity.png"
+  },
+  {
+    "id": "89787700",
+    "team": "outsider",
+    "name": "患者:偏执",
+    "ability": "一名镇民陷入癫狂且无法恢复理智，当你在夜晚死亡时，如果他已死亡，你会得知他的角色。",
+    "image": "/image/downloaded/37bb98eeb507cee4ffc25e706dac2954.webp",
+    "setup": false,
+    "reminders": [
+      "无法恢复"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3004,
+    "otherNight": 54,
+    "original_image": "https://www.bloodstar.xyz/p/Sans/Archives_of_Insanity/15_archives_of_insanity.png"
+  },
+  {
+    "id": "88071c5e",
+    "team": "minion",
+    "name": "千面人",
+    "ability": "如果你提名了一名邪恶玩家或被邪恶玩家提名，你们会立刻交换角色。",
+    "image": "/blood-on-the-clocktower/image/downloaded/9857ed3016c5a0f56418b5cf359a43e4.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/Sans/Archives_of_Insanity/17_archives_of_insanity.png"
+  },
+  {
+    "id": "832bc4e4",
+    "team": "minion",
+    "name": "邪祭师",
+    "ability": "如果一名邪恶玩家被提名，提名者陷入癫狂。",
+    "image": "/blood-on-the-clocktower/image/downloaded/eaf65e7d883e9b8a297201cb16e7c0aa.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/Sans/Archives_of_Insanity/18_archives_of_insanity.png"
+  },
+  {
+    "id": "aa9d02b4",
+    "team": "minion",
+    "name": "人皮启示录",
+    "ability": "如果一名外来者死亡，夜晚，你可以选择改变所有与他邻近的镇民的精神状态。 [+1外来者，至少一名外来者在场]",
+    "image": "/blood-on-the-clocktower/image/downloaded/ca1967ea1893f811522ab4fb22681c71.webp",
+    "setup": true,
+    "reminders": [
+      "死于今日"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 38,
+    "original_image": "https://www.bloodstar.xyz/p/Sans/Archives_of_Insanity/19_archives_of_insanity.png"
+  },
+  {
+    "id": "918d1ea4",
+    "team": "minion",
+    "name": "腐化之源",
+    "ability": "如果因你陷入癫狂的玩家死亡，一名未因你陷入癫狂的与他邻近的镇民陷入癫狂且无法恢复理智。[一名与你邻近的镇民陷入癫狂且无法恢复理智]",
+    "image": "/image/downloaded/6f570db8f2e39f72c3bf826fdb059dae.webp",
+    "setup": false,
+    "reminders": [
+      "无法恢复"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 2004,
+    "otherNight": 43,
+    "original_image": "https://www.bloodstar.xyz/p/Sans/Archives_of_Insanity/20_archives_of_insanity.png"
+  },
+  {
+    "id": "03945f3d",
+    "team": "demon",
+    "name": "湮生之冢",
+    "ability": "每个夜晚*，你要选择一名玩家，他死亡，一名与他邻近的镇民陷入癫狂。",
+    "image": "/image/downloaded/ca318a752530eb589b5bd2eb9e347344.webp",
+    "setup": false,
+    "reminders": [
+      "被杀害"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 33,
+    "original_image": "https://www.bloodstar.xyz/p/Sans/Archives_of_Insanity/24_archives_of_insanity.png"
+  },
+  {
+    "id": "1a2117e1",
+    "team": "demon",
+    "name": "真理之环",
+    "ability": "每个夜晚*，你要选择一名玩家，他死亡。每个夜晚*，所有镇民的精神状态会被改变。[所有镇民都陷入癫狂]",
+    "image": "/blood-on-the-clocktower/image/downloaded/bf93bbed9511322b7fa266fa8fd9e4e6.webp",
+    "setup": true,
+    "reminders": [
+      "被杀害"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 22,
+    "original_image": "https://www.bloodstar.xyz/p/Sans/Archives_of_Insanity/22_archives_of_insanity.png"
+  },
+  {
+    "id": "84bf5e55",
+    "team": "demon",
+    "name": "全视之眼",
+    "ability": "每个夜晚*，你要选择一名玩家，他死亡。在你的首个夜晚，你查看魔典并选择一名玩家，他陷入癫狂。[-1外来者]",
+    "image": "/image/downloaded/f9dce8624264c8bd8a5b36dd60ab14b1.webp",
+    "setup": true,
+    "reminders": [
+      "被杀害"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 7,
+    "otherNight": 17,
+    "original_image": "https://www.bloodstar.xyz/p/Sans/Archives_of_Insanity/21_archives_of_insanity.png"
+  },
+  {
+    "id": "2a6cf2e4",
+    "team": "demon",
+    "name": "结命之网",
+    "ability": "每个夜晚*，你要选择一名玩家，他死亡。每个夜晚，你顺时针方向上最近的镇民的精神状态会被改变，如果他已被你影响过精神状态，向下顺延一名镇民。",
+    "image": "/blood-on-the-clocktower/image/downloaded/7f4e4a915190155a802f1e6508318aa0.webp",
+    "setup": false,
+    "reminders": [
+      "被杀害",
+      "已影响"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 13,
+    "otherNight": 28,
+    "original_image": "https://www.bloodstar.xyz/p/Sans/Archives_of_Insanity/23_archives_of_insanity.png"
+  },
+  {
+    "id": "314a212d",
+    "team": "fabled",
+    "name": "癫狂",
+    "ability": "癫狂玩家的能力都会产生错误信息。除非癫狂玩家因为某个角色的能力而恢复理智，否则他一直保持癫狂，即癫狂不会因为效果来源的死亡/中毒/醉酒/离场而解除。",
+    "image": "/blood-on-the-clocktower/image/downloaded/d90e8fc012180e9edddc008f920a4242.webp",
+    "setup": false,
+    "reminders": [
+      "癫狂"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/Sans/Archives_of_Insanity/28_archives_of_insanity.png"
+  },
+  {
+    "id": "0b608f44",
+    "team": "traveller",
+    "name": "美术馆长",
+    "ability": "每个夜晚*，你要选择一名玩家：如果他同意，你得知他的精神状态，但他的精神状态可能发生改变。",
+    "image": "/blood-on-the-clocktower/image/downloaded/ba4573124de4c7644b1b64ef0eb0333c.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 7,
+    "original_image": "https://www.bloodstar.xyz/p/Sans/Archives_of_Insanity/25_archives_of_insanity.png"
+  },
+  {
+    "id": "b91bc281",
+    "team": "traveller",
+    "name": "播客",
+    "ability": "每个白天，说书人会做出一项公开声明。当你被流放时，夜晚，你会得知有有多少项公开声明是正确的。",
+    "image": "/image/downloaded/9e77436a34943c777a2817faba860009.webp",
+    "setup": false,
+    "reminders": [
+      "正确",
+      "流于今日"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 12,
+    "original_image": "https://www.bloodstar.xyz/p/Sans/Archives_of_Insanity/26_archives_of_insanity.png"
+  },
+  {
+    "id": "5f7c571f",
+    "team": "traveller",
+    "name": "摄影师",
+    "ability": "每次投票时，你可以决定是顺时针投票还是逆时针投票。",
+    "image": "/blood-on-the-clocktower/image/downloaded/e7b601df7fdd8e4a74bcf1106022aac2.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/Sans/Archives_of_Insanity/27_archives_of_insanity.png"
+  }
+]

@@ -1,0 +1,417 @@
+[
+  {
+    "hint": "线上魔典支持直接输入剧本的URL。不必将此文件保存到你的电脑。",
+    "id": "_meta",
+    "name": "志异录v1.6.0",
+    "author": "杨哥"
+  },
+  {
+    "id": "fb915a68",
+    "team": "townsfolk",
+    "name": "卜骨",
+    "ability": "每个夜晚，你得知你与存活恶魔最近距离中存活镇民数量",
+    "image": "https://img.picui.cn/free/2025/05/08/681c599a13b6c.png",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 3072,
+    "otherNight": 109
+  },
+  {
+    "id": "bb10e248",
+    "team": "townsfolk",
+    "name": "引路人",
+    "ability": "每个夜晚，你要选择至多三名玩家：你会得知今晚是否有邪恶玩家的能力选择或影响了他们之中的玩家。",
+    "image": "/blood-on-the-clocktower/image/downloaded/e462ac8c404a86146c3b75a5b96924b3.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 3077,
+    "otherNight": 123,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/yinluren_600w.webp"
+  },
+  {
+    "id": "61a97637",
+    "team": "townsfolk",
+    "name": "白泽",
+    "ability": "每个夜晚，你要选择一种角色类型：你会获得一条相关信息，直到每种类型获取过一遍。其中有且只有一条是错误的。你无法中毒或醉酒，且只会因自身能力获取错误信息。[+1外来者]",
+    "image": "/image/downloaded/cf4848194f39d6f5ca65337c77b145f3.webp",
+    "setup": true,
+    "reminders": [
+      "得知镇民",
+      "得知外来者",
+      "得知爪牙",
+      "得知恶魔"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3075,
+    "otherNight": 115,
+    "original_image": "https://www.helloimg.com/i/2025/03/26/67e3e42627485.png"
+  },
+  {
+    "id": "29504270",
+    "team": "townsfolk",
+    "name": "史官",
+    "ability": "每个夜晚*，如果今天白天有玩家死于处决，你会得知存活镇民的数量。",
+    "image": "/blood-on-the-clocktower/image/downloaded/e56955de870b5ef19c16707f9f4bb9a6.webp",
+    "setup": false,
+    "reminders": [
+      "死于处决"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 120,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/shiguan_600w.webp"
+  },
+  {
+    "id": "178c9949",
+    "team": "townsfolk",
+    "name": "道士",
+    "ability": "每个夜晚*，你要选择一名玩家：如果你选中了恶魔，你死亡，然后他醉酒直到下个黎明。",
+    "image": "/blood-on-the-clocktower/image/downloaded/1e2011c130b9e67f8977225fa6025c1b.webp",
+    "setup": false,
+    "reminders": [
+      "死亡",
+      "醉酒"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 49,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/daoshi_600w.webp"
+  },
+  {
+    "id": "2450da38",
+    "team": "townsfolk",
+    "name": "死士",
+    "ability": "每个夜晚*，你要选择两名存活玩家。如果他们中有邪恶阵营：你死亡。恶魔被你视作善良阵营。",
+    "image": "/image/downloaded/99a74e0f6955caced5410b91a6b667b8.webp",
+    "setup": false,
+    "reminders": [
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 98,
+    "original_image": "https://www.helloimg.com/i/2025/04/02/67ed49551541f.png"
+  },
+  {
+    "id": "c09c900e",
+    "team": "townsfolk",
+    "name": "巫祝",
+    "ability": "每个夜晚*，你可以选择一个镇民角色为其祝祷：如果他在场，他会醉酒至下个黄昏。如果他不在场，当晚会有一名存活的被祝祷过的玩家死亡，否则你死亡。",
+    "image": "/image/downloaded/422fc40e830d250f88e35094dbb99bc7.webp",
+    "setup": false,
+    "reminders": [
+      "祝祷",
+      "醉酒",
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 104,
+    "original_image": "https://www.helloimg.com/i/2025/05/08/681c58a5f2ca1.png"
+  },
+  {
+    "id": "f5fe17ad",
+    "team": "townsfolk",
+    "name": "菩提",
+    "ability": "每局游戏限一次，当你相邻的存活玩家之一因恶魔的能力将要死亡时，他将免于这次死亡，随后你得知你的能力被触发。",
+    "image": "/image/downloaded/7333e597d2ac9d426cb10d998332e544.webp",
+    "setup": false,
+    "reminders": [
+      "免死",
+      "得知",
+      "失去能力"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://www.helloimg.com/i/2025/05/08/681c58a60ad29.png"
+  },
+  {
+    "id": "2223f651",
+    "team": "townsfolk",
+    "name": "毕方",
+    "ability": "每局游戏限一次，当场上存在死亡玩家时，你可以在夜晚选择两名存活玩家，如果他们中有恶魔，你得知存活善良数量玩家。如果他们中没有恶魔，你得知错误信息。",
+    "image": "https://img.picui.cn/free/2025/05/08/681c599a271ee.png",
+    "setup": false,
+    "reminders": [
+      "失去能力"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 87
+  },
+  {
+    "id": "a91f69c4",
+    "team": "townsfolk",
+    "name": "青鸟",
+    "ability": "在你的首个夜晚，你得知两个镇民角色和一个外来者角色。其中只有一个在场，一个是恶魔的伪装。",
+    "image": "/image/downloaded/a865a4a5a67e7d7c93bdb149eed50773.webp",
+    "setup": false,
+    "reminders": [
+      "得知"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3035,
+    "otherNight": 0,
+    "original_image": "https://www.helloimg.com/i/2025/03/26/67e3e426302d4.png"
+  },
+  {
+    "id": "dd91de06",
+    "team": "townsfolk",
+    "name": "重明",
+    "ability": "在你的首个夜晚，你得知距你最近的邪恶的爪牙在你的左侧/右侧和他的角色。如果左右两侧距离相同，你得知的方向和角色由说书人决定。",
+    "image": "https://img.picui.cn/free/2025/05/08/681c59e8e8dda.png",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 3052,
+    "otherNight": 0
+  },
+  {
+    "id": "b691e5c8",
+    "team": "townsfolk",
+    "name": "守鸦人",
+    "ability": "如果你在夜晚死亡，你会被唤醒，然后你要选择一名玩家：你会得知他的角色。",
+    "image": "/blood-on-the-clocktower/image/downloaded/db258dedbd7381735dfc10a16c64b3d7.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/ravenkeeper_600w.webp"
+  },
+  {
+    "id": "e24279a0",
+    "team": "townsfolk",
+    "name": "金刚",
+    "ability": "如果白天有善良玩家被处决，当天夜晚你免疫邪恶玩家的能力。",
+    "image": "/image/downloaded/46a2bc7b26ca551dbb6917044e63692d.webp",
+    "setup": false,
+    "reminders": [
+      "怒目"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://www.helloimg.com/i/2025/03/26/67e3e425e2d8a.png"
+  },
+  {
+    "id": "9b1436f3",
+    "team": "outsider",
+    "name": "书童",
+    "ability": "在你的首个夜晚，你要选择除你以外的一名玩家：除首个夜晚以外，当他被邪恶玩家的能力选择或影响时，你会在当晚死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/121a77f0b5ea1613668c6885cccfebea.webp",
+    "setup": false,
+    "reminders": [
+      "先生",
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3070,
+    "otherNight": 0,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/shutong_600w.webp"
+  },
+  {
+    "id": "d5b526da",
+    "team": "outsider",
+    "name": "酒鬼",
+    "ability": "你不知道你是酒鬼。你以为你是一个镇民角色，但其实你不是。",
+    "image": "/blood-on-the-clocktower/image/downloaded/8f7a6904ef81ddc1f303550c7f22c867.webp",
+    "setup": true,
+    "reminders": [],
+    "remindersGlobal": [
+      "是酒鬼"
+    ],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/drunk_600w.webp"
+  },
+  {
+    "id": "8f682532",
+    "team": "outsider",
+    "name": "墙头草",
+    "ability": "你会在每个白天首次投票时立即转变为发起本次提名的玩家的阵营，但你无法得知你的阵营变化。",
+    "image": "/image/downloaded/53068b31063dd8c839b0f8f234642e36.webp",
+    "setup": false,
+    "reminders": [
+      "跟了",
+      "善良",
+      "邪恶"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://www.helloimg.com/i/2025/03/26/67e3e42624893.png"
+  },
+  {
+    "id": "64d6cbcf",
+    "team": "outsider",
+    "name": "怀璧者",
+    "ability": "如果你死于处决，恶魔在当晚可以选择一个角色，如果该角色在场，他死亡。",
+    "image": "/image/downloaded/e9ad41d333c80ff4e0efca0da1e801f2.webp",
+    "setup": false,
+    "reminders": [
+      "恶魔选择",
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 93,
+    "original_image": "https://www.helloimg.com/i/2025/04/02/67ed4953c0554.png"
+  },
+  {
+    "id": "55ecbc2d",
+    "team": "minion",
+    "name": "蜚",
+    "ability": "每个夜晚，你要选择一名存活玩家：你将其标记，被标记的玩家会立刻得知此事。当场上所有存活的善良玩家全部获得蜚的标记时，邪恶阵营获胜。",
+    "image": "/image/downloaded/428ad9ddf2d2c5d9e5c1f0047d035830.webp",
+    "setup": false,
+    "reminders": [
+      "感染"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3017,
+    "otherNight": 60,
+    "original_image": "https://www.helloimg.com/i/2025/03/26/67e3e46da9b8c.png"
+  },
+  {
+    "id": "8eae19ba",
+    "team": "minion",
+    "name": "笔仙",
+    "ability": "在你的首个夜晚，你要选择一个玩家，他中毒，并被善良视作邪恶的笔仙。每局游戏限一次，你可以更换你的选择。上一个被你选择的人不再中毒，不再被视作邪恶的笔仙，并死亡。",
+    "image": "/image/downloaded/74c231114aebc230d8b03a16d81c50bf.webp",
+    "setup": false,
+    "reminders": [
+      "附身",
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 2005,
+    "otherNight": 55,
+    "original_image": "https://www.helloimg.com/i/2025/04/02/67ed495493959.png"
+  },
+  {
+    "id": "b828febb",
+    "team": "minion",
+    "name": "诡面",
+    "ability": "你被镇民的能力当作善良角色，与你邻近的一名善良玩家被当作邪恶的爪牙，即使你已死亡。被你提名的玩家，他的能力会产生错误信息。始终有一名善良玩家知道诡面在场。",
+    "image": "/image/downloaded/63bfa126e2aaadec70a623099789f626.webp",
+    "setup": false,
+    "reminders": [
+      "视作爪牙",
+      "错误信息"
+    ],
+    "remindersGlobal": [
+      "被知晓"
+    ],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://www.helloimg.com/i/2025/03/26/67e3e46dac477.png"
+  },
+  {
+    "id": "623d515e",
+    "team": "minion",
+    "name": "养蛊人",
+    "ability": "在你存活时提名你的玩家会在当晚死亡，即使你已死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/e178517f0cb0cf6bda3db8d55a0e5131.webp",
+    "setup": false,
+    "reminders": [
+      "提名",
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 82,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/yangguren_600w.webp"
+  },
+  {
+    "id": "11897a47",
+    "team": "demon",
+    "name": "魃",
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡。当一名邪恶玩家死亡时，会有一名善良玩家在当晚失去能力到下个黄昏并得知此事。",
+    "image": "/image/downloaded/f6170973d9c7ce14d4e7709b0f165a6a.webp",
+    "setup": false,
+    "reminders": [
+      "死亡",
+      "干涸"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 77,
+    "original_image": "https://www.helloimg.com/i/2025/04/02/67ed4955bfba5.png"
+  },
+  {
+    "id": "295e8380",
+    "team": "demon",
+    "name": "烛阴",
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡。如果你杀死了一名爪牙或外来者，那么你可以再选择一个镇民角色，如果他在场：他死亡。",
+    "image": "/image/downloaded/5bb4c151808ae44d7dc7bed3f956c123.webp",
+    "setup": false,
+    "reminders": [
+      "死亡",
+      "再次行动"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 71,
+    "original_image": "https://www.helloimg.com/i/2025/03/26/67e3e46db77c9.png"
+  },
+  {
+    "id": "7fdf0c7c",
+    "team": "demon",
+    "name": "九尾",
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡。如果你杀死了一名爪牙，他两侧的镇民醉酒。首个夜晚，你得知谁是酒鬼，如果酒鬼不在场，你选择一名玩家变成酒鬼。[ +0~1酒鬼]",
+    "image": "/image/downloaded/249f40b8d7568aa2eec0dcddcc0358d3.webp",
+    "setup": true,
+    "reminders": [
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 66,
+    "original_image": "https://www.helloimg.com/i/2025/03/26/67e3e46db4f89.png"
+  },
+  {
+    "id": "9aff04db",
+    "team": "fabled",
+    "name": "斩草除根",
+    "ability": "每局游戏限一次，恶魔选择杀死一名存活爪牙时，一名存活的邪恶的爪牙获得红唇女郎的能力并得知此事。",
+    "image": "/image/downloaded/a3083eb784dff3a842a881442ee7ad54.webp",
+    "setup": false,
+    "reminders": [
+      "红唇"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://www.helloimg.com/i/2025/03/26/67e3e411395d2.png"
+  },
+  {
+    "id": "8034b34b",
+    "team": "fabled",
+    "name": "巫祝&诡面",
+    "ability": "当巫祝因为互动干扰选择到了诡面时，巫祝可以判定为祝祷成功，但是巫祝代替诡面醉酒并获得祝祷状态。",
+    "image": "/blood-on-the-clocktower/image/downloaded/bd3ca43066bd49068a4698c36295cae3.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://clocktower-wiki.gstonegames.com/images/thumb/c/c4/Djinn.png/200px-Djinn.png"
+  },
+  {
+    "id": "811c793a",
+    "team": "fabled",
+    "name": "如获天启",
+    "ability": "白天提名环节开始前，已经死亡的玩家可以选择消耗投票标记并复原所有玩家初始角色。当一名善良玩家复原全部角色均正确时，善良阵营获胜。",
+    "image": "/image/downloaded/b7d33edd2793b31624d1da5f6c59d92b.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://www.helloimg.com/i/2025/03/26/67e3e413a6bae.png"
+  }
+]

@@ -1,0 +1,507 @@
+[
+  {
+    "hint": "线上魔典支持直接输入剧本的URL。不必将此文件保存到你的电脑。",
+    "id": "_meta",
+    "name": "善恶彼岸（Beyond Good And Evil）",
+    "author": "Wedge McCloud"
+  },
+  {
+    "id": "4809367f",
+    "team": "townsfolk",
+    "name": "克隆人",
+    "ability": "在你的首个夜晚，你会得知一名镇民和他的角色。如果他将要死亡，改为你死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/129bce252e9932418d715ab5b9fe10cb.webp",
+    "setup": false,
+    "reminders": [
+      "原生"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3027,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/WedgeMcCloud/BeyondGoodAndEvil-V3/clone_beyondgoodandevilv3.png"
+  },
+  {
+    "id": "f8fc175f",
+    "team": "townsfolk",
+    "name": "女伯爵",
+    "ability": "在你的首个夜晚，你会得知至少一个在场的外来者角色（或者你会得知没有外来者在场）。如果有外来者死亡，你会在当晚得知还有多少名外来者存活。[+1或-1外来者]",
+    "image": "/blood-on-the-clocktower/image/downloaded/dae41ae34327bdc15cf69b0f2efec8c9.webp",
+    "setup": true,
+    "reminders": [
+      "得知外来者",
+      "外来者死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3036,
+    "otherNight": 77,
+    "original_image": "https://www.bloodstar.xyz/p/WedgeMcCloud/BeyondGoodAndEvil-V3/contessa_beyondgoodandevilv3.png"
+  },
+  {
+    "id": "b3637a52",
+    "team": "townsfolk",
+    "name": "煽动者",
+    "ability": "每个夜晚，你要选择一名玩家：你会在下个夜晚得知在白天时有多少名邪恶玩家曾投票给他。",
+    "image": "/blood-on-the-clocktower/image/downloaded/6b1e509b212859039c325bb4cbef2f40.webp",
+    "setup": false,
+    "reminders": [
+      "监视"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3045,
+    "otherNight": 102,
+    "original_image": "https://www.bloodstar.xyz/p/WedgeMcCloud/BeyondGoodAndEvil-V3/demagogue_beyondgoodandevilv3.png"
+  },
+  {
+    "id": "c3a4f4be",
+    "team": "townsfolk",
+    "name": "公社辩护人",
+    "ability": "每个夜晚，你要选择一名存活的玩家：如果他是善良的，且他在下个白天被处决，他不会死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/7e1b89da687d0ff58b65c8f2864f8bd9.webp",
+    "setup": false,
+    "reminders": [
+      "处决不死"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3054,
+    "otherNight": 107,
+    "original_image": "https://www.bloodstar.xyz/p/WedgeMcCloud/BeyondGoodAndEvil-V3/publicdefender_beyondgoodandevilv3.png"
+  },
+  {
+    "id": "65f6b337",
+    "team": "townsfolk",
+    "name": "黑暗旅人",
+    "ability": "每个夜晚*，你会得知今天有多少名玩家因其自身能力造成了死亡。如果你在夜晚时死亡，可能会有其他玩家代替你死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/2af6afeeef49370ce452cb807588c413.webp",
+    "setup": false,
+    "reminders": [
+      "凶手"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 82,
+    "original_image": "https://www.bloodstar.xyz/p/WedgeMcCloud/BeyondGoodAndEvil-V3/darkpassenger_beyondgoodandevilv3.png"
+  },
+  {
+    "id": "b6b7a0ab",
+    "team": "townsfolk",
+    "name": "坟墓唾弃者",
+    "ability": "每个夜晚*，你要选择除你以外的一名存活玩家：如果他当晚被恶魔杀死，另一名死亡镇民可能会复活并中毒到下个黄昏。",
+    "image": "/blood-on-the-clocktower/image/downloaded/63141b4dfd2efa997506c6a6739f9fe2.webp",
+    "setup": false,
+    "reminders": [
+      "看护",
+      "复活",
+      "中毒"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 27,
+    "original_image": "https://www.bloodstar.xyz/p/WedgeMcCloud/BeyondGoodAndEvil-V3/tombspitter_beyondgoodandevilv3.png"
+  },
+  {
+    "id": "fdeea382",
+    "team": "townsfolk",
+    "name": "线人",
+    "ability": "每个夜晚*，你会得知一个与之前不同的死亡玩家的角色。你可能会被当作邪恶阵营、爪牙角色或恶魔角色，即使你已死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/3d35a0ea54db015ca41bdd2fb481142d.webp",
+    "setup": false,
+    "reminders": [
+      "得知"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 87,
+    "original_image": "https://www.bloodstar.xyz/p/WedgeMcCloud/BeyondGoodAndEvil-V3/informant_beyondgoodandevilv3.png"
+  },
+  {
+    "id": "1a694e25",
+    "team": "townsfolk",
+    "name": "吞噬者",
+    "ability": "每个夜晚*，你要选择一名玩家：如果你曾选择过他，他死亡。如果邪恶玩家被你首次选中，他会得知你是谁，且他醉酒直到下个黄昏。",
+    "image": "/blood-on-the-clocktower/image/downloaded/e74db63e4262c3194016ba0677fc9c75.webp",
+    "setup": false,
+    "reminders": [
+      "选择",
+      "醉酒",
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 32,
+    "original_image": "https://www.bloodstar.xyz/p/WedgeMcCloud/BeyondGoodAndEvil-V3/octovore_beyondgoodandevilv3.png"
+  },
+  {
+    "id": "2636878b",
+    "team": "townsfolk",
+    "name": "鸟卜师",
+    "ability": "每个夜晚*，你可以选择除你及旅行者以外的一名玩家：你会得知两个角色，该玩家是其中一个角色。如果你上次选择时没有选择任何玩家，当晚你要选择三名玩家：你会得知四个角色，他们是其中的三个角色。",
+    "image": "/blood-on-the-clocktower/image/downloaded/e3e28cd19ddb506f50f6029f260cb42c.webp",
+    "setup": false,
+    "reminders": [
+      "选择三名"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 97,
+    "original_image": "https://www.bloodstar.xyz/p/WedgeMcCloud/BeyondGoodAndEvil-V3/auspex_beyondgoodandevilv3.png"
+  },
+  {
+    "id": "a9415402",
+    "team": "townsfolk",
+    "name": "职业杀手",
+    "ability": "每个白天，你可以公开猜测一名玩家的角色：如果猜对，他在当晚和明天白天醉酒。",
+    "image": "/blood-on-the-clocktower/image/downloaded/c9c198b020b1df159372b29f0e1dcb35.webp",
+    "setup": false,
+    "reminders": [
+      "猜测正确",
+      "醉酒"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 12,
+    "original_image": "https://www.bloodstar.xyz/p/WedgeMcCloud/BeyondGoodAndEvil-V3/hitman_beyondgoodandevilv3.png"
+  },
+  {
+    "id": "bc93de9f",
+    "team": "townsfolk",
+    "name": "黑帮成员",
+    "ability": "每个白天，你可以公开选择一名存活玩家：如果他是外来者，他失去能力并死亡。[+1外来者]",
+    "image": "/image/downloaded/17b879d6cb1773a62eef5cffec241703.webp",
+    "setup": true,
+    "reminders": [
+      "失去能力并死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/WedgeMcCloud/BeyondGoodAndEvil-V3/mobster_beyondgoodandevilv3.png"
+  },
+  {
+    "id": "5f24f045",
+    "team": "townsfolk",
+    "name": "复生者",
+    "ability": "当你首次死亡后，你仍存活，但被当作死亡。你被当作死亡的每个夜晚，你会得知一名与之前不同的非恶魔的存活玩家。",
+    "image": "/blood-on-the-clocktower/image/downloaded/a9621b0c59ca50479a918c001ec1e2c3.webp",
+    "setup": false,
+    "reminders": [
+      "假死",
+      "得知"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 92,
+    "original_image": "https://www.bloodstar.xyz/p/WedgeMcCloud/BeyondGoodAndEvil-V3/revenant_beyondgoodandevilv3.png"
+  },
+  {
+    "id": "f2110b0a",
+    "team": "townsfolk",
+    "name": "建筑师",
+    "ability": "如果一名爪牙死于处决，今晚镇民不会死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/3fbaf1c36059bb651900ae5b38296f24.webp",
+    "setup": false,
+    "reminders": [
+      "镇民不会死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/WedgeMcCloud/BeyondGoodAndEvil-V3/architect_beyondgoodandevilv3.png"
+  },
+  {
+    "id": "cb15af53",
+    "team": "outsider",
+    "name": "游魂",
+    "ability": "你不知道你是游魂。你以为你是一个其他善良角色，但其实你不是，即使你已死亡。首个游魂死亡时，会有一名镇民在��晚变为游魂。",
+    "image": "/image/downloaded/9231e5d847f168a64aa8d0803aa7e6f8.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [
+      "是游魂",
+      "限一次"
+    ],
+    "firstNight": 0,
+    "otherNight": 22,
+    "original_image": "https://www.bloodstar.xyz/p/WedgeMcCloud/BeyondGoodAndEvil-V3/specter_beyondgoodandevilv3.png"
+  },
+  {
+    "id": "f0117dba",
+    "team": "outsider",
+    "name": "环生体",
+    "ability": "当你死亡时，镇民玩家的能力可能在当晚和明天白天产生错误信息。",
+    "image": "/blood-on-the-clocktower/image/downloaded/8f6b2cded14ce576fa451ed358eee28b.webp",
+    "setup": false,
+    "reminders": [
+      "信息出错"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 17,
+    "original_image": "https://www.bloodstar.xyz/p/WedgeMcCloud/BeyondGoodAndEvil-V3/cyclox_beyondgoodandevilv3.png"
+  },
+  {
+    "id": "059a4802",
+    "team": "outsider",
+    "name": "花火",
+    "ability": "如果你“疯狂”地证明花火在场，你可能会被处决。如果你被处决，与你邻近的一名存活玩家可能会立即死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/dc136252d40572c75103286db89b67e5.webp",
+    "setup": false,
+    "reminders": [
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/WedgeMcCloud/BeyondGoodAndEvil-V3/hanabi_beyondgoodandevilv3.png"
+  },
+  {
+    "id": "697fe9ae",
+    "team": "outsider",
+    "name": "咒术师",
+    "ability": "可能会有一名在白天发起提名的玩家在当晚死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/4ee58d6527b47498c1569df2d146bacb.webp",
+    "setup": false,
+    "reminders": [
+      "已提名",
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 72,
+    "original_image": "https://www.bloodstar.xyz/p/WedgeMcCloud/BeyondGoodAndEvil-V3/hex_beyondgoodandevilv3.png"
+  },
+  {
+    "id": "f01b31cf",
+    "team": "minion",
+    "name": "破坏者",
+    "ability": "每个夜晚*，你要选择一名存活玩家：他随时可能死亡。恶魔会得知你是谁，以及你在夜晚选择了谁。",
+    "image": "/blood-on-the-clocktower/image/downloaded/f7b3857dc2f2f32e63b304db2239ede7.webp",
+    "setup": false,
+    "reminders": [
+      "倒计时",
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3072,
+    "otherNight": 47,
+    "original_image": "https://www.bloodstar.xyz/p/WedgeMcCloud/BeyondGoodAndEvil-V3/saboteur_beyondgoodandevilv3.png"
+  },
+  {
+    "id": "219c0c98",
+    "team": "minion",
+    "name": "掘墓人",
+    "ability": "每个夜晚*，你会得知今天白天死于处决的玩家的角色。如果你在这项提名中投过票，你可以选择复活白天死于处决的玩家(每局游戏限一次)，或选择让在这项提名中投过票的存活镇民中毒直到下个黄昏。",
+    "image": "/blood-on-the-clocktower/image/downloaded/2d2d8e94ece87e81d19a2a5d0178ac04.webp",
+    "setup": false,
+    "reminders": [
+      "投票",
+      "死于今日",
+      "复活",
+      "中毒"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 37,
+    "original_image": "https://www.bloodstar.xyz/p/WedgeMcCloud/BeyondGoodAndEvil-V3/gravedigger_beyondgoodandevilv3.png"
+  },
+  {
+    "id": "965a1446",
+    "team": "minion",
+    "name": "逃亡者",
+    "ability": "爪牙们会在其首个夜晚得知两个不在场的角色。你可能会被当作善良阵营、镇民角色或外来者角色，当你首次被当作错误的阵营或角色时，你会在当晚得知这一信息，即使你已死亡。[+1外来者]",
+    "image": "/blood-on-the-clocktower/image/downloaded/f240093c984bc9a7d26bca41ce21cbb5.webp",
+    "setup": true,
+    "reminders": [
+      "误认"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 2006,
+    "otherNight": 122,
+    "original_image": "https://www.bloodstar.xyz/p/WedgeMcCloud/BeyondGoodAndEvil-V3/fugitive_beyondgoodandevilv3.png"
+  },
+  {
+    "id": "a588da95",
+    "team": "minion",
+    "name": "恶棍",
+    "ability": "会有一名邪恶镇民知道你是谁。如果他死亡，在当晚你要选择一名玩家：你会得知他的角色且他死亡。[会有一名镇民转变为邪恶阵营]",
+    "image": "/image/downloaded/5844fda76ae00fd569cd9934d87c1a9d.webp",
+    "setup": true,
+    "reminders": [
+      "知晓",
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3018,
+    "otherNight": 42,
+    "original_image": "https://www.bloodstar.xyz/p/WedgeMcCloud/BeyondGoodAndEvil-V3/thug_beyondgoodandevilv3.png"
+  },
+  {
+    "id": "827d5cb9",
+    "team": "demon",
+    "name": "领主",
+    "ability": "每个夜晚*，你要选择两名玩家：其中一名玩家中毒直到下个黄昏，另一名玩家死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/74e26011f5f40fe9fd2ff177a20f024f.webp",
+    "setup": false,
+    "reminders": [
+      "死亡",
+      "中毒"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 52,
+    "original_image": "https://www.bloodstar.xyz/p/WedgeMcCloud/BeyondGoodAndEvil-V3/landlord_beyondgoodandevilv3.png"
+  },
+  {
+    "id": "03d84a65",
+    "team": "demon",
+    "name": "豪赌客",
+    "ability": "每个夜晚*，你要选择一名玩家并猜测他的角色：他死亡。如果猜测正确，你要额外选择一名玩家：他死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/fb53ed92a6a844dbf1f4f4fad5d20c26.webp",
+    "setup": false,
+    "reminders": [
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 57,
+    "original_image": "https://www.bloodstar.xyz/p/WedgeMcCloud/BeyondGoodAndEvil-V3/highroller_beyondgoodandevilv3.png"
+  },
+  {
+    "id": "d5634f10",
+    "team": "demon",
+    "name": "机械师",
+    "ability": "每个夜晚*，你可以选择一名玩家：他死亡，或选择让所有被破坏者选择的玩家死亡(每局游戏限一次)。[+破坏者]",
+    "image": "/blood-on-the-clocktower/image/downloaded/4eb1cc9133b7d24996cf7cff2e89c1b3.webp",
+    "setup": true,
+    "reminders": [
+      "死亡",
+      "已引爆"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 62,
+    "original_image": "https://www.bloodstar.xyz/p/WedgeMcCloud/BeyondGoodAndEvil-V3/machinist_beyondgoodandevilv3.png"
+  },
+  {
+    "id": "3f50e7f6",
+    "team": "demon",
+    "name": "植育者",
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡。如果大于等于五名玩家存活时（旅行者不计算在内）首个植育者死亡，会有一名爪牙变为园艺师。",
+    "image": "/blood-on-the-clocktower/image/downloaded/79abc3811b8e1d73f3827ae871549edb.webp",
+    "setup": false,
+    "reminders": [
+      "死亡",
+      "限一次"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 67,
+    "original_image": "https://www.bloodstar.xyz/p/WedgeMcCloud/BeyondGoodAndEvil-V3/gardener_beyondgoodandevilv3.png"
+  },
+  {
+    "id": "7de06c7f",
+    "team": "fabled",
+    "name": "通灵",
+    "ability": "死亡玩家可以在白天时私下询问说书人，消耗他的投票标记并选择一名玩家：他会得知关于那名玩家的两条信息，其中有且只有一条是正确的。",
+    "image": "/blood-on-the-clocktower/image/downloaded/b4b6e5978efbbbfb5b1a344d3963d16f.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/WedgeMcCloud/BeyondGoodAndEvil-V3/clairvoyant_beyondgoodandevilv3.png"
+  },
+  {
+    "id": "f7b92134",
+    "team": "fabled",
+    "name": "双生",
+    "ability": "在初始设置时，可能会有两名相同角色的玩家且他们属于不同阵营。在游戏的首个夜晚，他们会得知此事。他们可能会被当作外来者角色或爪牙角色。",
+    "image": "/blood-on-the-clocktower/image/downloaded/ceb1a099e6afb0cc9b26e242bbc3c3e8.webp",
+    "setup": true,
+    "reminders": [],
+    "remindersGlobal": [
+      "双生"
+    ],
+    "firstNight": 11,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/WedgeMcCloud/BeyondGoodAndEvil-V3/facsimilie_beyondgoodandevilv3.png"
+  },
+  {
+    "id": "98be3100",
+    "team": "traveller",
+    "name": "祈言师",
+    "ability": "在你的首个夜晚，你会得知一个秘密词。每个白天，首个说出该秘密词的除旅行者以外的存活玩家可能在当晚行动两次。",
+    "image": "/blood-on-the-clocktower/image/downloaded/5d76b32cad4f6a4cef520fc07cf80ec8.webp",
+    "setup": false,
+    "reminders": [
+      "行动两次"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3009,
+    "otherNight": 7,
+    "original_image": "https://www.bloodstar.xyz/p/WedgeMcCloud/BeyondGoodAndEvil-V3/invoker_beyondgoodandevilv3.png"
+  },
+  {
+    "id": "d6ec85cc",
+    "team": "traveller",
+    "name": "命运编织者",
+    "ability": "每个夜晚，如果大于等于五名玩家存活，你要选择两名除旅行者以外的存活玩家：如果第一名玩家在下个白天死于处决，第二名玩家也会死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/1120a9d8b27ba484f596e5e801496ed0.webp",
+    "setup": false,
+    "reminders": [
+      "注视",
+      "命中注定",
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3063,
+    "otherNight": 112,
+    "original_image": "https://www.bloodstar.xyz/p/WedgeMcCloud/BeyondGoodAndEvil-V3/fateweaver_beyondgoodandevilv3.png"
+  },
+  {
+    "id": "6607f936",
+    "team": "traveller",
+    "name": "指挥官",
+    "ability": "每个夜晚*，你会得知说书人认为哪个阵营当前更有优势（善良/邪恶/均势）。每局游戏限一次，你可以选择一名死亡玩家：如果他的阵营处于劣势，他重获投票标记。",
+    "image": "/blood-on-the-clocktower/image/downloaded/19677fcc13e04b2a6e0d6e2f45d08453.webp",
+    "setup": false,
+    "reminders": [
+      "重获标记"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 117,
+    "original_image": "https://www.bloodstar.xyz/p/WedgeMcCloud/BeyondGoodAndEvil-V3/commandant_beyondgoodandevilv3.png"
+  },
+  {
+    "id": "a7028cd9",
+    "team": "traveller",
+    "name": "灵恩牧师",
+    "ability": "每个白天，你可以提议所有玩家投票支持你的教会。如果首次所有善良玩家选择支持你，会有一名与你阵营对立的玩家死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/c0cbe55f2af54b953cf98489d3ccdf7e.webp",
+    "setup": false,
+    "reminders": [
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/WedgeMcCloud/BeyondGoodAndEvil-V3/charismatic_beyondgoodandevilv3.png"
+  },
+  {
+    "id": "d132dd04",
+    "team": "traveller",
+    "name": "研究生",
+    "ability": "每个白天*，���黎明时，当你得知有人死亡时，你可以选择一名死亡玩家和一名存活玩家。如果获得半数以上的玩家同意，死亡的玩家复活，存活的玩家死亡，且你失去能力。",
+    "image": "/blood-on-the-clocktower/image/downloaded/0edf13f97ec520981c6bf9eb1ca38694.webp",
+    "setup": false,
+    "reminders": [
+      "失去能力",
+      "复活",
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/WedgeMcCloud/BeyondGoodAndEvil-V3/graduate_beyondgoodandevilv3.png"
+  }
+]

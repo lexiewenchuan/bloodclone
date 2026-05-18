@@ -1,0 +1,372 @@
+[
+  {
+    "hint": "线上魔典支持直接输入剧本的URL。不必将此文件保存到你的电脑。",
+    "id": "_meta",
+    "name": "唬蓝高中（Blue Bluff High）",
+    "author": "Mar Hepto"
+  },
+  {
+    "id": "d9ef3b8d",
+    "team": "townsfolk",
+    "name": "善后者",
+    "ability": "在你的首个夜晚，你会得知一个在场角色：该角色的玩家至少与一名邪恶玩家邻近。",
+    "image": "/image/downloaded/03eeffd78a0f4e7a95f6d47846c36fd8.webp",
+    "setup": false,
+    "reminders": [
+      "���知"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3057,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/marhepto/RavenswoodHigh/babysitter_ravenswoodhigh.png"
+  },
+  {
+    "id": "5a321035",
+    "team": "townsfolk",
+    "name": "四眼仔",
+    "ability": "每个夜晚*，你会得知在白天时有多少名玩家在被提名时声称了自己真实的角色。",
+    "image": "/blood-on-the-clocktower/image/downloaded/fad8e9ee882a0f20240ffe72c1ccc86f.webp",
+    "setup": false,
+    "reminders": [
+      "已声称"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 95,
+    "original_image": "https://www.bloodstar.xyz/p/marhepto/RavenswoodHigh/foureyes_ravenswoodhigh.png"
+  },
+  {
+    "id": "4703330b",
+    "team": "townsfolk",
+    "name": "黑客",
+    "ability": "每个夜晚*，如果与你邻近的两名存活玩家均向说书人私下做出了声明。你会得知他们的声明正确数。",
+    "image": "/blood-on-the-clocktower/image/downloaded/48f595b50767be7daedf71954a6eef30.webp",
+    "setup": false,
+    "reminders": [
+      "正确",
+      "错误"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 111,
+    "original_image": "https://www.bloodstar.xyz/p/marhepto/RavenswoodHigh/hacker_ravenswoodhigh.png"
+  },
+  {
+    "id": "4b03a6ba",
+    "team": "townsfolk",
+    "name": "哥特族",
+    "ability": "每个夜晚*，如果今天有死亡玩家使用了投票标记，要么你会得知他们的角色，要么他们其中之一会复活。",
+    "image": "/blood-on-the-clocktower/image/downloaded/2368e055f51abfddbc519cb8f5957b43.webp",
+    "setup": false,
+    "reminders": [
+      "今天已投票",
+      "复活"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 119,
+    "original_image": "https://www.bloodstar.xyz/p/marhepto/RavenswoodHigh/goth_ravenswoodhigh.png"
+  },
+  {
+    "id": "a3d5fe49",
+    "team": "townsfolk",
+    "name": "花花公子",
+    "ability": "每个白天，你投票的前3名善良玩家会醉酒且免疫恶魔的负面能力直到���个黎明。",
+    "image": "/blood-on-the-clocktower/image/downloaded/543fdace076de686a1b77b684bf2dba5.webp",
+    "setup": false,
+    "reminders": [
+      "醉酒且免疫"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/marhepto/RavenswoodHigh/playboy_ravenswoodhigh.png"
+  },
+  {
+    "id": "3c007a4a",
+    "team": "townsfolk",
+    "name": "教师红人",
+    "ability": "每个白天, 你可以拜访说书人得知一个任务。如果你完成了它，当晚，你会得知一名存活善良玩家。",
+    "image": "/blood-on-the-clocktower/image/downloaded/060ed82337fa80ddfa184e50626caa85.webp",
+    "setup": false,
+    "reminders": [
+      "任务",
+      "任务完成"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 80,
+    "original_image": "https://www.bloodstar.xyz/p/marhepto/RavenswoodHigh/teacherspet_ravenswoodhigh.png"
+  },
+  {
+    "id": "a2c1f1da",
+    "team": "townsfolk",
+    "name": "乐子人",
+    "ability": "每个白天, 你可以公开讲与一名玩家有关的笑话，其他玩家可以表明对这个笑话的态度(有趣/无趣)。每局游戏限一次，你可以选择在当晚得知在白天时认为你的笑话有趣的邪恶玩家的数量。",
+    "image": "/blood-on-the-clocktower/image/downloaded/f389373a200ae2cb2f89dae49939e041.webp",
+    "setup": false,
+    "reminders": [
+      "有趣"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 87,
+    "original_image": "https://www.bloodstar.xyz/p/marhepto/RavenswoodHigh/classclown_ravenswoodhigh.png"
+  },
+  {
+    "id": "a4fe67ff",
+    "team": "townsfolk",
+    "name": "滑板者",
+    "ability": "在你的首个夜晚，你与所有爪牙都会得知相同的3个角色：其中有且只有一个角色在场。",
+    "image": "/blood-on-the-clocktower/image/downloaded/60b14fd09c378c000c6fb0943ca72389.webp",
+    "setup": false,
+    "reminders": [
+      "帅小伙"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3069,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/marhepto/RavenswoodHigh/skater_ravenswoodhigh.png"
+  },
+  {
+    "id": "8894754c",
+    "team": "townsfolk",
+    "name": "拉拉队长",
+    "ability": "如果你在没有爪牙存活的条件下被处决，你的阵营获胜。",
+    "image": "/blood-on-the-clocktower/image/downloaded/9c6bbfe094d77ab335f46d15de355272.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/marhepto/RavenswoodHigh/cheerleader_ravenswoodhigh.png"
+  },
+  {
+    "id": "2342ed3c",
+    "team": "townsfolk",
+    "name": "富家千金",
+    "ability": "如果你在处决时公开声明“变身”,提名你的玩家变成与他角色类型相同的一个不在场角色。",
+    "image": "/blood-on-the-clocktower/image/downloaded/5240cd6f8f091a798b59d4a3eefc6d43.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 17,
+    "original_image": "https://www.bloodstar.xyz/p/marhepto/RavenswoodHigh/valleygirl_ravenswoodhigh.png"
+  },
+  {
+    "id": "03a775d5",
+    "team": "townsfolk",
+    "name": "预科生",
+    "ability": "如果你提名的玩家被处决，你会在当晚得知被处决的玩家离与他最近的爪牙的距离。如果你得知了0，你提名并处决的玩家是爪牙。",
+    "image": "/blood-on-the-clocktower/image/downloaded/ea1398b7068a4cf6048b861ffb1169e5.webp",
+    "setup": false,
+    "reminders": [
+      "提名",
+      "被处决"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 103,
+    "original_image": "https://www.bloodstar.xyz/p/marhepto/RavenswoodHigh/preppie_ravenswoodhigh.png"
+  },
+  {
+    "id": "80b9c94d",
+    "team": "townsfolk",
+    "name": "抓马女王",
+    "ability": "如果你在夜晚死亡，且你在当天“疯狂”地证明自己是一个善良角色：你获得该角色的能力且能正常使用。然后你会得知该角色是谁(或得知该角色不在场)。",
+    "image": "/blood-on-the-clocktower/image/downloaded/4d310bd9aa41644205028736f7db47f3.webp",
+    "setup": false,
+    "reminders": [
+      "疯狂",
+      "获得能力"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 72,
+    "original_image": "https://www.bloodstar.xyz/p/marhepto/RavenswoodHigh/dramaqueen_ravenswoodhigh.png"
+  },
+  {
+    "id": "b6692b6c",
+    "team": "townsfolk",
+    "name": "四分卫",
+    "ability": "如果白天有善良玩家死亡，当晚你与拉拉队长都不会死亡。（+拉拉队长)",
+    "image": "/blood-on-the-clocktower/image/downloaded/eec844467ed5862c6f2e556fdd869f1a.webp",
+    "setup": true,
+    "reminders": [
+      "白天死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/marhepto/RavenswoodHigh/quarterback_ravenswoodhigh.png"
+  },
+  {
+    "id": "4ebfd773",
+    "team": "outsider",
+    "name": "朋克族",
+    "ability": "每个夜晚，恶魔会选择一名邪恶玩家。如果你没有提名过他，他会与恶魔交换角色。",
+    "image": "/blood-on-the-clocktower/image/downloaded/833dfdf38b3d112c80dde84f2744e7f7.webp",
+    "setup": false,
+    "reminders": [
+      "被提名"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3019,
+    "otherNight": 25,
+    "original_image": "https://www.bloodstar.xyz/p/marhepto/RavenswoodHigh/punk_ravenswoodhigh.png"
+  },
+  {
+    "id": "e940ad7b",
+    "team": "outsider",
+    "name": "骚货",
+    "ability": "在你的首个夜晚，邪恶的镇民会知道你和恶魔，但他不知道谁是恶魔。你在夜晚不会死亡。(会有一名镇民转变为邪恶阵营)",
+    "image": "/blood-on-the-clocktower/image/downloaded/9ba0e9616960513ccab4af78c02227b3.webp",
+    "setup": true,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 3044,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/marhepto/RavenswoodHigh/skank_ravenswoodhigh.png"
+  },
+  {
+    "id": "2e866d6c",
+    "team": "outsider",
+    "name": "瘾君子",
+    "ability": "你以为你是一个在场镇民，但其实你不是。该角色的玩家会知道瘾君子在场。如果你们之中其中一人“疯狂”证明瘾君子在场，你们可能都会死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/e4c0626db6684b168f84cf68db359e0e.webp",
+    "setup": false,
+    "reminders": [
+      "得知瘾君子在场"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 14,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/marhepto/RavenswoodHigh/pothead_ravenswoodhigh.png"
+  },
+  {
+    "id": "13910ba3",
+    "team": "outsider",
+    "name": "窝囊废",
+    "ability": "如果你已死亡且恶魔选择杀死你，会有两名玩家死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/50848963377fb42397d69afbde95a64c.webp",
+    "setup": false,
+    "reminders": [
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 56,
+    "original_image": "https://www.bloodstar.xyz/p/marhepto/RavenswoodHigh/wimp_ravenswoodhigh.png"
+  },
+  {
+    "id": "b21f810d",
+    "team": "minion",
+    "name": "装逼人",
+    "ability": "每个夜晚*，如果今天白天你提名了一名邪恶玩家或你被邪恶玩家提名，你要选择一名玩家：他死亡。",
+    "image": "/image/downloaded/1eb6b0698e59ebb35e962d034aac30a0.webp",
+    "setup": false,
+    "reminders": [
+      "提名",
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 64,
+    "original_image": "https://www.bloodstar.xyz/p/marhepto/RavenswoodHigh/poser_ravenswoodhigh.png"
+  },
+  {
+    "id": "1cea2b4a",
+    "team": "minion",
+    "name": "药贩子",
+    "ability": "在你的首个夜晚，你要选择一名玩家：他中毒。如果他被处决，与他邻���的两名存活镇民玩家中毒。[-1外来者]",
+    "image": "/blood-on-the-clocktower/image/downloaded/709dd6a8ea6dfdb376ebe869f5c2929b.webp",
+    "setup": true,
+    "reminders": [
+      "中毒"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3007,
+    "otherNight": 9,
+    "original_image": "https://www.bloodstar.xyz/p/marhepto/RavenswoodHigh/pusher_ravenswoodhigh.png"
+  },
+  {
+    "id": "5f57d665",
+    "team": "minion",
+    "name": "万人迷",
+    "ability": "如果首次出现白天结束时没有人被处决，你或一名外来者将被处决。(+1-2外来者)",
+    "image": "/blood-on-the-clocktower/image/downloaded/d9476b98dbfdee0be15ee1c563f8a411.webp",
+    "setup": true,
+    "reminders": [
+      "失去能力"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/marhepto/RavenswoodHigh/heather_ravenswoodhigh.png"
+  },
+  {
+    "id": "0e3153b1",
+    "team": "minion",
+    "name": "基要派",
+    "ability": "会有两名善良玩家互相知道对方是什么角色。在你的首个夜晚，你会得知他们的角色但不知道是谁。每局游戏限一次，你可以公开猜测他们的角色，如果猜对，你的阵营获胜。",
+    "image": "/blood-on-the-clocktower/image/downloaded/e6e5838620c9181e42720359789006ae.webp",
+    "setup": false,
+    "reminders": [
+      "爱鸟",
+      "失去能力"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3032,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/marhepto/RavenswoodHigh/fundie_ravenswoodhigh.png"
+  },
+  {
+    "id": "78741420",
+    "team": "demon",
+    "name": "魔鬼叶",
+    "ability": "每个夜晚*，你要选择两名玩家(其中至少包括一名与你邻近的存活玩家)：第一名玩家中毒直到下个黄昏，第二名玩家死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/ec6014392f4a4ba870d71980da8157cd.webp",
+    "setup": false,
+    "reminders": [
+      "中毒",
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 41,
+    "original_image": "https://www.bloodstar.xyz/p/marhepto/RavenswoodHigh/devilettuce_ravenswoodhigh.png"
+  },
+  {
+    "id": "e691a4bf",
+    "team": "demon",
+    "name": "德泽贝尔",
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡。如果今天白天没有善良玩家“疯狂”地证明他是邪恶的，你当晚可以选择两名玩家。",
+    "image": "/blood-on-the-clocktower/image/downloaded/126ea239336205f8f253814ccec2d913.webp",
+    "setup": false,
+    "reminders": [
+      "死亡",
+      "疯狂"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 48,
+    "original_image": "https://www.bloodstar.xyz/p/marhepto/RavenswoodHigh/dezebel_ravenswoodhigh.png"
+  },
+  {
+    "id": "de2bb774",
+    "team": "demon",
+    "name": "骰子大师",
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡。会有一名善良玩家只能与说书人或与他邻近的玩家私聊。如果他不这样做，他会死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/53190eebc23f95f4594273fd4f1ed98d.webp",
+    "setup": false,
+    "reminders": [
+      "死亡",
+      "今日固定"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 33,
+    "original_image": "https://www.bloodstar.xyz/p/marhepto/RavenswoodHigh/diemaster_ravenswoodhigh.png"
+  }
+]

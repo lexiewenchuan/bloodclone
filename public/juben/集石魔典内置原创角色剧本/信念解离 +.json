@@ -1,0 +1,440 @@
+[
+  {
+    "hint": "线上魔典支持直接输入剧本的URL。不必将此文件保存到你的电脑。",
+    "id": "_meta",
+    "name": "信念解离 +",
+    "author": "Cake & David L"
+  },
+  {
+    "id": "b262ee94",
+    "team": "townsfolk",
+    "name": "安保人员",
+    "ability": "每个夜晚，你要选择两名玩家：如果你选中了爪牙，他当晚不会因其自身能力而被唤醒。",
+    "image": "/blood-on-the-clocktower/image/downloaded/19608da7e296bda12062e6bc67e94c97.webp",
+    "setup": false,
+    "reminders": [
+      "被选择",
+      "不被唤醒"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3015,
+    "otherNight": 18,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/upload/1709641401_197011_5664.png"
+  },
+  {
+    "id": "1dfe3071",
+    "team": "townsfolk",
+    "name": "冰恋者",
+    "ability": "每个夜晚，你要选择两名玩家：如果他们之中有人在下个黄昏前死亡，你会在当晚得知他的角色。",
+    "image": "/blood-on-the-clocktower/image/downloaded/bd3a83ff46f55baa07caadd70c4a2ee4.webp",
+    "setup": false,
+    "reminders": [
+      "迷恋",
+      "得知"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3048,
+    "otherNight": 83,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/upload/1709641407_197011_3940.png"
+  },
+  {
+    "id": "717ebc90",
+    "team": "townsfolk",
+    "name": "阴谋论者",
+    "ability": "每个夜晚，你要选择与初始邪恶玩家数量相等的玩家：如果你选择的玩家都是邪恶的，善良阵营获胜。",
+    "image": "/blood-on-the-clocktower/image/downloaded/f5a434b958a220c80d00c76dbc204286.webp",
+    "setup": false,
+    "reminders": [
+      "被选择"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3032,
+    "otherNight": 67,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/upload/1709641397_197011_8670.png"
+  },
+  {
+    "id": "d025bde0",
+    "team": "townsfolk",
+    "name": "药师",
+    "ability": "每个夜晚，你要选择两名玩家：一名玩家健康清醒且恶魔的负面能力对他无效，另一名玩家醉酒，直至下个黄昏。",
+    "image": "/blood-on-the-clocktower/image/downloaded/9ecf89001dd5fe784f87fb2d3d71d8d1.webp",
+    "setup": false,
+    "reminders": [
+      "保护",
+      "醉酒"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3007,
+    "otherNight": 12,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/upload/1709641400_197011_5361.png"
+  },
+  {
+    "id": "d6528bbe",
+    "team": "townsfolk",
+    "name": "审讯官",
+    "ability": "每个夜晚，你要选择两名玩家：你会得知他们之中是否有邪恶玩家。会有一名玩家始终被你的能力当作邪恶玩家。你可能会被当作邪恶阵营、爪牙角色或恶魔角色，即使你已死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/afa87204022a5e096b4c4b690f65f0d6.webp",
+    "setup": false,
+    "reminders": [
+      "被选择",
+      "干扰项"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3040,
+    "otherNight": 78,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/upload/1709641409_197011_662.png"
+  },
+  {
+    "id": "aedded90",
+    "team": "townsfolk",
+    "name": "白日梦想家",
+    "ability": "每个夜晚，你要选择两名玩家。你会得知他们：1)是否同一阵营，或2)是否与恶魔邻近，或3)是否有恶魔。你只会得知是或否。你会在每个偶数夜晚得知自己的信息对应以上哪两项。",
+    "image": "/blood-on-the-clocktower/image/downloaded/d49ffd386f5e1b16751e0316c87090e8.webp",
+    "setup": false,
+    "reminders": [
+      "被选择",
+      "是否同一阵营",
+      "是否与恶魔邻近",
+      "是否有恶魔"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3023,
+    "otherNight": 61,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/upload/1709641399_197011_1005.png"
+  },
+  {
+    "id": "24f7aceb",
+    "team": "townsfolk",
+    "name": "末日传道士",
+    "ability": "每个夜晚*，你要选择两名玩家：你会得知他们今晚选择玩家的总次数。",
+    "image": "/blood-on-the-clocktower/image/downloaded/f3bdfb52f2980f6430703aa7e3af65a7.webp",
+    "setup": false,
+    "reminders": [
+      "被选择"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 72,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/upload/1709641405_197011_4955.png"
+  },
+  {
+    "id": "5be0db69",
+    "team": "townsfolk",
+    "name": "胆小鬼",
+    "ability": "每个夜晚*，你要选择二至四名玩家：如果你选中了恶魔，你今晚不会被恶魔杀死。",
+    "image": "/blood-on-the-clocktower/image/downloaded/1c952e7ae14cedb0d4a9e3c76365c88b.webp",
+    "setup": false,
+    "reminders": [
+      "被选择",
+      "不会死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 40,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/upload/1709641406_197011_816.png"
+  },
+  {
+    "id": "37f46c4d",
+    "team": "townsfolk",
+    "name": "惯性说谎者",
+    "ability": "每个夜晚*，你要选择两名玩家：如果你选中了恶魔，恶魔自以为的角色能力按中毒处理。",
+    "image": "/blood-on-the-clocktower/image/downloaded/3ffb47a71daa89fd60ad6de459f848e4.webp",
+    "setup": false,
+    "reminders": [
+      "被选择",
+      "表面中毒"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 29,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/upload/1709641404_197011_2649.png"
+  },
+  {
+    "id": "1ef379cd",
+    "team": "townsfolk",
+    "name": "心理医生",
+    "ability": "每个夜晚*，你要选择一名玩家：如果他同意，你们都会得知他是否是恶魔。你不可能是恶魔。",
+    "image": "/blood-on-the-clocktower/image/downloaded/2895d000baafc0051eb7f2086433de0e.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 56,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/upload/1709641396_197011_8966.png"
+  },
+  {
+    "id": "a15e1963",
+    "team": "townsfolk",
+    "name": "灵视者",
+    "ability": "每个夜晚*，你要选择两名玩家：他们被当作正确的阵营和角色类型，即使因为任何原因无法被当作正确的阵营和角色类型。",
+    "image": "/blood-on-the-clocktower/image/downloaded/1e4c3bc7b211757980ec2f55cc22acda.webp",
+    "setup": false,
+    "reminders": [
+      "被选择",
+      "回归本质"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 45,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/upload/1709641402_197011_5618.png"
+  },
+  {
+    "id": "9f4df11b",
+    "team": "townsfolk",
+    "name": "护士长",
+    "ability": "每个夜晚*，你要选择一名玩家：你会得知他选择了谁，以及他得知了什么。如果你选中了恶魔，他会得知自己的恶魔角色。你不可能是恶魔。",
+    "image": "/blood-on-the-clocktower/image/downloaded/ce322c7b4daf575cd6906a9c2eedf7be.webp",
+    "setup": false,
+    "reminders": [
+      "巡视"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 50,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/upload/1709641395_197011_4897.png"
+  },
+  {
+    "id": "c42d563e",
+    "team": "townsfolk",
+    "name": "模仿者",
+    "ability": "在你的首个夜晚，你要选择一名玩家：如果他是善良玩家，你变为他的角色。如果他是邪恶玩家，你醉酒。",
+    "image": "/blood-on-the-clocktower/image/downloaded/d3e2e51997962c538c6b7254ffd98233.webp",
+    "setup": false,
+    "reminders": [
+      "是模仿者",
+      "醉酒"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 2004,
+    "otherNight": 0,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/upload/1709641393_197011_553.png"
+  },
+  {
+    "id": "440172d7",
+    "team": "outsider",
+    "name": "无政府主义者",
+    "ability": "每个夜晚，你要选择两名存活的玩家：今晚任何玩家使用自身能力选择他们之一作为目标时，可能会改为选中另一名玩家。",
+    "image": "/blood-on-the-clocktower/image/downloaded/098a0ebb7bbb2b54cdee3de4d96bc9fa.webp",
+    "setup": false,
+    "reminders": [
+      "被选择"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 10,
+    "otherNight": 7,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/upload/1709641410_197011_7539.png"
+  },
+  {
+    "id": "4560876c",
+    "team": "outsider",
+    "name": "虚无主义者",
+    "ability": "每个夜晚*，你要选择两名存活的玩家：如果今晚他们之中有人死亡，你可能会代替死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/4e4d6fc8a74b4da878359d765eda7bb0.webp",
+    "setup": false,
+    "reminders": [
+      "被选择",
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 34,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/upload/1709641411_197011_8716.png"
+  },
+  {
+    "id": "1017b54a",
+    "team": "outsider",
+    "name": "漫步者",
+    "ability": "每个白天，会有一名与之前不同的玩家“疯狂”地证明自己是漫步者，否则他可能会被处决。如果你“疯狂”地证明自己是漫步者，你可能会被处决。你不可能是恶魔。",
+    "image": "/blood-on-the-clocktower/image/downloaded/6122af0dfb28768ab9a95ac8dadcd72c.webp",
+    "setup": false,
+    "reminders": [
+      "疯狂",
+      "已疯狂"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3073,
+    "otherNight": 121,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/upload/1709641412_197011_1802.png"
+  },
+  {
+    "id": "0a47f862",
+    "team": "outsider",
+    "name": "丑角",
+    "ability": "如果你是恶魔，在夜晚时你会造成的死亡会指向任意玩家。",
+    "image": "/blood-on-the-clocktower/image/downloaded/46c7cc10faffb2ff022eee7a0f7413c8.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/upload/1709641414_197011_4014.png"
+  },
+  {
+    "id": "05e71bc7",
+    "team": "minion",
+    "name": "幕后黑手",
+    "ability": "每个夜晚，你可以选择变为恶魔。如果你变为恶魔，当前的恶魔玩家会变为他自以为的善良角色。你会得知恶魔每晚选择的玩家。",
+    "image": "/blood-on-the-clocktower/image/downloaded/12ba58e6675965e04f0b956496571547.webp",
+    "setup": false,
+    "reminders": [
+      "化身为魔"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3057,
+    "otherNight": 116,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/upload/1709641419_197011_714.png"
+  },
+  {
+    "id": "6ae08fa4",
+    "team": "minion",
+    "name": "断罪天使",
+    "ability": "每个夜晚*，你要选择一名玩家（与上个夜晚不同）。他在当晚会被当作邪恶阵营和恶魔角色。",
+    "image": "/blood-on-the-clocktower/image/downloaded/cb1f9b476d712b8880a861115a13dc7d.webp",
+    "setup": false,
+    "reminders": [
+      "罪孽"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 23,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/upload/1709641416_197011_1411.png"
+  },
+  {
+    "id": "d9775c76",
+    "team": "minion",
+    "name": "代行邪魔",
+    "ability": "每个夜晚*，你要选择一名玩家：他今晚选择的玩家之一会死亡。始终会有一名善良玩家知道你在场。恶魔无法制造死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/1c8f97816f5f53e6002f0c2a875d519a.webp",
+    "setup": false,
+    "reminders": [
+      "被知晓",
+      "被选择",
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3065,
+    "otherNight": 88,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/upload/1709641417_197011_3629.png"
+  },
+  {
+    "id": "09b4e6f6",
+    "team": "minion",
+    "name": "煤气灯人",
+    "ability": "会有一名镇民自以为是煤气灯人，且无法使用他自己的能力，即使你已死亡。如果你被处决，他重获他的能力。其他爪牙不会得知你，你不会得知其他爪牙。",
+    "image": "/blood-on-the-clocktower/image/downloaded/04b8c084ec2d5003b02c397b1aa165c8.webp",
+    "setup": true,
+    "reminders": [],
+    "remindersGlobal": [
+      "是镇民"
+    ],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/upload/1709641415_197011_1839.png"
+  },
+  {
+    "id": "ee373fee",
+    "team": "demon",
+    "name": "精神分裂",
+    "ability": "[只能是镇民]被你杀死的爪牙保留能力，且得知你是谁。",
+    "image": "/blood-on-the-clocktower/image/downloaded/ccfcfd8a98b9f2203daea1fcaab30acb.webp",
+    "setup": true,
+    "reminders": [],
+    "remindersGlobal": [
+      "死亡",
+      "保留能力",
+      "是精神分裂"
+    ],
+    "firstNight": 0,
+    "otherNight": 94,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/upload/1709641420_197011_2011.png"
+  },
+  {
+    "id": "da5643a4",
+    "team": "demon",
+    "name": "反社会人格",
+    "ability": "[只能是外来者]你首次杀死外来者时，改为与他邻近的一名玩家死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/68b6efee07822a7512528859ed8df615.webp",
+    "setup": true,
+    "reminders": [],
+    "remindersGlobal": [
+      "死亡",
+      "已选外来者",
+      "是反社会人格"
+    ],
+    "firstNight": 0,
+    "otherNight": 105,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/upload/1709641423_197011_1486.png"
+  },
+  {
+    "id": "8d1cfa63",
+    "team": "demon",
+    "name": "躁狂症",
+    "ability": "[只能是镇民]你首次杀死的镇民会中毒，改为与他邻近的一名玩家死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/c2aecf5e1897f47b45d7b84288c3b1c4.webp",
+    "setup": true,
+    "reminders": [],
+    "remindersGlobal": [
+      "死亡",
+      "中毒",
+      "是躁狂症"
+    ],
+    "firstNight": 0,
+    "otherNight": 99,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/upload/1709641422_197011_5313.png"
+  },
+  {
+    "id": "7277c520",
+    "team": "demon",
+    "name": "二重身",
+    "ability": "[镇民或外来者]会有两名玩家是二重身且拥有相同角色能力。你们不能杀死彼此。每晚你们有且仅有一人能够造成死亡。[-1爪牙]",
+    "image": "/blood-on-the-clocktower/image/downloaded/a8f6ea53216ffcf63f109c20b85b3c54.webp",
+    "setup": true,
+    "reminders": [],
+    "remindersGlobal": [
+      "死亡",
+      "是二重身"
+    ],
+    "firstNight": 0,
+    "otherNight": 110,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/upload/1709641424_197011_9304.png"
+  },
+  {
+    "id": "f166c392",
+    "team": "fabled",
+    "name": "嗜血",
+    "ability": "每个夜晚*，恶魔使用自身能力选择的玩家之一会死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/8452bba6492cfe2f933aa3b206d60bca.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/upload/1709641428_197011_315.png"
+  },
+  {
+    "id": "e83144b7",
+    "team": "fabled",
+    "name": "精神扭曲",
+    "ability": "爪牙代替恶魔得知不在场角色。恶魔不会获得初始信息。爪牙可能会得知错误的恶魔。",
+    "image": "/blood-on-the-clocktower/image/downloaded/e4b83bbc35988719629084c01d4424ef.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/upload/1709641427_197011_1945.png"
+  },
+  {
+    "id": "863dbe40",
+    "team": "fabled",
+    "name": "认知错位",
+    "ability": "恶魔自以为是一个善良角色，并能够正常使用该角色能力，但其实他不是。",
+    "image": "/blood-on-the-clocktower/image/downloaded/1c4b733e6ea8e863eb251a1f5c7437c4.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/upload/1709641425_197011_1243.png"
+  }
+]

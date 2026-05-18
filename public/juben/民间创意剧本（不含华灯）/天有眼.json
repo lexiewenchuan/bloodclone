@@ -1,0 +1,434 @@
+[
+  {
+    "hint": "Online grimoires allow directly entering URL of custom-script. You do not have to download the file.",
+    "id": "_meta",
+    "name": "天有眼",
+    "author": "惊鸿&喷泉",
+    "status": [
+      {
+        "name": "天有眼",
+        "skill": "选择自己为自己辩护的玩家，首席律师的“疯狂”判定标准对其而言会更为严苛。"
+      }
+    ]
+  },
+  {
+    "id": "47d06a9b",
+    "team": "townsfolk",
+    "name": "Noble",
+    "ability": "You start knowing 3 players, 1 and only 1 of which is evil.",
+    "image": "/image/downloaded/d6e3562fe16a44e8d23a98efed7da41f.webp",
+    "setup": false,
+    "reminders": [
+      "Seen"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3056,
+    "otherNight": 0,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/noble_600w.webp"
+  },
+  {
+    "id": "42e1fe4f",
+    "team": "townsfolk",
+    "name": "Washerwoman",
+    "ability": "You start knowing that 1 of 2 players is a particular Townsfolk.",
+    "image": "/image/downloaded/15d9ebc018c256fddf99a33ce7f194c3.webp",
+    "setup": false,
+    "reminders": [
+      "Townsfolk",
+      "Wrong"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3042,
+    "otherNight": 0,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/washerwoman_600w.webp"
+  },
+  {
+    "id": "69860e6c",
+    "team": "townsfolk",
+    "name": "Librarian",
+    "ability": "You start knowing that 1 of 2 players is a particular Outsider. (Or that zero are in play.)",
+    "image": "/image/downloaded/22a8fd06eee401e3837e6746449f1f68.webp",
+    "setup": false,
+    "reminders": [
+      "Outsider",
+      "Wrong"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3043,
+    "otherNight": 0,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/librarian_600w.webp"
+  },
+  {
+    "id": "e27ef710",
+    "team": "townsfolk",
+    "name": "Pixie",
+    "ability": "You start knowing 1 in-play Townsfolk. If you were mad that you were this character, you gain their ability when they die.",
+    "image": "/image/downloaded/6ebe77cba4eb001b96ccd2b54ed39d95.webp",
+    "setup": false,
+    "reminders": [
+      "Mad",
+      "Has ability"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3040,
+    "otherNight": 0,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/pixie_600w.webp"
+  },
+  {
+    "id": "80b2ff4c",
+    "team": "townsfolk",
+    "name": "Empath",
+    "ability": "Each night, you learn how many of your 2 alive neighbors are evil.",
+    "image": "/image/downloaded/1cdb1142fba4f7af60ab67396bb16b0d.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 3046,
+    "otherNight": 96,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/empath_600w.webp"
+  },
+  {
+    "id": "69d3689a",
+    "team": "townsfolk",
+    "name": "High Priestess",
+    "ability": "Each night, learn which player the Storyteller believes you should talk to most.",
+    "image": "/image/downloaded/f6d9aa756d508c9b8052c3af2ac51d1b.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 3071,
+    "otherNight": 117,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/highPriestess_600w.webp"
+  },
+  {
+    "id": "ed91fbdd",
+    "team": "townsfolk",
+    "name": "Balloonist",
+    "ability": "Each night, you learn a player of a different character type than last night. [+0 or +1 Outsider]",
+    "image": "/image/downloaded/a66f82569c163af187becb6eb803f021.webp",
+    "setup": true,
+    "reminders": [
+      "Seen"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3057,
+    "otherNight": 107,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/balloonist_600w.webp"
+  },
+  {
+    "id": "f8554b8f",
+    "team": "townsfolk",
+    "name": "Mathematician",
+    "ability": "Each night, you learn how many players' abilities worked abnormally (since dawn) due to another character's ability.",
+    "image": "/image/downloaded/6cf82698634d95e599a29f091c3a1725.webp",
+    "setup": false,
+    "reminders": [
+      "Abnormal"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3078,
+    "otherNight": 124,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/mathematician_600w.webp"
+  },
+  {
+    "id": "d1377fd6",
+    "team": "townsfolk",
+    "name": "Undertaker",
+    "ability": "Each night*, you learn which character died by execution today.",
+    "image": "/image/downloaded/7b4c034d8955f51982765d6bfb422f72.webp",
+    "setup": false,
+    "reminders": [
+      "Executed"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 99,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/undertaker_600w.webp"
+  },
+  {
+    "id": "e094cf95",
+    "team": "townsfolk",
+    "name": "Monk",
+    "ability": "Each night*, choose a player (not yourself): they are safe from the Demon tonight.",
+    "image": "/image/downloaded/9680bb4f38f2d2f442a9667e564698be.webp",
+    "setup": false,
+    "reminders": [
+      "Protected"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 34,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/monk_600w.webp"
+  },
+  {
+    "id": "10c95e88",
+    "team": "townsfolk",
+    "name": "Seamstress",
+    "ability": "Once per game, at night, choose 2 players (not yourself): you learn if they are the same alignment.",
+    "image": "/image/downloaded/ab924925cfd2953a23045b204034d487.webp",
+    "setup": false,
+    "reminders": [
+      "No ability"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3053,
+    "otherNight": 105,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/seamstress_600w.webp"
+  },
+  {
+    "id": "daaafbd5",
+    "team": "townsfolk",
+    "name": "Ravenkeeper",
+    "ability": "If you die at night, you are woken to choose a player: you learn their character.",
+    "image": "/image/downloaded/db258dedbd7381735dfc10a16c64b3d7.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/ravenkeeper_600w.webp"
+  },
+  {
+    "id": "52cdeb67",
+    "team": "townsfolk",
+    "name": "Virgin",
+    "ability": "The 1st time you are nominated, if the nominator is a Townsfolk, they are executed immediately.",
+    "image": "/image/downloaded/872fed9efe024281f0fd8174706037a8.webp",
+    "setup": false,
+    "reminders": [
+      "No ability"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/virgin_600w.webp"
+  },
+  {
+    "id": "e5f6b290",
+    "team": "outsider",
+    "name": "Drunk",
+    "ability": "You do not know you are the Drunk. You think you are a Townsfolk character, but you are not.",
+    "image": "/image/downloaded/8f7a6904ef81ddc1f303550c7f22c867.webp",
+    "setup": true,
+    "reminders": [],
+    "remindersGlobal": [
+      "Drunk"
+    ],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/drunk_600w.webp"
+  },
+  {
+    "id": "942b83e4",
+    "team": "outsider",
+    "name": "Recluse",
+    "ability": "You might register as evil & as a Minion or Demon, even if dead.",
+    "image": "/image/downloaded/8752d42ab75d5dc392007083821224ee.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/recluse_600w.webp"
+  },
+  {
+    "id": "d9131770",
+    "team": "outsider",
+    "name": "Sweetheart",
+    "ability": "When you die, 1 player is drunk from now on.",
+    "image": "/image/downloaded/ee88ee9836a22f0b9d46bfb180501cd6.webp",
+    "setup": false,
+    "reminders": [
+      "Drunk"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/sweetheart_600w.webp"
+  },
+  {
+    "id": "2651ad8b",
+    "team": "outsider",
+    "name": "Zealot",
+    "ability": "If there are 5 or more players alive, you must vote for every nomination.",
+    "image": "/image/downloaded/3aae48a49e1aeb941eb40b561dd10e53.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/zealot_600w.webp"
+  },
+  {
+    "id": "18eb3397",
+    "team": "minion",
+    "name": "Poisoner",
+    "ability": "Each night, choose a player: they are poisoned tonight and tomorrow day.",
+    "image": "/image/downloaded/9815782801954f07b210475b62cd1c72.webp",
+    "setup": false,
+    "reminders": [
+      "Poisoned"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3016,
+    "otherNight": 22,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/poisoner_600w.webp"
+  },
+  {
+    "id": "d878f9f1",
+    "team": "minion",
+    "name": "Marionette",
+    "ability": "You think you are a good character, but you are not. The Demon knows who you are. [You neighbor the Demon]",
+    "image": "/image/downloaded/bec81b7f094152cd4372747cedd22ccc.webp",
+    "setup": true,
+    "reminders": [],
+    "remindersGlobal": [
+      "Is the Marionette"
+    ],
+    "firstNight": 3004,
+    "otherNight": 0,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/marionette_600w.webp"
+  },
+  {
+    "id": "b4983626",
+    "team": "minion",
+    "name": "Evil Twin",
+    "ability": "You & an opposing player know each other. If the good player is executed, evil wins. Good can't win if you both live.",
+    "image": "/image/downloaded/ae67b0ecd9906f41454db486ae92a162.webp",
+    "setup": false,
+    "reminders": [
+      "Twin"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3026,
+    "otherNight": 0,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/evilTwin_600w.webp"
+  },
+  {
+    "id": "0a57bc0d",
+    "team": "minion",
+    "name": "Boffin",
+    "ability": "The Demon (even if drunk or poisoned) has a not-in-play good character's ability. You both know which.",
+    "image": "/image/downloaded/195679dad49ae40a4422ebe053345e0b.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 5,
+    "otherNight": 0,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/boffin_600w.webp"
+  },
+  {
+    "id": "94baaacb",
+    "team": "demon",
+    "name": "No Dashii",
+    "ability": "Each night*, choose a player: they die. Your 2 Townsfolk neighbors are poisoned.",
+    "image": "/image/downloaded/dc8aec83230dd0fc238ab7c6277ab6af.webp",
+    "setup": false,
+    "reminders": [
+      "Dead",
+      "Poisoned"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 59,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/noDashii_600w.webp"
+  },
+  {
+    "id": "b3ced174",
+    "team": "demon",
+    "name": "Imp",
+    "ability": "Each night*, choose a player: they die. If you kill yourself this way, a Minion becomes the Imp.",
+    "image": "/image/downloaded/de24131f98ef974cd510443a6df19dbe.webp",
+    "setup": false,
+    "reminders": [
+      "Dead"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 53,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/imp_600w.webp"
+  },
+  {
+    "id": "f856c053",
+    "team": "demon",
+    "name": "Fang Gu",
+    "ability": "Each night*, choose a player: they die. The 1st Outsider this kills becomes an evil Fang Gu & you die instead. [+1 Outsider]",
+    "image": "/image/downloaded/0cf976b8a0dcb249d3993faa1a89bc20.webp",
+    "setup": true,
+    "reminders": [
+      "Dead"
+    ],
+    "remindersGlobal": [
+      "Once"
+    ],
+    "firstNight": 0,
+    "otherNight": 58,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/fangGu_600w.webp"
+  },
+  {
+    "id": "9d168d02",
+    "team": "fabled",
+    "name": "天冇眼",
+    "ability": "选择自己为自己辩护的玩家，首席律师的“疯狂”判定标准对其而言会更为严苛。",
+    "image": "/image/downloaded/1681e258c1b1bd9bd9e1ac688cfcf23f.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://clocktower-wiki.gstonegames.com/images/thumb/9/97/Bootlegger.png/200px-Bootlegger.png"
+  },
+  {
+    "id": "5444d36b",
+    "team": "fabled",
+    "name": "Big Wig",
+    "ability": "Each nominee chooses a player: until voting, only they may speak & they are mad the nominee is good or they might die.",
+    "image": "/image/downloaded/30697285508a2da281b2baeff1bfc5ed.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/bigWig_600w.webp"
+  },
+  {
+    "id": "bbb6069c",
+    "team": "a jinxed",
+    "name": "Mathematician & Drunk",
+    "ability": "The Mathematician might learn if the Drunk's ability yielded false info or failed to work properly.",
+    "image": "",
+    "setup": false,
+    "firstNight": 0,
+    "otherNight": 0
+  },
+  {
+    "id": "6fc62422",
+    "team": "a jinxed",
+    "name": "Mathematician & Marionette",
+    "ability": "The Mathematician might learn if the Marionette's ability yielded false info or failed to work properly.",
+    "image": "",
+    "setup": false,
+    "firstNight": 0,
+    "otherNight": 0
+  },
+  {
+    "id": "49116172",
+    "team": "a jinxed",
+    "name": "Marionette & Balloonist",
+    "ability": "If the Marionette thinks that they are the Balloonist, an Outsider might have been added during setup.",
+    "image": "",
+    "setup": false,
+    "firstNight": 0,
+    "otherNight": 0
+  },
+  {
+    "id": "54a2c7f2",
+    "team": "a jinxed",
+    "name": "Boffin & Drunk",
+    "ability": "The Demon cannot have the Drunk ability.",
+    "image": "",
+    "setup": false,
+    "firstNight": 0,
+    "otherNight": 0
+  }
+]

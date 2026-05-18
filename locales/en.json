@@ -1,0 +1,23 @@
+{
+  "title": "Blood on the Clocktower - Seat Test",
+  "script_name": "Module Overlord v4.7",
+  "author": "Author: Manny",
+  "player_count": "7 Townsfolk 2 Outsiders 2 Minions 2 Demons",
+  "settings": "Settings",
+  "add_seat": "Add Seat",
+  "remove_seat": "Remove Seat",
+  "clear_seats": "Clear Seats",
+  "empty_seat": "Empty Seat",
+  "role_selection_title": "Select Role for Player {{playerName}}",
+  "version_roles": "Version Roles",
+  "official_roles": "Other Official",
+  "seat_settings": "Seat Settings",
+  "seat_name": "Seat Name",
+  "rename": "Rename",
+  "remove": "Remove",
+  "devil_guise": "Devil's Guise",
+  "legendary_roles": "Legendary Roles",
+  "max_seats_reached": "Maximum seats reached: 20",
+  "no_seats_left": "No seats left",
+  "placeholder_empty_seat": "{{number}}. Empty Seat"
+}

@@ -1,0 +1,442 @@
+[
+  {
+    "hint": "Online grimoires allow directly entering URL of custom-script. You do not have to download the file.",
+    "id": "_meta",
+    "name": "阿兹卡班",
+    "author": "络与玥儿",
+    "status": [
+      {
+        "name": "超级茶话会",
+        "skill": "该剧本默认使用帽匠的可选规则：“如果帽匠死亡，允许恶魔变成爪牙，且（仅）一名爪牙变成恶魔。”"
+      }
+    ]
+  },
+  {
+    "id": "0481ee7f",
+    "team": "townsfolk",
+    "name": "Shugenja",
+    "ability": "You start knowing if your closest evil player is clockwise or anti-clockwise. If equidistant, this info is arbitrary.",
+    "image": "/image/downloaded/fa3c4ef1992fb5e15cbf4356b0b19b84.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 3072,
+    "otherNight": 0,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/shugenja_600w.webp"
+  },
+  {
+    "id": "7d9aa821",
+    "team": "townsfolk",
+    "name": "Flowergirl",
+    "ability": "Each night*, you learn if a Demon voted today.",
+    "image": "/image/downloaded/3129f245f1ef6333c0538e834ca419fc.webp",
+    "setup": false,
+    "reminders": [
+      "Demon voted",
+      "Demon not voted"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 102,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/flowergirl_600w.webp"
+  },
+  {
+    "id": "401ab1a5",
+    "team": "townsfolk",
+    "name": "Oracle",
+    "ability": "Each night*, you learn how many dead players are evil.",
+    "image": "/image/downloaded/a3910f7187cabee3f82487c1852f3b1a.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 104,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/oracle_600w.webp"
+  },
+  {
+    "id": "520d55f2",
+    "team": "townsfolk",
+    "name": "Lycanthrope",
+    "ability": "Each night*, choose an alive player. If good, they die & the Demon doesn’t kill tonight. One good player registers as evil.",
+    "image": "/image/downloaded/483ef88b757a673394731b195749a8fd.webp",
+    "setup": false,
+    "reminders": [
+      "Dead",
+      "Faux Paw"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 50,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/lycanthrope_600w.webp"
+  },
+  {
+    "id": "8c84cc38",
+    "team": "townsfolk",
+    "name": "Gossip",
+    "ability": "Each day, you may make a public statement. Tonight, if it was true, a player dies.",
+    "image": "/image/downloaded/e20f353e15a7e9e4b9f615278f5f8fec.webp",
+    "setup": false,
+    "reminders": [
+      "Dead"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 88,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/gossip_600w.webp"
+  },
+  {
+    "id": "acd383bd",
+    "team": "townsfolk",
+    "name": "Savant",
+    "ability": "Each day, you may visit the Storyteller to learn 2 things in private: 1 is true & 1 is false.",
+    "image": "/image/downloaded/2d52d51457503f13afae660ef9f09f1b.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/savant_600w.webp"
+  },
+  {
+    "id": "d0498154",
+    "team": "townsfolk",
+    "name": "Nightwatchman",
+    "ability": "Once per game, at night, choose a player: they learn you are the Nightwatchman.",
+    "image": "/image/downloaded/23121cee2dc0e744fbdcdd07fd9cb5df.webp",
+    "setup": false,
+    "reminders": [
+      "No ability"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3066,
+    "otherNight": 115,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/nightwatchman_600w.webp"
+  },
+  {
+    "id": "3cdd2d47",
+    "team": "townsfolk",
+    "name": "Artist",
+    "ability": "Once per game, during the day, privately ask the Storyteller any yes/no question.",
+    "image": "/image/downloaded/6ce27898f27e273f464da1b732ab2d4f.webp",
+    "setup": false,
+    "reminders": [
+      "No ability"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/artist_600w.webp"
+  },
+  {
+    "id": "14582fe1",
+    "team": "townsfolk",
+    "name": "Fisherman",
+    "ability": "Once per game, during the day, visit the Storyteller for some advice to help your team win.",
+    "image": "/image/downloaded/345810c22c40fef5219428af8923977c.webp",
+    "setup": false,
+    "reminders": [
+      "No ability"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/fisherman_600w.webp"
+  },
+  {
+    "id": "a13e6eef",
+    "team": "townsfolk",
+    "name": "Alchemist",
+    "ability": "You have a Minion ability. When using this, the Storyteller may prompt you to choose differently.",
+    "image": "/image/downloaded/0b809ea6da787bf757780fbd76d50070.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [
+      "Is the Alchemist"
+    ],
+    "firstNight": 12,
+    "otherNight": 0,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/alchemist_600w.webp"
+  },
+  {
+    "id": "97496a04",
+    "team": "townsfolk",
+    "name": "Amnesiac",
+    "ability": "You do not know what your ability is. Each day, privately guess what it is: you learn how accurate you are.",
+    "image": "/image/downloaded/aa08d1b7d7110ea67f88c5b046878b85.webp",
+    "setup": false,
+    "reminders": [
+      "?"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 6,
+    "otherNight": 4,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/amnesiac_600w.webp"
+  },
+  {
+    "id": "7b3b965d",
+    "team": "townsfolk",
+    "name": "Tea Lady",
+    "ability": "If both your alive neighbors are good, they can't die.",
+    "image": "/image/downloaded/3888442b810249bcf638e6fb09d840c0.webp",
+    "setup": false,
+    "reminders": [
+      "Can not die"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/teaLady_600w.webp"
+  },
+  {
+    "id": "52cdeb67",
+    "team": "townsfolk",
+    "name": "Virgin",
+    "ability": "The 1st time you are nominated, if the nominator is a Townsfolk, they are executed immediately.",
+    "image": "/image/downloaded/872fed9efe024281f0fd8174706037a8.webp",
+    "setup": false,
+    "reminders": [
+      "No ability"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/virgin_600w.webp"
+  },
+  {
+    "id": "e5f6b290",
+    "team": "outsider",
+    "name": "Drunk",
+    "ability": "You do not know you are the Drunk. You think you are a Townsfolk character, but you are not.",
+    "image": "/image/downloaded/8f7a6904ef81ddc1f303550c7f22c867.webp",
+    "setup": true,
+    "reminders": [],
+    "remindersGlobal": [
+      "Drunk"
+    ],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/drunk_600w.webp"
+  },
+  {
+    "id": "0699eea6",
+    "team": "outsider",
+    "name": "Plague Doctor",
+    "ability": "When you die, the Storyteller gains a Minion ability.",
+    "image": "/image/downloaded/56fe4576d781fee2ba449ab9c41df83d.webp",
+    "setup": false,
+    "reminders": [
+      "Storyteller Ability"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/plagueDoctor_600w.webp"
+  },
+  {
+    "id": "344afa1a",
+    "team": "outsider",
+    "name": "Hatter",
+    "ability": "If you died today or tonight, the Minion & Demon players may choose new Minion & Demon characters to be.",
+    "image": "/image/downloaded/1f575e27177847980af8cb4fafe481dc.webp",
+    "setup": false,
+    "reminders": [
+      "Tea Party Tonight"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 14,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/hatter_600w.webp"
+  },
+  {
+    "id": "56a41200",
+    "team": "outsider",
+    "name": "Politician",
+    "ability": "If you were the player most responsible for your team losing, you change alignment & win, even if dead.",
+    "image": "/image/downloaded/0af92d818b2185d1805f57cc5b2d03f1.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/politician_600w.webp"
+  },
+  {
+    "id": "8c48d0af",
+    "team": "minion",
+    "name": "Witch",
+    "ability": "Each night, choose a player: if they nominate tomorrow, they die. If just 3 players live, you lose this ability.",
+    "image": "/image/downloaded/606360ca98842ba0e524fe53f7510387.webp",
+    "setup": false,
+    "reminders": [
+      "Cursed"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3027,
+    "otherNight": 38,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/witch_600w.webp"
+  },
+  {
+    "id": "e3977416",
+    "team": "minion",
+    "name": "Pit-Hag",
+    "ability": "Each night*, choose a player & a character they become (if not in play). If a Demon is made, deaths tonight are arbitrary.",
+    "image": "/image/downloaded/2b4261185c9bc9d101266e08edcc8544.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 20,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/pitHag_600w.webp"
+  },
+  {
+    "id": "f8665f27",
+    "team": "minion",
+    "name": "Wizard",
+    "ability": "Once per game, choose to make a wish. If granted, it might have a price & leave a clue as to its nature.",
+    "image": "/image/downloaded/4db8b3739f18186ab541b1098a83b072.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 3021,
+    "otherNight": 26,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/wizard_600w.webp"
+  },
+  {
+    "id": "0a57bc0d",
+    "team": "minion",
+    "name": "Boffin",
+    "ability": "The Demon (even if drunk or poisoned) has a not-in-play good character's ability. You both know which.",
+    "image": "/image/downloaded/195679dad49ae40a4422ebe053345e0b.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 5,
+    "otherNight": 0,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/boffin_600w.webp"
+  },
+  {
+    "id": "0aef556b",
+    "team": "demon",
+    "name": "Yaggababble",
+    "ability": "You start knowing a secret phrase. For each time you said it publicly today, a player might die.",
+    "image": "/image/downloaded/e260aafa9088456a0212ff9ab47376a1.webp",
+    "setup": false,
+    "reminders": [
+      "Dead"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3036,
+    "otherNight": 67,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/yaggababble_600w.webp"
+  },
+  {
+    "id": "eb80da42",
+    "team": "demon",
+    "name": "Lil' Monsta",
+    "ability": "Each night, Minions choose who babysits Lil' Monsta & \"is the Demon\". Each night*, a player might die. [+1 Minion]",
+    "image": "/image/downloaded/6ae04b49686c6cd100bdfb269c92173f.webp",
+    "setup": true,
+    "reminders": [],
+    "remindersGlobal": [
+      "Is the Demon",
+      "Dead"
+    ],
+    "firstNight": 3012,
+    "otherNight": 66,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/lilMonsta_600w.webp"
+  },
+  {
+    "id": "b3ced174",
+    "team": "demon",
+    "name": "Imp",
+    "ability": "Each night*, choose a player: they die. If you kill yourself this way, a Minion becomes the Imp.",
+    "image": "/image/downloaded/de24131f98ef974cd510443a6df19dbe.webp",
+    "setup": false,
+    "reminders": [
+      "Dead"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 53,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/imp_600w.webp"
+  },
+  {
+    "id": "cc33eec4",
+    "team": "demon",
+    "name": "Zombuul",
+    "ability": "Each night*, if no-one died today, choose a player: they die. The 1st time you die, you live but register as dead.",
+    "image": "/image/downloaded/5bb354902cafac423d6fb9e186fac073.webp",
+    "setup": false,
+    "reminders": [
+      "Died today",
+      "Dead"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 54,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/zombuul_600w.webp"
+  },
+  {
+    "id": "8df39ce7",
+    "team": "fabled",
+    "name": "超级茶话会",
+    "ability": "该剧本默认使用帽匠的可选规则：“如果帽匠死亡，允许恶魔变成爪牙，且（仅）一名爪牙变成恶魔。”",
+    "image": "/image/downloaded/1681e258c1b1bd9bd9e1ac688cfcf23f.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://clocktower-wiki.gstonegames.com/images/thumb/9/97/Bootlegger.png/200px-Bootlegger.png"
+  },
+  {
+    "id": "c0c14486",
+    "team": "a jinxed",
+    "name": "Alchemist & Boffin",
+    "ability": "If the Alchemist has the Boffin ability, the Alchemist does not learn what ability the Demon has.",
+    "image": "",
+    "setup": false,
+    "firstNight": 0,
+    "otherNight": 0
+  },
+  {
+    "id": "a6c99687",
+    "team": "a jinxed",
+    "name": "Pit-Hag & Politician",
+    "ability": "If the Pit-Hag turns an evil player into the Politician, they can't turn good due to their own ability.",
+    "image": "",
+    "setup": false,
+    "firstNight": 0,
+    "otherNight": 0
+  },
+  {
+    "id": "54a2c7f2",
+    "team": "a jinxed",
+    "name": "Boffin & Drunk",
+    "ability": "The Demon cannot have the Drunk ability.",
+    "image": "",
+    "setup": false,
+    "firstNight": 0,
+    "otherNight": 0
+  },
+  {
+    "id": "edbbb80a",
+    "team": "a jinxed",
+    "name": "Boffin & Politician",
+    "ability": "The Demon cannot have the Politician ability.",
+    "image": "",
+    "setup": false,
+    "firstNight": 0,
+    "otherNight": 0
+  },
+  {
+    "id": "cbdf2e84",
+    "team": "a jinxed",
+    "name": "Lil' Monsta & Hatter",
+    "ability": "If the Hatter dies & the Demon chooses Lil' Monsta, they also choose a Minion to become.",
+    "image": "",
+    "setup": false,
+    "firstNight": 0,
+    "otherNight": 0
+  }
+]

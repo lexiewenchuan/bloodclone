@@ -1,0 +1,454 @@
+[
+  {
+    "hint": "线上魔典支持直接输入剧本的URL。不必将此文件保存到你的电脑。",
+    "id": "_meta",
+    "name": "模仿者游戏",
+    "author": "李泓權",
+    "status": [
+      {
+        "name": "第三方势力",
+        "skill": "·说书人改为公开统计投票的玩家是哪几名，而不是公开唱票。·善良阵营获胜条件改为：爪牙和恶魔玩家均死亡。·恶魔不会失去能力，即使他醉酒、中毒或死亡。·在初始设置时，可能会额外增加一名外来者。如果存活的外来者玩家“疯狂”地证明自己是外来者，之后一名镇民玩家可能中毒或随时死亡。"
+      }
+    ]
+  },
+  {
+    "id": "573a665f",
+    "team": "townsfolk",
+    "name": "银行家",
+    "ability": "每个夜晚，你可以选择除你以外的一名玩家：如果他是镇民，明天白天他的投票会被算作两票。",
+    "image": "/blood-on-the-clocktower/image/downloaded/ea11ed085f13994edece4f43fbce4ff8.webp",
+    "setup": false,
+    "reminders": [
+      "算作两票"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3061,
+    "otherNight": 11,
+    "original_image": "https://s2.loli.net/2025/09/07/Dc9CWNwizeJKhdO.png"
+  },
+  {
+    "id": "f8458f22",
+    "team": "townsfolk",
+    "name": "拳击手",
+    "ability": "每个夜晚，你可以发动能力：当晚令你死亡的玩家会一同死亡。当你第二次发动能力时，你会在下个黎明时死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/a5ff0e53592fbef9040e4b10c00d7158.webp",
+    "setup": false,
+    "reminders": [
+      "发动能力",
+      "第二次发动",
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3010,
+    "otherNight": 3,
+    "original_image": "https://s2.loli.net/2025/09/07/iFScRzsMvkdCgEB.png"
+  },
+  {
+    "id": "26ce9fb9",
+    "team": "townsfolk",
+    "name": "掮客",
+    "ability": "每个夜晚，你要选择两名存活玩家：如果他们阵营相同，今晚任何玩家使用自身能力选择他们之一作为目标时，改为选中另一名玩家。",
+    "image": "/blood-on-the-clocktower/image/downloaded/f4b686e3bf72f578e750996c8b28f3d2.webp",
+    "setup": false,
+    "reminders": [
+      "熟客"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3008,
+    "otherNight": 16,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/qianke_600w.webp"
+  },
+  {
+    "id": "a6f1037c",
+    "team": "townsfolk",
+    "name": "侦探",
+    "ability": "每个夜晚*，你可以选择一名玩家：下个夜晚你得知他的阵营。",
+    "image": "/blood-on-the-clocktower/image/downloaded/8b829fb47b345653ee67bdc3382e1f9e.webp",
+    "setup": false,
+    "reminders": [
+      "被选择"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 10,
+    "original_image": "https://s2.loli.net/2025/09/07/AZljT56JqQhzbf9.png"
+  },
+  {
+    "id": "40814e06",
+    "team": "townsfolk",
+    "name": "灵媒",
+    "ability": "每个夜晚*，你要选择一名玩家：如果他在今晚造成了死亡，你会得知他的角色。",
+    "image": "/blood-on-the-clocktower/image/downloaded/415f77a11c697ddc144c6de9d967f642.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 13,
+    "original_image": "https://s2.loli.net/2025/09/07/SDJQ28ve6EsqGAy.png"
+  },
+  {
+    "id": "131ca8ea",
+    "team": "townsfolk",
+    "name": "药剂师",
+    "ability": "每个夜晚*，你可以选择一名玩家：他今晚不会死亡。当你下次选择他时：他死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/db3332a10d1e57997985b03c2bf6a584.webp",
+    "setup": false,
+    "reminders": [
+      "不会死亡",
+      "被选择过",
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 5,
+    "original_image": "https://s2.loli.net/2025/09/07/Ef7TFU81xdDvQqV.png"
+  },
+  {
+    "id": "b0d15ab1",
+    "team": "townsfolk",
+    "name": "修士",
+    "ability": "每局游戏限一次，在夜晚时，你可以选择一名玩家：你与他会得知对方的角色。",
+    "image": "/blood-on-the-clocktower/image/downloaded/f14d29f0540586d4d60d46cf3e9ad39c.webp",
+    "setup": false,
+    "reminders": [
+      "失去能力"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3071,
+    "otherNight": 14,
+    "original_image": "https://s2.loli.net/2025/09/07/dEmrtHoxWJa5cTg.png"
+  },
+  {
+    "id": "3f1ab4f5",
+    "team": "townsfolk",
+    "name": "猎人",
+    "ability": "每局游戏限一次，在夜晚时*，你可以选择一名玩家：他死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/a9f0f98878deb6e5698a724ab18a92e9.webp",
+    "setup": false,
+    "reminders": [
+      "死亡",
+      "失去能力"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 8,
+    "original_image": "https://s2.loli.net/2025/09/07/bL7yhdvVcsY1BG3.png"
+  },
+  {
+    "id": "fcc77f66",
+    "team": "townsfolk",
+    "name": "巡林员",
+    "ability": "每局游戏限一次，在夜晚时*，你可以选择一名玩家：当晚下个选择他的玩家死亡，然后你会得知那名玩家是谁。",
+    "image": "/blood-on-the-clocktower/image/downloaded/fa0e8ef1d0bcba037f60c1c460ffe359.webp",
+    "setup": false,
+    "reminders": [
+      "被选择",
+      "死亡",
+      "失去能力"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 5,
+    "original_image": "https://s2.loli.net/2025/09/07/cfyj4wmE61svXBW.png"
+  },
+  {
+    "id": "ca55fadf",
+    "team": "townsfolk",
+    "name": "治安官",
+    "ability": "每局游戏限一次，你可以在黄昏时公开选择一名玩家：如果他是外来者或邪恶玩家，他死亡，否则你死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/6048567e047903917b7180ecc5d82765.webp",
+    "setup": false,
+    "reminders": [
+      "失去能力"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://s2.loli.net/2025/09/07/2CynsTpiMoWuPAR.png"
+  },
+  {
+    "id": "cbef01ca",
+    "team": "townsfolk",
+    "name": "演说家",
+    "ability": "当你死亡时，所有镇民会在当晚分别得知演说家死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/5e0399ecae57ab1cd25f3e6fa40ca29b.webp",
+    "setup": false,
+    "reminders": [
+      "今晚演说"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 71,
+    "original_image": "https://s2.loli.net/2025/09/07/jnkR6C2Bo9VUdIg.png"
+  },
+  {
+    "id": "c8b6f1f3",
+    "team": "townsfolk",
+    "name": "密探",
+    "ability": "恶魔只获得一个伪装身份且邪恶方不再互相认识，而改为各自得知其他邪恶玩家和你。",
+    "image": "/blood-on-the-clocktower/image/downloaded/cbb800b9b03d2f38f01d9d09ef439e34.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 4,
+    "otherNight": 0,
+    "original_image": "https://s2.loli.net/2025/09/07/wuGkRDzxVoPjUiI.png"
+  },
+  {
+    "id": "948a6184",
+    "team": "outsider",
+    "name": "愚人",
+    "ability": "每个夜晚，你要选择两名玩家，他们视为为你投票（不计入票数）。当你被处决时，若场上所有玩家均为你投票，你独自获胜。",
+    "image": "/blood-on-the-clocktower/image/downloaded/f9302d092719a2bc50ada6fae4375bd7.webp",
+    "setup": false,
+    "reminders": [
+      "为你投票"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3030,
+    "otherNight": 4,
+    "original_image": "https://s2.loli.net/2025/09/07/7PHhmvWS1zcbgy6.png"
+  },
+  {
+    "id": "14c0802e",
+    "team": "outsider",
+    "name": "棋手",
+    "ability": "每个夜晚，你可以猜测一名玩家的角色然后得知是否正确。若场上存活玩家的角色都已被你猜对，你独自获胜，否则你必定落败，即使你已死亡。你不会在夜晚死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/577c9df1ae6b93d5a349c95dfe366628.webp",
+    "setup": false,
+    "reminders": [
+      "已被猜对",
+      "必定落败"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3020,
+    "otherNight": 3,
+    "original_image": "https://s2.loli.net/2025/09/07/l8kKPSpe4G5tr1O.png"
+  },
+  {
+    "id": "6a6188d7",
+    "team": "outsider",
+    "name": "清洁工",
+    "ability": "每个夜晚，你要选择一名玩家：如果他在下个黄昏前即将死亡，他被当作仍然存活。若本局游戏因你能力被当作存活的玩家大于或等于当前场上存活玩家数量的一半，你独自获胜，即使你醉酒或中毒。",
+    "image": "/blood-on-the-clocktower/image/downloaded/f879e7388fc52e84c9fb7d7b091d2253.webp",
+    "setup": false,
+    "reminders": [
+      "被选择",
+      "当作存活"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 2005,
+    "otherNight": 2,
+    "original_image": "https://s2.loli.net/2025/09/07/C1GUiq4YDbZxdcy.png"
+  },
+  {
+    "id": "64517e4c",
+    "team": "outsider",
+    "name": "送货员",
+    "ability": "每个夜晚*，你可以选择一名玩家：他死亡。若你杀死的玩家数不小于存活玩家数，你独自获胜。当你死亡时，所有被你杀死的玩家复活。",
+    "image": "/blood-on-the-clocktower/image/downloaded/dc20e9981738f8abae985780b93dbbc0.webp",
+    "setup": false,
+    "reminders": [
+      "死亡",
+      "复活"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 4,
+    "original_image": "https://s2.loli.net/2025/09/07/SYWvy8DtCMsFm7e.png"
+  },
+  {
+    "id": "74d65ae1",
+    "team": "minion",
+    "name": "怪盗",
+    "ability": "每个夜晚，你要选择两名玩家：任何玩家使用自身能力选择他们之一作为目标时，改为选中另一名玩家，直到下个黄昏。",
+    "image": "/blood-on-the-clocktower/image/downloaded/cc56ca1b3187b5066c0a77d212f75821.webp",
+    "setup": false,
+    "reminders": [
+      "交换"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 7,
+    "otherNight": 2,
+    "original_image": "https://s2.loli.net/2025/09/07/vsXZRTcruz4dONe.png"
+  },
+  {
+    "id": "48c70b06",
+    "team": "minion",
+    "name": "处刑人",
+    "ability": "每个夜晚*，你可以选择一名玩家，他死亡，然后一名与你阵营相同的玩家（除你之外）死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/86f495424594f7d48f7d531e682b243e.webp",
+    "setup": false,
+    "reminders": [
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 6,
+    "original_image": "https://s2.loli.net/2025/09/07/EfGDm5ulHegV6Ob.png"
+  },
+  {
+    "id": "7ab24524",
+    "team": "minion",
+    "name": "千面人",
+    "ability": "每局游戏限一次，在夜晚时，你会得知与你临近存活善良玩家的角色，然后你要选择其中之一：你变成该角色且被当作是爪牙。",
+    "image": "/blood-on-the-clocktower/image/downloaded/7bb05184101f0fec01e1af753ebda84b.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [
+      "是千面人"
+    ],
+    "firstNight": 3040,
+    "otherNight": 0,
+    "original_image": "https://s2.loli.net/2025/09/07/DJLagYVRpA4hSKW.png"
+  },
+  {
+    "id": "1d2b28d4",
+    "team": "minion",
+    "name": "阴谋家",
+    "ability": "每局游戏限两次，在夜晚时*，你可以猜测一名玩家的身份：若正确，则他死亡，否则你死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/6776ec3a65e59392e8a20fc6447f2bea.webp",
+    "setup": false,
+    "reminders": [
+      "限两次",
+      "限一次",
+      "失去能力",
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 5,
+    "original_image": "https://s2.loli.net/2025/09/07/Q1D735uRUaAmprS.png"
+  },
+  {
+    "id": "7247ff9b",
+    "team": "demon",
+    "name": "催眠师",
+    "ability": "每个夜晚，你要选择一名玩家：你会得知他的角色，然后他中毒并会在下一晚死亡。被你杀死的玩家会在其死亡的下一晚得知三名玩家：你是其中之一。",
+    "image": "/blood-on-the-clocktower/image/downloaded/8001ccaa1d3374ed125206f9e111ca7e.webp",
+    "setup": false,
+    "reminders": [
+      "中毒",
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3051,
+    "otherNight": 0,
+    "original_image": "https://s2.loli.net/2025/09/07/mOBPpLgSyI6qVHb.png"
+  },
+  {
+    "id": "079347d1",
+    "team": "demon",
+    "name": "地下医生",
+    "ability": "每个夜晚*，你要选择一名玩家：他中毒并不计入邪恶胜利条件。外来者会得知你每天选择了谁。",
+    "image": "/blood-on-the-clocktower/image/downloaded/5a7423ef173c3289c6aacc77f8a7384c.webp",
+    "setup": false,
+    "reminders": [
+      "中毒"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 7,
+    "original_image": "https://s2.loli.net/2025/09/07/iOokQmA7FKHbvaB.png"
+  },
+  {
+    "id": "de286482",
+    "team": "demon",
+    "name": "连环杀手",
+    "ability": "每个夜晚*，你要选择一或两名玩家：他们死亡。如果你在上个夜晚选择了两名玩家，今晚你无法因自身能力被唤醒。",
+    "image": "/blood-on-the-clocktower/image/downloaded/bdb613bd307bfed233cd7d22a2c7ccdc.webp",
+    "setup": false,
+    "reminders": [
+      "死亡",
+      "不被唤醒"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 7,
+    "original_image": "https://s2.loli.net/2025/09/07/OPjGhu34ZXIewEn.png"
+  },
+  {
+    "id": "465b16d4",
+    "team": "demon",
+    "name": "烟火师",
+    "ability": "每个夜晚*，你可以选择一名玩家：他获得一个烟火，拥有烟火的玩家在被提名时会死亡。拥有烟火的玩家会在拥有烟火的下一晚得知并可以传递烟火，若一名玩家拥有超过一个烟火，他和他一名邻近的玩家立即死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/a31a82729a77765a213d401ce770a47e.webp",
+    "setup": false,
+    "reminders": [
+      "烟火",
+      "得知",
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 6,
+    "original_image": "https://s2.loli.net/2025/09/07/Oq3PcJ5LgvmHSid.png"
+  },
+  {
+    "id": "cdd6dde3",
+    "team": "fabled",
+    "name": "银行家&愚人",
+    "ability": "如果被银行家选择的玩家在明天白天给愚人投票，则当天如果仅有一名玩家未给愚人投票，愚人也会获胜。",
+    "image": "/blood-on-the-clocktower/image/downloaded/f9302d092719a2bc50ada6fae4375bd7.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://s2.loli.net/2025/09/07/7PHhmvWS1zcbgy6.png"
+  },
+  {
+    "id": "79edb9ed",
+    "team": "fabled",
+    "name": "哨兵",
+    "ability": "在初始设置时，可能会额外增加或减少一个外来者。",
+    "image": "/blood-on-the-clocktower/image/downloaded/3b2888f864d12c2aacea84365ff654ba.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/sentinel_600w.webp"
+  },
+  {
+    "id": "59a81c1c",
+    "team": "fabled",
+    "name": "地下医生&清洁工",
+    "ability": "被地下医生选择的玩家被清洁工视为死亡，但清洁工不会知道那名玩家是谁。",
+    "image": "/blood-on-the-clocktower/image/downloaded/5a7423ef173c3289c6aacc77f8a7384c.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://s2.loli.net/2025/09/07/iOokQmA7FKHbvaB.png"
+  },
+  {
+    "id": "c3d46cdd",
+    "team": "fabled",
+    "name": "第三方势力",
+    "ability": "·说书人改为公开统计投票的玩家是哪几名，而不是公开唱票。·善良阵营获胜条件改为：爪牙和恶魔玩家均死亡。·恶魔不会失去能力，即使他醉酒、中毒或死亡。·在初始设置时，可能会额外增加一名外来者。如果存活的外来者玩家“疯狂”地证明自己是外来者，之后一名镇民玩家可能中毒或随时死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/1681e258c1b1bd9bd9e1ac688cfcf23f.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://clocktower-wiki.gstonegames.com/images/thumb/9/97/Bootlegger.png/200px-Bootlegger.png"
+  },
+  {
+    "id": "2fa5b4d8",
+    "team": "traveller",
+    "name": "学徒",
+    "ability": "在你的首个夜晚，如果你是善良的，你会获得一个镇民角色的能力；如果你是邪恶的，你会获得一个爪牙角色的能力。",
+    "image": "/blood-on-the-clocktower/image/downloaded/d286578aafaca4ecbefbcefd0cc8ee27.webp",
+    "setup": false,
+    "reminders": [
+      "是学徒"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 9,
+    "otherNight": 8,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/apprentice_600w.webp"
+  }
+]

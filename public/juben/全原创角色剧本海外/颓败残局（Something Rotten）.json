@@ -1,0 +1,440 @@
+[
+  {
+    "hint": "线上魔典支持直接输入剧本的URL。不必将此文件保存到你的电脑。",
+    "id": "_meta",
+    "name": "颓败残局（Something Rotten）",
+    "author": "Subdog&Sionar"
+  },
+  {
+    "id": "191dcd1e",
+    "team": "townsfolk",
+    "name": "传令官",
+    "ability": "在你的首个夜晚，你会得知一名玩家：他是王。",
+    "image": "/blood-on-the-clocktower/image/downloaded/9dbd19ab59eda54223ef15ee543c7009.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 3022,
+    "otherNight": 0,
+    "original_image": "https://i.postimg.cc/SRqbyXCC/image.png"
+  },
+  {
+    "id": "36156398",
+    "team": "townsfolk",
+    "name": "抄写员",
+    "ability": "在你的首个夜晚，你会得知三名玩家：其中至少有一名玩家是邪恶的。",
+    "image": "/blood-on-the-clocktower/image/downloaded/8f19d5ea0cfcb8ec3b4e7db10c465c79.webp",
+    "setup": false,
+    "reminders": [
+      "得知"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3028,
+    "otherNight": 0,
+    "original_image": "https://i.postimg.cc/x8yYHGn6/image.png"
+  },
+  {
+    "id": "4698a0ce",
+    "team": "townsfolk",
+    "name": "车",
+    "ability": "每个夜晚，你要选择一名玩家：如果他是爪牙，王得知的数字会+1。",
+    "image": "/blood-on-the-clocktower/image/downloaded/0af966b64d5951321a940ac2f77719bb.webp",
+    "setup": false,
+    "reminders": [
+      "+1",
+      "限一次",
+      "王车易位"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3055,
+    "otherNight": 89,
+    "original_image": "https://i.postimg.cc/c1QdVWwf/image.png"
+  },
+  {
+    "id": "7e98845f",
+    "team": "townsfolk",
+    "name": "食客",
+    "ability": "每个夜晚，你要选择除你以外的一名玩家：任何在夜晚使用自身能力选择他的其他玩家，会改为选中你作为替代，直到下个黄昏。",
+    "image": "/blood-on-the-clocktower/image/downloaded/55287ac6b9504e279e74851d5cda24bd.webp",
+    "setup": false,
+    "reminders": [
+      "改变目标"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 2001,
+    "otherNight": 15,
+    "original_image": "https://i.postimg.cc/tgZjDG9Z/image.png"
+  },
+  {
+    "id": "71d76501",
+    "team": "townsfolk",
+    "name": "王",
+    "ability": "每个夜晚，你会得知一个数字，默认为0。该数字会因其他角色能力而改变。中毒或醉酒的玩家可能会让数字出现合理的错误改变。",
+    "image": "/blood-on-the-clocktower/image/downloaded/ee83be2b46c8c5298dbc432cfdce97dc.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 3068,
+    "otherNight": 104,
+    "original_image": "https://i.postimg.cc/8cHQs1m3/image.png"
+  },
+  {
+    "id": "79ba11f5",
+    "team": "townsfolk",
+    "name": "马",
+    "ability": "每个夜晚，你要选择一名玩家：如果他是镇民，王得知的数字会+1。每局游戏限一次，在夜晚时*，你可以选择使用能力：如果你当晚选择的玩家不是恶魔，他醉酒直到下个黄昏。",
+    "image": "/blood-on-the-clocktower/image/downloaded/582b62e181094fb77c9df064239dd4e5.webp",
+    "setup": false,
+    "reminders": [
+      "+1",
+      "限一次",
+      "醉酒"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3048,
+    "otherNight": 81,
+    "original_image": "https://i.postimg.cc/xdwS4pds/image.png"
+  },
+  {
+    "id": "4affcda8",
+    "team": "townsfolk",
+    "name": "王后",
+    "ability": "每个夜晚，如果与你邻近的存活玩家中有邪恶玩家，王得知的数字会+1。每局游戏限一次，在夜晚时*，你可以选择使用能力：当晚改为你得知此信息，且王得知的数字不会+1。",
+    "image": "/blood-on-the-clocktower/image/downloaded/f42acd773faa3844d47deff8edff4833.webp",
+    "setup": false,
+    "reminders": [
+      "+1",
+      "限一次"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3035,
+    "otherNight": 66,
+    "original_image": "https://i.postimg.cc/fLYhn7tM/image.png"
+  },
+  {
+    "id": "5eee76d3",
+    "team": "townsfolk",
+    "name": "象",
+    "ability": "每个夜晚，你要选择一名玩家：如果今晚他在你之前因自身能力而被唤醒，王得知的数字会+1。每局游戏限一次，在夜晚时*，你可以选择使用能力：当晚所有存活的善良玩家都清醒且健康，然后你会在黎明时死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/cc4203d158f9dd8fa15057a9624105dc.webp",
+    "setup": false,
+    "reminders": [
+      "+1",
+      "全体清醒健康",
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3042,
+    "otherNight": 74,
+    "original_image": "https://i.postimg.cc/2jFf0wNw/image.png"
+  },
+  {
+    "id": "262c9f8d",
+    "team": "townsfolk",
+    "name": "酒侍",
+    "ability": "每个白天，你可以公开为一名玩���侍酒。如果他同意且与你为对立阵营，他立刻被处决。如果你中毒，改为他同意且与你为同一阵营时，他立刻被处决。",
+    "image": "/blood-on-the-clocktower/image/downloaded/46f39e15f9736cfc7dbc2bfd1ac7df5b.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://i.postimg.cc/vZSyWZww/image.png"
+  },
+  {
+    "id": "231a1982",
+    "team": "townsfolk",
+    "name": "修士",
+    "ability": "在你的首个夜晚，你要选择除你以外的一名玩家：如果你们中有人死亡，另一名玩家会在当晚得知他的角色。",
+    "image": "/blood-on-the-clocktower/image/downloaded/4175b61bc38fda730912ad489c65b81a.webp",
+    "setup": false,
+    "reminders": [
+      "已选择",
+      "得知"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3015,
+    "otherNight": 59,
+    "original_image": "https://i.postimg.cc/L8hK6FYC/image.png"
+  },
+  {
+    "id": "adb8b623",
+    "team": "townsfolk",
+    "name": "公主",
+    "ability": "在你的首个白天，如果你提名并处决了一名玩家，当晚恶魔不会造成死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/c9737249ea1482b7d795f762e7f708c2.webp",
+    "setup": false,
+    "reminders": [
+      "没有死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 51,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/princess_600w.webp"
+  },
+  {
+    "id": "6f6d8746",
+    "team": "townsfolk",
+    "name": "王子",
+    "ability": "如果王死亡，你变成他的角色，且转变为对应的阵营，但你不会得知阵营转变。如果你因此变成伊斯巴达登，你会以为自己变成王，然后你造成的死亡由说书人决定。",
+    "image": "/blood-on-the-clocktower/image/downloaded/61bf107d5725a494bd05d42b3d773db9.webp",
+    "setup": false,
+    "reminders": [
+      "是王子"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 47,
+    "original_image": "https://i.postimg.cc/hPDR6dSq/image.png"
+  },
+  {
+    "id": "3cdc3630",
+    "team": "townsfolk",
+    "name": "总管",
+    "ability": "王不会因处决以外的原因而死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/bde710857d8f906634a43acfaba60429.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://i.postimg.cc/YqdBHC9L/image.png"
+  },
+  {
+    "id": "ea44da96",
+    "team": "outsider",
+    "name": "伪王",
+    "ability": "你以为你是王，且会被当作王。每个夜晚，你会得知一个数字，必定不同于王应得知的正确数字。",
+    "image": "/blood-on-the-clocktower/image/downloaded/5bfde6f7785d32cb268f0ef2579fcc5b.webp",
+    "setup": true,
+    "reminders": [],
+    "remindersGlobal": [
+      "是伪王"
+    ],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://i.postimg.cc/bwYYx5Gk/image.png"
+  },
+  {
+    "id": "cb443807",
+    "team": "outsider",
+    "name": "兵",
+    "ability": "你拥有一个不在场的非王的镇民角色能力，但你不知道是什么。每个夜晚，你可能会被唤醒以选择玩家，即使你的能力需要每晚醒来，或者不需要醒来。",
+    "image": "/blood-on-the-clocktower/image/downloaded/9221bcf967b53f5add9da39867f115d5.webp",
+    "setup": false,
+    "reminders": [
+      "是兵"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://i.postimg.cc/hG5GP0tx/image.png"
+  },
+  {
+    "id": "c3f1d853",
+    "team": "outsider",
+    "name": "信使",
+    "ability": "当你首次被提名时，如果提名者为非王的善良玩家，你的阵营落败。",
+    "image": "/blood-on-the-clocktower/image/downloaded/f430ea8e6ff6c620dca2c6253ae00890.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://i.postimg.cc/c40dWzB2/image.png"
+  },
+  {
+    "id": "34b34826",
+    "team": "outsider",
+    "name": "少女",
+    "ability": "如果你死亡，真正的王在当晚醉酒，直到下个黄昏。",
+    "image": "/blood-on-the-clocktower/image/downloaded/48998b3031a3f81e28ebf6af95c74457.webp",
+    "setup": false,
+    "reminders": [
+      "醉酒"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 6,
+    "original_image": "https://i.postimg.cc/FK89QsTV/image.png"
+  },
+  {
+    "id": "b16de07f",
+    "team": "minion",
+    "name": "篡位者",
+    "ability": "在你的首个夜晚，你会得知一个不在场的爪牙角色。在黎明时，如果所有的王都已死亡，邪恶阵营获胜。如果莫甘娜在场，且所有的王都已死亡，改为你独自获胜。[+1外来者]",
+    "image": "/blood-on-the-clocktower/image/downloaded/a55a1f9eb80e42268f273c17b0e33387.webp",
+    "setup": true,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 3008,
+    "otherNight": 119,
+    "original_image": "https://i.postimg.cc/6Qy9SGfQ/image.png"
+  },
+  {
+    "id": "1af02c4a",
+    "team": "minion",
+    "name": "共犯",
+    "ability": "每个夜晚，你要选择一名玩家：如果他不是王，他中毒直到下个黄昏。",
+    "image": "/blood-on-the-clocktower/image/downloaded/a11b3375d515a3f2e4ce55907e39da92.webp",
+    "setup": false,
+    "reminders": [
+      "中毒"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3002,
+    "otherNight": 20,
+    "original_image": "https://i.postimg.cc/28GrSxH6/image.png"
+  },
+  {
+    "id": "c0f3581c",
+    "team": "minion",
+    "name": "骗子",
+    "ability": "每个夜晚，你要选择是或否：如果选择是，王得知的数字会+1，如果选择否，王得知的数字会-1（最小为0）。",
+    "image": "/blood-on-the-clocktower/image/downloaded/7b2787a475b086b8aa4d177b2389ca9e.webp",
+    "setup": false,
+    "reminders": [
+      "+1",
+      "-1"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3062,
+    "otherNight": 96,
+    "original_image": "https://i.postimg.cc/76zqP8c8/image.png"
+  },
+  {
+    "id": "41748f59",
+    "team": "minion",
+    "name": "阴险酒侍",
+    "ability": "每个白天，你可以公开为一名玩家侍酒。如果他同意且与你为对立阵营，他立刻被处决。如果酒侍在��且你的侍酒被拒绝，当晚你要选择一名玩家：他死亡。你可能会被当作善良的酒侍。",
+    "image": "/blood-on-the-clocktower/image/downloaded/5e49fcb087163099b1fdcce63eeedc95.webp",
+    "setup": false,
+    "reminders": [
+      "今夜暗杀",
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 42,
+    "original_image": "https://i.postimg.cc/cCN0rkyK/image.png"
+  },
+  {
+    "id": "e10270f4",
+    "team": "demon",
+    "name": "伊斯巴达登",
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡。你会被当作王。且得知真正的王每晚应得知的数字。",
+    "image": "/blood-on-the-clocktower/image/downloaded/921ee415421d9ef2b1cf51a3574f9230.webp",
+    "setup": false,
+    "reminders": [
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 24,
+    "original_image": "https://i.postimg.cc/KcLYxBSk/image.png"
+  },
+  {
+    "id": "893335ee",
+    "team": "demon",
+    "name": "飞龙",
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡。每局游戏限一次，你可以改为选择一名存活玩家：他和与他邻近的玩家都死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/345dc6aefde15f9c2c08e77f520ae126.webp",
+    "setup": false,
+    "reminders": [
+      "死亡",
+      "限一次"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 29,
+    "original_image": "https://i.postimg.cc/7hvYSY7Z/image.png"
+  },
+  {
+    "id": "7035642c",
+    "team": "demon",
+    "name": "贾巴沃克",
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡。如果你以这种方式杀死了一名与你邻近的玩家，所有善良玩家都会中毒直到下个黄昏。[+1外来者]",
+    "image": "/blood-on-the-clocktower/image/downloaded/e51f2f528dd0183934788c2099dd2866.webp",
+    "setup": true,
+    "reminders": [
+      "死亡",
+      "全体善良中毒"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 33,
+    "original_image": "https://i.postimg.cc/xT21C8ns/image.png"
+  },
+  {
+    "id": "07251579",
+    "team": "demon",
+    "name": "莫甘娜",
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡。王会知道莫甘娜在场。非王的玩家都会转变为邪恶阵营，但他们会仍然以为自己是初始的阵营。如果所有的王都死亡，善良阵营获胜。如果小于等于五名玩家存活时，所有的王在提名中只投票给你，善良阵营获胜。",
+    "image": "/blood-on-the-clocktower/image/downloaded/2ae1ccc372057d25201a1cc36ea21000.webp",
+    "setup": false,
+    "reminders": [
+      "死亡",
+      "邪恶"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 8,
+    "otherNight": 38,
+    "original_image": "https://i.postimg.cc/BQBQ13vJ/image.png"
+  },
+  {
+    "id": "5f1bd0a3",
+    "team": "fabled",
+    "name": "伊斯巴达登的信息",
+    "ability": "提示伊斯巴达登应得知信息",
+    "image": "/blood-on-the-clocktower/image/downloaded/061dba1ea240d9a787be99cc2e07c9d2.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 3075,
+    "otherNight": 111,
+    "original_image": "https://i.postimg.cc/MTfpcjnL/image.png"
+  },
+  {
+    "id": "4c66cd34",
+    "team": "fabled",
+    "name": "茵席之乱",
+    "ability": "在初始设置时，至少会有一个王或被当作王的角色在场。象、马、车可以在夜晚提前使用自己的限次能力。只有当他们决定使用限次能力时才被当作一次唤醒。",
+    "image": "/blood-on-the-clocktower/image/downloaded/5f5558ac4aac1a73ca2a6864bb903f38.webp",
+    "setup": true,
+    "reminders": [
+      "今夜行动"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 11,
+    "original_image": "https://i.postimg.cc/bvJJh5pp/image.png"
+  },
+  {
+    "id": "1ab6862f",
+    "team": "traveller",
+    "name": "领主",
+    "ability": "每个白天，你可以公开选择一名其他玩家：如果他不是王且不是恶魔，他变成马直到下个黎明。",
+    "image": "/blood-on-the-clocktower/image/downloaded/80496a3e1f09fa9045b71279b270aac5.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://i.postimg.cc/kGmKdW2R/3-2.png"
+  },
+  {
+    "id": "e0ec56f6",
+    "team": "traveller",
+    "name": "游歌者",
+    "ability": "每个白天，在提名开始前，你可以演唱关于一名其他玩家的一段歌词，然后他今天白天的投票算作两票。",
+    "image": "/blood-on-the-clocktower/image/downloaded/432ea22f70e5f594bd0af3c05a97cea2.webp",
+    "setup": false,
+    "reminders": [
+      "两票"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://i.postimg.cc/j24NqCfg/3.png"
+  }
+]

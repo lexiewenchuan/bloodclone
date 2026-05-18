@@ -1,0 +1,497 @@
+[
+  {
+    "hint": "线上魔典支持直接输入剧本的URL。不必将此文件保存到你的电脑。",
+    "id": "_meta",
+    "name": "不精独乐·狂",
+    "author": "贾卡jaques",
+    "status": [
+      {
+        "name": "私货商人",
+        "skill": "恶魔会知道疯子认为的爪牙是哪些玩家。"
+      }
+    ]
+  },
+  {
+    "id": "1cb14f65",
+    "team": "townsfolk",
+    "name": "村夫",
+    "ability": "每个夜晚，你要选择一名玩家：你会得知他的阵营。[+0~2村夫，复数村夫中有一人醉酒]",
+    "image": "/blood-on-the-clocktower/image/downloaded/4c37eefc41263801f2bc3177eee53243.webp",
+    "setup": true,
+    "reminders": [
+      "醉酒"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3064,
+    "otherNight": 111,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/villageIdiot_600w.webp"
+  },
+  {
+    "id": "4fa61c56",
+    "team": "townsfolk",
+    "name": "舞蛇人",
+    "ability": "每个夜晚，你要选择一名存活的玩家：如果你选中了恶魔，你和他交换角色和阵营，然后他中毒。",
+    "image": "/blood-on-the-clocktower/image/downloaded/f7bdc720dda473d88788172fced14734.webp",
+    "setup": false,
+    "reminders": [
+      "中毒"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3022,
+    "otherNight": 33,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/snakeCharmer_600w.webp"
+  },
+  {
+    "id": "bb10e248",
+    "team": "townsfolk",
+    "name": "引路人",
+    "ability": "每个夜晚，你要选择至多三名玩家：你会得知今晚是否有邪恶玩家的能力选择或影响了他们之中的玩家。",
+    "image": "/blood-on-the-clocktower/image/downloaded/e462ac8c404a86146c3b75a5b96924b3.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 3077,
+    "otherNight": 123,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/yinluren_600w.webp"
+  },
+  {
+    "id": "ed521424",
+    "team": "townsfolk",
+    "name": "博学者",
+    "ability": "每个白天，你可以私下询问说书人以得知两条信息：一个是正确的，一个是错误的。",
+    "image": "/blood-on-the-clocktower/image/downloaded/2d52d51457503f13afae660ef9f09f1b.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/savant_600w.webp"
+  },
+  {
+    "id": "a52d8a5d",
+    "team": "townsfolk",
+    "name": "艺术家",
+    "ability": "每局游戏限一次，在白天时，你可以私下询问说书人一个是非问题，你会得知该问题的答案。",
+    "image": "/blood-on-the-clocktower/image/downloaded/6ce27898f27e273f464da1b732ab2d4f.webp",
+    "setup": false,
+    "reminders": [
+      "失去能力"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/artist_600w.webp"
+  },
+  {
+    "id": "819a9e84",
+    "team": "townsfolk",
+    "name": "猎手",
+    "ability": "每局游戏限一次，你可以在白天时公开选择一名玩家：如果他是恶魔，他死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/22447002dbaa5e4d197496874e90cb77.webp",
+    "setup": false,
+    "reminders": [
+      "失去能力"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/slayer_600w.webp"
+  },
+  {
+    "id": "babdfae7",
+    "team": "townsfolk",
+    "name": "悟道者",
+    "ability": "你以为你是一个外来者，但你实际上不是。如果有邪恶玩家的能力选择或影响了你，你会立即变成一个不在场的镇民角色。",
+    "image": "/blood-on-the-clocktower/image/downloaded/4474aa3a23ca7643666b1a4296d777cf.webp",
+    "setup": true,
+    "reminders": [],
+    "remindersGlobal": [
+      "是悟道者"
+    ],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/wudaozhe_600w.webp"
+  },
+  {
+    "id": "6c100d1d",
+    "team": "townsfolk",
+    "name": "炼金术士",
+    "ability": "你拥有一个爪牙角色的能力。当你使用能力时，说书人可能会要求你更换选择。",
+    "image": "/blood-on-the-clocktower/image/downloaded/0b809ea6da787bf757780fbd76d50070.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [
+      "是炼金术士"
+    ],
+    "firstNight": 12,
+    "otherNight": 0,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/alchemist_600w.webp"
+  },
+  {
+    "id": "64053a1f",
+    "team": "townsfolk",
+    "name": "食人族",
+    "ability": "你拥有上个死于处决的玩家的能力。如果该玩家属于邪恶阵营，你中毒直到下个善良玩家死于处决。",
+    "image": "/blood-on-the-clocktower/image/downloaded/7cdd8f863d05875c12f1aac043e8c8e0.webp",
+    "setup": false,
+    "reminders": [
+      "中毒",
+      "便餐"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/cannibal_600w.webp"
+  },
+  {
+    "id": "8861792c",
+    "team": "townsfolk",
+    "name": "失忆者",
+    "ability": "你不知道你的能力是什么。每个白天你可以找说书人猜测一次，你会得知你的猜测有多准确。",
+    "image": "/blood-on-the-clocktower/image/downloaded/aa08d1b7d7110ea67f88c5b046878b85.webp",
+    "setup": false,
+    "reminders": [
+      "？"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 6,
+    "otherNight": 4,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/amnesiac_600w.webp"
+  },
+  {
+    "id": "2e60f157",
+    "team": "townsfolk",
+    "name": "报丧女妖",
+    "ability": "如果恶魔杀死了你，所有玩家都会得知此事。从现在开始，你每天可以发起两次提名，每次投票时可以投两票。",
+    "image": "/blood-on-the-clocktower/image/downloaded/c91023aa8b40366d1a71f655f24ed68f.webp",
+    "setup": false,
+    "reminders": [
+      "具有能力"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/banshee_600w.webp"
+  },
+  {
+    "id": "1ef02cb0",
+    "team": "townsfolk",
+    "name": "茶艺师",
+    "ability": "如果与你邻近的两名存活的玩家是善良的，他们不会死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/3888442b810249bcf638e6fb09d840c0.webp",
+    "setup": false,
+    "reminders": [
+      "不会死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/teaLady_600w.webp"
+  },
+  {
+    "id": "cd9e83a2",
+    "team": "townsfolk",
+    "name": "罂粟种植者",
+    "ability": "爪牙和恶魔互相不认识。如果你死亡，当晚他们会互相认识。",
+    "image": "/blood-on-the-clocktower/image/downloaded/eacc588c8463edd465104bc81cc9336c.webp",
+    "setup": false,
+    "reminders": [
+      "唤醒邪恶"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 13,
+    "otherNight": 15,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/poppyGrower_600w.webp"
+  },
+  {
+    "id": "c7321a01",
+    "team": "outsider",
+    "name": "食人魔",
+    "ability": "在你的首个夜晚，你要选择除你以外的一名玩家：你转变为他的阵营，即使你已醉酒或中毒，但你不知道你转变后的阵营。",
+    "image": "/blood-on-the-clocktower/image/downloaded/ef1948610fdd4e508a28581ff5985e3f.webp",
+    "setup": false,
+    "reminders": [
+      "具有能力"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3068,
+    "otherNight": 0,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/ogre_600w.webp"
+  },
+  {
+    "id": "aa40503b",
+    "team": "outsider",
+    "name": "疯子",
+    "ability": "你以为你是一个恶魔，但其实你不是。恶魔知道你是疯子以及你在每个夜晚选择了哪些玩家。",
+    "image": "/blood-on-the-clocktower/image/downloaded/9717a4694dd24b8bef65b95f7eab827d.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [
+      "攻击",
+      "攻击(2)",
+      "攻击(3)",
+      "是疯子"
+    ],
+    "firstNight": 2006,
+    "otherNight": 47,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/lunatic_600w.webp"
+  },
+  {
+    "id": "e84ee145",
+    "team": "outsider",
+    "name": "呆瓜",
+    "ability": "当你得知你死亡时，你要公开选择一名存活的玩家：如果他是邪恶的，你的阵营落败。",
+    "image": "/blood-on-the-clocktower/image/downloaded/9a88c4289af7c8147e034f809b0aac38.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/klutz_600w.webp"
+  },
+  {
+    "id": "2abb26c6",
+    "team": "outsider",
+    "name": "异端分子",
+    "ability": "对调胜负结果，即使你已死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/1d232af2335de8388b0e29d146a8516a.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/heretic_600w.webp"
+  },
+  {
+    "id": "972a9f3e",
+    "team": "outsider",
+    "name": "解谜大师",
+    "ability": "一名玩家醉酒，即使你已死亡。每局游戏限一次，你可以猜测谁是那个醉酒的玩家，如果猜对了，你会得知谁是恶魔，但如果猜错了，你会得知错误的“谁是恶魔”信息。",
+    "image": "/blood-on-the-clocktower/image/downloaded/289617cfab48fc6a8731ce1d0c574f54.webp",
+    "setup": false,
+    "reminders": [
+      "醉酒",
+      "已猜测"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/puzzlemaster_600w.webp"
+  },
+  {
+    "id": "862e22e7",
+    "team": "minion",
+    "name": "投毒者",
+    "ability": "每个夜晚，你要选择一名玩家：他在当晚和明天白天中毒。",
+    "image": "/blood-on-the-clocktower/image/downloaded/9815782801954f07b210475b62cd1c72.webp",
+    "setup": false,
+    "reminders": [
+      "中毒"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3016,
+    "otherNight": 22,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/poisoner_600w.webp"
+  },
+  {
+    "id": "45ec7754",
+    "team": "minion",
+    "name": "魔鬼代言人",
+    "ability": "每个夜晚，你要选择一名存活的玩家（与上个夜晚不同）：如果明天白天他被处决，他不会死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/becff3f89b06b647c6d074d2842cc319.webp",
+    "setup": false,
+    "reminders": [
+      "处决不死"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3025,
+    "otherNight": 37,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/devilsAdvocate_600w.webp"
+  },
+  {
+    "id": "685be2fc",
+    "team": "minion",
+    "name": "精神病患者",
+    "ability": "每个白天，在提名开始前，你可以公开选择一名玩家：他死亡。如果你被处决，提名你的玩家需要和你猜拳，只有你输了你才会死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/57946210687da8addc482740e1149e8d.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/psychopath_600w.webp"
+  },
+  {
+    "id": "559e85b7",
+    "team": "minion",
+    "name": "刺客",
+    "ability": "每局游戏限一次，在夜晚时*，你可以选择一名玩家：他死亡，即使因为任何原因让他不会死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/9d5c3b9768ba210221816292c6b2cda1.webp",
+    "setup": false,
+    "reminders": [
+      "死亡",
+      "失去能力"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 80,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/assassin_600w.webp"
+  },
+  {
+    "id": "f069d1ac",
+    "team": "minion",
+    "name": "召唤师",
+    "ability": "在首个夜晚，你会得知三个伪装。在第三个夜晚，你要选择一名玩家：他变成由你选择的邪恶恶魔。[无恶魔在场]",
+    "image": "/blood-on-the-clocktower/image/downloaded/b128ed863dcfe1978f280977405d9247.webp",
+    "setup": false,
+    "reminders": [
+      "第一晚",
+      "第二晚",
+      "第三晚"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 2005,
+    "otherNight": 46,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/summoner_600w.webp"
+  },
+  {
+    "id": "8ede44bb",
+    "team": "demon",
+    "name": "小恶魔",
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡。如果你以这种方式自杀，一名爪牙会变成小恶魔。",
+    "image": "/blood-on-the-clocktower/image/downloaded/de24131f98ef974cd510443a6df19dbe.webp",
+    "setup": false,
+    "reminders": [
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 53,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/imp_600w.webp"
+  },
+  {
+    "id": "21090a28",
+    "team": "demon",
+    "name": "哈迪寂亚",
+    "ability": "每个夜晚*，你可以选择三名玩家（所有玩家都会得知你选了谁）：他们分别秘密决定自己的生死，然后如果他们都存活则都死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/fb7d0bc272bc2fdf4caada76209657b2.webp",
+    "setup": false,
+    "reminders": [
+      "1",
+      "2",
+      "3",
+      "选择生",
+      "选择死"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 64,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/alHadikhia_600w.webp"
+  },
+  {
+    "id": "20c40225",
+    "team": "demon",
+    "name": "痢蛭",
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡。在你的首个夜晚，你要选择一名存活的玩家：他中毒，只有当他处于死亡状态时你才会立即死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/6d3ebb6a70e41b82102c53de26414a4f.webp",
+    "setup": false,
+    "reminders": [
+      "死亡",
+      "中毒"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3013,
+    "otherNight": 65,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/lleech_600w.webp"
+  },
+  {
+    "id": "bdc32304",
+    "team": "demon",
+    "name": "方古",
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡。被该能力杀死的外来者改为变成邪恶的方古且你代替他死亡，但每局游戏仅能成功转化一次。[+1外来者]",
+    "image": "/blood-on-the-clocktower/image/downloaded/0cf976b8a0dcb249d3993faa1a89bc20.webp",
+    "setup": true,
+    "reminders": [
+      "死亡"
+    ],
+    "remindersGlobal": [
+      "限一次"
+    ],
+    "firstNight": 0,
+    "otherNight": 58,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/fangGu_600w.webp"
+  },
+  {
+    "id": "11bad54a",
+    "team": "fabled",
+    "name": "“无间”钥匙",
+    "ability": "恶魔会知道疯子认为的爪牙是哪些玩家。",
+    "image": "/blood-on-the-clocktower/image/downloaded/6e50d928bef53c77d95a3c58f62711f5.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://i.postimg.cc/sXYxLptS/image.png"
+  },
+  {
+    "id": "a29e2955",
+    "team": "a jinxed",
+    "name": "悟道者 & 村夫",
+    "ability": "如果村夫在场数量不足3人，悟道者可以变成新的村夫。如果因此使得村夫的在场数量超过1人，会有一名村夫醉酒。",
+    "image": "",
+    "setup": false,
+    "firstNight": 0,
+    "otherNight": 0
+  },
+  {
+    "id": "3732e916",
+    "team": "a jinxed",
+    "name": "炼金术士 & 召唤师",
+    "ability": "获得召唤师能力的炼金术士不会获得伪装。他要选择一个恶魔角色，但不选择玩家，由说书人决定哪一名玩家变成邪恶的恶魔。如果他在选择之前死亡，邪恶阵营获胜。[无恶魔在场]",
+    "image": "",
+    "setup": false,
+    "firstNight": 0,
+    "otherNight": 0
+  },
+  {
+    "id": "8fdb68b7",
+    "team": "a jinxed",
+    "name": "食人族 & 罂粟种植者",
+    "ability": "如果食人族获得了罂粟种植者的能力，当他获得下一个能力时，爪牙和恶魔也会互相认识。",
+    "image": "",
+    "setup": false,
+    "firstNight": 0,
+    "otherNight": 0
+  },
+  {
+    "id": "81ec6a16",
+    "team": "a jinxed",
+    "name": "异端分子 & 痢蛭",
+    "ability": "互为克星的角色在同一时间里只能有其中一个角色在场。",
+    "image": "",
+    "setup": false,
+    "firstNight": 0,
+    "otherNight": 0
+  },
+  {
+    "id": "86a9163e",
+    "team": "a jinxed",
+    "name": "召唤师 & 罂粟种植者",
+    "ability": "如果罂粟种植者在第三个夜晚存活，由召唤师来选择创造哪种恶魔，由说书人来决定哪名玩家发生转变。",
+    "image": "",
+    "setup": false,
+    "firstNight": 0,
+    "otherNight": 0
+  },
+  {
+    "id": "dc21345e",
+    "team": "a jinxed",
+    "name": "痢蛭 & 猎手",
+    "ability": "如果猎手选择了痢蛭的宿主，则宿主会死亡。",
+    "image": "",
+    "setup": false,
+    "firstNight": 0,
+    "otherNight": 0
+  }
+]

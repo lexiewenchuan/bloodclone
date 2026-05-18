@@ -1,0 +1,399 @@
+[
+  {
+    "hint": "线上魔典支持直接输入剧本的URL。不必将此文件保存到你的电脑。",
+    "id": "_meta",
+    "name": "黑玫瑰之园",
+    "author": "裁纸机"
+  },
+  {
+    "id": "812b4b00",
+    "team": "townsfolk",
+    "name": "贵族",
+    "ability": "在你的首个夜晚，你会得知三名玩家：其中有且只有一名玩家是邪恶的。",
+    "image": "/image/downloaded/d6e3562fe16a44e8d23a98efed7da41f.webp",
+    "setup": false,
+    "reminders": [
+      "得知"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3056,
+    "otherNight": 0,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/noble_600w.webp"
+  },
+  {
+    "id": "90a8a020",
+    "team": "townsfolk",
+    "name": "牧师",
+    "ability": "每个夜晚，你要选择两名玩家，得知他们均不为哪种角色类型。",
+    "image": "https://postimage.me/images/2024/08/01/3e2fb1db466c77b06c96f3187b949977.png",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 3057,
+    "otherNight": 117
+  },
+  {
+    "id": "44419c6a",
+    "team": "townsfolk",
+    "name": "窥镜者",
+    "ability": "每个夜晚，你要选择一名除你以外的玩家：爪牙的负面能力在今晚和明天白天对他无效。",
+    "image": "/image/downloaded/c7fb47623e4adcb59363eee28453bfa0.webp",
+    "setup": false,
+    "reminders": [
+      "保护"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3013,
+    "otherNight": 31,
+    "original_image": "https://www.helloimg.com/i/2025/02/14/67ae22b31a8a3.png"
+  },
+  {
+    "id": "cba2ff8f",
+    "team": "townsfolk",
+    "name": "气球驾驶员",
+    "ability": "每个夜晚，你会得知一名与上个夜晚得知的玩家角色类型不同的玩家。[+0~1外来者]",
+    "image": "/image/downloaded/a66f82569c163af187becb6eb803f021.webp",
+    "setup": true,
+    "reminders": [
+      "得知"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3057,
+    "otherNight": 107,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/balloonist_600w.webp"
+  },
+  {
+    "id": "bc0d94e5",
+    "team": "townsfolk",
+    "name": "送葬者",
+    "ability": "每个夜晚*，你会得知今天白天死于处决的玩家的角色。",
+    "image": "/image/downloaded/7b4c034d8955f51982765d6bfb422f72.webp",
+    "setup": false,
+    "reminders": [
+      "死于今日"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 99,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/undertaker_600w.webp"
+  },
+  {
+    "id": "71fc7669",
+    "team": "townsfolk",
+    "name": "共鸣使徒",
+    "ability": "每个夜晚*，你要选择除你以外的一名存活的玩家，你会得知他与邻近的存活玩家是否为同一阵营。",
+    "image": "https://www.bloodstar.xyz/p/poi4399/7759/5_7759.png",
+    "setup": false,
+    "reminders": [
+      "同阵营",
+      "不同阵营"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 103
+  },
+  {
+    "id": "ed521424",
+    "team": "townsfolk",
+    "name": "博学者",
+    "ability": "每个白天，你可以私下询问说书人以得知两条信息：一个是正确的，一个是错误的。",
+    "image": "/image/downloaded/2d52d51457503f13afae660ef9f09f1b.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/savant_600w.webp"
+  },
+  {
+    "id": "ff6e29cd",
+    "team": "townsfolk",
+    "name": "悲剧演员",
+    "ability": "每个白天，一名邪恶玩家要对某件事疯狂，否则他可能死亡。每个白天，你要对某件事疯狂，否则你可能死亡。",
+    "image": "/image/downloaded/54b5643de615f007b6556b28d45ab2d5.webp",
+    "setup": false,
+    "reminders": [
+      "疯狂"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 2003,
+    "otherNight": 70,
+    "original_image": "https://www.bloodstar.xyz/p/Airell_clocktower/Assets_of_Lei_Gallery/newcharacter25_assets_of_lei_gallery.png"
+  },
+  {
+    "id": "db350aff",
+    "team": "townsfolk",
+    "name": "大主教",
+    "ability": "每局游戏限一次，在夜晚时*，你可以选择得知与死亡玩家数量相等的善良角色，其中有且只有一个角色不在场。",
+    "image": "https://postimage.me/images/2024/08/01/8ec3ba3ce389b931e15d1662ede9c473.png",
+    "setup": false,
+    "reminders": [
+      "失去能力"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 112
+  },
+  {
+    "id": "64053a1f",
+    "team": "townsfolk",
+    "name": "食人族",
+    "ability": "你拥有上个死于处决的玩家的能力。如果该玩家属于邪恶阵营，你中毒直到下个善良玩家死于处决。",
+    "image": "/image/downloaded/7cdd8f863d05875c12f1aac043e8c8e0.webp",
+    "setup": false,
+    "reminders": [
+      "中毒",
+      "便餐"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/cannibal_600w.webp"
+  },
+  {
+    "id": "3b5e5f88",
+    "team": "townsfolk",
+    "name": "农夫",
+    "ability": "当你在夜晚死亡时，一名存活的善良玩家会变成农夫。",
+    "image": "/image/downloaded/9f286da5a2419ab5f6fe8134ae55e546.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/farmer_600w.webp"
+  },
+  {
+    "id": "b4300259",
+    "team": "townsfolk",
+    "name": "雾鸮",
+    "ability": "如果你在白天“疯狂”的证明自己是雾鸮，在下个夜晚首个选择你的玩家醉酒至下个黄昏。",
+    "image": "",
+    "setup": false,
+    "reminders": [
+      "醉酒",
+      "鸣叫"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0
+  },
+  {
+    "id": "7478f99f",
+    "team": "townsfolk",
+    "name": "白狼",
+    "ability": "如果除你以外的玩家在白天“疯狂”地证明你是邪恶的，当晚你会得知与死亡玩家邻近的玩家中有多少名邪恶玩家。",
+    "image": "/image/downloaded/b29a75872454c2e280dbee06616205c0.webp",
+    "setup": false,
+    "reminders": [
+      "已疯狂"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 122,
+    "original_image": "https://www.bloodstar.xyz/p/hatsukisakana/drg/whitewolf_drg.png"
+  },
+  {
+    "id": "28fc0816",
+    "team": "outsider",
+    "name": "石像鬼",
+    "ability": "你以为你是一个在场的镇民角色，但其实你不是。如果该镇民死亡，你在当晚转变为对立阵营。",
+    "image": "/image/downloaded/fe180c4bd58205d7bafe1d62d7960015.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [
+      "是石像鬼",
+      "邪恶"
+    ],
+    "firstNight": 0,
+    "otherNight": 22,
+    "original_image": "https://www.bloodstar.xyz/p/hatsukisakana/drg/6_drg.png"
+  },
+  {
+    "id": "4fc31154",
+    "team": "outsider",
+    "name": "心上人",
+    "ability": "当你死亡时，会有一名玩家开始醉酒。",
+    "image": "/image/downloaded/ee88ee9836a22f0b9d46bfb180501cd6.webp",
+    "setup": false,
+    "reminders": [
+      "醉酒"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/sweetheart_600w.webp"
+  },
+  {
+    "id": "0435b139",
+    "team": "outsider",
+    "name": "帽匠",
+    "ability": "如果你死亡，当晚爪牙和恶魔玩家可以选择变成新的爪牙和恶魔角色。",
+    "image": "/image/downloaded/1f575e27177847980af8cb4fafe481dc.webp",
+    "setup": false,
+    "reminders": [
+      "今晚茶会"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 14,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/hatter_600w.webp"
+  },
+  {
+    "id": "17598211",
+    "team": "outsider",
+    "name": "畸形秀演员",
+    "ability": "如果你“疯狂”地证明自己是外来者，你可能被处决。",
+    "image": "/image/downloaded/9fd65b0ef580849ddd3eae7962107aa5.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/mutant_600w.webp"
+  },
+  {
+    "id": "b9d97e73",
+    "team": "minion",
+    "name": "癫人",
+    "ability": "每个夜晚，你要选择至多三名玩家：他们以为自己受到疯狂能力的影响，但实际上没有。",
+    "image": "/image/downloaded/b62c7a732e04115c1259369a31ba4776.webp",
+    "setup": false,
+    "reminders": [
+      "癫狂"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3044,
+    "otherNight": 56,
+    "original_image": "https://www.bloodstar.xyz/p/Airell_clocktower/Assets_of_Lei_Gallery/klaun_assets_of_lei_gallery.png"
+  },
+  {
+    "id": "1ac1af22",
+    "team": "minion",
+    "name": "鹰身女妖",
+    "ability": "每个夜晚，你要选择两名玩家：明天第一名玩家需要“疯狂”地证明第二名玩家是邪恶的，否则他们之中可能会有人死亡。",
+    "image": "/image/downloaded/3462b7cb3fa90feb824da7aefd03e899.webp",
+    "setup": false,
+    "reminders": [
+      "疯狂",
+      "第二位"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3031,
+    "otherNight": 41,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/harpy_600w.webp"
+  },
+  {
+    "id": "acc17e7c",
+    "team": "minion",
+    "name": "洗脑师",
+    "ability": "每个夜晚，你要选择一名玩家和一个善良角色。他明天白天和夜晚需要“疯狂”地证明自己是这个角色，不然他可能被处决。",
+    "image": "/image/downloaded/c6b05e8a8574d8de6ef3903b4f77962f.webp",
+    "setup": false,
+    "reminders": [
+      "疯狂"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3028,
+    "otherNight": 39,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/cerenovus_600w.webp"
+  },
+  {
+    "id": "f5f9fedd",
+    "team": "minion",
+    "name": "预兆",
+    "ability": "你“疯狂”地证明存在的事情可能会成真。",
+    "image": "https://www.bloodstar.xyz/p/hatsukisakana/drg/10_drg.png",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [
+      "?"
+    ],
+    "firstNight": 0,
+    "otherNight": 0
+  },
+  {
+    "id": "5bcb2d89",
+    "team": "minion",
+    "name": "铜蛇帮",
+    "ability": "如果你提名了一名玩家，他和与他邻座的玩家中的善良玩家中毒，直到你下次提名。[-1或+1外来者]",
+    "image": "",
+    "setup": false,
+    "reminders": [
+      "中毒"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0
+  },
+  {
+    "id": "6159b027",
+    "team": "demon",
+    "name": "黑美人",
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡。每局游戏限一次，在这之后，你可以选择一名玩家并给出一件事：他需要“疯狂”证明这件事直至其死亡，不然他可能被处决。如果白天有非镇民玩家死亡，该技能使用次数加一。当仅剩一名存活善良玩家未被你选择过时，邪恶阵营获胜。",
+    "image": "",
+    "setup": false,
+    "reminders": [
+      "疯狂",
+      "侵染能力"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 85
+  },
+  {
+    "id": "bc490d11",
+    "team": "fabled",
+    "name": "帽子奇谭",
+    "ability": "帽匠的可选规则默认生效。",
+    "image": "/image/downloaded/8828002f9b83e3e2ca8b17531e7f99fc.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://clocktower-wiki.gstonegames.com/images/thumb/9/97/Bootlegger.png/300px-Bootlegger.png"
+  },
+  {
+    "id": "e0f846ad",
+    "team": "fabled",
+    "name": "哲学家&石像鬼",
+    "ability": "哲学家无法选择获得石像鬼的能力。",
+    "image": "/image/downloaded/40400a09843380d7f5713660a28a9412.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/philosopher.png"
+  },
+  {
+    "id": "f4aaa480",
+    "team": "fabled",
+    "name": "“felys”",
+    "ability": "玩家可能只会得知自己需对某事“疯狂”而不知道这一状态的来源与持续时间。",
+    "image": "/image/downloaded/8828002f9b83e3e2ca8b17531e7f99fc.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://clocktower-wiki.gstonegames.com/images/thumb/9/97/Bootlegger.png/300px-Bootlegger.png"
+  },
+  {
+    "id": "43a37775",
+    "team": "traveller",
+    "name": "往生者",
+    "ability": "独立阵营。每个白天限一次，你可以拜访说书人以获得一条信息。如果在游戏结束前你成功复原了魔典，你加入获胜的阵营；如果你对说书人给予的信息疯狂，你无法获胜。",
+    "image": "/image/downloaded/73279ec2e6cbf4482435aee73afe2cdb.webp",
+    "setup": false,
+    "reminders": [
+      "求得救赎",
+      "堕入地狱"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/hatsukisakana/drg/12_drg.png"
+  }
+]

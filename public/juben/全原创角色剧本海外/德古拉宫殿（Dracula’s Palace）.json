@@ -1,0 +1,391 @@
+[
+  {
+    "hint": "线上魔典支持直接输入剧本的URL。不必将此文件保存到你的电脑。",
+    "id": "_meta",
+    "name": "德古拉宫殿（Dracula’s Palace）",
+    "author": "Nichael"
+  },
+  {
+    "id": "92e734fc",
+    "team": "townsfolk",
+    "name": "偏执狂",
+    "ability": "每个夜晚，你会得知与你邻近的存活玩家中是否有吸血鬼。",
+    "image": "/blood-on-the-clocktower/image/downloaded/bd17cbccbb0ec253369d48c4d8d1a6e1.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 3062,
+    "otherNight": 97,
+    "original_image": "https://i.postimg.cc/FHY5Ys54/Photo4.png"
+  },
+  {
+    "id": "78450050",
+    "team": "townsfolk",
+    "name": "吸血鬼猎人",
+    "ability": "每个夜晚，你要选择一名玩家：你会得知他是否是吸血鬼。",
+    "image": "/blood-on-the-clocktower/image/downloaded/5046ed0758cacaf702457c7787ee6534.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 3052,
+    "otherNight": 85,
+    "original_image": "https://i.postimg.cc/qvWfyV4C/Photo1.png"
+  },
+  {
+    "id": "d2733d0e",
+    "team": "townsfolk",
+    "name": "神父",
+    "ability": "每个夜晚，你可以选择一名玩家：他的所有印记会被净化，且当晚不会获得印记。",
+    "image": "/blood-on-the-clocktower/image/downloaded/fb9feec453daa05a2a544e0f45c44326.webp",
+    "setup": false,
+    "reminders": [
+      "净化"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3012,
+    "otherNight": 19,
+    "original_image": "https://i.postimg.cc/Ss7HBn8W/Photo5.png"
+  },
+  {
+    "id": "5be35afc",
+    "team": "townsfolk",
+    "name": "大蒜商人",
+    "ability": "每个夜晚，你要选择除你以外的一名玩家：当晚德古拉的负面能力对他无效。如果他被爪牙选中，该爪牙死亡且德古拉中毒直到下个黎明。",
+    "image": "/blood-on-the-clocktower/image/downloaded/ad36f5bde2d8d8d6e237ae114f31a74d.webp",
+    "setup": false,
+    "reminders": [
+      "保护",
+      "死亡",
+      "中毒"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3002,
+    "otherNight": 13,
+    "original_image": "https://i.postimg.cc/26fP9Qqk/Photo3.png"
+  },
+  {
+    "id": "b0a6b4cf",
+    "team": "townsfolk",
+    "name": "卫护者",
+    "ability": "每个夜晚，你要选择两名玩家：当晚他们不会获得印记。每局游戏限一次，你可以公开宣布净化所有的咬痕，被移除咬痕的玩家会在当晚得知此事。",
+    "image": "/blood-on-the-clocktower/image/downloaded/4c2949e5538b3be377c1549f4d9d9d96.webp",
+    "setup": false,
+    "reminders": [
+      "保护",
+      "已宣布",
+      "得知净化"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 12,
+    "otherNight": 7,
+    "original_image": "https://i.postimg.cc/qM7WFM73/Photo9.png"
+  },
+  {
+    "id": "bfc4ea3a",
+    "team": "townsfolk",
+    "name": "掘墓人",
+    "ability": "每个夜晚*，你会得知在上个白天和上个夜晚死亡的所有玩家的角色。",
+    "image": "/blood-on-the-clocktower/image/downloaded/74d6d74bbc311618ffbd0cfae159a16c.webp",
+    "setup": false,
+    "reminders": [
+      "得知"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 109,
+    "original_image": "https://i.postimg.cc/4xDMn6Q6/Photo12.png"
+  },
+  {
+    "id": "0cab1939",
+    "team": "townsfolk",
+    "name": "信号员",
+    "ability": "每个夜晚*，你要选择两名玩家：如果他们都属于善良阵营，他们会得知自己被信号员选择。",
+    "image": "/blood-on-the-clocktower/image/downloaded/d3fbc8b1f4349e42edb2d51e9e155acf.webp",
+    "setup": false,
+    "reminders": [
+      "得知选择"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 115,
+    "original_image": "https://i.postimg.cc/5NkDWdHk/Photo10.png"
+  },
+  {
+    "id": "29ffdf29",
+    "team": "townsfolk",
+    "name": "吸血鬼杀手",
+    "ability": "每个夜晚*，你可以选择一名玩家：如果他是爪牙，他死亡并失去投票标记；如果他是善良玩家，你中毒。[+1外来者]",
+    "image": "/blood-on-the-clocktower/image/downloaded/98b155bc377145d99e85debdd1e348fd.webp",
+    "setup": true,
+    "reminders": [
+      "死亡",
+      "中毒"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 91,
+    "original_image": "https://i.postimg.cc/KYT65q8p/Photo2.png"
+  },
+  {
+    "id": "e80e2103",
+    "team": "townsfolk",
+    "name": "范海辛",
+    "ability": "每个夜晚*，你可以选择两名玩家：你会得知他们之中是否有德古拉。你每使用一次能力，会有一名善良玩家在当晚结束时获得德古拉印记。",
+    "image": "/blood-on-the-clocktower/image/downloaded/07330cecf4c45c0af1089e4aff8ed57c.webp",
+    "setup": false,
+    "reminders": [
+      "德古拉印记"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 103,
+    "original_image": "https://i.postimg.cc/44PrwhXG/Photo8.png"
+  },
+  {
+    "id": "b2ce181b",
+    "team": "townsfolk",
+    "name": "观察员",
+    "ability": "在你的首个夜晚，你要选择爪牙初始设置数量加一的数量的玩家。他们之中有人被同化的当晚，你会得知这一消息。",
+    "image": "/blood-on-the-clocktower/image/downloaded/72fba5d28db353ceaf7790b6bf0e269a.webp",
+    "setup": false,
+    "reminders": [
+      "选择",
+      "得知同化"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3072,
+    "otherNight": 121,
+    "original_image": "https://i.postimg.cc/9fyk9DLv/Photo13.png"
+  },
+  {
+    "id": "20596726",
+    "team": "townsfolk",
+    "name": "白天鹅",
+    "ability": "你不会获得印记。每局游戏限一次，你可以公开宣布净化与你邻近的玩家的所有印记。",
+    "image": "/blood-on-the-clocktower/image/downloaded/c23c22f22ccaf8fb4b15f03041fe8c67.webp",
+    "setup": false,
+    "reminders": [
+      "已宣布"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://i.postimg.cc/vT0kmC0T/Photo7.png"
+  },
+  {
+    "id": "fd7df775",
+    "team": "townsfolk",
+    "name": "免疫者",
+    "ability": "你不会被同化。首个使用其自身能力选择了你的爪牙会死亡。德古拉不会因为对你同化而消耗同化次数。",
+    "image": "/blood-on-the-clocktower/image/downloaded/ba7ed51ebffd8b72cd835c9cc6318208.webp",
+    "setup": false,
+    "reminders": [
+      "首次死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://i.postimg.cc/hvDNcKbN/Photo6.png"
+  },
+  {
+    "id": "54b5ccf3",
+    "team": "townsfolk",
+    "name": "沐光者",
+    "ability": "死亡的吸血鬼会被公开宣布是吸血鬼，且失去他的死亡投票标记。[+1外来者]",
+    "image": "/blood-on-the-clocktower/image/downloaded/5d21ca325f7776c7837a617182aef5e8.webp",
+    "setup": true,
+    "reminders": [
+      "被曝光"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://i.postimg.cc/y8gtVQc6/Photo11.png"
+  },
+  {
+    "id": "3dccdaa8",
+    "team": "outsider",
+    "name": "雷恩菲尔德",
+    "ability": "你以为你是一个善良角色，但其实你不是。每局游戏限一次，你会以为你被同化成邪恶的爪牙。你以为的角色能力不会正常生效。恶魔知道你是谁。",
+    "image": "/blood-on-the-clocktower/image/downloaded/9ad2100ccc17c5505a37ea44c0a57b0d.webp",
+    "setup": true,
+    "reminders": [],
+    "remindersGlobal": [
+      "是雷恩菲尔德",
+      "仅一次"
+    ],
+    "firstNight": 3022,
+    "otherNight": 79,
+    "original_image": "https://i.postimg.cc/HW6hbDts/Photo17.png"
+  },
+  {
+    "id": "5eff056a",
+    "team": "outsider",
+    "name": "被诅咒者",
+    "ability": "你会被当作是德古拉。当你死亡时，会有一名镇民获得德古拉印记。",
+    "image": "/blood-on-the-clocktower/image/downloaded/28c02232d7d2fbce0d13e696900aab2a.webp",
+    "setup": false,
+    "reminders": [
+      "德古拉印记"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 61,
+    "original_image": "https://i.postimg.cc/hjg51Kwh/Photo14.png"
+  },
+  {
+    "id": "315da65a",
+    "team": "outsider",
+    "name": "敏感之人",
+    "ability": "当你死亡时，可能会有一名镇民变成敏感之人。如果你在夜晚时即将死亡，你可能会改为变成邪恶的爪牙且得知德古拉是谁。",
+    "image": "/blood-on-the-clocktower/image/downloaded/4c34fb407f271d44506d6cd4d70ae027.webp",
+    "setup": false,
+    "reminders": [
+      "变成敏感",
+      "变成邪恶"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 67,
+    "original_image": "https://i.postimg.cc/mkgpK8Ts/Photo15.png"
+  },
+  {
+    "id": "7fbe809c",
+    "team": "outsider",
+    "name": "美味佳肴",
+    "ability": "当你死亡时，德古拉会在当晚得知此事：如果当晚他还没有行动，他可以放弃行动，改为进行一次无需消耗同化次数的同化行动。",
+    "image": "/blood-on-the-clocktower/image/downloaded/7a8f3fe74516ab6a975d4acdd60b26de.webp",
+    "setup": false,
+    "reminders": [
+      "今晚同化"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 73,
+    "original_image": "https://i.postimg.cc/C5rr0kKf/Photo16.png"
+  },
+  {
+    "id": "01be1e4f",
+    "team": "minion",
+    "name": "同化者",
+    "ability": "每个夜晚，你要选择一名玩家：他获得咬痕并得知这一消息。如果你选中带有咬痕的玩家：他变成邪恶的爪牙且你死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/4b7e14a03b8ed98d5c270250f40a22d6.webp",
+    "setup": false,
+    "reminders": [
+      "咬痕",
+      "同化",
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 37,
+    "original_image": "https://i.postimg.cc/PrcVFWcg/Photo19.png"
+  },
+  {
+    "id": "cc2eb5a1",
+    "team": "minion",
+    "name": "感染者",
+    "ability": "每个夜晚，你可以选择一名玩家和一个行动（感染/下毒）：如果选择感染，他在当晚和下个白天带有德古拉印记；如果选择下毒，他中毒直到下个黄昏。",
+    "image": "/blood-on-the-clocktower/image/downloaded/43dc5fbd36b8d404ede2f739800ecd00.webp",
+    "setup": false,
+    "reminders": [
+      "德古拉印记",
+      "中毒"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 43,
+    "original_image": "https://i.postimg.cc/2SZ9pqNV/Photo20.png"
+  },
+  {
+    "id": "57acfc84",
+    "team": "minion",
+    "name": "吸血鬼长老",
+    "ability": "每个夜晚，你要选择一名玩家和一个行动(杀害/同化/下毒)：你的行动不会生效，且德古拉会得知你的目标和行动。每局游戏限一次，你可以选择变成德古拉，且原本的德古拉死亡，德古拉的同化次数不会重置。",
+    "image": "/blood-on-the-clocktower/image/downloaded/55c7020bc5931f8972df18940c0f5336.webp",
+    "setup": false,
+    "reminders": [
+      "杀害",
+      "同化",
+      "下毒"
+    ],
+    "remindersGlobal": [
+      "是吸血鬼长老"
+    ],
+    "firstNight": 0,
+    "otherNight": 25,
+    "original_image": "https://i.postimg.cc/SKbTmymV/Photo21.png"
+  },
+  {
+    "id": "85860c1e",
+    "team": "minion",
+    "name": "吸血鬼",
+    "ability": "每个夜晚*，你要选择一名玩家：他获得咬痕并得知这一消息。如果你选中带有咬痕的玩家：他死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/a6125988ebc6c81ea8ce77bb3b888367.webp",
+    "setup": false,
+    "reminders": [
+      "咬痕",
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 31,
+    "original_image": "https://i.postimg.cc/TYhH97kj/Photo18.png"
+  },
+  {
+    "id": "505ebbcc",
+    "team": "minion",
+    "name": "吸血鬼幼崽",
+    "ability": "非独立角色。你没有能力。",
+    "image": "/blood-on-the-clocktower/image/downloaded/0a946a5b623fc5ed149071bcf424eb92.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://i.postimg.cc/43v8drdG/Photo22.png"
+  },
+  {
+    "id": "7b16e558",
+    "team": "demon",
+    "name": "德古拉",
+    "ability": "每个夜晚，你要选择一名玩家和一个行动(杀害/同化/下毒)：如果选择杀害，他死亡，但游戏的首个夜晚不能杀害；如果选择同化，他变成邪恶的爪牙且知道你是德古拉；如果选择下毒，他中毒。你的同化次数与爪牙初始设置数量相同。[初始无爪牙]",
+    "image": "/blood-on-the-clocktower/image/downloaded/280fde6915ad8b0ac465b47cd7017799.webp",
+    "setup": true,
+    "reminders": [
+      "死亡",
+      "中毒",
+      "同化"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3032,
+    "otherNight": 49,
+    "original_image": "https://i.postimg.cc/Y9pdmbGW/Photo23.png"
+  },
+  {
+    "id": "085fbdd1",
+    "team": "fabled",
+    "name": "新生爪牙",
+    "ability": "提示夜晚行动顺序",
+    "image": "/blood-on-the-clocktower/image/downloaded/bb083b198d675c0a03db1fad4208f66a.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 3042,
+    "otherNight": 55,
+    "original_image": "https://i.postimg.cc/76mm100Q/Photo24.png"
+  },
+  {
+    "id": "83077f5b",
+    "team": "fabled",
+    "name": "夜之子",
+    "ability": "游戏开始时，德古拉没有爪牙。咬痕、德古拉印记都会被当作印记。恶魔、爪牙以及拥有印记的玩家都会被当作吸血鬼。玩家在死亡或被同化后会失去印记并恢复健康。",
+    "image": "/blood-on-the-clocktower/image/downloaded/83b6cb5ac9d3ca5a9bd1196852c16875.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://i.postimg.cc/brrLmrRY/Photo25.png"
+  }
+]

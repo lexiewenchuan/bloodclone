@@ -1,0 +1,533 @@
+[
+  {
+    "hint": "线上魔典支持直接输入剧本的URL。不必将此文件保存到你的电脑。",
+    "id": "_meta",
+    "name": "钟楼怪诞V1.2（A Very Merry Clocktower Christmas）",
+    "author": "Nashable"
+  },
+  {
+    "id": "b3c760ce",
+    "team": "townsfolk",
+    "name": "圣诞奶奶",
+    "ability": "在你的首个夜晚，你会得知除旅行者外离你最近的一名或两名没有因其自身能力而被唤醒的玩家。",
+    "image": "/blood-on-the-clocktower/image/downloaded/ba038c2d36c81b2dd4787ce26ab97243.webp",
+    "setup": false,
+    "reminders": [
+      "得知",
+      "得知"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3060,
+    "otherNight": 0,
+    "original_image": "https://chillclocktower.com/homebrew/merrryclocktower/mrs-claus.png"
+  },
+  {
+    "id": "619c0732",
+    "team": "townsfolk",
+    "name": "弗洛斯蒂",
+    "ability": "每个夜晚，首个使用自身能力选择了你的邪恶玩家会醉酒直到下个黄昏，即使你已死亡，然后你会得知该玩家的角色并死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/fed433ed3e27606e9c5be07511dfb2b0.webp",
+    "setup": false,
+    "reminders": [
+      "死亡",
+      "得知",
+      "醉酒"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3046,
+    "otherNight": 98,
+    "original_image": "https://chillclocktower.com/homebrew/merrryclocktower/frosty.png"
+  },
+  {
+    "id": "78acdbc1",
+    "team": "townsfolk",
+    "name": "圣诞老人",
+    "ability": "每个夜晚，你要选择一名玩家:你决定他是淘气还是乖巧，淘气可能会让他或你遭遇一些不好的事情，乖巧可能会让他或你遭遇一些好的事情。",
+    "image": "/blood-on-the-clocktower/image/downloaded/abff84e07dc56946867a31fd59afce37.webp",
+    "setup": false,
+    "reminders": [
+      "淘气",
+      "乖巧"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3024,
+    "otherNight": 81,
+    "original_image": "https://chillclocktower.com/homebrew/merrryclocktower/santa.png"
+  },
+  {
+    "id": "0534e9ff",
+    "team": "townsfolk",
+    "name": "圣诞精灵",
+    "ability": "每个夜晚，你要选择一名玩家:每局游戏限一次，如果你选择自己，你会以不定顺序得知所有你曾选择的玩家当前的角色，以及一个不在场角色。在此之后，你不再因自身能力被唤醒。",
+    "image": "/blood-on-the-clocktower/image/downloaded/674b16a5911351f8bb496abdf26bbf90.webp",
+    "setup": false,
+    "reminders": [
+      "打开礼物",
+      "礼物",
+      "礼物",
+      "礼物",
+      "礼物",
+      "礼物",
+      "礼物",
+      "礼物",
+      "礼物",
+      "礼物",
+      "礼物"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3032,
+    "otherNight": 87,
+    "original_image": "https://chillclocktower.com/homebrew/merrryclocktower/elf.png"
+  },
+  {
+    "id": "b1bda5d3",
+    "team": "townsfolk",
+    "name": "现在之灵 ",
+    "ability": "每个夜晚*，你要选择一名玩家：你会得知放置在他的角色标记旁所有提示标记的文字描述，以及得知他是否是斯克鲁奇。",
+    "image": "/blood-on-the-clocktower/image/downloaded/58511552d4bd7d88497a5c5c2461a817.webp",
+    "setup": false,
+    "reminders": [
+      "斯克鲁奇",
+      "现在"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 104,
+    "original_image": "https://chillclocktower.com/homebrew/merrryclocktower/ghost-present.png"
+  },
+  {
+    "id": "f5673c50",
+    "team": "townsfolk",
+    "name": "鲁道夫",
+    "ability": "每个夜晚*，你要选择除你之外的等于爪牙初始设置数量的玩家:你会得知他们之中有多少名爪牙。如果你选中爪牙，他会得知你是鲁道夫。",
+    "image": "/blood-on-the-clocktower/image/downloaded/a6afac2b4ecf99744e1d9dcf7e1262f2.webp",
+    "setup": false,
+    "reminders": [
+      "驯鹿",
+      "驯鹿",
+      "驯鹿",
+      "唤醒"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 92,
+    "original_image": "https://chillclocktower.com/homebrew/merrryclocktower/rudolph.png"
+  },
+  {
+    "id": "35196255",
+    "team": "townsfolk",
+    "name": "未来之灵",
+    "ability": "每个夜晚*，你要选择除你之外的两名玩家进行秘密猜拳。你要猜测分出胜负的那次猜拳中他们可能会用的一个手型，如果你猜对，你得知输家的角色。否则你和他们都可能会死亡。（猜拳分出胜负后就结束，如果当晚猜拳连续三个平局，猜拳立即结束，然后你得知任意信息或视为你猜测错误。）",
+    "image": "/blood-on-the-clocktower/image/downloaded/b41dfb0105cb38ac169558f7087471bd.webp",
+    "setup": false,
+    "reminders": [
+      "石头",
+      "布",
+      "剪刀",
+      "死亡",
+      "死亡",
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 109,
+    "original_image": "https://chillclocktower.com/homebrew/merrryclocktower/ghost-future.png"
+  },
+  {
+    "id": "58dce12a",
+    "team": "townsfolk",
+    "name": "糖梅仙子",
+    "ability": "每个白天，你可以私下拜访说书人并选择除你之外的两名玩家，然后你可以询问一个只与他们两人有关且两人都存在可能的是非问题。相似问题只能询问一次。相同一对玩家只能询问一次。〔+1外来者〕",
+    "image": "/blood-on-the-clocktower/image/downloaded/92f1ba059e4456cd223ef17fad37cd15.webp",
+    "setup": true,
+    "reminders": [
+      "对 1",
+      "对 1",
+      "对 2",
+      "对 2",
+      "对 3",
+      "对 3",
+      "对 4",
+      "对 4",
+      "对 5",
+      "对 5"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://chillclocktower.com/homebrew/merrryclocktower/fairy.png"
+  },
+  {
+    "id": "d685a80a",
+    "team": "townsfolk",
+    "name": "圣诞天使",
+    "ability": "每局游戏限一次，在夜晚时，你可以选择除你之外的一名存活玩家:从此邪恶玩家的负面能力对他无效。如果你或他死亡，你们都会死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/77b4d0ec46a89672c2efc97614535153.webp",
+    "setup": false,
+    "reminders": [
+      "保护",
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 2002,
+    "otherNight": 13,
+    "original_image": "https://chillclocktower.com/homebrew/merrryclocktower/christmasangel.png"
+  },
+  {
+    "id": "adee66fa",
+    "team": "townsfolk",
+    "name": "过去之灵",
+    "ability": "每局游戏限一次，在夜晚时*，你可以选择除你以外的一名玩家：他变回他在上个夜晚开始时的角色、状态和阵营。如果斯克鲁奇死亡，你会知道他是谁。",
+    "image": "/blood-on-the-clocktower/image/downloaded/94aef6561111416716309ad150ec08f3.webp",
+    "setup": false,
+    "reminders": [
+      "恢复",
+      "失去能力",
+      "斯克鲁奇死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 75,
+    "original_image": "https://chillclocktower.com/homebrew/merrryclocktower/ghost-past.png"
+  },
+  {
+    "id": "287a583e",
+    "team": "townsfolk",
+    "name": "姜饼人",
+    "ability": "每局游戏限一次，当你首次被邪恶玩家使用其自身能力选择时，你会被唤醒，然后你要选择一名存活玩家:改为他被选择。",
+    "image": "/blood-on-the-clocktower/image/downloaded/396fd76873621b77146ff1c27504e814.webp",
+    "setup": false,
+    "reminders": [
+      "失去能力",
+      "重定向"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3039,
+    "otherNight": 70,
+    "original_image": "https://chillclocktower.com/homebrew/merrryclocktower/gingerbread.png"
+  },
+  {
+    "id": "4db692d7",
+    "team": "townsfolk",
+    "name": "胡桃夹子",
+    "ability": "每局游戏限一次，当你得知一名玩家死亡时，你可以立即公开声明你是胡桃夹子。如果那名玩家是善良的，你死亡且该玩家复活。会有一名善良玩家始终被你的能力当作邪恶玩家。",
+    "image": "/blood-on-the-clocktower/image/downloaded/3ca2c6e420f43c6962701cd17fcc4e75.webp",
+    "setup": false,
+    "reminders": [
+      "红绯鱼",
+      "失去能力"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://chillclocktower.com/homebrew/merrryclocktower/nutcracker.png"
+  },
+  {
+    "id": "f9d3e582",
+    "team": "townsfolk",
+    "name": "欢饮者",
+    "ability": "每个黎明，超过半数存活玩家（向上取整）可问候你，任何未问候你的人都可能醉酒直到下个黎明。每个白天，你可以拜访说书人得知关于今天黎明问候你的人的情报。",
+    "image": "/blood-on-the-clocktower/image/downloaded/5a49f156661ec66058b1fa4fc3c6b5ce.webp",
+    "setup": false,
+    "reminders": [
+      "问候!",
+      "问候!",
+      "问候!",
+      "问候!",
+      "问候!",
+      "问候!",
+      "问候!",
+      "问候!",
+      "问候!",
+      "问候!",
+      "醉酒"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://chillclocktower.com/homebrew/merrryclocktower/wassailer.png"
+  },
+  {
+    "id": "e13156ac",
+    "team": "outsider",
+    "name": "斯克鲁奇",
+    "ability": "在你的首个夜晚，你会得知至多三名在场的拥有选择能力的善良角色。如果这些角色都以自身能力选择过你，会有一名邪恶玩家转变为善良阵营。[会有一名善良玩家转变为邪恶阵营]",
+    "image": "/blood-on-the-clocktower/image/downloaded/a58d5058656181acf6108884212727cf.webp",
+    "setup": true,
+    "reminders": [
+      "邪恶",
+      "过去访客",
+      "现在访客",
+      "未来访客",
+      "过去拜访",
+      "现在拜访",
+      "未来拜访"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3053,
+    "otherNight": 115,
+    "original_image": "https://chillclocktower.com/homebrew/merrryclocktower/scrooge.png"
+  },
+  {
+    "id": "d042bbc9",
+    "team": "outsider",
+    "name": "约翰 麦克莱恩",
+    "ability": "每个白天或夜晚要有玩家死亡，否则你的阵营落败。如果你死于处决，会有一名存活善良玩家在当晚变成约翰 麦克莱恩。",
+    "image": "/blood-on-the-clocktower/image/downloaded/c479ac8f3fabcd1f9e7feee1a716b451.webp",
+    "setup": false,
+    "reminders": [
+      "白&夜死",
+      "欢迎进入派对"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 7,
+    "original_image": "https://chillclocktower.com/homebrew/merrryclocktower/john.png"
+  },
+  {
+    "id": "7127a851",
+    "team": "outsider",
+    "name": "破碎玩具",
+    "ability": "你以为你是一个其他外来者角色，你随时可能死亡。你可能会被当作邪恶阵营、爪牙角色或恶魔角色，即使你已死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/d4b03664318364f208f716ddec3ef229.webp",
+    "setup": true,
+    "reminders": [],
+    "remindersGlobal": [
+      "是破碎玩家"
+    ],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://chillclocktower.com/homebrew/merrryclocktower/broken-toy.png"
+  },
+  {
+    "id": "de8faa70",
+    "team": "outsider",
+    "name": "冬青花环",
+    "ability": "首个提名你的善良玩家会在当晚死亡（复活不会刷新该能力）。如果你因冬青花环的能力死亡，你的阵营落败。〔+0~2冬青花环〕",
+    "image": "/blood-on-the-clocktower/image/downloaded/13dfc55e22fb88a0221974a4c9cc85bb.webp",
+    "setup": false,
+    "reminders": [
+      "失去能力",
+      "提名",
+      "将要死亡",
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 64,
+    "original_image": "https://chillclocktower.com/homebrew/merrryclocktower/holly.png"
+  },
+  {
+    "id": "cb463133",
+    "team": "outsider",
+    "name": "秘密圣诞老人",
+    "ability": "提名开始后立即开始投票（无发言）。每局游戏限一次，任意爪牙可以公开猜测你是秘密圣诞老人，如果猜对，你的阵营在下个黄昏落败。",
+    "image": "/blood-on-the-clocktower/image/downloaded/b4149d6d268fb3749df155fd0fa212c5.webp",
+    "setup": false,
+    "reminders": [
+      "已猜测",
+      "黄昏落败"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://chillclocktower.com/homebrew/merrryclocktower/secret-santa.png"
+  },
+  {
+    "id": "8ab10473",
+    "team": "minion",
+    "name": "冰霜杰克",
+    "ability": "每个夜晚，你要选择一名存活的善良玩家:如果他能以自身能力选择玩家，改为你决定他当晚选择的目标。",
+    "image": "/blood-on-the-clocktower/image/downloaded/1e5f65b342b588e539372f1571ec3053.webp",
+    "setup": false,
+    "reminders": [
+      "霜冻",
+      "选择",
+      "选择",
+      "选择",
+      "选择"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 9,
+    "otherNight": 24,
+    "original_image": "https://chillclocktower.com/homebrew/merrryclocktower/jack-frost.png"
+  },
+  {
+    "id": "240dc6d7",
+    "team": "minion",
+    "name": "坎卜斯",
+    "ability": "每个夜晚，你要选择一名玩家并提交一个关键词：如果他在下个白天说出这个关键词，他死亡。如果只有三名存活玩家，你失去此能力。（关键词不能是人名或游戏用语)",
+    "image": "/blood-on-the-clocktower/image/downloaded/03bea52ca757935395609bc7f8040f6b.webp",
+    "setup": false,
+    "reminders": [
+      "妖法"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3010,
+    "otherNight": 36,
+    "original_image": "https://chillclocktower.com/homebrew/merrryclocktower/krampus.png"
+  },
+  {
+    "id": "ba98448a",
+    "team": "minion",
+    "name": "槲寄生",
+    "ability": "每个夜晚*，你可以选择两名存活玩家:他们交换角色。如你将任意一名玩家经交换换回游戏初始设置时的角色，你失去你的能力。每局游戏限一次，如你不进行交换，除你与旅行者外其他玩家醉酒直到下个黄昏（-1外来者）",
+    "image": "/blood-on-the-clocktower/image/downloaded/48650fc8be08e703e456f5f9da75ed49.webp",
+    "setup": true,
+    "reminders": [
+      "交换",
+      "交换",
+      "失去能力",
+      "全员醉酒"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 19,
+    "original_image": "https://chillclocktower.com/homebrew/merrryclocktower/mistletoe.png"
+  },
+  {
+    "id": "aebda5c2",
+    "team": "minion",
+    "name": "守财奴兄弟",
+    "ability": "在你的首个夜晚，你要选择你是热火或冰雪，此后每个夜晚你冷热交替。（当你首次是热火时被处决，与你邻近的一名或两名存活玩家可能会代替你被处决；当你首次是冰雪被处决，与你阵营不同的一名玩家可能会代替你被处决）",
+    "image": "/blood-on-the-clocktower/image/downloaded/65b616f4e5c8e0d39698304223233f03.webp",
+    "setup": false,
+    "reminders": [
+      "热火",
+      "冰雪",
+      "热火时被处决",
+      "冰雪时被处决"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3003,
+    "otherNight": 30,
+    "original_image": "https://chillclocktower.com/homebrew/merrryclocktower/miser.png"
+  },
+  {
+    "id": "ce5fcdf1",
+    "team": "demon",
+    "name": "圣诞怪杰 ",
+    "ability": "每个夜晚，你要选择两名玩家:由你决定他们之中的哪一个会在下个夜晚死亡。他们会被当作邪恶阵营或圣诞怪杰，使用其自身能力选择了他们的玩家会改为选中你，直到下个黎明。你在夜晚不会死亡、中毒或醉酒。",
+    "image": "/blood-on-the-clocktower/image/downloaded/25bb8f41a971c37d99bafa1376ca89de.webp",
+    "setup": false,
+    "reminders": [
+      "咬牙切齿",
+      "咬牙切齿",
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3017,
+    "otherNight": 41,
+    "original_image": "https://chillclocktower.com/homebrew/merrryclocktower/grinch.png"
+  },
+  {
+    "id": "59fb5eac",
+    "team": "demon",
+    "name": "雪人",
+    "ability": "每个夜晚*，你要选择一名玩家:他死亡。如果被你杀死的玩家当天白天曾发起过提名，会有一名与他邻近的镇民中毒直到下个黄昏。",
+    "image": "/blood-on-the-clocktower/image/downloaded/b48ef91a16ef3722b1a174441c2303dd.webp",
+    "setup": false,
+    "reminders": [
+      "中毒",
+      "中毒",
+      "死亡",
+      "曾提名",
+      "曾提名",
+      "曾提名",
+      "曾提名",
+      "曾提名",
+      "曾提名",
+      "曾提名",
+      "曾提名",
+      "曾提名",
+      "曾提名"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 47,
+    "original_image": "https://chillclocktower.com/homebrew/merrryclocktower/yeti.png"
+  },
+  {
+    "id": "e7489022",
+    "team": "demon",
+    "name": "霜害",
+    "ability": "每个夜晚*，你要选择两名存活玩家:他们死亡。如你以此法自杀，一名存活爪牙会变成霜害，然后你会变成一个不在场爪牙角色。黎明时公布死亡玩家后，所有玩家得知你昨晚选择了谁，然后在他们中投票选择一名:他复活。",
+    "image": "/blood-on-the-clocktower/image/downloaded/a43ca50261961b5aee4161f2efd52d50.webp",
+    "setup": false,
+    "reminders": [
+      "死亡",
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 53,
+    "original_image": "https://chillclocktower.com/homebrew/merrryclocktower/frostbite.png"
+  },
+  {
+    "id": "d2dbc099",
+    "team": "demon",
+    "name": "贝尔森克",
+    "ability": "在你的首个夜晚，你要查看魔典。每个夜晚，你要选择一名玩家:你决定他要么加入你的阵营并得知你是谁，要么死亡。你能转变阵营的玩家数量最多等于爪牙的初始设置数量。[初始无爪牙，+1外来者]",
+    "image": "/blood-on-the-clocktower/image/downloaded/b124a3ec4fc7541cbd7bdd67f0abb4b9.webp",
+    "setup": true,
+    "reminders": [
+      "顽皮的",
+      "尊敬的",
+      "邪恶",
+      "邪恶",
+      "邪恶"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3067,
+    "otherNight": 58,
+    "original_image": "https://chillclocktower.com/homebrew/merrryclocktower/belsnickel.png"
+  },
+  {
+    "id": "1ed57ff3",
+    "team": "fabled",
+    "name": "万岁！",
+    "ability": "如果约翰 麦克莱恩存活且他疯狂地证明《虎胆龙威》不是圣诞电影，他可能立即被处决。",
+    "image": "/blood-on-the-clocktower/image/downloaded/98351db180beb152a67ba0ba44cbdbdd.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://chillclocktower.com/homebrew/merrryclocktower/yippeekiyay.png"
+  },
+  {
+    "id": "c51972a3",
+    "team": "fabled",
+    "name": "我控诉[圣诞版]...!",
+    "ability": "提名开始时，只有被提名者能够发言为自己辩解。发言结束马上开始投票。除提名者和被提名者以外的玩家可以对此举手发言。",
+    "image": "/blood-on-the-clocktower/image/downloaded/8b9f874a9a926e7cf8af542594a43b69.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [
+      "Callback"
+    ],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://chillclocktower.com/homebrew/merrryclocktower/jaccuse2.png"
+  },
+  {
+    "id": "461beb63",
+    "team": "traveller",
+    "name": "圣歌合唱团",
+    "ability": "在夜晚时，如果有大于等于两名玩家公开与你合唱歌曲，在黎明时，你可能会得知与这些玩家邻近的一名存活玩家的角色。",
+    "image": "/blood-on-the-clocktower/image/downloaded/9b42e8236df8590cb08103bd68560342.webp",
+    "setup": false,
+    "reminders": [
+      "唱",
+      "唱",
+      "唱",
+      "唱",
+      "唱",
+      "得知"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3074,
+    "otherNight": 121,
+    "original_image": "https://chillclocktower.com/homebrew/merrryclocktower/carol-singer.png"
+  }
+]

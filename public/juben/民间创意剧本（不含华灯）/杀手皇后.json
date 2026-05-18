@@ -1,0 +1,450 @@
+[
+  {
+    "hint": "Online grimoires allow directly entering URL of custom-script. You do not have to download the file.",
+    "id": "_meta",
+    "name": "杀手皇后",
+    "author": "神秘人&Providence"
+  },
+  {
+    "id": "47d06a9b",
+    "team": "townsfolk",
+    "name": "Noble",
+    "ability": "You start knowing 3 players, 1 and only 1 of which is evil.",
+    "image": "/image/downloaded/d6e3562fe16a44e8d23a98efed7da41f.webp",
+    "setup": false,
+    "reminders": [
+      "Seen"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3056,
+    "otherNight": 0,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/noble_600w.webp"
+  },
+  {
+    "id": "c56da6cf",
+    "team": "townsfolk",
+    "name": "Grandmother",
+    "ability": "You start knowing a good player & their character. If the Demon kills them, you die too.",
+    "image": "/image/downloaded/2ff24c98e4efffa772e5434f034ce986.webp",
+    "setup": false,
+    "reminders": [
+      "Grandchild",
+      "Dead"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3050,
+    "otherNight": 0,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/grandmother_600w.webp"
+  },
+  {
+    "id": "750f2324",
+    "team": "townsfolk",
+    "name": "Bounty Hunter",
+    "ability": "You start knowing 1 evil player. If the player you know dies, you learn another evil player tonight. [1 Townsfolk is evil]",
+    "image": "/image/downloaded/cb6a00fabd065aed39751a0e944cc495.webp",
+    "setup": true,
+    "reminders": [
+      "Known",
+      "Evil"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3065,
+    "otherNight": 114,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/bountyHunter_600w.webp"
+  },
+  {
+    "id": "4b19279f",
+    "team": "townsfolk",
+    "name": "Chambermaid",
+    "ability": "Each night, choose 2 alive players (not yourself): you learn how many woke tonight due to their ability.",
+    "image": "/image/downloaded/87c51e89d13d66a4061ebef373eb67c7.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 3076,
+    "otherNight": 122,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/chambermaid_600w.webp"
+  },
+  {
+    "id": "bf06d73b",
+    "team": "townsfolk",
+    "name": "Snake Charmer",
+    "ability": "Each night, choose an alive player: a chosen Demon swaps characters & alignments with you & is then poisoned.",
+    "image": "/image/downloaded/f7bdc720dda473d88788172fced14734.webp",
+    "setup": false,
+    "reminders": [
+      "Poisoned"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3022,
+    "otherNight": 33,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/snakeCharmer_600w.webp"
+  },
+  {
+    "id": "f2fc9b0b",
+    "team": "townsfolk",
+    "name": "Town Crier",
+    "ability": "Each night*, you learn if a Minion nominated today.",
+    "image": "/image/downloaded/73907775b235c1e89e83ec8fc1c45268.webp",
+    "setup": false,
+    "reminders": [
+      "Minions not nominated",
+      "Minion nominated"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 103,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/townCrier_600w.webp"
+  },
+  {
+    "id": "e094cf95",
+    "team": "townsfolk",
+    "name": "Monk",
+    "ability": "Each night*, choose a player (not yourself): they are safe from the Demon tonight.",
+    "image": "/image/downloaded/9680bb4f38f2d2f442a9667e564698be.webp",
+    "setup": false,
+    "reminders": [
+      "Protected"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 34,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/monk_600w.webp"
+  },
+  {
+    "id": "76b27c7f",
+    "team": "townsfolk",
+    "name": "Gambler",
+    "ability": "Each night*, choose a player & guess their character: if you guess wrong, you die.",
+    "image": "/image/downloaded/654b0581e0ee674d4648906ba463164e.webp",
+    "setup": false,
+    "reminders": [
+      "Dead"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 31,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/gambler_600w.webp"
+  },
+  {
+    "id": "22862c1a",
+    "team": "townsfolk",
+    "name": "Exorcist",
+    "ability": "Each night*, choose a player (different to last night): the Demon, if chosen, learns who you are then doesn't wake tonight.",
+    "image": "/image/downloaded/17f266ac3fe5a38c4917c618a9d2741a.webp",
+    "setup": false,
+    "reminders": [
+      "Chosen"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 48,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/exorcist_600w.webp"
+  },
+  {
+    "id": "a13e6eef",
+    "team": "townsfolk",
+    "name": "Alchemist",
+    "ability": "You have a Minion ability. When using this, the Storyteller may prompt you to choose differently.",
+    "image": "/image/downloaded/0b809ea6da787bf757780fbd76d50070.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [
+      "Is the Alchemist"
+    ],
+    "firstNight": 12,
+    "otherNight": 0,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/alchemist_600w.webp"
+  },
+  {
+    "id": "c8551c02",
+    "team": "townsfolk",
+    "name": "Cannibal",
+    "ability": "You have the ability of the recently killed executee. If they are evil, you are poisoned until a good player dies by execution.",
+    "image": "/image/downloaded/7cdd8f863d05875c12f1aac043e8c8e0.webp",
+    "setup": false,
+    "reminders": [
+      "Poisoned",
+      "Lunch"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/cannibal_600w.webp"
+  },
+  {
+    "id": "74bc4569",
+    "team": "townsfolk",
+    "name": "Fool",
+    "ability": "The 1st time you die, you don't.",
+    "image": "/image/downloaded/ca0b98c0114c99e38a882d65d7978c83.webp",
+    "setup": false,
+    "reminders": [
+      "No ability"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/fool_600w.webp"
+  },
+  {
+    "id": "503f023e",
+    "team": "townsfolk",
+    "name": "Atheist",
+    "ability": "The Storyteller can break the game rules, and if executed, good wins, even if you are dead. [No evil characters]",
+    "image": "/image/downloaded/51a0994b88c664f37ef7871427a0df0a.webp",
+    "setup": true,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/atheist_600w.webp"
+  },
+  {
+    "id": "61171d4b",
+    "team": "outsider",
+    "name": "Goon",
+    "ability": "Each night, the 1st player to choose you with their ability is drunk until dusk. You become their alignment.",
+    "image": "/image/downloaded/06aa093f9e797672a752beeb15ebc2f2.webp",
+    "setup": false,
+    "reminders": [
+      "Drunk"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/goon_600w.webp"
+  },
+  {
+    "id": "d091be63",
+    "team": "outsider",
+    "name": "Lunatic",
+    "ability": "You think you are a Demon, but you are not. The Demon knows who you are & who you choose at night.",
+    "image": "/image/downloaded/9717a4694dd24b8bef65b95f7eab827d.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [
+      "Attack",
+      "Attack(2)",
+      "Attack(3)",
+      "Lunatic"
+    ],
+    "firstNight": 2006,
+    "otherNight": 47,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/lunatic_600w.webp"
+  },
+  {
+    "id": "72e97b3d",
+    "team": "outsider",
+    "name": "Moonchild",
+    "ability": "When you learn that you died, publicly choose 1 alive player. Tonight, if it was a good player, they die.",
+    "image": "/image/downloaded/d7a608c566813d9b98723015fff9b162.webp",
+    "setup": false,
+    "reminders": [
+      "Dead"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 89,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/moonchild_600w.webp"
+  },
+  {
+    "id": "ad06d0c7",
+    "team": "outsider",
+    "name": "Heretic",
+    "ability": "Whoever wins, loses & whoever loses, wins, even if you are dead.",
+    "image": "/image/downloaded/1d232af2335de8388b0e29d146a8516a.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/heretic_600w.webp"
+  },
+  {
+    "id": "d85a9892",
+    "team": "minion",
+    "name": "Devil's Advocate",
+    "ability": "Each night, choose a living player (different to last night): if executed tomorrow, they don't die.",
+    "image": "/image/downloaded/becff3f89b06b647c6d074d2842cc319.webp",
+    "setup": false,
+    "reminders": [
+      "Survives execution"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3025,
+    "otherNight": 37,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/devilsAdvocate_600w.webp"
+  },
+  {
+    "id": "eb60a268",
+    "team": "minion",
+    "name": "Psychopath",
+    "ability": "Each day, before nominations, you may publicly choose a player: they die. If executed, you only die if you lose roshambo.",
+    "image": "/image/downloaded/57946210687da8addc482740e1149e8d.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/psychopath_600w.webp"
+  },
+  {
+    "id": "cd6a59cc",
+    "team": "minion",
+    "name": "Widow",
+    "ability": "On your 1st night, look at the Grimoire & choose a player: they are poisoned. 1 good player knows a Widow is in play.",
+    "image": "/image/downloaded/e018f7488187253a6ec42ba2ef870c1f.webp",
+    "setup": false,
+    "reminders": [
+      "Poisoned"
+    ],
+    "remindersGlobal": [
+      "Knows"
+    ],
+    "firstNight": 3018,
+    "otherNight": 0,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/widow_600w.webp"
+  },
+  {
+    "id": "deee76cd",
+    "team": "minion",
+    "name": "Summoner",
+    "ability": "You get 3 bluffs. On the 3rd night, choose a player: they become an evil Demon of your choice. [No Demon]",
+    "image": "/image/downloaded/b128ed863dcfe1978f280977405d9247.webp",
+    "setup": false,
+    "reminders": [
+      "Night 1",
+      "Night 2",
+      "Night 3"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 2005,
+    "otherNight": 46,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/summoner_600w.webp"
+  },
+  {
+    "id": "a28cb488",
+    "team": "minion",
+    "name": "Boomdandy",
+    "ability": "If you are executed, all but 3 players die. After a 10 to 1 countdown, the player with the most players pointing at them, dies.",
+    "image": "/image/downloaded/1272888575720c3a054f08844df49c86.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/boomdandy_600w.webp"
+  },
+  {
+    "id": "185b92f1",
+    "team": "demon",
+    "name": "Shabaloth",
+    "ability": "Each night*, choose 2 players: they die. A dead player you chose last night might be regurgitated.",
+    "image": "/image/downloaded/5e14f70d526bff32e81b383d9d86951d.webp",
+    "setup": false,
+    "reminders": [
+      "Dead",
+      "Alive"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 56,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/shabaloth_600w.webp"
+  },
+  {
+    "id": "c746b43f",
+    "team": "demon",
+    "name": "Po",
+    "ability": "Each night*, you may choose a player: they die. If your last choice was no-one, choose 3 players tonight.",
+    "image": "/image/downloaded/92e1e9d754b57b364f26e1567a7e7a72.webp",
+    "setup": false,
+    "reminders": [
+      "Dead",
+      "3 attacks"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 57,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/po_600w.webp"
+  },
+  {
+    "id": "f856c053",
+    "team": "demon",
+    "name": "Fang Gu",
+    "ability": "Each night*, choose a player: they die. The 1st Outsider this kills becomes an evil Fang Gu & you die instead. [+1 Outsider]",
+    "image": "/image/downloaded/0cf976b8a0dcb249d3993faa1a89bc20.webp",
+    "setup": true,
+    "reminders": [
+      "Dead"
+    ],
+    "remindersGlobal": [
+      "Once"
+    ],
+    "firstNight": 0,
+    "otherNight": 58,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/fangGu_600w.webp"
+  },
+  {
+    "id": "bb32ffdd",
+    "team": "demon",
+    "name": "Al-Hadikhia",
+    "ability": "Each night*, you may choose 3 players (all players learn who): each silently chooses to live or die, but if all live, all die.",
+    "image": "/image/downloaded/fb7d0bc272bc2fdf4caada76209657b2.webp",
+    "setup": false,
+    "reminders": [
+      "1",
+      "2",
+      "3",
+      "Chose death",
+      "Chose life"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 64,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/alHadikhia_600w.webp"
+  },
+  {
+    "id": "2d7262ea",
+    "team": "fabled",
+    "name": "火星与地球间的茶杯",
+    "ability": "当清醒且健康的无神论者和异端分子同时在场时,异端分子醉酒。[说书人不能打破规则让上述内容无效]",
+    "image": "/image/downloaded/dc848ef87adf905b37b810f0f2426858.webp",
+    "setup": true,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://www.helloimg.com/i/2025/03/30/67e94482d029d.png"
+  },
+  {
+    "id": "1367a92e",
+    "team": "a jinxed",
+    "name": "Alchemist & Summoner",
+    "ability": "The Alchemist-Summoner does not get bluffs, and chooses which Demon but not which player. If they die before this happens, evil wins. [No Demon]",
+    "image": "",
+    "setup": false,
+    "firstNight": 0,
+    "otherNight": 0
+  },
+  {
+    "id": "5d935e45",
+    "team": "a jinxed",
+    "name": "Alchemist & Widow",
+    "ability": "An Alchemist-Widow has no Widow ability & a Widow is in play. After each execution, a living Alchemist-Widow may publicly guess a living player as the Widow. If correct, the Demon must choose the Widow tonight.",
+    "image": "",
+    "setup": false,
+    "firstNight": 0,
+    "otherNight": 0
+  },
+  {
+    "id": "e529d855",
+    "team": "a jinxed",
+    "name": "Heretic & Widow",
+    "ability": "Only 1 jinxed character can be in play.",
+    "image": "",
+    "setup": false,
+    "firstNight": 0,
+    "otherNight": 0
+  }
+]

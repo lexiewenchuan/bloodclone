@@ -1,0 +1,504 @@
+[
+  {
+    "hint": "线上魔典支持直接输入剧本的URL。不必将此文件保存到你的电脑。",
+    "id": "_meta",
+    "name": "诡仙志异2.9",
+    "author": "【作者】痴愚【图标】叶陌上",
+    "status": [
+      {
+        "name": "天道畸变",
+        "skill": "善良玩家每次使用自身能力时都会顿悟，每次顿悟后有可能获得一个畸变能力且你会得知此能力，每种能力只能获得一次。如果白天没人死亡，会有一名玩家变成太岁（旅行者）。"
+      },
+      {
+        "name": "登阶仪式",
+        "skill": "游戏开始时，天道（说书人）会秘密定下一个登阶仪式（要求玩家满足一定的条件），如果仙位有余，完成登阶仪式的玩家会成仙。"
+      },
+      {
+        "name": "天道有缺",
+        "skill": "仙位固定，先到先得。仙位数量与邪恶玩家初始设置数量相同。初始设置无邪恶角色在场，只有当仙位已满且所有仙都死亡时，善良阵营才能获胜。"
+      },
+      {
+        "name": "得道成仙",
+        "skill": "存活的善良玩家在第四次顿悟时，会首先变成邪恶的古仙，最后一个仙位则会变成邪恶的人仙。然后仙位已满，继续满足条件的玩家会变成太岁（旅行者）。所有邪恶玩家互相认识，且拥有<吸盘触手>。"
+      }
+    ]
+  },
+  {
+    "id": "a5810906",
+    "team": "townsfolk",
+    "name": "祥瑞",
+    "ability": "在你的首个夜晚，你会得知有多少名求道者以及得知一个在场的求道者角色，如果他死亡，你变成该角色。",
+    "image": "/blood-on-the-clocktower/image/downloaded/71ca296ee881f2b9eba06ed2d013987a.webp",
+    "setup": false,
+    "reminders": [
+      "知晓"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3039,
+    "otherNight": 0,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/custom/d_8969497832071_d19cbd97.jpg"
+  },
+  {
+    "id": "1c6f6500",
+    "team": "townsfolk",
+    "name": "钦天监",
+    "ability": "在你的首个夜晚，你会得知离你最近的邪恶玩家位于你的哪一侧（左/右/相同）。如果与你邻近的玩家中有邪恶阵营，你会得知错误信息作为替代。",
+    "image": "/blood-on-the-clocktower/image/downloaded/5febf68329faa53b98646f7b7ec46543.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 3073,
+    "otherNight": 0,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/qintianjian_600w.webp"
+  },
+  {
+    "id": "7bc3b38b",
+    "team": "townsfolk",
+    "name": "佛陀",
+    "ability": "每个夜晚，你可以得知一个当晚顿悟的角色。你不会变成太岁。",
+    "image": "/blood-on-the-clocktower/image/downloaded/5bf34ecd7f79e1dc585c089fb5b1f4dd.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 3060,
+    "otherNight": 109,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/custom/d_908027832071_d4a96c3b.jpg"
+  },
+  {
+    "id": "f768df28",
+    "team": "townsfolk",
+    "name": "司命",
+    "ability": "每个夜晚，你可以选择一个畸变能力（需满足顿悟需求）：你获得该能力。",
+    "image": "/blood-on-the-clocktower/image/downloaded/fc44b27c267676ab5e3bae3008a88c11.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 3046,
+    "otherNight": 82,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/custom/d_4265197832071_9087051f.jpg"
+  },
+  {
+    "id": "a9fb460b",
+    "team": "townsfolk",
+    "name": "山鬼",
+    "ability": "每个夜晚，你可以选择除你以外的两名玩家：你会得知他们中有多少人于当天顿悟。",
+    "image": "/blood-on-the-clocktower/image/downloaded/ac1d6b37e67bd22c1c814c95c05f6b2b.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 3074,
+    "otherNight": 118,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/custom/d_8478297832071_69ea6ee6.jpg"
+  },
+  {
+    "id": "ea0d323f",
+    "team": "townsfolk",
+    "name": "画圣",
+    "ability": "每个夜晚，你可以选择一名玩家：你会得知该玩家以及与他邻近的存活的玩家中有多少种角色类型。",
+    "image": "/blood-on-the-clocktower/image/downloaded/7276cd669a188eb0bd3800f44bee521b.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 3017,
+    "otherNight": 64,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/custom/d_3433787832071_9f609bc0.jpg"
+  },
+  {
+    "id": "55e75c36",
+    "team": "townsfolk",
+    "name": "天机子",
+    "ability": "每个夜晚，你可以询问天道以得知还有几个仙位空缺，如果仙位已满，你会得知任意两个仙之间的距离。",
+    "image": "/blood-on-the-clocktower/image/downloaded/d542f59f2e2fca588e062796dda4ae5e.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 3053,
+    "otherNight": 91,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/custom/d_8201487832071_ad6a07d1.jpg"
+  },
+  {
+    "id": "4a62a02e",
+    "team": "townsfolk",
+    "name": "丹师",
+    "ability": "每个夜晚*，你可以选择一名玩家：你可能会得知一个和该玩家有关的提示标记。",
+    "image": "/blood-on-the-clocktower/image/downloaded/843c3893c6393d511b160e438daeb201.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 46,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/custom/d_4479477832071_f56e47de.jpg"
+  },
+  {
+    "id": "5b57adec",
+    "team": "townsfolk",
+    "name": "道子",
+    "ability": "每个白天，你可以私下拜访天道以许一个愿望，你的愿望可能会被扭曲并实现。",
+    "image": "/blood-on-the-clocktower/image/downloaded/3f6af92eb96bc59bb2e26e73857a26ab.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/custom/d_7474907832071_cfb30573.jpg"
+  },
+  {
+    "id": "5df39124",
+    "team": "townsfolk",
+    "name": " 巫觋",
+    "ability": "每个白天，你可以私下拜访天道以得知一条正确信息。每条这些信息被首次公布时，你顿悟。",
+    "image": "/blood-on-the-clocktower/image/downloaded/bfc579b7cae8d6c50b54bd65b903d0a3.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/custom/d_6722097832071_2027751f.jpg"
+  },
+  {
+    "id": "4b4a5c7f",
+    "team": "townsfolk",
+    "name": "玄君",
+    "ability": "在你的首个夜晚，你要选择一个古仙角色，你获得该角色的能力。",
+    "image": "/blood-on-the-clocktower/image/downloaded/be783a211ecfdf041bfec6d9a6aa935c.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [
+      "是玄君"
+    ],
+    "firstNight": 9,
+    "otherNight": 0,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/custom/d_6556587832071_02950460.jpg"
+  },
+  {
+    "id": "7e62b310",
+    "team": "townsfolk",
+    "name": "天潢贵胄",
+    "ability": "你拥有三个畸变能力。你不会顿悟。",
+    "image": "/blood-on-the-clocktower/image/downloaded/83890f14e6a5678142fa9ab3e7df1bf3.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 3024,
+    "otherNight": 0,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/custom/d_5001977832071_a6d78a47.jpg"
+  },
+  {
+    "id": "fc3fa267",
+    "team": "townsfolk",
+    "name": "学究",
+    "ability": "你永久拥有<外附虫脑>，你会因使用该能力而顿悟，每个夜晚至多使用两次。",
+    "image": "/blood-on-the-clocktower/image/downloaded/048f885819b7f1e8d066291726d219cc.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 3010,
+    "otherNight": 55,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/custom/d_2603187832071_5a12a8c0.jpg"
+  },
+  {
+    "id": "bbccbb2e",
+    "team": "townsfolk",
+    "name": "剧作家",
+    "ability": "在你的前两个夜晚，你可以查看四分之一的魔典（左上/左下/右上/右下），每看一秒顿悟两次。",
+    "image": "/blood-on-the-clocktower/image/downloaded/7f5eda6d9ad0a16fd27253c114f37c51.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 3032,
+    "otherNight": 73,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/custom/d_5846887832071_829d0a96.jpg"
+  },
+  {
+    "id": "b5a1b905",
+    "team": "outsider",
+    "name": "旁门",
+    "ability": "每个夜晚，你要选择两名玩家：如果他们中有人于当晚顿悟，你一同顿悟。",
+    "image": "/blood-on-the-clocktower/image/downloaded/c190d37802f2db898ba4d2961f32967a.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 3067,
+    "otherNight": 100,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/custom/d_4278697832071_d4b2d6d0.jpg"
+  },
+  {
+    "id": "fc01b9f6",
+    "team": "outsider",
+    "name": "庙祝",
+    "ability": "在你的首个夜晚，你要选择一个古仙角色：如果仙位有余，下个黄昏时你变成邪恶的该角色。",
+    "image": "/blood-on-the-clocktower/image/downloaded/a31b25135580a7b7cd87c623315fd6ff.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 3003,
+    "otherNight": 0,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/custom/d_34308832071_f0b781f9.jpg"
+  },
+  {
+    "id": "b55a2e5a",
+    "team": "outsider",
+    "name": "左道",
+    "ability": "你知晓本局游戏的登阶仪式。",
+    "image": "/blood-on-the-clocktower/image/downloaded/c392ff7ef0194410d253ea0a327ced84.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 2002,
+    "otherNight": 0,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/custom/d_4607897832071_82e767f4.jpg"
+  },
+  {
+    "id": "0a77dff5",
+    "team": "outsider",
+    "name": "飨民",
+    "ability": "每当有人死于处决，你获得与他相等的顿悟次数。",
+    "image": "/blood-on-the-clocktower/image/downloaded/79ba7fb12c59edc0b93e4dfd9ace3a8c.webp",
+    "setup": false,
+    "reminders": [
+      "飨宴"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/custom/d_9193108832071_b1b7d583.jpg"
+  },
+  {
+    "id": "b05d0e5a",
+    "team": "minion",
+    "name": "鬼乘菩萨",
+    "ability": "每个夜晚*，你会得知哪些玩家拥有<影子旧友>，你可以选择其中一名玩家：改为你向他提出条件，即使你已死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/6c30c34f75c889c2b7e37a3325909d64.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 37,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/custom/d_867018832071_0086fdfc.jpg"
+  },
+  {
+    "id": "594e314e",
+    "team": "minion",
+    "name": "黑太岁",
+    "ability": "你死亡后的第二个黎明，你复活。提名你或使用其自身能力选择了你的玩家会顿悟。",
+    "image": "/blood-on-the-clocktower/image/downloaded/a08e0adeac8e49e39edd0f8eaa9c89f6.webp",
+    "setup": false,
+    "reminders": [
+      "第一个黎明",
+      "第二个黎明"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/custom/d_3698408832071_3ec79170.jpg"
+  },
+  {
+    "id": "631e066c",
+    "team": "minion",
+    "name": "巴虺",
+    "ability": "你与其他仙互相不认识。如果你死亡，当晚你要选择一名存活的玩家：如果他不是仙，你和他交换角色和阵营。",
+    "image": "/blood-on-the-clocktower/image/downloaded/585603b70a4b94e85540fb90cb74b8b5.webp",
+    "setup": false,
+    "reminders": [
+      "遗蜕"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 19,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/custom/d_9483608832071_9bc92cf2.jpg"
+  },
+  {
+    "id": "87a98ad0",
+    "team": "minion",
+    "name": "尸林怙主",
+    "ability": "即使你已死亡也能使用畸变能力。",
+    "image": "/blood-on-the-clocktower/image/downloaded/9c194699e3c0c193461b253ee3b63ae7.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/custom/d_1869708832071_051f22ea.jpg"
+  },
+  {
+    "id": "c0d06fab",
+    "team": "demon",
+    "name": "羽化仙",
+    "ability": "每个夜晚*，你要选择一名玩家：他变成邪恶的太岁。",
+    "image": "/blood-on-the-clocktower/image/downloaded/b03e5ec790b4aca2e905cacb82da0874.webp",
+    "setup": false,
+    "reminders": [
+      "悟！"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 28,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/custom/d_2087218832071_8f70301d.jpg"
+  },
+  {
+    "id": "7c59c25b",
+    "team": "demon",
+    "name": "尸解仙",
+    "ability": "当你首次死亡后，你仍存活，但会被当作死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/ea9ad30df1e5f02b94255bdd324937dd.webp",
+    "setup": false,
+    "reminders": [
+      "尸解"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/custom/d_7933418832071_852d6382.jpg"
+  },
+  {
+    "id": "a3f462e4",
+    "team": "fabled",
+    "name": "吸盘触手",
+    "ability": "每个白天，在提名开始前，你可以公开选择一名玩家和你猜拳：输了的玩家死亡。〈顿悟2次及以上可获得〉",
+    "image": "/blood-on-the-clocktower/image/downloaded/d228ee77b3b95b396c1719aca52b83ff.webp",
+    "setup": false,
+    "reminders": [
+      "吸盘触手"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/custom/d_4563838832071_f5ee0eb6.jpg"
+  },
+  {
+    "id": "3cd4c78d",
+    "team": "fabled",
+    "name": "呢喃细语",
+    "ability": "每个白天，你要发表一些毫无关联的言论或疯狂的呓语，否则你顿悟或死亡。[顿悟可获得，获得概率极大]",
+    "image": "/blood-on-the-clocktower/image/downloaded/70c50367ca35521acba14eddfd421499.webp",
+    "setup": false,
+    "reminders": [
+      "呢喃细语"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/custom/d_2477428832071_1a668a15.jpg"
+  },
+  {
+    "id": "ae6ad7b7",
+    "team": "fabled",
+    "name": "血肉灵芝",
+    "ability": "当你首次将要死亡时，你不会死亡。〈顿悟2次及以上可获得〉",
+    "image": "/blood-on-the-clocktower/image/downloaded/59eaf4a9f5de3c300895c2a25ceb0bcb.webp",
+    "setup": false,
+    "reminders": [
+      "血肉灵芝",
+      "血肉灵芝（破损）"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/custom/d_387538832071_bb049cee.jpg"
+  },
+  {
+    "id": "74b993e1",
+    "team": "fabled",
+    "name": "画外音",
+    "ability": "当天道被孕育千万子孙的森之黑山羊侵染，修仙世界将会何去何从？",
+    "image": "/blood-on-the-clocktower/image/downloaded/918b1fe67176be34d352353bca6e913d.webp",
+    "setup": false,
+    "reminders": [
+      "一",
+      "二",
+      "三",
+      "四",
+      "登阶"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/custom/d_6931901625861_d30a61b1.jpg"
+  },
+  {
+    "id": "e0d2f29a",
+    "team": "fabled",
+    "name": "瓷瓶娃娃",
+    "ability": "天道（说书人）随时可能会给你一些不知真假的信息。[顿悟可获得]",
+    "image": "/blood-on-the-clocktower/image/downloaded/9a11b93debb7d757600691d960a62e48.webp",
+    "setup": false,
+    "reminders": [
+      "瓷瓶娃娃"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/custom/d_8698928832071_b62db00e.jpg"
+  },
+  {
+    "id": "61d57f98",
+    "team": "fabled",
+    "name": "黑羊胎盘",
+    "ability": "在夜晚时，你可以选择一名死亡的玩家：他复活。〈消耗型，顿悟2次及以上可获得〉",
+    "image": "/blood-on-the-clocktower/image/downloaded/167f41baaa8d72cf16df60b32f54b9fa.webp",
+    "setup": false,
+    "reminders": [
+      "黑羊胎盘"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/custom/d_6084369832071_d02d22b4.jpg"
+  },
+  {
+    "id": "3dc5acc7",
+    "team": "fabled",
+    "name": "外附虫脑",
+    "ability": "在夜晚时，你可以选择一名玩家：你会得知关于他的一些信息。〈消耗型，顿悟可获得〉",
+    "image": "/blood-on-the-clocktower/image/downloaded/0cfd9c201f69573768e63c1489115fe0.webp",
+    "setup": false,
+    "reminders": [
+      "外附虫脑"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/custom/d_4825238832071_58dca7ca.jpg"
+  },
+  {
+    "id": "0be38597",
+    "team": "fabled",
+    "name": "影子旧友",
+    "ability": "天道（说书人）会要求你完成某些条件，否则你会遭遇一些不好的事情。[顿悟可获得，获得概率极大]",
+    "image": "/blood-on-the-clocktower/image/downloaded/24de231268d5106e109dda479c61645b.webp",
+    "setup": false,
+    "reminders": [
+      "影子旧友"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/custom/d_8997728832071_a2ef37e6.jpg"
+  },
+  {
+    "id": "b2a876d5",
+    "team": "traveller",
+    "name": "域外天魔",
+    "ability": "每个夜晚，你可能会获得一个畸变能力，直到下个黄昏。你不会顿悟，不能完成登阶仪式。",
+    "image": "/blood-on-the-clocktower/image/downloaded/315fd16c04b37d3703029224b0afdd67.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 10,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/custom/d_3223718832071_d3278c24.jpg"
+  },
+  {
+    "id": "5e3d984e",
+    "team": "traveller",
+    "name": "太岁",
+    "ability": "你不会被流放，不能投票，即使你已死亡。你拥有<吸盘触手>，且每个白天必须对存活玩家使用，否则你死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/abebbce0cd2837ae124461af5b7df482.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/custom/d_7061918832071_127275dd.jpg"
+  }
+]

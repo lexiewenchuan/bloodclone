@@ -1,0 +1,23 @@
+{
+  "title": "血染钟楼 - 座位测试",
+  "script_name": "模组霸道v4.7",
+  "author": "作者：Manny",
+  "player_count": "7民 2外 2爪 2恶",
+  "settings": "设置",
+  "add_seat": "添加座位",
+  "remove_seat": "移除座位",
+  "clear_seats": "清除座位",
+  "empty_seat": "空座位",
+  "role_selection_title": "为玩家 {{playerName}} 选择角色",
+  "version_roles": "版本角色",
+  "official_roles": "其他官方",
+  "seat_settings": "座位设置",
+  "seat_name": "座位名称",
+  "rename": "改名",
+  "remove": "移除",
+  "devil_guise": "恶魔的伪装",
+  "legendary_roles": "传奇角色",
+  "max_seats_reached": "已达到最大座位数20个",
+  "no_seats_left": "座位数量已为0",
+  "placeholder_empty_seat": "{{number}}. 空座位"
+}

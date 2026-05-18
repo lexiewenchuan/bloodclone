@@ -1,0 +1,410 @@
+[
+  {
+    "hint": "Online grimoires allow directly entering URL of custom-script. You do not have to download the file.",
+    "id": "_meta",
+    "name": "文武双全",
+    "author": "晓辰"
+  },
+  {
+    "id": "94be43a0",
+    "team": "townsfolk",
+    "name": "Steward",
+    "ability": "You start knowing 1 good player.",
+    "image": "/image/downloaded/11571b07165c78ea30fb07064def9c4c.webp",
+    "setup": false,
+    "reminders": [
+      "Know"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3054,
+    "otherNight": 0,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/steward_600w.webp"
+  },
+  {
+    "id": "69860e6c",
+    "team": "townsfolk",
+    "name": "Librarian",
+    "ability": "You start knowing that 1 of 2 players is a particular Outsider. (Or that zero are in play.)",
+    "image": "/image/downloaded/22a8fd06eee401e3837e6746449f1f68.webp",
+    "setup": false,
+    "reminders": [
+      "Outsider",
+      "Wrong"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3043,
+    "otherNight": 0,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/librarian_600w.webp"
+  },
+  {
+    "id": "e3d6d848",
+    "team": "townsfolk",
+    "name": "Sailor",
+    "ability": "Each night, choose an alive player: either you or they are drunk until dusk. You can't die.",
+    "image": "/image/downloaded/97fce127411770e9ce32a8adf7a09344.webp",
+    "setup": false,
+    "reminders": [
+      "Drunk"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3009,
+    "otherNight": 17,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/sailor_600w.webp"
+  },
+  {
+    "id": "ed91fbdd",
+    "team": "townsfolk",
+    "name": "Balloonist",
+    "ability": "Each night, you learn a player of a different character type than last night. [+0 or +1 Outsider]",
+    "image": "/image/downloaded/a66f82569c163af187becb6eb803f021.webp",
+    "setup": true,
+    "reminders": [
+      "Seen"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3057,
+    "otherNight": 107,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/balloonist_600w.webp"
+  },
+  {
+    "id": "f8554b8f",
+    "team": "townsfolk",
+    "name": "Mathematician",
+    "ability": "Each night, you learn how many players' abilities worked abnormally (since dawn) due to another character's ability.",
+    "image": "/image/downloaded/6cf82698634d95e599a29f091c3a1725.webp",
+    "setup": false,
+    "reminders": [
+      "Abnormal"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3078,
+    "otherNight": 124,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/mathematician_600w.webp"
+  },
+  {
+    "id": "76b27c7f",
+    "team": "townsfolk",
+    "name": "Gambler",
+    "ability": "Each night*, choose a player & guess their character: if you guess wrong, you die.",
+    "image": "/image/downloaded/654b0581e0ee674d4648906ba463164e.webp",
+    "setup": false,
+    "reminders": [
+      "Dead"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 31,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/gambler_600w.webp"
+  },
+  {
+    "id": "306b0cf8",
+    "team": "townsfolk",
+    "name": "Acrobat",
+    "ability": "Each night*, choose a player: if they are or become drunk or poisoned tonight, you die.",
+    "image": "/image/downloaded/5e22e708263614935b8d561415ab922f.webp",
+    "setup": false,
+    "reminders": [
+      "Dead"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 32,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/acrobat_600w.webp"
+  },
+  {
+    "id": "520d55f2",
+    "team": "townsfolk",
+    "name": "Lycanthrope",
+    "ability": "Each night*, choose an alive player. If good, they die & the Demon doesn’t kill tonight. One good player registers as evil.",
+    "image": "/image/downloaded/483ef88b757a673394731b195749a8fd.webp",
+    "setup": false,
+    "reminders": [
+      "Dead",
+      "Faux Paw"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 50,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/lycanthrope_600w.webp"
+  },
+  {
+    "id": "acd383bd",
+    "team": "townsfolk",
+    "name": "Savant",
+    "ability": "Each day, you may visit the Storyteller to learn 2 things in private: 1 is true & 1 is false.",
+    "image": "/image/downloaded/2d52d51457503f13afae660ef9f09f1b.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/savant_600w.webp"
+  },
+  {
+    "id": "cbef67b7",
+    "team": "townsfolk",
+    "name": "Philosopher",
+    "ability": "Once per game, at night, choose a good character: gain that ability. If this character is in play, they are drunk.",
+    "image": "/image/downloaded/2bd3ec5c37c7bf2bf89781db5a7c9df8.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [
+      "Drunk",
+      "Is the Philosopher"
+    ],
+    "firstNight": 11,
+    "otherNight": 13,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/philosopher_600w.webp"
+  },
+  {
+    "id": "b683dc0b",
+    "team": "townsfolk",
+    "name": "Professor",
+    "ability": "Once per game, at night*, choose a dead player: if they are a Townsfolk, they are resurrected.",
+    "image": "/image/downloaded/501d3759a75f534b3ed8a807e9825a01.webp",
+    "setup": false,
+    "reminders": [
+      "Alive",
+      "No ability"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 93,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/professor_600w.webp"
+  },
+  {
+    "id": "1d22c836",
+    "team": "townsfolk",
+    "name": "Soldier",
+    "ability": "You are safe from the Demon.",
+    "image": "/image/downloaded/9c6ad46b752721a554f4b308ab7dbbe6.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/soldier_600w.webp"
+  },
+  {
+    "id": "c8551c02",
+    "team": "townsfolk",
+    "name": "Cannibal",
+    "ability": "You have the ability of the recently killed executee. If they are evil, you are poisoned until a good player dies by execution.",
+    "image": "/image/downloaded/7cdd8f863d05875c12f1aac043e8c8e0.webp",
+    "setup": false,
+    "reminders": [
+      "Poisoned",
+      "Lunch"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/cannibal_600w.webp"
+  },
+  {
+    "id": "74bc4569",
+    "team": "townsfolk",
+    "name": "Fool",
+    "ability": "The 1st time you die, you don't.",
+    "image": "/image/downloaded/ca0b98c0114c99e38a882d65d7978c83.webp",
+    "setup": false,
+    "reminders": [
+      "No ability"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/fool_600w.webp"
+  },
+  {
+    "id": "d091be63",
+    "team": "outsider",
+    "name": "Lunatic",
+    "ability": "You think you are a Demon, but you are not. The Demon knows who you are & who you choose at night.",
+    "image": "/image/downloaded/9717a4694dd24b8bef65b95f7eab827d.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [
+      "Attack",
+      "Attack(2)",
+      "Attack(3)",
+      "Lunatic"
+    ],
+    "firstNight": 2006,
+    "otherNight": 47,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/lunatic_600w.webp"
+  },
+  {
+    "id": "e5f6b290",
+    "team": "outsider",
+    "name": "Drunk",
+    "ability": "You do not know you are the Drunk. You think you are a Townsfolk character, but you are not.",
+    "image": "/image/downloaded/8f7a6904ef81ddc1f303550c7f22c867.webp",
+    "setup": true,
+    "reminders": [],
+    "remindersGlobal": [
+      "Drunk"
+    ],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/drunk_600w.webp"
+  },
+  {
+    "id": "724ee857",
+    "team": "outsider",
+    "name": "Barber",
+    "ability": "If you died today or tonight, the Demon may choose 2 players (not another Demon) to swap characters.",
+    "image": "/image/downloaded/e2d48abed4dd3d32565e34c316f4dfe4.webp",
+    "setup": false,
+    "reminders": [
+      "Haircuts tonight"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 92,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/barber_600w.webp"
+  },
+  {
+    "id": "22464b27",
+    "team": "minion",
+    "name": "Godfather",
+    "ability": "You start knowing which Outsiders are in play. If 1 died today, choose a player tonight: they die. [-1 or +1 Outsider]",
+    "image": "/image/downloaded/a63451fec26b2a470c611e5f4b7048b7.webp",
+    "setup": true,
+    "reminders": [
+      "Died today",
+      "Dead"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3023,
+    "otherNight": 81,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/godfather_600w.webp"
+  },
+  {
+    "id": "18eb3397",
+    "team": "minion",
+    "name": "Poisoner",
+    "ability": "Each night, choose a player: they are poisoned tonight and tomorrow day.",
+    "image": "/image/downloaded/9815782801954f07b210475b62cd1c72.webp",
+    "setup": false,
+    "reminders": [
+      "Poisoned"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3016,
+    "otherNight": 22,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/poisoner_600w.webp"
+  },
+  {
+    "id": "e3977416",
+    "team": "minion",
+    "name": "Pit-Hag",
+    "ability": "Each night*, choose a player & a character they become (if not in play). If a Demon is made, deaths tonight are arbitrary.",
+    "image": "/image/downloaded/2b4261185c9bc9d101266e08edcc8544.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 20,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/pitHag_600w.webp"
+  },
+  {
+    "id": "0fdcec42",
+    "team": "minion",
+    "name": "Assassin",
+    "ability": "Once per game, at night*, choose a player: they die, even if for some reason they could not.",
+    "image": "/image/downloaded/9d5c3b9768ba210221816292c6b2cda1.webp",
+    "setup": false,
+    "reminders": [
+      "Dead",
+      "No ability"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 80,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/assassin_600w.webp"
+  },
+  {
+    "id": "fd0c15dd",
+    "team": "demon",
+    "name": "Pukka",
+    "ability": "Each night, choose a player: they are poisoned. The previously poisoned player dies then becomes healthy.",
+    "image": "/image/downloaded/0d431246720ef310b2314b956a354195.webp",
+    "setup": false,
+    "reminders": [
+      "Poisoned",
+      "Dead"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3035,
+    "otherNight": 55,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/pukka_600w.webp"
+  },
+  {
+    "id": "b3ced174",
+    "team": "demon",
+    "name": "Imp",
+    "ability": "Each night*, choose a player: they die. If you kill yourself this way, a Minion becomes the Imp.",
+    "image": "/image/downloaded/de24131f98ef974cd510443a6df19dbe.webp",
+    "setup": false,
+    "reminders": [
+      "Dead"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 53,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/imp_600w.webp"
+  },
+  {
+    "id": "185b92f1",
+    "team": "demon",
+    "name": "Shabaloth",
+    "ability": "Each night*, choose 2 players: they die. A dead player you chose last night might be regurgitated.",
+    "image": "/image/downloaded/5e14f70d526bff32e81b383d9d86951d.webp",
+    "setup": false,
+    "reminders": [
+      "Dead",
+      "Alive"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 56,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/shabaloth_600w.webp"
+  },
+  {
+    "id": "c0801d07",
+    "team": "demon",
+    "name": "Lleech",
+    "ability": "Each night*, choose a player: they die. You start by choosing a player: they are poisoned. You die if & only if they are dead.",
+    "image": "/image/downloaded/6d3ebb6a70e41b82102c53de26414a4f.webp",
+    "setup": false,
+    "reminders": [
+      "Dead",
+      "Poisoned"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3013,
+    "otherNight": 65,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/lleech_600w.webp"
+  },
+  {
+    "id": "bbb6069c",
+    "team": "a jinxed",
+    "name": "Mathematician & Drunk",
+    "ability": "The Mathematician might learn if the Drunk's ability yielded false info or failed to work properly.",
+    "image": "",
+    "setup": false,
+    "firstNight": 0,
+    "otherNight": 0
+  },
+  {
+    "id": "f10ad91a",
+    "team": "a jinxed",
+    "name": "Mathematician & Lunatic",
+    "ability": "The Mathematician might learn if the Lunatic attacks a different player than the real Demon attacked.",
+    "image": "",
+    "setup": false,
+    "firstNight": 0,
+    "otherNight": 0
+  }
+]

@@ -1,0 +1,456 @@
+[
+  {
+    "hint": "线上魔典支持直接输入剧本的URL。不必将此文件保存到你的电脑。",
+    "id": "_meta",
+    "name": "爱丽丝·幻境迷踪（Lost in Wonderland）",
+    "author": "Tom Routh"
+  },
+  {
+    "id": "99e2b5b0",
+    "team": "townsfolk",
+    "name": "特维尔德兄弟",
+    "ability": "在你的首个夜晚，你会得知另一个特维尔德兄弟是谁。当他死亡时，你会一同死亡。[+1 特维尔德兄弟]",
+    "image": "/blood-on-the-clocktower/image/downloaded/0bc554fb986190ef9d8f1c93e1df410a.webp",
+    "setup": true,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 3039,
+    "otherNight": 0,
+    "original_image": "https://i.postimg.cc/B6HbH329/33333-16.png"
+  },
+  {
+    "id": "f339f553",
+    "team": "townsfolk",
+    "name": "柴郡猫",
+    "ability": "每个夜晚，你会得知你的“漫游”标记所在玩家的角色。 [Wandering]",
+    "image": "/blood-on-the-clocktower/image/downloaded/b167e0aa6054dabc4e5f82787771a416.webp",
+    "setup": false,
+    "reminders": [
+      "顺时针漫游",
+      "逆时针漫游"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3053,
+    "otherNight": 112,
+    "original_image": "https://i.postimg.cc/br0GcPvH/33333-8.png"
+  },
+  {
+    "id": "991a0d7c",
+    "team": "townsfolk",
+    "name": "白玫瑰",
+    "ability": "每个夜晚*, 你会得知你身上是否有“漫游”标记。",
+    "image": "/blood-on-the-clocktower/image/downloaded/155dabb8843f59a5ec63e9b5eb82de60.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 90,
+    "original_image": "https://i.postimg.cc/jdV6pqMN/3.png"
+  },
+  {
+    "id": "80f183e0",
+    "team": "townsfolk",
+    "name": "睡鼠",
+    "ability": "每个夜晚*，如果你在今天白天没有发起提名和投票，你可以选择一名玩家：他醉酒直到下个黄昏。",
+    "image": "/blood-on-the-clocktower/image/downloaded/783b38ea836bb66e46da61080ca36fcc.webp",
+    "setup": false,
+    "reminders": [
+      "拥有能力",
+      "醉酒"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 53,
+    "original_image": "https://i.postimg.cc/8PDJd7yy/33333-11.png"
+  },
+  {
+    "id": "2f37809a",
+    "team": "townsfolk",
+    "name": "鹰头狮",
+    "ability": "每个夜晚*，你要选择一名除你以外的玩家(与上次选择不同)：他免疫爪牙与恶魔的能力直到下个黄昏。",
+    "image": "/blood-on-the-clocktower/image/downloaded/214baf1cd5d0c4b20cd0426fc8155914.webp",
+    "setup": false,
+    "reminders": [
+      "被保护"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 38,
+    "original_image": "https://i.postimg.cc/PfbNqtt1/33333-20.png"
+  },
+  {
+    "id": "569eccae",
+    "team": "townsfolk",
+    "name": "疯帽子",
+    "ability": "每个夜晚*，你要选择一名存活玩家: 你会获得他的能力直到下个黄昏，但你们之中会有一人醉酒直到下个黄昏。",
+    "image": "/blood-on-the-clocktower/image/downloaded/2b4a889f24652f89ee16526c4b887425.webp",
+    "setup": false,
+    "reminders": [
+      "醉酒",
+      "获得能力"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 46,
+    "original_image": "https://i.postimg.cc/3NZwfZLt/33333-19.png"
+  },
+  {
+    "id": "4d2aadd2",
+    "team": "townsfolk",
+    "name": "拜亚德",
+    "ability": "每个白天，你可以拜访说书人并选择一名存活玩家：你会得知他身上的“漫游”标记数量。",
+    "image": "/blood-on-the-clocktower/image/downloaded/c7cf73713928658695c03a6164fe3197.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://i.postimg.cc/CLF5BW1X/33333-21.png"
+  },
+  {
+    "id": "5245c7ee",
+    "team": "townsfolk",
+    "name": "白兔先生",
+    "ability": "每局游戏限一次，在夜晚时，你可以选择跳过当晚剩余的夜晚行动。（当晚之后的行动不会被唤醒/进行，直接进入白天）",
+    "image": "/blood-on-the-clocktower/image/downloaded/bdee5caa78759ab7e8dda2058b0c506a.webp",
+    "setup": false,
+    "reminders": [
+      "失去能力"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 31,
+    "original_image": "https://i.postimg.cc/kXcVT7z7/33333-12.png"
+  },
+  {
+    "id": "c7d7d8d6",
+    "team": "townsfolk",
+    "name": "渡渡鸟",
+    "ability": "每局游戏限一次，在白天时你可以拜访说书人以得知一名与你邻近的存活玩家的角色。",
+    "image": "/blood-on-the-clocktower/image/downloaded/f1a133d18fb7b36083269da146b8c257.webp",
+    "setup": false,
+    "reminders": [
+      "失去能力"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://i.postimg.cc/VkkJT3Pn/33333-14.png"
+  },
+  {
+    "id": "ab60f54e",
+    "team": "townsfolk",
+    "name": "爱丽丝",
+    "ability": "每局游戏限一次，你可以在白天公开猜测所有存活玩家的角色：如果猜测正确，你的阵营获胜。如果只有三名存活玩家，你失去此能力。",
+    "image": "/blood-on-the-clocktower/image/downloaded/64a60647969584dcc73c74d39aa703d4.webp",
+    "setup": false,
+    "reminders": [
+      "失去能力"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://i.postimg.cc/rFLWhnpN/33333-4.png"
+  },
+  {
+    "id": "69e5371b",
+    "team": "townsfolk",
+    "name": "白皇后",
+    "ability": "在你的首个白天，你可以公开猜测至多六名角色。在当晚，你会知道其中有多少名角色不在场。",
+    "image": "/blood-on-the-clocktower/image/downloaded/9574ed10f0ab63974b81d00c0fb77db6.webp",
+    "setup": false,
+    "reminders": [
+      "不在场",
+      "不在场",
+      "不在场",
+      "不在场",
+      "不在场",
+      "不在场"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 97,
+    "original_image": "https://i.postimg.cc/prvTBSB9/33333-18.png"
+  },
+  {
+    "id": "4f1004ff",
+    "team": "townsfolk",
+    "name": "红心国王",
+    "ability": "你的“漫游”标记所在的玩家不会死于处决，即使你已死亡。如果只有三名存活玩家，你失去此能力。 [Wandering]",
+    "image": "/blood-on-the-clocktower/image/downloaded/1970253b3cee7f329ec3defd610ef284.webp",
+    "setup": false,
+    "reminders": [
+      "顺时针漫游",
+      "逆时针漫游"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://i.postimg.cc/rpvzDs0N/33333-17.png"
+  },
+  {
+    "id": "6e0ff875",
+    "team": "townsfolk",
+    "name": "蛙仆",
+    "ability": "在你首次被提名后，你会在当晚得知提名你的玩家的角色。",
+    "image": "/blood-on-the-clocktower/image/downloaded/d355a4d629da07add6131e00d9c8e5f3.webp",
+    "setup": false,
+    "reminders": [
+      "提名者",
+      "失去能力"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 104,
+    "original_image": "https://i.postimg.cc/VsX0bqFr/33333-10.png"
+  },
+  {
+    "id": "57a660ba",
+    "team": "outsider",
+    "name": "毛毛虫",
+    "ability": "每个夜晚, 与你邻近的存活玩家之一醉酒 (与上个夜晚不同)。",
+    "image": "/blood-on-the-clocktower/image/downloaded/bc6eae13f680fc93e5b635f2de696d76.webp",
+    "setup": false,
+    "reminders": [
+      "醉酒"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3024,
+    "otherNight": 16,
+    "original_image": "https://i.postimg.cc/rFSGM6HH/2.png"
+  },
+  {
+    "id": "47fe61f2",
+    "team": "outsider",
+    "name": "假海龟",
+    "ability": "你以为你是柴郡猫，但你可能获取错误信息。 [Wandering]",
+    "image": "/blood-on-the-clocktower/image/downloaded/c8d9f36c658d75d07a2f78e2e23937e4.webp",
+    "setup": false,
+    "reminders": [
+      "顺时针漫游",
+      "逆时针漫游"
+    ],
+    "remindersGlobal": [
+      "是假海龟"
+    ],
+    "firstNight": 3067,
+    "otherNight": 119,
+    "original_image": "https://i.postimg.cc/vZbrmqFZ/1.png"
+  },
+  {
+    "id": "e3d54563",
+    "team": "outsider",
+    "name": "三月兔",
+    "ability": "如果你死于处决，当晚恶魔可以选择一名玩家：他死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/7b3bb30d9cb6e9a62a3a337f051b61c0.webp",
+    "setup": false,
+    "reminders": [
+      "死于处决"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://i.postimg.cc/FzXfBzhH/33333-9.png"
+  },
+  {
+    "id": "a15034c3",
+    "team": "minion",
+    "name": "班德斯尼奇",
+    "ability": "在你的首个夜晚，你会得知一名在场角色。每局游戏限一次，你可以在白天公开猜测谁是那名角色：如果猜测正确，那么他和他邻近的一名存活玩家会一同死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/7a72efeb30974b63ca1a5f3ec3e0ed31.webp",
+    "setup": false,
+    "reminders": [
+      "失去能力",
+      "得知角色"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3010,
+    "otherNight": 0,
+    "original_image": "https://i.postimg.cc/dV5yVJj5/33333-6.png"
+  },
+  {
+    "id": "f9859261",
+    "team": "minion",
+    "name": "朱布朱布鸟",
+    "ability": "每个夜晚*，如果你今天白天投票过，你可以选择一名玩家：他今晚不会被唤醒。[+1外来者]",
+    "image": "/blood-on-the-clocktower/image/downloaded/5c475641a6c746ee4d2b7d9493ceca1f.webp",
+    "setup": true,
+    "reminders": [
+      "已投票",
+      "不会被唤醒"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 24,
+    "original_image": "https://i.postimg.cc/qvw86s4X/4.png"
+  },
+  {
+    "id": "18b1b078",
+    "team": "minion",
+    "name": "厨娘",
+    "ability": "每个夜晚*，你的“漫游”标记所在的玩家会中毒直到下个黄昏，即使他已死亡。 [Wandering]",
+    "image": "/blood-on-the-clocktower/image/downloaded/bfceac0ec48efb2d840ecffabc2e120c.webp",
+    "setup": false,
+    "reminders": [
+      "Wandering Clock",
+      "Wandering Anti"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://i.postimg.cc/Mp3n8dz4/33333-13.png"
+  },
+  {
+    "id": "1265ff23",
+    "team": "minion",
+    "name": "扑克卫兵",
+    "ability": "每局游戏限一次，被处决的邪恶玩家可能不会死亡。 [-1外来者]",
+    "image": "/blood-on-the-clocktower/image/downloaded/cc52a52ad5b0a875326d2ad9ae0804b0.webp",
+    "setup": true,
+    "reminders": [
+      "失去能力"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://i.postimg.cc/y6Rcy47N/33333-3.png"
+  },
+  {
+    "id": "33d906ff",
+    "team": "demon",
+    "name": "贾巴沃克",
+    "ability": "每个夜晚*，你要选中一名玩家：他死亡。第一个提名你的善良玩家随时可能死亡",
+    "image": "/blood-on-the-clocktower/image/downloaded/5c67eb7635f1ab8bc682c5b08bd7f1f5.webp",
+    "setup": false,
+    "reminders": [
+      "首位提名者",
+      "死亡",
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 75,
+    "original_image": "https://i.postimg.cc/T1nbdmtb/33333-2.png"
+  },
+  {
+    "id": "b6023a1c",
+    "team": "demon",
+    "name": "红皇后",
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡。如果你今天白天被提名，今晚你可以行动两次。",
+    "image": "/blood-on-the-clocktower/image/downloaded/d880cdb56edef3bd091101a9dfac2fc3.webp",
+    "setup": false,
+    "reminders": [
+      "死亡",
+      "死亡",
+      "被提名"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 68,
+    "original_image": "https://i.postimg.cc/cJKr1wHJ/33333-15.png"
+  },
+  {
+    "id": "7bd3dae3",
+    "team": "demon",
+    "name": "红心骑士",
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡。如果有外来者在今天白天被处决，今晚你可以行动两次。 [+1外来者]",
+    "image": "/blood-on-the-clocktower/image/downloaded/b1b8d0bcc7ae0ad941f9bd128fc96536.webp",
+    "setup": true,
+    "reminders": [
+      "白天被处决",
+      "死亡",
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 60,
+    "original_image": "https://i.postimg.cc/gkqh1VXF/33333-5.png"
+  },
+  {
+    "id": "771eb946",
+    "team": "demon",
+    "name": "侩子手",
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡。每当一名死亡玩家被选择时，你的“漫游”标记会移动一次。当“漫游”标记重新回到你身上时，你的阵营获胜。 [Wandering]",
+    "image": "/blood-on-the-clocktower/image/downloaded/56c57c66d609fce11f0c889c4c15bb10.webp",
+    "setup": false,
+    "reminders": [
+      "死亡",
+      "顺时针漫游",
+      "逆时针漫游"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 82,
+    "original_image": "https://i.postimg.cc/Gp9sB6Md/33333-7.png"
+  },
+  {
+    "id": "cdff9f84",
+    "team": "fabled",
+    "name": "公爵夫人",
+    "ability": "每个白天，三名玩家可以一起拜访你。当晚*，他们会得知他们之中有几个是邪恶的，但其中一人的信息是错的。",
+    "image": "/blood-on-the-clocktower/image/downloaded/23321f5518ce03072467d8f3a9629fdf.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/duchess_600w.webp"
+  },
+  {
+    "id": "ef5b7470",
+    "team": "fabled",
+    "name": "仙境漫游",
+    "ability": "有[Wandering]的角色会在仙境中“漫游”。这些角色会将他们的“漫游”标记置于魔典中。",
+    "image": "/blood-on-the-clocktower/image/downloaded/258192afce7eb371a94d4dbddd2aede2.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/Kingle/113/_113.png"
+  },
+  {
+    "id": "bf217153",
+    "team": "fabled",
+    "name": "闲情漫步",
+    "ability": "在游戏开始时，说书人要决定每个“漫游”标记的移动方向（顺/逆时针，每名角色一个)。善良角色的“漫游”标记初始不会在对应角色上，而邪恶角色的“漫游”标记初始在自己身上。每个夜晚*，“漫游”标记会沿设置好的方向移动1格（除非另有说明)。镇民角色和邪恶角色的“漫游”标记会在移动时跳过死亡玩家与邪恶玩家。外来者角色和旅行者的“漫游”标记在移动时只会跳过死亡玩家。",
+    "image": "/blood-on-the-clocktower/image/downloaded/119724912a26696ba7d74744a40674b4.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 2002,
+    "otherNight": 9,
+    "original_image": "https://i.postimg.cc/fbgmBM3V/5461.png"
+  },
+  {
+    "id": "75354904",
+    "team": "traveller",
+    "name": "木匠",
+    "ability": "当你被流放时，如果你的“漫游”标记所在玩家阵营与你不同，他死亡。[Wandering].",
+    "image": "/blood-on-the-clocktower/image/downloaded/3f19b044b737efaf44a8dc1808032ca3.webp",
+    "setup": false,
+    "reminders": [
+      "顺时针漫游",
+      "逆时针漫游"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://i.postimg.cc/nLLq4XL8/413.png"
+  },
+  {
+    "id": "d20bab3f",
+    "team": "traveller",
+    "name": "海象",
+    "ability": "在提名开始前，你可以公开选择一名玩家：他只能在你投票时投票。",
+    "image": "/blood-on-the-clocktower/image/downloaded/073b3a36c5c197cc583e025b3de59a6f.webp",
+    "setup": false,
+    "reminders": [
+      "选择"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://i.postimg.cc/Wpq6YqwT/3-2.png"
+  }
+]

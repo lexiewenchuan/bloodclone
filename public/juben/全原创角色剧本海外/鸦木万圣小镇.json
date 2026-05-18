@@ -1,0 +1,388 @@
+[
+  {
+    "hint": "线上魔典支持直接输入剧本的URL。不必将此文件保存到你的电脑。",
+    "id": "_meta",
+    "name": "鸦木万圣小镇",
+    "author": "SeaBound"
+  },
+  {
+    "id": "51c5aa7e",
+    "team": "townsfolk",
+    "name": "天才儿童",
+    "ability": "在你的首个夜晚，你会得知哪些玩家是恐慌的(或者你得知没有玩家是恐慌的)。",
+    "image": "/blood-on-the-clocktower/image/downloaded/497b8393480dd307d0843c7f81786048.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 3057,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/SeaBound/Halloween/giftedchild_halloween.png"
+  },
+  {
+    "id": "ee51011c",
+    "team": "townsfolk",
+    "name": "心理护士",
+    "ability": "每个夜晚，你要选择除你以外的两名存活玩家，你会得知他们之中有多少名玩家是恐慌的。",
+    "image": "/blood-on-the-clocktower/image/downloaded/e0bb13481f3fe52bb313c7e8cc30dd76.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 3065,
+    "otherNight": 98,
+    "original_image": "https://www.bloodstar.xyz/p/SeaBound/Halloween/psychnurse_halloween.png"
+  },
+  {
+    "id": "072d4d3d",
+    "team": "townsfolk",
+    "name": "恶作剧者",
+    "ability": "每个夜晚，你要选择一名玩家：如果他是邪恶的，你醉酒直到下个黄昏。如果你未恐慌，你不会死亡。你可能不会死于处决。",
+    "image": "/blood-on-the-clocktower/image/downloaded/139bc5a13090632a1fc6dfa09ea1be4a.webp",
+    "setup": false,
+    "reminders": [
+      "醉酒"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 2004,
+    "otherNight": 19,
+    "original_image": "https://www.bloodstar.xyz/p/SeaBound/Halloween/trickrtreater_halloween.png"
+  },
+  {
+    "id": "60961b09",
+    "team": "townsfolk",
+    "name": "看护者",
+    "ability": "每个夜晚*，你会得知有多少名存活善良玩家是恐慌的。",
+    "image": "/blood-on-the-clocktower/image/downloaded/8bdbbe839f6c70e51aac5700d5e560dc.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 104,
+    "original_image": "https://www.bloodstar.xyz/p/SeaBound/Halloween/caretaker_halloween.png"
+  },
+  {
+    "id": "2c85c8fe",
+    "team": "townsfolk",
+    "name": "康复师",
+    "ability": "每个夜晚*，你要选择一名与上个夜晚不同的玩家：他解除恐慌状态。",
+    "image": "/blood-on-the-clocktower/image/downloaded/e62ca1b6652959b818c2494079434549.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 81,
+    "original_image": "https://www.bloodstar.xyz/p/SeaBound/Halloween/therapist1_halloween.png"
+  },
+  {
+    "id": "3679fd5e",
+    "team": "townsfolk",
+    "name": "稻草人",
+    "ability": "每个夜晚*，如果你不是恐慌的，一名存活的恐慌玩家解除恐慌状态。",
+    "image": "/blood-on-the-clocktower/image/downloaded/cce68f19bd081f2568fd5bd715b6e6cd.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 87,
+    "original_image": "https://www.bloodstar.xyz/p/SeaBound/Halloween/scarecrow_halloween.png"
+  },
+  {
+    "id": "ec6a75ce",
+    "team": "townsfolk",
+    "name": "露营者",
+    "ability": "每个夜晚*，如果你是恐慌的，你会得知一个在场角色。否则，你会得知一个不在场角色。",
+    "image": "/blood-on-the-clocktower/image/downloaded/ff4eedaed4d21a555a99a9e1dc337ad6.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 121,
+    "original_image": "https://www.bloodstar.xyz/p/SeaBound/Halloween/camper_halloween.png"
+  },
+  {
+    "id": "545cb857",
+    "team": "townsfolk",
+    "name": "体育生",
+    "ability": "每个夜晚*，你会得知你最近提名过的玩家是否是邪恶的。如果你是恐慌的，他可能会被你当作是邪恶的。",
+    "image": "/blood-on-the-clocktower/image/downloaded/01ef3b16d479d438ba5488e0d8feee98.webp",
+    "setup": false,
+    "reminders": [
+      "提名"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 109,
+    "original_image": "https://www.bloodstar.xyz/p/SeaBound/Halloween/jock_halloween.png"
+  },
+  {
+    "id": "50f89346",
+    "team": "townsfolk",
+    "name": "祭品",
+    "ability": "每局游戏限一次，在夜晚时*，你可以选择杀死自己，随后所有玩家解除恐慌状态。",
+    "image": "/blood-on-the-clocktower/image/downloaded/1fe839406ab4401ae6f3a16bc79b40c1.webp",
+    "setup": false,
+    "reminders": [
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 75,
+    "original_image": "https://www.bloodstar.xyz/p/SeaBound/Halloween/sacrifice_halloween.png"
+  },
+  {
+    "id": "5bf22089",
+    "team": "townsfolk",
+    "name": "监视者",
+    "ability": "每局游戏限一次，你可以公开选择至多3名玩家，如果其中超过1名玩家是邪恶的，你转变为恐慌状态。当晚，你会得知你选择的玩家中有多少名玩家是邪恶的。",
+    "image": "/blood-on-the-clocktower/image/downloaded/96be7db706f25ae90dcb4d9f6402ce38.webp",
+    "setup": false,
+    "reminders": [
+      "选择",
+      "失去能力"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 115,
+    "original_image": "https://www.bloodstar.xyz/p/SeaBound/Halloween/overseer_halloween.png"
+  },
+  {
+    "id": "43c777cd",
+    "team": "townsfolk",
+    "name": "幸存少女",
+    "ability": "如果你是唯一且存活的善良玩家，你的阵营获胜。你不会恐慌。如果只有一名邪恶玩家存活，你失去你的能力。",
+    "image": "/blood-on-the-clocktower/image/downloaded/9aa01c7eb91da17947d278f11fb7de9a.webp",
+    "setup": false,
+    "reminders": [
+      "失去能力"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/SeaBound/Halloween/finalgirl_halloween.png"
+  },
+  {
+    "id": "9f8c83a0",
+    "team": "townsfolk",
+    "name": "霰弹枪手",
+    "ability": "如果你提名了一名存活爪牙玩家，与被提名的存活爪牙玩家邻近的善良玩家解除恐慌状态，但如果你提名了一名善良玩家，他转变为恐慌状态。如果你首次提名的存活玩家不是恶魔，他死亡。丧尸会被你当作是爪牙。",
+    "image": "/blood-on-the-clocktower/image/downloaded/f068444cdc823b70ebd012a42523b0c3.webp",
+    "setup": false,
+    "reminders": [
+      "提名"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/SeaBound/Halloween/boomstick_halloween.png"
+  },
+  {
+    "id": "dc0264a4",
+    "team": "townsfolk",
+    "name": "警官",
+    "ability": "与你邻座的两名存活善良玩家不会恐慌。",
+    "image": "/blood-on-the-clocktower/image/downloaded/985de5eab20b5d7e4cd2b9876369339d.webp",
+    "setup": false,
+    "reminders": [
+      "不会恐慌"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/SeaBound/Halloween/officer_halloween.png"
+  },
+  {
+    "id": "0caf1a49",
+    "team": "outsider",
+    "name": "反对者",
+    "ability": "在你的首个夜晚，你会得知一个恶魔角色。如果你“疯狂”地证明你是反对者或除你得知的恶魔角色以外恶魔在场，你可能会被处决。",
+    "image": "/blood-on-the-clocktower/image/downloaded/ecdbaf78245e2637d9a93be23af2a846.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 3073,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/SeaBound/Halloween/naysayer1_halloween.png"
+  },
+  {
+    "id": "d7a11419",
+    "team": "outsider",
+    "name": "憎恶",
+    "ability": "每个夜晚，如果至少有一名与你邻近的存活玩家是善良的，其中一名玩家会转变为恐慌状态。如果你在白天死亡，你不会失去你的能力。",
+    "image": "/blood-on-the-clocktower/image/downloaded/14fd9c31c6b96ed39f86eaf3ac3fbd2c.webp",
+    "setup": false,
+    "reminders": [
+      "获得能力"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3032,
+    "otherNight": 58,
+    "original_image": "https://www.bloodstar.xyz/p/SeaBound/Halloween/abomination_halloween.png"
+  },
+  {
+    "id": "a996b2cb",
+    "team": "outsider",
+    "name": "胆小鬼",
+    "ability": "当你转变为恐慌状态的时候，你转变为邪恶。",
+    "image": "/blood-on-the-clocktower/image/downloaded/dfb62dbf17b0ebf541cdac1b5058589d.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 3048,
+    "otherNight": 70,
+    "original_image": "https://www.bloodstar.xyz/p/SeaBound/Halloween/coward_halloween.png"
+  },
+  {
+    "id": "84dae16f",
+    "team": "outsider",
+    "name": "男友",
+    "ability": "当你首次转变为恐慌状态的时候，一名与你邻近的存活镇民醉酒。如果你在白天死亡且幸存少女在场，她死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/b47d484097d42f4457119b9bc266c8f5.webp",
+    "setup": false,
+    "reminders": [
+      "醉酒"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3040,
+    "otherNight": 64,
+    "original_image": "https://www.bloodstar.xyz/p/SeaBound/Halloween/boyfriend_halloween.png"
+  },
+  {
+    "id": "b62ef429",
+    "team": "minion",
+    "name": "狂热分子",
+    "ability": "每个夜晚*，你要选择一名玩家：他转变为恐慌状态。每局游戏限一次，你可以选择一名玩家：他转变为恐慌状态，即使因为任何原因让他不能转变为恐慌状态。",
+    "image": "/blood-on-the-clocktower/image/downloaded/9487648ce52dbeed7e6e734edd83f4f6.webp",
+    "setup": false,
+    "reminders": [
+      "使用能力"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 24,
+    "original_image": "https://www.bloodstar.xyz/p/SeaBound/Halloween/fanatic_halloween.png"
+  },
+  {
+    "id": "18b6a9d9",
+    "team": "minion",
+    "name": "前男友",
+    "ability": "每个夜晚*，如果幸存少女死亡，你要选择一名玩家：他转变为恐慌状态。每局游戏限一次，你可以公开选择一名存活玩家：如果你选中了幸存少女，你的阵营获胜。[+1幸存少女]",
+    "image": "/blood-on-the-clocktower/image/downloaded/774a5a34349d694aed06d5337ebfa0fb.webp",
+    "setup": true,
+    "reminders": [
+      "已猜测"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 30,
+    "original_image": "https://www.bloodstar.xyz/p/SeaBound/Halloween/exboyfriend_halloween.png"
+  },
+  {
+    "id": "727aa5cd",
+    "team": "minion",
+    "name": "兄弟会成员",
+    "ability": "每局游戏限一次，在夜晚时*，你可以选择让所有未恐慌的镇民中毒直到下个黄昏。",
+    "image": "/blood-on-the-clocktower/image/downloaded/34fbd05ba872219c3459b6c3cc3ee533.webp",
+    "setup": false,
+    "reminders": [
+      "中毒",
+      "使用能力"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 13,
+    "original_image": "https://www.bloodstar.xyz/p/SeaBound/Halloween/fratboy_halloween.png"
+  },
+  {
+    "id": "ecb239de",
+    "team": "minion",
+    "name": "辣手保姆",
+    "ability": "在你的首个夜晚，你要选择一名善良玩家：他中毒但不会死亡。每局游戏限一次，在夜晚时，你可以选择一名与之前不同的善良玩家：他中毒但不会死亡，但你之前选择的玩家恢复健康但会死亡。如果小于等于五名玩家存活，你失去此能力。",
+    "image": "/blood-on-the-clocktower/image/downloaded/dc85b646f7b039d1748a6890a6c92ec6.webp",
+    "setup": false,
+    "reminders": [
+      "保护",
+      "使用能力"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 10,
+    "otherNight": 7,
+    "original_image": "https://www.bloodstar.xyz/p/SeaBound/Halloween/babysitter_halloween.png"
+  },
+  {
+    "id": "808f275b",
+    "team": "demon",
+    "name": "噩梦凶灵",
+    "ability": "每个夜晚，你会得知哪些存活玩家是恐慌的，随后你要选择两名玩家：他们转变为恐慌状态。恐慌的善良玩家在被善良玩家提名时会死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/153762485ca6788cdbd120c7220d6359.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 3007,
+    "otherNight": 36,
+    "original_image": "https://www.bloodstar.xyz/p/SeaBound/Halloween/dreamstalker_halloween.png"
+  },
+  {
+    "id": "5118378a",
+    "team": "demon",
+    "name": "血腥玛丽",
+    "ability": "每个夜晚，你要选择一名玩家：他转变为恐慌状态。随后，如果你上个白天没有被提名或一名善良玩家说过“血腥玛丽”，你要额外选择一名玩家：他死亡，但其他玩家当晚不会因处于恐慌状态而死亡。[+1外来者]",
+    "image": "/image/downloaded/18a787991b1a49be3329954fb4b32a71.webp",
+    "setup": true,
+    "reminders": [
+      "被提名",
+      "Call",
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3015,
+    "otherNight": 41,
+    "original_image": "https://www.bloodstar.xyz/p/SeaBound/Halloween/bloodymary_halloween.png"
+  },
+  {
+    "id": "e216d4bd",
+    "team": "demon",
+    "name": "变相怪杰",
+    "ability": "每个夜晚，你要选择两名玩家：他们转变为恐慌状态，随后一名恐慌的玩家可能解除恐慌状态。只有所有爪牙都死亡时，你才会死亡。当你首次被处决时，一名爪牙会在当晚死亡，但其他玩家当晚不会因处于恐慌状态而死亡。[-1外来者]",
+    "image": "/blood-on-the-clocktower/image/downloaded/01fe2dc928a2722228b4fa924672ecd2.webp",
+    "setup": true,
+    "reminders": [
+      "限一次",
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3023,
+    "otherNight": 47,
+    "original_image": "https://www.bloodstar.xyz/p/SeaBound/Halloween/mask_halloween.png"
+  },
+  {
+    "id": "7dc9f4a9",
+    "team": "demon",
+    "name": "丧尸",
+    "ability": "你不知道你的队友是谁，每个丧尸会得到两个伪装。每个夜晚*，所有丧尸会被单独唤醒并且要选择一名玩家：如果超过半数的丧尸选择了相同的一名玩家且多数玩家是善良玩家，他会变成邪恶的丧尸，否则，所有被选择的玩家转变为恐慌状态。[所有爪牙都是丧尸]",
+    "image": "/blood-on-the-clocktower/image/downloaded/93984f27c6674ebd178881216759c9f3.webp",
+    "setup": true,
+    "reminders": [
+      "咬"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 53,
+    "original_image": "https://www.bloodstar.xyz/p/SeaBound/Halloween/zombie_halloween.png"
+  },
+  {
+    "id": "508b89c8",
+    "team": "fabled",
+    "name": "恐慌",
+    "ability": "每个夜晚*，会有一名恐慌的玩家死亡，随后，如果上个白天没有玩家被处决，可能会有另一名玩家死亡。恐慌的玩家在被提名时可能死亡。当存活玩家小于等于3名时，恐慌的玩家不会因被提名而死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/74bf8d1aacfc2c480aaa9c5d2e781f84.webp",
+    "setup": false,
+    "reminders": [
+      "恐慌",
+      "死亡",
+      "处决"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 92,
+    "original_image": "https://www.bloodstar.xyz/p/SeaBound/Halloween/scared_halloween.png"
+  }
+]

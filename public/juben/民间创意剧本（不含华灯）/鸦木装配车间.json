@@ -1,0 +1,527 @@
+[
+  {
+    "hint": "Online grimoires allow directly entering URL of custom-script. You do not have to download the file.",
+    "id": "_meta",
+    "name": "鸦木装配车间",
+    "author": "海雾",
+    "status": [
+      {
+        "name": "装配！行动！完美！",
+        "skill": "游戏开始前，说书人从“备选”角色（带▲的角色）中挑选5~6名镇民，2~3名外来者、爪牙和恶魔加入游戏，组成完整的剧本！"
+      }
+    ]
+  },
+  {
+    "id": "94be43a0",
+    "team": "townsfolk",
+    "name": "Steward",
+    "ability": "You start knowing 1 good player.",
+    "image": "/image/downloaded/11571b07165c78ea30fb07064def9c4c.webp",
+    "setup": false,
+    "reminders": [
+      "Know"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3054,
+    "otherNight": 0,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/steward_600w.webp"
+  },
+  {
+    "id": "59f1a203",
+    "team": "townsfolk",
+    "name": "▲调查员",
+    "ability": "在你的首个夜晚，你会得知两名玩家和一个爪牙角色：这两名玩家之一是该角色（或者你会得知没有爪牙在场）。",
+    "image": "/image/downloaded/ab09ffad8abaf8071b031224c01789d8.webp",
+    "setup": false,
+    "reminders": [
+      "爪牙",
+      "错误"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3041,
+    "otherNight": 0,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/investigator.png"
+  },
+  {
+    "id": "0ed7cfee",
+    "team": "townsfolk",
+    "name": "Chef",
+    "ability": "You start knowing how many pairs of evil players there are.",
+    "image": "/image/downloaded/85755737b8040b7c996604a9a99d9571.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 3045,
+    "otherNight": 0,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/chef_600w.webp"
+  },
+  {
+    "id": "a00c101a",
+    "team": "townsfolk",
+    "name": "▲气球驾驶员",
+    "ability": "每个夜晚，你会得知一名与上个夜晚得知的玩家角色类型不同的玩家。[+0~1外来者]",
+    "image": "/image/downloaded/63a8a67b53701ba369d42ae9c272cebf.webp",
+    "setup": true,
+    "reminders": [
+      "得知",
+      "得知",
+      "得知",
+      "得知",
+      "得知"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3075,
+    "otherNight": 86,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/upload/202410/c_7787277188271_9eba6446.jpg"
+  },
+  {
+    "id": "9303e3a0",
+    "team": "townsfolk",
+    "name": "▲侍女",
+    "ability": "每个夜晚，你要选择除你以外的两名存活的玩家：你会得知他们中有几人在当晚因其自身能力而被唤醒。",
+    "image": "/image/downloaded/91f60d7b1a916d4c24fae324e2647940.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 3078,
+    "otherNight": 123,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/chambermaid.png"
+  },
+  {
+    "id": "53d1331a",
+    "team": "townsfolk",
+    "name": "▲传教士",
+    "ability": "每个夜晚，你要选择一名玩家：如果你选中了爪牙，他会得知被传教士选中。所有被你选中的爪牙失去能力。",
+    "image": "/image/downloaded/46d2595aa60812b38bfeab49029a0934.webp",
+    "setup": false,
+    "reminders": [
+      "失去能力"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3007,
+    "otherNight": 15,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/preacher.png"
+  },
+  {
+    "id": "b74f6759",
+    "team": "townsfolk",
+    "name": "Fortune Teller",
+    "ability": "Each night, choose 2 players: you learn if either is a Demon. There is a good player that registers as a Demon to you.",
+    "image": "/image/downloaded/373c82aaa45a5fff9387f54ce2bf775a.webp",
+    "setup": false,
+    "reminders": [
+      "Red herring"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3047,
+    "otherNight": 97,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/fortuneTeller_600w.webp"
+  },
+  {
+    "id": "22891670",
+    "team": "townsfolk",
+    "name": "▲僧侣",
+    "ability": "每个夜晚*，你要选择除你以外的一名玩家：当晚恶魔的负面能力对他无效。",
+    "image": "/image/downloaded/9f5fbbf2566f1e2e64ec2c51cbafc1b0.webp",
+    "setup": false,
+    "reminders": [
+      "保护"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 28,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/monk.png"
+  },
+  {
+    "id": "f2fc9b0b",
+    "team": "townsfolk",
+    "name": "Town Crier",
+    "ability": "Each night*, you learn if a Minion nominated today.",
+    "image": "/image/downloaded/73907775b235c1e89e83ec8fc1c45268.webp",
+    "setup": false,
+    "reminders": [
+      "Minions not nominated",
+      "Minion nominated"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 103,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/townCrier_600w.webp"
+  },
+  {
+    "id": "401ab1a5",
+    "team": "townsfolk",
+    "name": "Oracle",
+    "ability": "Each night*, you learn how many dead players are evil.",
+    "image": "/image/downloaded/a3910f7187cabee3f82487c1852f3b1a.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 104,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/oracle_600w.webp"
+  },
+  {
+    "id": "6d98ddc2",
+    "team": "townsfolk",
+    "name": "▲博学者",
+    "ability": "每个白天，你可以私下询问说书人以得知两条信息：一个是正确的，一个是错误的。",
+    "image": "/image/downloaded/ceb53ff314ee2171f4e08508a178cfcb.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/savant.png"
+  },
+  {
+    "id": "d0498154",
+    "team": "townsfolk",
+    "name": "Nightwatchman",
+    "ability": "Once per game, at night, choose a player: they learn you are the Nightwatchman.",
+    "image": "/image/downloaded/23121cee2dc0e744fbdcdd07fd9cb5df.webp",
+    "setup": false,
+    "reminders": [
+      "No ability"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3066,
+    "otherNight": 115,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/nightwatchman_600w.webp"
+  },
+  {
+    "id": "9ea387bf",
+    "team": "townsfolk",
+    "name": "▲杂耍艺人",
+    "ability": "在你的首个白天，你可以公开猜测任意玩家的角色最多五次。在当晚，你会得知猜测正确的角色数量。",
+    "image": "/image/downloaded/4526372ffe8cee20b73b51b3db8c8a4d.webp",
+    "setup": false,
+    "reminders": [
+      "猜测正确"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 110,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/juggler.png"
+  },
+  {
+    "id": "8f0fffa9",
+    "team": "townsfolk",
+    "name": "Princess",
+    "ability": "On your 1st day, if you nominated & executed a player, the Demon doesn’t kill tonight.",
+    "image": "/image/downloaded/c9737249ea1482b7d795f762e7f708c2.webp",
+    "setup": false,
+    "reminders": [
+      "Doesn't kill"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 51,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/princess_600w.webp"
+  },
+  {
+    "id": "3afa7aea",
+    "team": "townsfolk",
+    "name": "▲农夫",
+    "ability": "当你在夜晚死亡时，一名存活的善良玩家会变成农夫。",
+    "image": "/image/downloaded/a7071d7d893f6d54681736f2b394bfbf.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 91,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/farmer.png"
+  },
+  {
+    "id": "c671044e",
+    "team": "townsfolk",
+    "name": "Mayor",
+    "ability": "If only 3 players live & no execution occurs, your team wins. If you die at night, another player might die instead.",
+    "image": "/image/downloaded/0580753fd78b672bb94e97126153908a.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/mayor_600w.webp"
+  },
+  {
+    "id": "c989db5f",
+    "team": "townsfolk",
+    "name": "▲魔术师",
+    "ability": "恶魔会以为你是爪牙。爪牙会以为你是恶魔。",
+    "image": "/image/downloaded/c5eeeff28c8c93c8e675a2a074e69997.webp",
+    "setup": false,
+    "reminders": [
+      "是魔术师"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 10,
+    "otherNight": 0,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/magician.png"
+  },
+  {
+    "id": "43c70787",
+    "team": "outsider",
+    "name": "▲食人魔",
+    "ability": "在你的首个夜晚，你要选择除你以外的一名玩家：你转变为他的阵营，即使你已醉酒或中毒，但你不知道你转变后的阵营。",
+    "image": "/image/downloaded/9ec2140ad54f37cb6a6cda9abfda7ae2.webp",
+    "setup": false,
+    "reminders": [
+      "挚友"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3072,
+    "otherNight": 0,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/upload/202405/c_0102424156171_21d2f372.jpg"
+  },
+  {
+    "id": "942b83e4",
+    "team": "outsider",
+    "name": "Recluse",
+    "ability": "You might register as evil & as a Minion or Demon, even if dead.",
+    "image": "/image/downloaded/8752d42ab75d5dc392007083821224ee.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/recluse_600w.webp"
+  },
+  {
+    "id": "d9affbf8",
+    "team": "outsider",
+    "name": "▲圣徒",
+    "ability": "如果你死于处决，你的阵营落败。",
+    "image": "/image/downloaded/d048cf54220993e862fc7e13c68122f0.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/saint.png"
+  },
+  {
+    "id": "ccd2df68",
+    "team": "outsider",
+    "name": "▲帽匠",
+    "ability": "如果你死亡，当晚爪牙和恶魔玩家可以选择变成新的爪牙和恶魔角色。",
+    "image": "/image/downloaded/d1349aa8fd5ac3d075ec6d1c0bcebd33.webp",
+    "setup": false,
+    "reminders": [
+      "今晚茶会"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 8,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/upload/202312/c_9723021341071_86da6df4.jpg"
+  },
+  {
+    "id": "2eb4a511",
+    "team": "outsider",
+    "name": "▲魔像",
+    "ability": "每局游戏你只能发起提名一次。当你发起提名时，如果被你提名的玩家不是恶魔，他死亡。",
+    "image": "/image/downloaded/d29ef1bcdcb281dc7a5c07698b707db4.webp",
+    "setup": false,
+    "reminders": [
+      "无法提名"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/golem.png"
+  },
+  {
+    "id": "0e1f94c0",
+    "team": "outsider",
+    "name": "Puzzlemaster",
+    "ability": "1 player is drunk, even if you die. If you guess (once) who it is, learn the Demon player, but guess wrong & get false info.",
+    "image": "/image/downloaded/289617cfab48fc6a8731ce1d0c574f54.webp",
+    "setup": false,
+    "reminders": [
+      "Drunk",
+      "Guess used"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/puzzlemaster_600w.webp"
+  },
+  {
+    "id": "6bd26256",
+    "team": "minion",
+    "name": "▲灵言师",
+    "ability": "在你的首个夜晚，你会得知一个关键词。首个说出该关键词的善良玩家会在当晚转变为邪恶阵营。",
+    "image": "/image/downloaded/3666509f3365b8b6821e0a4fed9e9e53.webp",
+    "setup": false,
+    "reminders": [
+      "转为邪恶",
+      "失去能力"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3022,
+    "otherNight": 34,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/mezepheles.png"
+  },
+  {
+    "id": "3187feba",
+    "team": "minion",
+    "name": "▲间谍",
+    "ability": "每个夜晚，你能查看魔典。你可能会被当作善良阵营、镇民角色或外来者角色，即使你已死亡。",
+    "image": "/image/downloaded/2c21afaf359bc3080a4c94545b60c198.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 3069,
+    "otherNight": 119,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/spy.png"
+  },
+  {
+    "id": "2ab2c70b",
+    "team": "minion",
+    "name": "▲精神病患者",
+    "ability": "每个白天，在提名开始前，你可以公开选择一名玩家：他死亡。如果你被处决，提名你的玩家需要和你猜拳，只有你输了你才会死亡。",
+    "image": "/image/downloaded/cab252022eddb94a84b49f69201268d1.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/psychopath.png"
+  },
+  {
+    "id": "0fdcec42",
+    "team": "minion",
+    "name": "Assassin",
+    "ability": "Once per game, at night*, choose a player: they die, even if for some reason they could not.",
+    "image": "/image/downloaded/9d5c3b9768ba210221816292c6b2cda1.webp",
+    "setup": false,
+    "reminders": [
+      "Dead",
+      "No ability"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 80,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/assassin_600w.webp"
+  },
+  {
+    "id": "20a39f7d",
+    "team": "minion",
+    "name": "▲提线木偶",
+    "ability": "你以为你是一个善良角色，但其实你不是。恶魔会知道你是提线木偶。[提线木偶会与恶魔邻座]",
+    "image": "/image/downloaded/6be4232046086631affb7927c8b99693.webp",
+    "setup": true,
+    "reminders": [],
+    "remindersGlobal": [
+      "是提线木偶"
+    ],
+    "firstNight": 2004,
+    "otherNight": 0,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/marionette.png"
+  },
+  {
+    "id": "c56025ff",
+    "team": "minion",
+    "name": "Xaan",
+    "ability": "On night X, all Townsfolk are poisoned until dusk. [X Outsiders]",
+    "image": "/image/downloaded/0be0ec5fa1601fcd61c38c1e6dc4a76d.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 3015,
+    "otherNight": 21,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/xaan_600w.webp"
+  },
+  {
+    "id": "0aef556b",
+    "team": "demon",
+    "name": "Yaggababble",
+    "ability": "You start knowing a secret phrase. For each time you said it publicly today, a player might die.",
+    "image": "/image/downloaded/e260aafa9088456a0212ff9ab47376a1.webp",
+    "setup": false,
+    "reminders": [
+      "Dead"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3036,
+    "otherNight": 67,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/yaggababble_600w.webp"
+  },
+  {
+    "id": "6173014e",
+    "team": "demon",
+    "name": "▲普卡",
+    "ability": "每个夜晚，你要选择一名玩家：他中毒。上个因你的能力中毒的玩家会死亡并恢复健康。",
+    "image": "/image/downloaded/56b40c84b549e49f5b1e25dd556e0ca0.webp",
+    "setup": false,
+    "reminders": [
+      "中毒",
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3029,
+    "otherNight": 47,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/pukka.png"
+  },
+  {
+    "id": "6e7027a1",
+    "team": "demon",
+    "name": "▲小恶魔",
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡。如果你以这种方式自杀，一名爪牙会变成小恶魔。",
+    "image": "/image/downloaded/ab66961f86f3be1e17e560be3c3f85c5.webp",
+    "setup": false,
+    "reminders": [
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 41,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/imp.png"
+  },
+  {
+    "id": "2866991d",
+    "team": "demon",
+    "name": "▲奥赫",
+    "ability": "每个夜晚*，你要选择一个角色：他死亡。如果该角色不在场，则由说书人来决定谁会被你杀死。",
+    "image": "/image/downloaded/b97913ea3f9bfd1485ecde6f5f2521dd.webp",
+    "setup": false,
+    "reminders": [
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 60,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/upload/202310/c_6886084308961_f221dd48.jpg"
+  },
+  {
+    "id": "3c22b097",
+    "team": "demon",
+    "name": "▲亡骨魔",
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡。被你杀死的爪牙保留他的能力，且与他邻近的两名镇民之一中毒。[-1外来者]",
+    "image": "/image/downloaded/59878944c25e98a7c041f1dcb1443d40.webp",
+    "setup": true,
+    "reminders": [
+      "死亡",
+      "保留能力",
+      "中毒"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 54,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/vigormortis.png"
+  },
+  {
+    "id": "4fcf3542",
+    "team": "fabled",
+    "name": "装配！行动！完美！",
+    "ability": "游戏开始前，说书人从“备选”角色（带▲的角色）中挑选5~6名镇民，2~3名外来者、爪牙和恶魔加入游戏，组成完整的剧本！",
+    "image": "/image/downloaded/1681e258c1b1bd9bd9e1ac688cfcf23f.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://clocktower-wiki.gstonegames.com/images/thumb/9/97/Bootlegger.png/200px-Bootlegger.png"
+  }
+]

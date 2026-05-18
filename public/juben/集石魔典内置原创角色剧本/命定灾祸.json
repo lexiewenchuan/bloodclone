@@ -1,0 +1,428 @@
+[
+  {
+    "hint": "线上魔典支持直接输入剧本的URL。不必将此文件保存到你的电脑。",
+    "id": "_meta",
+    "name": "命定灾祸",
+    "author": "Stitchface & Bra1n",
+    "status": [
+      {
+        "name": "庇佑",
+        "skill": "如果被庇佑的玩家获得负伤，则改为无法负伤；如果被庇佑的玩家在夜晚时死亡，则改为负伤；如果负伤的被庇佑玩家在夜晚时死亡，他死亡。"
+      },
+      {
+        "name": "负伤",
+        "skill": "负伤是一个状态，它不会因为负伤来源死亡，发生改变，醉酒或中毒而被移除。如果负伤的玩家再次负伤，他死亡。"
+      },
+      {
+        "name": "命运指针",
+        "skill": "游戏开始时，命运指针正指向恶魔。每个黄昏，命运指针会顺时针指向下一名玩家。玩家不会被告知他正被命运指针指向。"
+      }
+    ]
+  },
+  {
+    "id": "1f293cab",
+    "team": "townsfolk",
+    "name": "看守人",
+    "ability": "在你的首个夜晚，你会得知在场的恶魔角色。在夜晚时，被命运指针指向的玩家被你庇佑。",
+    "image": "/blood-on-the-clocktower/image/downloaded/f34c190b39ec73cf6060eae650181a98.webp",
+    "setup": false,
+    "reminders": [
+      "庇佑"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3075,
+    "otherNight": 7,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/upload/1709643071_197011_4832.png"
+  },
+  {
+    "id": "e5f01b9f",
+    "team": "townsfolk",
+    "name": "巡逻兵",
+    "ability": "在你的首个夜晚，你会得知一个在场的爪牙角色。如果你在夜晚死亡，你会得知一名爪牙玩家。",
+    "image": "/blood-on-the-clocktower/image/downloaded/98725bf3a8cc0e654e63b3051ca708c0.webp",
+    "setup": false,
+    "reminders": [
+      "爪牙"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3068,
+    "otherNight": 112,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/upload/1709643070_197011_6333.png"
+  },
+  {
+    "id": "89e1a94f",
+    "team": "townsfolk",
+    "name": "酋长",
+    "ability": "在你的首个夜晚，你会得知一个在场的外来者角色。每个夜晚*，你会得知命运指针是否正指向外来者。[+1外来者]",
+    "image": "/blood-on-the-clocktower/image/downloaded/b7a18eeb3d924cb7d0833eebe5cb1174.webp",
+    "setup": true,
+    "reminders": [
+      "外来者"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3042,
+    "otherNight": 82,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/upload/1709643068_197011_2283.png"
+  },
+  {
+    "id": "19ef66e3",
+    "team": "townsfolk",
+    "name": "渎神者",
+    "ability": "在你的首个夜晚，你会得知一个在场的镇民角色。每个夜晚*，选择是或否：如果你在被命运指针指向时选择了是，你会死亡两次。",
+    "image": "/blood-on-the-clocktower/image/downloaded/1fd296b3b1d81896ac121adf41165219.webp",
+    "setup": false,
+    "reminders": [
+      "镇民",
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3048,
+    "otherNight": 37,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/upload/1709643067_197011_4466.png"
+  },
+  {
+    "id": "c2d4329c",
+    "team": "townsfolk",
+    "name": "瞭望员",
+    "ability": "每个夜晚，你会得知与你顺时针邻近的存活玩家是否是爪牙。 ",
+    "image": "/blood-on-the-clocktower/image/downloaded/5f78187003e4622a42c94346d79d7f29.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 3062,
+    "otherNight": 107,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/upload/1709643074_197011_7120.png"
+  },
+  {
+    "id": "32d297f5",
+    "team": "townsfolk",
+    "name": "勇士",
+    "ability": "每个夜晚*，你会得知你是否负伤。你在夜晚时被庇佑。",
+    "image": "/blood-on-the-clocktower/image/downloaded/f223c60b2f0361a50b4fe1c2271c7ab5.webp",
+    "setup": false,
+    "reminders": [
+      "庇佑"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 8,
+    "otherNight": 122,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/upload/1709643078_197011_4773.png"
+  },
+  {
+    "id": "cfbee171",
+    "team": "townsfolk",
+    "name": "占星师",
+    "ability": "每个夜晚*，你会得知正被命运指针指向的玩家的阵营。",
+    "image": "/blood-on-the-clocktower/image/downloaded/f1f721d224eba1d1c8736479f36d6135.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 97,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/upload/1709643075_197011_658.png"
+  },
+  {
+    "id": "ea398c70",
+    "team": "townsfolk",
+    "name": "前线医师",
+    "ability": "每个夜晚*，你要选择除你以外的两名玩家：他们在今晚被你庇佑。",
+    "image": "/blood-on-the-clocktower/image/downloaded/0a6733cf7423b68e06bbfd636777daed.webp",
+    "setup": false,
+    "reminders": [
+      "庇佑",
+      "庇佑"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 32,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/upload/1709643079_197011_5555.png"
+  },
+  {
+    "id": "5f5f2be3",
+    "team": "townsfolk",
+    "name": "先知",
+    "ability": "每个夜晚*，你要选择一名玩家：你会得知他的角色。如果命运指针正指向你或邪恶玩家时，你醉酒直到命运指针再次移动。",
+    "image": "/blood-on-the-clocktower/image/downloaded/15de1949c84ac7c64da89dbdd2cbd9e9.webp",
+    "setup": false,
+    "reminders": [
+      "醉酒"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 102,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/upload/1709643076_197011_6587.png"
+  },
+  {
+    "id": "1cd252e7",
+    "team": "townsfolk",
+    "name": "偷猎者",
+    "ability": "每局游戏限一次，在夜晚时*，你可以选择一名玩家：你会得知命运指针是否正指向他或与他顺时针邻近的玩家。",
+    "image": "/blood-on-the-clocktower/image/downloaded/d3d8118c0436829960be502540feefe9.webp",
+    "setup": false,
+    "reminders": [
+      "失去能力"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 92,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/upload/1709643082_197011_2778.png"
+  },
+  {
+    "id": "60122c3b",
+    "team": "townsfolk",
+    "name": "外勤员",
+    "ability": "每局游戏限一次，在夜晚时*，你可以选择一名已死亡玩家：你会得知他的阵营。在夜晚时*，与你顺时针邻近的玩家被你庇佑。",
+    "image": "/blood-on-the-clocktower/image/downloaded/0d750bd25572641eba9cbda043fd6282.webp",
+    "setup": false,
+    "reminders": [
+      "失去能力",
+      "庇佑"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 117,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/upload/1709643083_197011_3789.png"
+  },
+  {
+    "id": "a02e3dec",
+    "team": "townsfolk",
+    "name": "陷阱师",
+    "ability": "在你的首个夜晚，你要选择一名除你以外的玩家。每个夜晚*，你会得知命运指针是否正指向你或他其中之一。",
+    "image": "/blood-on-the-clocktower/image/downloaded/5173f3f97a2d7471eb4d00090a7f19bf.webp",
+    "setup": false,
+    "reminders": [
+      "绊索"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3055,
+    "otherNight": 87,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/upload/1709643072_197011_7091.png"
+  },
+  {
+    "id": "82c49ce3",
+    "team": "townsfolk",
+    "name": "肠卜僧",
+    "ability": "一名镇民因为你的能力而在首个夜晚负伤。每个夜晚*，你可以选择一名玩家：你会得知他的阵营，但同时可能会有一名玩家负伤。",
+    "image": "/blood-on-the-clocktower/image/downloaded/bcf7fcfde7b66daf3b38fe1760ffbe89.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 2001,
+    "otherNight": 77,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/upload/1709643081_197011_9599.png"
+  },
+  {
+    "id": "5fa6e288",
+    "team": "outsider",
+    "name": "扫把星",
+    "ability": "如果你被处决，在当晚，恶魔可以选择将命运指针拨动一格。你在首个夜晚负伤。",
+    "image": "/blood-on-the-clocktower/image/downloaded/65dd9cd614fdee38913519c8686244af.webp",
+    "setup": false,
+    "reminders": [
+      "被处决"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3002,
+    "otherNight": 22,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/upload/1709643086_197011_5791.png"
+  },
+  {
+    "id": "bfe40b4c",
+    "team": "outsider",
+    "name": "恶棍",
+    "ability": "如果命运指针指向了你，你会转为邪恶，且恶魔会得知你是恶棍。",
+    "image": "/blood-on-the-clocktower/image/downloaded/4019900fc6a1ea037d522629d7004beb.webp",
+    "setup": false,
+    "reminders": [
+      "邪恶"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 27,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/upload/1709643084_197011_356.png"
+  },
+  {
+    "id": "776e5b88",
+    "team": "outsider",
+    "name": "帮凶",
+    "ability": "如果与你顺时针邻近的玩家是善良阵营且被处决，你的阵营落败，即使你已死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/0424cbc26aac52aaf4bcc6034ee9e749.webp",
+    "setup": false,
+    "reminders": [
+      "顺时针邻近"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/upload/1709643087_197011_3527.png"
+  },
+  {
+    "id": "d5de1539",
+    "team": "outsider",
+    "name": "兽王",
+    "ability": "如果大于等于六名玩家存活时你死亡，在当晚会有一名玩家死亡，或有三名玩家负伤。",
+    "image": "/blood-on-the-clocktower/image/downloaded/c386ac004debc06e974ff19bfd1e801c.webp",
+    "setup": false,
+    "reminders": [
+      "野兽出逃",
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 72,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/upload/1709643088_197011_3322.png"
+  },
+  {
+    "id": "0fcee314",
+    "team": "minion",
+    "name": "阴谋家",
+    "ability": "每个夜晚，你能查看魔典，且可以选择让与你顺时针邻近的镇民中毒直到下个黄昏。",
+    "image": "/blood-on-the-clocktower/image/downloaded/a37725b1b523828c3c3a3fced0520b54.webp",
+    "setup": false,
+    "reminders": [
+      "中毒"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3015,
+    "otherNight": 12,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/upload/1709643091_197011_9122.png"
+  },
+  {
+    "id": "6c3ca29d",
+    "team": "minion",
+    "name": "悲剧家",
+    "ability": "每个夜晚*，你要选择一名玩家：你会得知他是否是外来者。如果他不是外来者，他负伤。[+1外来者]",
+    "image": "/blood-on-the-clocktower/image/downloaded/5d154b4eecb2fc9faa2d1c2adadf5ae1.webp",
+    "setup": true,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 62,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/upload/1709643092_197011_3987.png"
+  },
+  {
+    "id": "8fe0af77",
+    "team": "minion",
+    "name": "二把手",
+    "ability": "每个夜晚*，你要选择一名玩家：他负伤。如果你选择了正被命运指针指向的玩家，改为他死亡。你在首个夜晚负伤。",
+    "image": "/blood-on-the-clocktower/image/downloaded/89369cff87e2abd286780fa9cf349af2.webp",
+    "setup": false,
+    "reminders": [
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3008,
+    "otherNight": 67,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/upload/1709643093_197011_5224.png"
+  },
+  {
+    "id": "801ca33d",
+    "team": "minion",
+    "name": "掩日者",
+    "ability": "当你死亡时，在当晚你可以选择是否将命运指针拨动一格。每个夜晚*，选择是或否：如果你选择了是，你死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/4d6619d92f1a6d1e72d5279f3e06ee36.webp",
+    "setup": false,
+    "reminders": [
+      "死亡",
+      "失去能力"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 17,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/upload/1709643089_197011_9955.png"
+  },
+  {
+    "id": "52df5d19",
+    "team": "demon",
+    "name": "万钧之力",
+    "ability": "每个夜晚*，你可以选择一名或三名玩家。如果你选择了一名玩家：他死亡；如果你选择了三名玩家：他们负伤。",
+    "image": "/blood-on-the-clocktower/image/downloaded/b680238e116898fcd0e4fc01cf059db3.webp",
+    "setup": false,
+    "reminders": [
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 57,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/upload/1709643099_197011_7499.png"
+  },
+  {
+    "id": "8bc50df2",
+    "team": "demon",
+    "name": "沼泽蜥人",
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡。如果命运指针正指向的玩家及与他顺时针邻近的玩家均为镇民，他们会中毒。",
+    "image": "/blood-on-the-clocktower/image/downloaded/9a8559c3a5a5c5e1b1e46cc30bccc88a.webp",
+    "setup": false,
+    "reminders": [
+      "中毒",
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3028,
+    "otherNight": 47,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/upload/1709643096_197011_9484.png"
+  },
+  {
+    "id": "63f88457",
+    "team": "demon",
+    "name": "逆时旅人",
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡。在你的首个夜晚，会有一名玩家中毒直到下个黄昏。[命运指针会逆时针转动]",
+    "image": "/blood-on-the-clocktower/image/downloaded/0d003ecafdf9c31d21260fde1c584707.webp",
+    "setup": true,
+    "reminders": [
+      "中毒",
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3022,
+    "otherNight": 42,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/upload/1709643095_197011_8195.png"
+  },
+  {
+    "id": "c8ade6a4",
+    "team": "demon",
+    "name": "末日执行者",
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡。在你的首个夜晚，你要选择一名玩家：他中毒，且不计入邪恶阵营的胜利条件中。",
+    "image": "/blood-on-the-clocktower/image/downloaded/cdef4cd9c82dccc219701a08944a76e3.webp",
+    "setup": false,
+    "reminders": [
+      "中毒",
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3035,
+    "otherNight": 52,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/upload/1709643097_197011_9503.png"
+  },
+  {
+    "id": "b816d648",
+    "team": "fabled",
+    "name": "负伤",
+    "ability": "负伤是一个状态，它不会因为负伤来源死亡，发生改变，醉酒或中毒而被移除。如果负伤的玩家再次负伤，他死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/7d231f07fd506692bb2362c59d83ecd0.webp",
+    "setup": false,
+    "reminders": [
+      "负伤"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/upload/1709643102_197011_8533.png"
+  },
+  {
+    "id": "54fbc666",
+    "team": "fabled",
+    "name": "命运指针",
+    "ability": "游戏开始时，命运指针正指向恶魔。每个黄昏，命运指针会顺时针指向下一名玩家。玩家不会被告知他正被命运指针指向。",
+    "image": "/blood-on-the-clocktower/image/downloaded/8fc64e5b57084633698113c3697833e4.webp",
+    "setup": false,
+    "reminders": [
+      "命运指针",
+      "逆向命运指针"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/upload/1709643100_197011_7553.png"
+  }
+]

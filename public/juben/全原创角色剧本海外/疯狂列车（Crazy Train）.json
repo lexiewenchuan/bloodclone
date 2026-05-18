@@ -1,0 +1,422 @@
+[
+  {
+    "hint": "线上魔典支持直接输入剧本的URL。不必将此文件保存到你的电脑。",
+    "id": "_meta",
+    "name": "疯狂列车（Crazy Train）",
+    "author": "Arctem"
+  },
+  {
+    "id": "c727d031",
+    "team": "townsfolk",
+    "name": "推车售货员",
+    "ability": "在你的首个夜晚，你会得知一名与邪恶玩家邻座的玩家。",
+    "image": "/blood-on-the-clocktower/image/downloaded/a9b0e8935beb7a7475b1a29f5000dde3.webp",
+    "setup": false,
+    "reminders": [
+      "玩家"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3022,
+    "otherNight": 0,
+    "original_image": "https://i.postimg.cc/g0Bptd97/drink-cart-pusher.png"
+  },
+  {
+    "id": "65240bcd",
+    "team": "townsfolk",
+    "name": "行李检察员",
+    "ability": "在你的首个夜晚，你会得知一名与邪恶玩家邻座的善良角色。",
+    "image": "/blood-on-the-clocktower/image/downloaded/9a42e60a0536e171c58fa77c66a0a1ec.webp",
+    "setup": false,
+    "reminders": [
+      "角色"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3032,
+    "otherNight": 0,
+    "original_image": "https://i.postimg.cc/fbVpL9FH/baggage-checker.png"
+  },
+  {
+    "id": "67aed82f",
+    "team": "townsfolk",
+    "name": "失眠患者",
+    "ability": "每个夜晚，你会得知一个在当晚选择过你的角色。",
+    "image": "/blood-on-the-clocktower/image/downloaded/8a8818927cd3bdb6ec601fd620c59645.webp",
+    "setup": false,
+    "reminders": [
+      "Picked Insomniac"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3072,
+    "otherNight": 109,
+    "original_image": "https://i.postimg.cc/DZ0bX2Fy/insomniac.png"
+  },
+  {
+    "id": "8e42e058",
+    "team": "townsfolk",
+    "name": "窥探者",
+    "ability": "每个夜晚，你要选择一名玩家：你会得知与他邻座的两名玩家是否属于同一阵营。",
+    "image": "/blood-on-the-clocktower/image/downloaded/1b0c8f5d04c67ae0278f940c737c0203.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 3052,
+    "otherNight": 98,
+    "original_image": "https://i.postimg.cc/JzhygrD3/snoop.png"
+  },
+  {
+    "id": "6e141e3f",
+    "team": "townsfolk",
+    "name": "检票员",
+    "ability": "每个夜晚，你要选择一名玩家，你会得知他是否持有车票。半数善良玩家持有车票，但他们不知道。",
+    "image": "/blood-on-the-clocktower/image/downloaded/799e15f1de8074d8043a5337a4c8cc5a.webp",
+    "setup": false,
+    "reminders": [
+      "车票"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3042,
+    "otherNight": 81,
+    "original_image": "https://i.postimg.cc/MpXkNNWf/ticket-taker.png"
+  },
+  {
+    "id": "ab51d11a",
+    "team": "townsfolk",
+    "name": "保镖",
+    "ability": "每个夜晚*，你要选择一名玩家：当晚与他邻座的玩家的负面能力对他无效。",
+    "image": "/blood-on-the-clocktower/image/downloaded/3340e536524fd98812a2af16ef2806a0.webp",
+    "setup": false,
+    "reminders": [
+      "邻座安全"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 41,
+    "original_image": "https://i.postimg.cc/pLr2tkf4/bodyguard.png"
+  },
+  {
+    "id": "5b0af2af",
+    "team": "townsfolk",
+    "name": "孤胆枪手",
+    "ability": "每个夜晚*，你要选择一名玩家：如果他在当晚以任何方式选择了你，他死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/ae9e6ed71009dba121728d00900f471f.webp",
+    "setup": false,
+    "reminders": [
+      "瞄准目标"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 19,
+    "original_image": "https://i.postimg.cc/rwJpqvWV/lone-gun.png"
+  },
+  {
+    "id": "93d91af8",
+    "team": "townsfolk",
+    "name": "副警长",
+    "ability": "每个夜晚*，你要选择一名玩家：如果他当晚将要选择玩家，他的首个选择会改为选中你。",
+    "image": "/blood-on-the-clocktower/image/downloaded/d100695ba80b7d007e2f476b476fdb6a.webp",
+    "setup": false,
+    "reminders": [
+      "必选副警长"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 30,
+    "original_image": "https://i.postimg.cc/JzNLbg5f/deputy.png"
+  },
+  {
+    "id": "018c2b2c",
+    "team": "townsfolk",
+    "name": "列车长",
+    "ability": "每个夜晚*，如果你是今天白天首次发起提名的玩家，你会得知你是否提名了一名镇民玩家。",
+    "image": "/blood-on-the-clocktower/image/downloaded/1269d84e258782b69d95b086392ab196.webp",
+    "setup": false,
+    "reminders": [
+      "提名镇民",
+      "未提名镇民"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 87,
+    "original_image": "https://i.postimg.cc/mrRnRn4S/conductor.png"
+  },
+  {
+    "id": "bc58e965",
+    "team": "townsfolk",
+    "name": "糟老头",
+    "ability": "每个夜晚*，你要选择除你以外的两名玩家：如果他们之中有爪牙，他们醉酒直到下个黄昏。",
+    "image": "/blood-on-the-clocktower/image/downloaded/cca1d3e08929735d01d16cabf40f43a0.webp",
+    "setup": false,
+    "reminders": [
+      "醉酒"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 47,
+    "original_image": "https://i.postimg.cc/Cxp6YKp8/old-coot.png"
+  },
+  {
+    "id": "c1ede404",
+    "team": "townsfolk",
+    "name": "警长",
+    "ability": "每个夜晚*，你要选择顺/逆时针方向：在这个方向上距离你最近的前1-3名玩家在当晚不会死亡。(邻座的玩家距离为1)",
+    "image": "/blood-on-the-clocktower/image/downloaded/e409cfe9ec5536f1a6f235ff34b63261.webp",
+    "setup": false,
+    "reminders": [
+      "被保护"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 36,
+    "original_image": "https://i.postimg.cc/02vZzBrM/marshal.png"
+  },
+  {
+    "id": "e9f2ae90",
+    "team": "townsfolk",
+    "name": "副列车长",
+    "ability": "每个夜晚*，如果列车长是今天白天首次发起提名的玩家，你会得知是否列车长提名了一名镇民玩家。如果列车长已死亡，你获得列车长的能力。(+列车长)",
+    "image": "/blood-on-the-clocktower/image/downloaded/a6fb21078e3a4281b33f49552e971df5.webp",
+    "setup": true,
+    "reminders": [
+      "列车长死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 92,
+    "original_image": "https://i.postimg.cc/634bhxft/secondman.png"
+  },
+  {
+    "id": "f939d8ab",
+    "team": "townsfolk",
+    "name": "投机商",
+    "ability": "如果你提名并处决了一名玩家，当晚，你与一名离你最近的存活邪恶玩家醉酒直到下个黄昏。",
+    "image": "/blood-on-the-clocktower/image/downloaded/23440824a8f1559dd14fd16041424642.webp",
+    "setup": false,
+    "reminders": [
+      "提名",
+      "醉酒"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 24,
+    "original_image": "https://i.postimg.cc/t4wX5PK6/speculator.png"
+  },
+  {
+    "id": "dfd07b5e",
+    "team": "outsider",
+    "name": "通信员",
+    "ability": "每个夜晚，恶魔会得知一名与你最近的存活镇民的角色。",
+    "image": "/blood-on-the-clocktower/image/downloaded/e1621c0f16fa2b8f76590925353358c6.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 3062,
+    "otherNight": 104,
+    "original_image": "https://i.postimg.cc/QMf3H7jw/signaller.png"
+  },
+  {
+    "id": "648e8653",
+    "team": "outsider",
+    "name": "知心女友",
+    "ability": "你不能提名或投票给与你邻近的存活玩家，即使你醉酒或中毒。",
+    "image": "/blood-on-the-clocktower/image/downloaded/a9a49bcca6f8644dae3f3855006c027b.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://i.postimg.cc/d0Y18GP0/confidante.png"
+  },
+  {
+    "id": "1bc01b47",
+    "team": "outsider",
+    "name": "烦人精",
+    "ability": "当与你邻座的玩家将要选择一名玩家时，可能会改为选中你。",
+    "image": "/blood-on-the-clocktower/image/downloaded/7bf3af4c0b32b8428b357589d454e816.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://i.postimg.cc/658yw9fB/nuisance.png"
+  },
+  {
+    "id": "c230b246",
+    "team": "outsider",
+    "name": "懦夫",
+    "ability": "当有一名与你邻近的存活玩家死亡时，你会在下个黎明转变阵营。",
+    "image": "/blood-on-the-clocktower/image/downloaded/c49b4b810004493f2a15485efff8533a.webp",
+    "setup": false,
+    "reminders": [
+      "转变邪恶",
+      "转变善良"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 115,
+    "original_image": "https://i.postimg.cc/mkDhPRxN/yellow-belly.png"
+  },
+  {
+    "id": "235776d9",
+    "team": "minion",
+    "name": "车钩",
+    "ability": "每个夜晚，你要选择一名玩家：如果他是外来者且恶魔在明天白天被处决，他转变为邪恶阵营并与恶魔交换角色[+1外来者]",
+    "image": "/blood-on-the-clocktower/image/downloaded/f479537f7bbf9ca0aef94a8d0b582784.webp",
+    "setup": true,
+    "reminders": [
+      "耦合连结"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3012,
+    "otherNight": 75,
+    "original_image": "https://i.postimg.cc/Wb0wmLh6/coupler.png"
+  },
+  {
+    "id": "16b764cd",
+    "team": "minion",
+    "name": "守车",
+    "ability": "每个夜晚*，你要选择一名玩家：如果恶魔在当晚也选择了他，你要选择另一名玩家：他死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/31beb0ec69cf7a3e561e9a4efdff087e.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 121,
+    "original_image": "https://i.postimg.cc/fLFkSpMG/caboose.png"
+  },
+  {
+    "id": "c251529c",
+    "team": "minion",
+    "name": "道岔",
+    "ability": "如果恶魔杀死了与你邻近的存活玩家，与你邻近的另一名存活玩家也会死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/d1c5320be98a4d1d7c04a19924cebaff.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://i.postimg.cc/KjFwfvcB/switch.png"
+  },
+  {
+    "id": "150bc2f4",
+    "team": "minion",
+    "name": "汽笛",
+    "ability": "如果一名玩家在晚上选择了你，他会在黎明死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/a7b456d083963e797781b44555fd7456.webp",
+    "setup": false,
+    "reminders": [
+      "劫数"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://i.postimg.cc/t4SbgPqf/whistle.png"
+  },
+  {
+    "id": "cac9764b",
+    "team": "demon",
+    "name": "烟囱",
+    "ability": "每个夜晚，你要选择一名玩家：他中毒。如果你选择了你自己，改为所有因你的能力中毒的玩家死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/535a03e727d2af29d2191cd2d9543969.webp",
+    "setup": false,
+    "reminders": [
+      "焖烧",
+      "中毒"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3002,
+    "otherNight": 64,
+    "original_image": "https://i.postimg.cc/28NKNxWG/smokestack.png"
+  },
+  {
+    "id": "35d34e50",
+    "team": "demon",
+    "name": "列车惯性",
+    "ability": "每个夜晚*，你要选择[你在上个夜晚杀死的玩家数量+1]名玩家：他们死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/f128b9f54b2ab21a1bc05b7c2588041f.webp",
+    "setup": false,
+    "reminders": [
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 70,
+    "original_image": "https://i.postimg.cc/hjKknb6N/momentum.png"
+  },
+  {
+    "id": "ba89e33e",
+    "team": "demon",
+    "name": "燃煤引擎",
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡。如果你选择的玩家在当晚会被唤醒进行行动，你会得知他的角色并可以使用他的能力。",
+    "image": "/blood-on-the-clocktower/image/downloaded/521bd5d4b7c9ee5d768270304ec7af29.webp",
+    "setup": false,
+    "reminders": [
+      "死亡",
+      "获得能力",
+      "额外1",
+      "额外 2",
+      "额外 3"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 58,
+    "original_image": "https://i.postimg.cc/MKGzVxsg/coal-engine.png"
+  },
+  {
+    "id": "ad0eb1b0",
+    "team": "demon",
+    "name": "锅炉",
+    "ability": "每个夜晚*，你要选择一名玩家：他要选择一名与他邻近的存活玩家死亡。如果他选中了一名邪恶玩家，则他和与他邻近的所有存活玩家一同死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/0e553f50911488f7a38549a1b8ca2193.webp",
+    "setup": false,
+    "reminders": [
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 53,
+    "original_image": "https://i.postimg.cc/kGKKyKXX/boiler.png"
+  },
+  {
+    "id": "7a7ec277",
+    "team": "traveller",
+    "name": "骗子",
+    "ability": "每个白天限一次，你可以选择除你以外的一名玩家：你与他交换座位。如果换座后与你邻座的玩家均属于同一阵营，你死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/83ce517b719cad1ee026883c0be6ddbf.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://i.postimg.cc/zX3SMbt7/25-crazy-train-zh.png"
+  },
+  {
+    "id": "c9c73e58",
+    "team": "traveller",
+    "name": "大亨",
+    "ability": "你不与任何玩家邻座且初始不会被记为与任何玩家邻座的玩家，即使你醉酒或中毒。每个夜晚，你要选择两名玩家，他们会被当作与你邻座直到下个黄昏。",
+    "image": "/blood-on-the-clocktower/image/downloaded/373d572b31a5305fcf3523753806cf1b.webp",
+    "setup": false,
+    "reminders": [
+      "邻座"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 12,
+    "otherNight": 7,
+    "original_image": "https://i.postimg.cc/VN9jMjvf/26-crazy-train-zh.png"
+  },
+  {
+    "id": "42df2051",
+    "team": "traveller",
+    "name": "推销员",
+    "ability": "你不与任何玩家邻座且初始不会被记为与任何玩家邻座的玩家，即使你醉酒或中毒。每个夜晚，你要选择两名玩家，他们会被当作与你邻座直到下个黄昏。",
+    "image": "/blood-on-the-clocktower/image/downloaded/cd070fd7d5e57fcc388a21885ced594e.webp",
+    "setup": false,
+    "reminders": [
+      "受宠"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 13,
+    "original_image": "https://i.postimg.cc/WpY0MpNk/27-crazy-train-zh.png"
+  }
+]

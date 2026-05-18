@@ -1,0 +1,488 @@
+[
+  {
+    "hint": "线上魔典支持直接输入剧本的URL。不必将此文件保存到你的电脑。",
+    "id": "_meta",
+    "name": "彼岸花开v1",
+    "author": "际尘",
+    "status": [
+      {
+        "name": "状态",
+        "skill": "异常状态包括迷沙陷阱、宝箱怪的中毒/诅咒、达普鬼虫的附身、迷雾人的迷雾、史矛革的诅咒、脊盎的中毒。"
+      },
+      {
+        "name": "幽谷奇旅之彼岸花开",
+        "skill": "彼岸花开幽谷灿，七色鹿跃迷雾浓。曼珠沙华映月色，考古学家探秘踪。罗姆人浮踪浪迹，德鲁伊唤兽听从。地穴勘探寻龙脉，达普鬼虫舞幽风。迷沙陷阱前路阻，祈愿妖精梦破空。花语师朝不保夕，奇奇默克魅影重。史矛革肆放符咒，半巫妖吟唱惶恐。脊蛊肆虐生灵苦，继生王爵权欲隆。迷雾人布迷沙阵，宝箱怪藏宝珍丰。地狱犬吠恶声声，野蛮人战意熊熊。拳手力破千钧重，牧师心怀慈悲容。提夫林剑光舞动，星相师自有心通。怪物专家施妙手，植物学家辨吉凶。正邪之争硝烟起，英雄无惧向前冲。善恶终有天裁定，赞歌高唱后人颂。"
+      }
+    ]
+  },
+  {
+    "id": "679fb5a9",
+    "team": "townsfolk",
+    "name": "七色鹿",
+    "ability": "在你的首个夜晚，你会得知一名善良玩家，如果他在夜晚死亡，你要选择一个善良角色，如果该角色不在场，你变成该角色。",
+    "image": "/blood-on-the-clocktower/image/downloaded/7bbf90cce0b28b68f3bd8101cdd0c949.webp",
+    "setup": false,
+    "reminders": [
+      "神光护佑"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3050,
+    "otherNight": 67,
+    "original_image": "https://www.bloodstar.xyz/p/jc3635/EquinoxFlower/1_equinoxflower.png"
+  },
+  {
+    "id": "f161786a",
+    "team": "townsfolk",
+    "name": "星相家",
+    "ability": "每个夜晚，你得知当晚因自身能力被唤醒的玩家数量。",
+    "image": "/image/downloaded/d55a5bce184be8e0aef08d83acb58b69.webp",
+    "setup": false,
+    "reminders": [
+      "唤醒"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3075,
+    "otherNight": 121,
+    "original_image": "https://www.bloodstar.xyz/p/jc3635/EquinoxFlower/2_equinoxflower.png"
+  },
+  {
+    "id": "a690f980",
+    "team": "townsfolk",
+    "name": "牧师",
+    "ability": "每个夜晚，你要选择两名玩家：你会得知他们均不属于哪种角色类型。",
+    "image": "/blood-on-the-clocktower/image/downloaded/978bfe877fabda2e449f54788a522888.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 3069,
+    "otherNight": 115,
+    "original_image": "https://www.bloodstar.xyz/p/jc3635/EquinoxFlower/7_equinoxflower.png"
+  },
+  {
+    "id": "0a86124c",
+    "team": "townsfolk",
+    "name": "德鲁伊",
+    "ability": "每个夜晚，你要选择一名玩家和一种你未选择过的非旅行者角色类型：你得知他是否为该角色类型。",
+    "image": "/blood-on-the-clocktower/image/downloaded/7638c98f56dcf0b82dcad47d15abab1e.webp",
+    "setup": false,
+    "reminders": [
+      "鹰语（镇民）",
+      "虎语（外来者）",
+      "蛇语（爪牙）",
+      "鹿语（恶魔）"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3063,
+    "otherNight": 109,
+    "original_image": "https://www.bloodstar.xyz/p/jc3635/EquinoxFlower/6_equinoxflower.png"
+  },
+  {
+    "id": "995f2534",
+    "team": "townsfolk",
+    "name": "拳手",
+    "ability": "每个夜晚，你要选择一名玩家：下个白天，如果在你存活时他死于处决，他邻近的两名存活善良玩家在当晚不受邪恶能力影响直到下个黄昏，即使你已死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/201ddf0a3ef0dd66ad3cf5c5e68fffe8.webp",
+    "setup": false,
+    "reminders": [
+      "挑战",
+      "守护"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3025,
+    "otherNight": 79,
+    "original_image": "https://www.bloodstar.xyz/p/jc3635/EquinoxFlower/12_equinoxflower.png"
+  },
+  {
+    "id": "becb1a77",
+    "team": "townsfolk",
+    "name": "提夫林",
+    "ability": "每个夜晚*，你要选择一名与你距离大于1的存活玩家：你得知在顺时针方向上，你与该玩家之间有多少名邪恶玩家，如果你选择了邪恶玩家，你产生错误信息。",
+    "image": "/blood-on-the-clocktower/image/downloaded/495a147d99f503ce4660d74042919698.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 97,
+    "original_image": "https://www.bloodstar.xyz/p/jc3635/EquinoxFlower/5_equinoxflower.png"
+  },
+  {
+    "id": "59a647ba",
+    "team": "townsfolk",
+    "name": "植物学家",
+    "ability": "每局游戏限一次，在夜晚时，你可以选择一名玩家：你会得知与他邻近的两名存活的玩家中邪恶玩家的数量。",
+    "image": "/blood-on-the-clocktower/image/downloaded/92ff7a175d7b884545f638dff827386d.webp",
+    "setup": false,
+    "reminders": [
+      "失去能力"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3032,
+    "otherNight": 85,
+    "original_image": "https://www.bloodstar.xyz/p/jc3635/EquinoxFlower/9_equinoxflower.png"
+  },
+  {
+    "id": "7456be6a",
+    "team": "townsfolk",
+    "name": "考古学家",
+    "ability": "每局游戏限一次，在夜晚时，你可以选择除你以外的三名玩家：你得知他们是否均为不同类型；如果仅有两名玩家角色类型相同，另一名玩家得知考古学家在场。",
+    "image": "/blood-on-the-clocktower/image/downloaded/d6ea2f6faac14917b52f5ca71a9a3b1d.webp",
+    "setup": false,
+    "reminders": [
+      "失去能力",
+      "得知"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3038,
+    "otherNight": 91,
+    "original_image": "https://www.bloodstar.xyz/p/jc3635/EquinoxFlower/4_equinoxflower.png"
+  },
+  {
+    "id": "96129e5e",
+    "team": "townsfolk",
+    "name": "地穴勘探员",
+    "ability": "在你的首个夜晚，你得知四名玩家，其中有且仅有两个角色类型相同。",
+    "image": "/blood-on-the-clocktower/image/downloaded/00de58f1ed49dbef1033c0d5cb8dda35.webp",
+    "setup": false,
+    "reminders": [
+      "勘测"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3044,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/jc3635/EquinoxFlower/_equinoxflower.png"
+  },
+  {
+    "id": "7d51fa04",
+    "team": "townsfolk",
+    "name": "怪物专家",
+    "ability": "在你的首个夜晚，你要选择一个邪恶角色写入图鉴。每个夜晚*，你要选择任意名玩家，如果他们中没有图鉴上的角色，你要选择新的邪恶角色写入图鉴。",
+    "image": "/blood-on-the-clocktower/image/downloaded/01227a3f12b3a4039921efaad7bb5d97.webp",
+    "setup": false,
+    "reminders": [
+      "怪物图鉴"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3057,
+    "otherNight": 103,
+    "original_image": "https://www.bloodstar.xyz/p/jc3635/EquinoxFlower/3_equinoxflower.png"
+  },
+  {
+    "id": "cef622d5",
+    "team": "townsfolk",
+    "name": "祈愿妖精",
+    "ability": "在你的首个白天，拜访说书人并选择“那么……”，说书人会告诉你“如果……”，他们构成你的完整能力。",
+    "image": "/blood-on-the-clocktower/image/downloaded/01a1bfd95ab5266753894c744f79121c.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/jc3635/EquinoxFlower/11_equinoxflower.png"
+  },
+  {
+    "id": "b83dbb10",
+    "team": "townsfolk",
+    "name": "曼珠沙华",
+    "ability": "如果有镇民死于处决，当晚你可以选择一个善良角色：该角色不会因其他角色的能力产生错误信息，直到下个黄昏。",
+    "image": "/blood-on-the-clocktower/image/downloaded/75b4bacf5689bbb2d865ba899711b50e.webp",
+    "setup": false,
+    "reminders": [
+      "处决镇民",
+      "正确信息"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 73,
+    "original_image": "https://www.bloodstar.xyz/p/jc3635/EquinoxFlower/8_equinoxflower.png"
+  },
+  {
+    "id": "5b210e6d",
+    "team": "townsfolk",
+    "name": "罗姆人",
+    "ability": "首个被你提名或提名你的爪牙会变成罗姆人。",
+    "image": "/blood-on-the-clocktower/image/downloaded/bc298b678a2a4517f674a7d31c353173.webp",
+    "setup": false,
+    "reminders": [
+      "罗姆人",
+      "失去能力"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/jc3635/EquinoxFlower/10_equinoxflower.png"
+  },
+  {
+    "id": "9c11c5d3",
+    "team": "outsider",
+    "name": "花语师",
+    "ability": "每个夜晚，你要选择一名你未选择过的其他存活玩家，如果你选择过邪恶玩家，此后你随时可能死亡。如果你死于处决，你选择过的一名玩家随时可能死亡，即使你已死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/1f6901334b908083a98c06e17f9290c5.webp",
+    "setup": false,
+    "reminders": [
+      "已选择",
+      "随时死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3013,
+    "otherNight": 25,
+    "original_image": "https://www.bloodstar.xyz/p/jc3635/EquinoxFlower/15_equinoxflower.png"
+  },
+  {
+    "id": "4d8b1bc5",
+    "team": "outsider",
+    "name": "宝箱怪",
+    "ability": "每个夜晚，你要选择一名你未选择过的其他存活玩家，他要选择是否打开宝箱:如果选择否，他中毒直到下一个黄昏。当你死亡时，所有选择过是的善良玩家一同死亡。如果所有存活的邪恶玩家都选择过是，你必然获胜，即使你已死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/c84438dd88dab0367c43a67990a4d38a.webp",
+    "setup": false,
+    "reminders": [
+      "中毒",
+      "已选择",
+      "诅咒",
+      "必胜"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 2006,
+    "otherNight": 19,
+    "original_image": "https://www.bloodstar.xyz/p/jc3635/EquinoxFlower/14_equinoxflower.png"
+  },
+  {
+    "id": "c5aa6ecb",
+    "team": "outsider",
+    "name": "野蛮人",
+    "ability": "在你的首个夜晚，你得知一个不在场的恶魔角色，你可能被当作邪恶的该角色，当你死亡时，恶魔可以在当晚变成该角色。",
+    "image": "/blood-on-the-clocktower/image/downloaded/1cf690d99dbb84f9dbeceb4c482db6e4.webp",
+    "setup": false,
+    "reminders": [
+      "野蛮盛宴"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3019,
+    "otherNight": 13,
+    "original_image": "https://www.bloodstar.xyz/p/jc3635/EquinoxFlower/16_equinoxflower.png"
+  },
+  {
+    "id": "f08cbb55",
+    "team": "outsider",
+    "name": "迷沙陷阱",
+    "ability": "一名镇民踏入迷沙陷阱。每个夜晚*，他顺时针的下一名存活玩家代替他踏入迷沙陷阱。在迷沙陷阱中的镇民醉酒，会产生错误信息并且被其他角色能力当作外来者。[+1镇民]",
+    "image": "/image/downloaded/5ecd36651876a3ede4040bbf4ad7516f.webp",
+    "setup": true,
+    "reminders": [],
+    "remindersGlobal": [
+      "迷沙陷阱"
+    ],
+    "firstNight": 0,
+    "otherNight": 7,
+    "original_image": "https://www.bloodstar.xyz/p/jc3635/EquinoxFlower/13_equinoxflower.png"
+  },
+  {
+    "id": "b2664b86",
+    "team": "minion",
+    "name": "达普鬼虫",
+    "ability": "每个夜晚*，如果你存活，你可以让自己死亡并选择一名玩家，他中毒且必然产生错误信息，即使你已死亡。[+1外来者]",
+    "image": "/blood-on-the-clocktower/image/downloaded/b9d0393c6d0832b551977c36d4727d39.webp",
+    "setup": true,
+    "reminders": [
+      "自杀",
+      "附身"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 61,
+    "original_image": "https://www.bloodstar.xyz/p/jc3635/EquinoxFlower/19_equinoxflower.png"
+  },
+  {
+    "id": "a09d5d08",
+    "team": "minion",
+    "name": "地狱犬",
+    "ability": "每局游戏限一次，在夜晚时*，你可以选择一至两名玩家：如果其中仅有一名玩家状态正常，他们死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/4eff95d8a1d1f0402e11da4ef627526b.webp",
+    "setup": false,
+    "reminders": [
+      "死亡",
+      "失去能力"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 55,
+    "original_image": "https://www.bloodstar.xyz/p/jc3635/EquinoxFlower/17_equinoxflower.png"
+  },
+  {
+    "id": "db1e7e17",
+    "team": "minion",
+    "name": "继生王爵",
+    "ability": "在你的首个夜晚，你要选择任意名玩家，你分别得知他们的角色。如果他们全部死亡，你获得能力：恶魔死亡时，你变为那个恶魔。",
+    "image": "/blood-on-the-clocktower/image/downloaded/6bde6f123fbc704a29ec9a1786d7d6a3.webp",
+    "setup": false,
+    "reminders": [
+      "目标",
+      "可继位"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3007,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/jc3635/EquinoxFlower/18_equinoxflower.png"
+  },
+  {
+    "id": "db955d74",
+    "team": "minion",
+    "name": "迷雾人",
+    "ability": "在你的首个夜晚，你要选择一个善良角色：你拥有该角色能力且会被当作善良的该角色。如果该角色在场，他中毒，你得知他是谁，且他会被当作邪恶的迷雾人。[-1外来者]",
+    "image": "/blood-on-the-clocktower/image/downloaded/c0908119b647378c74277c4999d6f7ea.webp",
+    "setup": true,
+    "reminders": [
+      "迷雾"
+    ],
+    "remindersGlobal": [
+      "是迷雾人"
+    ],
+    "firstNight": 14,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/jc3635/EquinoxFlower/20_equinoxflower.png"
+  },
+  {
+    "id": "a0c1ae15",
+    "team": "demon",
+    "name": "奇奇默克",
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡。与你最近爪牙之间的镇民玩家能力都会产生错误信息。",
+    "image": "/blood-on-the-clocktower/image/downloaded/4c1e0f35a394f7e6d697028ad1b02949.webp",
+    "setup": false,
+    "reminders": [
+      "死亡",
+      "错误"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 31,
+    "original_image": "https://www.bloodstar.xyz/p/jc3635/EquinoxFlower/22_equinoxflower.png"
+  },
+  {
+    "id": "a76dc397",
+    "team": "demon",
+    "name": "脊蛊",
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡，如果他死于你的能力，与他顺时针邻近的一名镇民玩家中毒。",
+    "image": "/blood-on-the-clocktower/image/downloaded/ad935a221724540946547515a781f164.webp",
+    "setup": false,
+    "reminders": [
+      "死亡",
+      "中毒"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 43,
+    "original_image": "https://www.bloodstar.xyz/p/jc3635/EquinoxFlower/24_equinoxflower.png"
+  },
+  {
+    "id": "02568061",
+    "team": "demon",
+    "name": "史矛革",
+    "ability": "每个夜晚*，你要选择两名玩家，他们被诅咒。如果你选择了自己，被诅咒的玩家死亡。你不会被诅咒。",
+    "image": "/blood-on-the-clocktower/image/downloaded/64d2b8686c93822d8a7a614c448ba50b.webp",
+    "setup": false,
+    "reminders": [
+      "死亡",
+      "诅咒"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 49,
+    "original_image": "https://www.bloodstar.xyz/p/jc3635/EquinoxFlower/21_equinoxflower.png"
+  },
+  {
+    "id": "b009363c",
+    "team": "demon",
+    "name": "半巫妖",
+    "ability": "每个夜晚*，你要选择等同于死亡邪恶玩家数量的玩家：他们死亡。你死于自身能力时仍存活但被当作死亡。如果白天没人被处决，你可以交换两名初始邪恶玩家（不能交换其他恶魔）的真实角色。",
+    "image": "/blood-on-the-clocktower/image/downloaded/8c29c3b5ea02cc79ce1826c283701c1c.webp",
+    "setup": false,
+    "reminders": [
+      "死亡",
+      "假死",
+      "可交换"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 37,
+    "original_image": "https://www.bloodstar.xyz/p/jc3635/EquinoxFlower/23_equinoxflower.png"
+  },
+  {
+    "id": "76d706ae",
+    "team": "fabled",
+    "name": "继生王爵&半巫妖",
+    "ability": "如果半巫妖死于自身能力仍存活但被当作死亡时，继生王爵无法因自身能力变成半巫妖。",
+    "image": "/blood-on-the-clocktower/image/downloaded/6bde6f123fbc704a29ec9a1786d7d6a3.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/jc3635/EquinoxFlower/18_equinoxflower.png"
+  },
+  {
+    "id": "75b35ee4",
+    "team": "fabled",
+    "name": "脊蛊&迷雾人",
+    "ability": "如果迷雾人首夜选择了镇民角色，会被病魔的能力当作镇民而中毒。中毒后迷雾人失去能力，病魔的中毒效果不会再次转移。",
+    "image": "/blood-on-the-clocktower/image/downloaded/ad935a221724540946547515a781f164.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/jc3635/EquinoxFlower/24_equinoxflower.png"
+  },
+  {
+    "id": "57c58a3c",
+    "team": "fabled",
+    "name": "继生王爵&史矛革",
+    "ability": "继生王爵因自身能力变成了新的咒术师，会保留上一个咒术师的诅咒。",
+    "image": "/blood-on-the-clocktower/image/downloaded/6bde6f123fbc704a29ec9a1786d7d6a3.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/jc3635/EquinoxFlower/18_equinoxflower.png"
+  },
+  {
+    "id": "26f7f8b7",
+    "team": "fabled",
+    "name": "独奏家",
+    "ability": "旅行者会被非旅行者角色的能力当作不在游戏中，但恶魔仍然可以选择杀死旅行者。",
+    "image": "/blood-on-the-clocktower/image/downloaded/176c121582e637d49326822633346f3c.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/jc3635/City_of_Illusio/28_city_of_illusio.png"
+  },
+  {
+    "id": "71c8a80f",
+    "team": "traveller",
+    "name": "狗头人盗贼",
+    "ability": "你不知道你的阵营。在你的首个夜晚，你得知三个善良角色。如果你是善良的，其中两个在场；如果你是邪恶的，其中两个不在场。",
+    "image": "/blood-on-the-clocktower/image/downloaded/640dbdafe4e1984d3d74f4a52fa9559f.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 8,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/jc3635/EquinoxFlower/25_equinoxflower.png"
+  },
+  {
+    "id": "43a37775",
+    "team": "traveller",
+    "name": "往生者",
+    "ability": "独立阵营。每个白天限一次，你可以拜访说书人以获得一条信息。如果在游戏结束前你成功复原了魔典，你加入获胜的阵营；如果你对说书人给予的信息疯狂，你无法获胜。",
+    "image": "https://www.bloodstar.xyz//p//comm503//sheshebei//_sheshebei.png",
+    "setup": false,
+    "reminders": [
+      "小机灵鬼",
+      "就你多嘴"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0
+  }
+]

@@ -1,0 +1,319 @@
+[
+  {
+    "hint": "线上魔典支持直接输入剧本的URL。不必将此文件保存到你的电脑。",
+    "id": "_meta",
+    "name": "血色不夜城V1.2",
+    "author": "卷饼",
+    "status": [
+      {
+        "name": "审判说书人",
+        "skill": "每个白天提名阶段之前，一名玩家可以公开发起对说书人的审判，如果超过半数玩家通过，人数较少的一方获胜，人数相等则发起审判玩家所属的阵营落败。游戏结束时，如果场上只有邪恶玩家且未成功审判说书人，邪恶阵营落败。"
+      },
+      {
+        "name": "血腥法令",
+        "skill": "每名善良玩家限一次，他可以在黄昏和黎明时拜访说书人并猜测所有邪恶阵营玩家的编号。如果全部猜测正确且他是善良的，善良阵营获胜。"
+      }
+    ]
+  },
+  {
+    "id": "971f57d0",
+    "team": "townsfolk",
+    "name": "墙头草",
+    "ability": "每个夜晚，你会转变为存活玩家数量较多的阵营。",
+    "image": "/blood-on-the-clocktower/image/downloaded/26e007482d776530ddaa274a20d1d8da.webp",
+    "setup": false,
+    "reminders": [
+      "善良",
+      "邪恶"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3074,
+    "otherNight": 121,
+    "original_image": "https://i.postimg.cc/63bjFRwk/image.png"
+  },
+  {
+    "id": "0453e100",
+    "team": "townsfolk",
+    "name": "女巫猎人",
+    "ability": "每个夜晚，你得知一名邪恶玩家。[会有一名与你邻近的善良玩家或者你自己转变为邪恶阵营]",
+    "image": "/blood-on-the-clocktower/image/downloaded/43a1896cf5430017e4b26cc514038020.webp",
+    "setup": true,
+    "reminders": [
+      "邪恶",
+      "被得知"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3050,
+    "otherNight": 104,
+    "original_image": "https://i.postimg.cc/NFLV0DpG/image.png"
+  },
+  {
+    "id": "8820a48f",
+    "team": "townsfolk",
+    "name": "异教领袖",
+    "ability": "每个夜晚，你会转变为与你邻近的一名存活的玩家的阵营。每个白天，你可以提议所有玩家加入你的教派，如果所有善良玩家同意加入，你的阵营获胜。",
+    "image": "/blood-on-the-clocktower/image/downloaded/4dbf0d32768a80d284bca5e6127b608f.webp",
+    "setup": false,
+    "reminders": [
+      "同一阵营"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3067,
+    "otherNight": 116,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/cultLeader_600w.webp"
+  },
+  {
+    "id": "6c100d1d",
+    "team": "townsfolk",
+    "name": "炼金术士",
+    "ability": "你拥有一个爪牙角色的能力。当你使用能力时，说书人可能会要求你更换选择。",
+    "image": "/blood-on-the-clocktower/image/downloaded/0b809ea6da787bf757780fbd76d50070.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [
+      "是炼金术士"
+    ],
+    "firstNight": 12,
+    "otherNight": 0,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/alchemist_600w.webp"
+  },
+  {
+    "id": "fed7426e",
+    "team": "townsfolk",
+    "name": "守墓人",
+    "ability": "你立即转变为上一个死亡玩家的阵营。",
+    "image": "/blood-on-the-clocktower/image/downloaded/56871785beb9e1d3b188a0c42f65df29.webp",
+    "setup": false,
+    "reminders": [
+      "上一个死亡",
+      "善良",
+      "邪恶"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 22,
+    "original_image": "https://i.postimg.cc/HnfSkgr3/image.png"
+  },
+  {
+    "id": "30b7ae8e",
+    "team": "townsfolk",
+    "name": "隐形人",
+    "ability": "如果你死于处决，你在夜晚转变为邪恶阵营；如果你在夜晚死亡，你转变为善良阵营并刷新猜测次数。",
+    "image": "/blood-on-the-clocktower/image/downloaded/87b11d97e1a462a3da813ddba818ce69.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 91,
+    "original_image": "https://i.postimg.cc/6QYYGR78/image.png"
+  },
+  {
+    "id": "6ca12a78",
+    "team": "outsider",
+    "name": "苦修者",
+    "ability": "你不能因其他玩家的能力转变为邪恶阵营，即使你已死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/710e20d02e4737424a462bf1b24955b4.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://i.postimg.cc/TPD3KjN9/image.png"
+  },
+  {
+    "id": "a08533fc",
+    "team": "outsider",
+    "name": "梦魇画师",
+    "ability": "当你得知你死亡时，你要公开选择一个镇民角色：该角色对应的玩家当晚转变阵营。",
+    "image": "/blood-on-the-clocktower/image/downloaded/00fb7811b7df95070b4e9b612c46e043.webp",
+    "setup": false,
+    "reminders": [
+      "阵营改变"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 15,
+    "original_image": "https://i.postimg.cc/DZhnm9Xv/image.png"
+  },
+  {
+    "id": "2abb26c6",
+    "team": "outsider",
+    "name": "异端分子",
+    "ability": "对调胜负结果，即使你已死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/1d232af2335de8388b0e29d146a8516a.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/heretic_600w.webp"
+  },
+  {
+    "id": "92bdb24c",
+    "team": "minion",
+    "name": "灵言师",
+    "ability": "在你的首个夜晚，你会得知一个关键词。首个说出该关键词的善良玩家会在当晚转变为邪恶阵营。",
+    "image": "/blood-on-the-clocktower/image/downloaded/44ddf65f27284e40ae5054e184ae9812.webp",
+    "setup": false,
+    "reminders": [
+      "邪恶",
+      "失去能力"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3032,
+    "otherNight": 42,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/mezepheles_600w.webp"
+  },
+  {
+    "id": "e9bb8b71",
+    "team": "minion",
+    "name": "欺诈师",
+    "ability": "每个夜晚*，你要选择一名玩家：他以为自己转变为邪恶阵营直到下个黄昏。每局游戏限一次，他会转变为邪恶阵营。",
+    "image": "/blood-on-the-clocktower/image/downloaded/a680dab52e550d016728aeb8b7b56ffb.webp",
+    "setup": false,
+    "reminders": [
+      "被欺骗",
+      "转变"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 35,
+    "original_image": "https://i.postimg.cc/Kv0PfFGW/image.png"
+  },
+  {
+    "id": "c2512a45",
+    "team": "minion",
+    "name": "魅魔",
+    "ability": "在你的首个夜晚，一名其他玩家会得知魅魔在场。当你们中首次有玩家死亡时，会有一名善良玩家转变为邪恶阵营。",
+    "image": "/blood-on-the-clocktower/image/downloaded/cc5cad1ea11fb5c8b325748db2b22708.webp",
+    "setup": false,
+    "reminders": [
+      "被魅惑",
+      "邪恶"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3012,
+    "otherNight": 54,
+    "original_image": "https://i.postimg.cc/SK3Vr4r4/image.png"
+  },
+  {
+    "id": "bc2c9597",
+    "team": "minion",
+    "name": "瘟疫使徒",
+    "ability": "首个提名你的善良玩家会在当晚转变为邪恶阵营，即使你已死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/c02cca848b74688e82ab2462c3937d15.webp",
+    "setup": false,
+    "reminders": [
+      "转变阵营"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 29,
+    "original_image": "https://i.postimg.cc/g2f6t2fg/image.png"
+  },
+  {
+    "id": "bd4577ed",
+    "team": "demon",
+    "name": "别西卜",
+    "ability": "每个夜晚，所有爪牙要秘密决定由哪名玩家获得别西卜的信物并且“是恶魔”；每个夜晚*，拥有信物的玩家选择一名玩家：他死亡。[+1爪牙]",
+    "image": "/blood-on-the-clocktower/image/downloaded/95678df7c6a9e6eed47729f2195ac40b.webp",
+    "setup": true,
+    "reminders": [],
+    "remindersGlobal": [
+      "是恶魔",
+      "死亡"
+    ],
+    "firstNight": 3022,
+    "otherNight": 67,
+    "original_image": "https://i.postimg.cc/V6Jpf47f/image.png"
+  },
+  {
+    "id": "0b85d2ac",
+    "team": "demon",
+    "name": "玛门",
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡。每局游戏限一次，在夜晚，选择一名玩家：他变成你指定的一种邪恶爪牙角色。[初始无爪牙，任意数量外来者在场]",
+    "image": "/blood-on-the-clocktower/image/downloaded/7ce0e045238218985891746ce2185428.webp",
+    "setup": true,
+    "reminders": [
+      "死亡",
+      "转变为爪牙"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3002,
+    "otherNight": 79,
+    "original_image": "https://i.postimg.cc/LXgQK5Xh/image.png"
+  },
+  {
+    "id": "abded1ca",
+    "team": "fabled",
+    "name": "审判说书人",
+    "ability": "每个白天提名阶段之前，一名玩家可以公开发起对说书人的审判，如果超过半数玩家通过，人数较少的一方获胜，人数相等则发起审判玩家所属的阵营落败。游戏结束时，如果场上只有邪恶玩家且未成功审判说书人，邪恶阵营落败。",
+    "image": "/blood-on-the-clocktower/image/downloaded/593579bb1d3872f0840e7a59143dbf71.webp",
+    "setup": false,
+    "reminders": [
+      "说书人被审判"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://i.postimg.cc/wBQT5xHy/image.png"
+  },
+  {
+    "id": "93de2ce0",
+    "team": "fabled",
+    "name": "血腥法令",
+    "ability": "标明一名玩家是否已经猜测。",
+    "image": "/blood-on-the-clocktower/image/downloaded/087f2badebb4a106a45a9be3f0677127.webp",
+    "setup": false,
+    "reminders": [
+      "已经猜测"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://i.postimg.cc/jq9P9v0x/image.png"
+  },
+  {
+    "id": "79edb9ed",
+    "team": "fabled",
+    "name": "哨兵",
+    "ability": "在初始设置时，可能会额外增加或减少一个外来者。",
+    "image": "/blood-on-the-clocktower/image/downloaded/3b2888f864d12c2aacea84365ff654ba.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/sentinel_600w.webp"
+  },
+  {
+    "id": "40786a36",
+    "team": "traveller",
+    "name": "流动商贩",
+    "ability": "每个夜晚，你要和一名除你以外的存活玩家交换座位，然后如果与你邻近的两名存活玩家的阵营不同，你转变阵营。",
+    "image": "/blood-on-the-clocktower/image/downloaded/06e37c32b51025f0851a02512e2d9338.webp",
+    "setup": false,
+    "reminders": [
+      "转变阵营"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 11,
+    "otherNight": 8,
+    "original_image": "https://i.postimg.cc/V6hrxshG/image.png"
+  },
+  {
+    "id": "2fa5b4d8",
+    "team": "traveller",
+    "name": "学徒",
+    "ability": "在你的首个夜晚，如果你是善良的，你会获得一个镇民角色的能力；如果你是邪恶的，你会获得一个爪牙角色的能力。",
+    "image": "/blood-on-the-clocktower/image/downloaded/d286578aafaca4ecbefbcefd0cc8ee27.webp",
+    "setup": false,
+    "reminders": [
+      "是学徒"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 9,
+    "otherNight": 8,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/apprentice_600w.webp"
+  }
+]

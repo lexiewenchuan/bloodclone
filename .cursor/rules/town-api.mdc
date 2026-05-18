@@ -1,0 +1,43 @@
+---
+description: 小镇相关 HTTP/WS 请求必须统一走 townClient，禁止在别处手写 base 或直连 workers.dev
+globs: src/**/*.ts, src/**/*.tsx
+alwaysApply: false
+---
+
+# 小镇 API 约定
+
+## 原则
+
+- **小镇相关 HTTP 请求**：一律通过 `src/api/townClient.ts` 发起，内部使用 `getHttpBaseUrl()`（即走本站 API 代理 `VITE_TOWN_HTTP_BASE`），**禁止**在组件或其它文件中用 `VITE_TOWN_API_BASE` 或直连 `workers.dev` 拼 URL。
+- **WebSocket**：只通过 `townClient` 的 `getTownWsUrl()` 生成地址（使用 `VITE_TOWN_WS_BASE` 或同源）。
+
+## 新增/修改接口时必须做的
+
+1. **新小镇 HTTP 接口**：在 `src/api/townClient.ts` 中新增一个 `export async function xxx(...)`，内部用 **`getHttpBaseUrl()`** 拼 `fetch` URL（例如 `${getHttpBaseUrl()}/town/新路径`），不要新增任何在别的文件里手写 `/town/xxx` 的 fetch。
+2. **调用方**：在 `App.tsx`、`PlayerApp.tsx` 或其它组件中，只 **import 并调用 townClient 里导出的函数**，不要自己 `fetch(baseUrl + '/town/...')`。
+3. **Worker 新增了路由**时：在 Vercel 的 `api/town-proxy.ts` 无需改（重写已把 `/api/town/:path*` 全部转发到 Worker），只需在前端 townClient 里增加对应函数即可。
+
+## 错误示例（禁止）
+
+```ts
+// ❌ 在 PlayerApp.tsx 或其它文件中
+const base = import.meta.env.VITE_TOWN_API_BASE || '';
+await fetch(`${base}/town/me?...`);
+```
+
+## 正确示例
+
+```ts
+// ✅ 在 townClient.ts 中
+export async function getTownMe(params: { townId: string; userId: string }) {
+  const url = `${getHttpBaseUrl()}/town/me?townId=...&userId=...`;
+  const res = await fetch(url, { method: 'GET' });
+  return handleResponse(res);
+}
+
+// ✅ 在组件中
+import { getTownMe } from './api/townClient';
+const data = await getTownMe({ townId, userId });
+```
+
+这样可避免因直连 workers.dev 导致超时或跨域，保证所有小镇 HTTP 都走本站代理。

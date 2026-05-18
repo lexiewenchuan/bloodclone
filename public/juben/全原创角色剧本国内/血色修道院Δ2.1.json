@@ -1,0 +1,439 @@
+[
+  {
+    "hint": "线上魔典支持直接输入剧本的URL。不必将此文件保存到你的电脑。",
+    "id": "_meta",
+    "name": "血色修道院Δ2.1",
+    "author": "泽度哥摧毁停车场"
+  },
+  {
+    "id": "7214998d",
+    "team": "townsfolk",
+    "name": "神官",
+    "ability": "每个夜晚，你得知有多少名邪恶玩家因其自身能力而被唤醒。",
+    "image": "https://www.bloodstar.xyz/p/westwind/xiudao111/19_xiudao111.png",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 3063,
+    "otherNight": 83
+  },
+  {
+    "id": "16eafd6e",
+    "team": "townsfolk",
+    "name": "宝藏猎人",
+    "ability": "每个夜晚，选择两名其他玩家，如果他们角色类型彼此不同，得知“成功”，否则得知“失败”。你每得知一次成功，你行动选择的目标数量+1，即使你中毒或醉酒。[+1外来者]",
+    "image": "https://www.bloodstar.xyz/p/westwind/xiudao111/8_xiudao111.png",
+    "setup": true,
+    "reminders": [
+      "目标3",
+      "目标4"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3027,
+    "otherNight": 99
+  },
+  {
+    "id": "92ebbd27",
+    "team": "townsfolk",
+    "name": "神父",
+    "ability": "每个夜晚*，选择一名你未选择过的玩家：如果你能猜出他的角色，而恶魔不能，你便可以再选择一名玩家并得知他是不是恶魔。 （如果恶魔是悲剧演员，由爪牙代替恶魔进行猜测）",
+    "image": "https://www.bloodstar.xyz/p/westwind/xiudao111/11_xiudao111.png",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 94
+  },
+  {
+    "id": "b56ba6be",
+    "team": "townsfolk",
+    "name": "圣骑士",
+    "ability": "每个白天你至多投2票，且不可以投给自己，即使你失去能力。如果你投票的两名玩家都是善良的，他们今晚不会死亡。如果你投票的两名玩家都是邪恶的，其中之一会在今晚死亡，然后你失去能力。 ",
+    "image": "https://www.bloodstar.xyz/p/westwind/xiudao111/18_xiudao111.png",
+    "setup": false,
+    "reminders": [
+      "不会死亡",
+      "死亡",
+      "失去能力"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 72
+  },
+  {
+    "id": "5a357f30",
+    "team": "townsfolk",
+    "name": "占星师",
+    "ability": "每局游戏限一次：在白天，拜访说书人并选择你的学派。两天后，你可以转变学派，如果你这样做，统计胜利条件时你被当作死亡。",
+    "image": "https://www.bloodstar.xyz/p/westwind/xiudao111/14_xiudao111.png",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0
+  },
+  {
+    "id": "a7ff42b7",
+    "team": "townsfolk",
+    "name": "邮差",
+    "ability": "在你的首个夜晚，你得知两名玩家：他们的阵营是相同的。",
+    "image": "https://www.bloodstar.xyz/p/westwind/xiudao111/16_xiudao111.png",
+    "setup": false,
+    "reminders": [
+      "得知"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3054,
+    "otherNight": 0
+  },
+  {
+    "id": "9c403f07",
+    "team": "townsfolk",
+    "name": "记者",
+    "ability": "在你的首个白天，你可以公开采访两名玩家。在当晚：你会得知他们角色的共同特点。",
+    "image": "https://www.bloodstar.xyz/p/westwind/xiudao111/13_xiudao111.png",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 116
+  },
+  {
+    "id": "e2d5fd3f",
+    "team": "townsfolk",
+    "name": "神器师",
+    "ability": "你免疫中毒。每个夜晚：选择一名玩家，你得知距离他最近的邪恶玩家是什么角色。如果你选择的玩家是邪恶的，你醉酒到下个黄昏。",
+    "image": "https://www.bloodstar.xyz/p/westwind/xiudao111/9_xiudao111.png",
+    "setup": false,
+    "reminders": [
+      "醉酒"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3036,
+    "otherNight": 110
+  },
+  {
+    "id": "695865cb",
+    "team": "townsfolk",
+    "name": "占星师·白昼学派",
+    "ability": "当你选择白昼学派后，你要选择一个数字：你分别得知有多少名邪恶玩家在顺时针上与下一名邪恶玩家的距离大于/小于这个数字。（邻座距离是1）",
+    "image": "https://www.bloodstar.xyz/p/westwind/xiudao111/26_xiudao111.png",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0
+  },
+  {
+    "id": "0d726611",
+    "team": "townsfolk",
+    "name": "黑魔女",
+    "ability": "如果你提名的玩家被处决，今晚你得知他与其他爪牙的最近距离。",
+    "image": "https://www.bloodstar.xyz/p/westwind/xiudao111/10_xiudao111.png",
+    "setup": false,
+    "reminders": [
+      "黑魔法"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 105
+  },
+  {
+    "id": "4ab3de4c",
+    "team": "townsfolk",
+    "name": "占星师·黑夜学派",
+    "ability": "如果你在夜间死亡，你会被唤醒并选择两名玩家：你得知其中有几名是邪恶阵营。",
+    "image": "https://www.bloodstar.xyz/p/westwind/xiudao111/27_xiudao111.png",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 121
+  },
+  {
+    "id": "e5857a5c",
+    "team": "townsfolk",
+    "name": "建筑师",
+    "ability": "如果你在一次处决中投票，提名者在今晚死亡时，你会代替他死亡。你免疫一次夜间的死亡。",
+    "image": "https://www.bloodstar.xyz/p/westwind/xiudao111/17_xiudao111.png",
+    "setup": false,
+    "reminders": [
+      "投票"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0
+  },
+  {
+    "id": "ad15e840",
+    "team": "townsfolk",
+    "name": "演说家",
+    "ability": "如果你发起提名并对“被提名者是邪恶阵营”疯狂，当晚你会得知有多少名邪恶玩家在本次提名中投票。",
+    "image": "https://www.bloodstar.xyz/p/westwind/xiudao111/12_xiudao111.png",
+    "setup": false,
+    "reminders": [
+      "提名"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 88
+  },
+  {
+    "id": "839d4330",
+    "team": "townsfolk",
+    "name": "煤气灯工人",
+    "ability": "[一位镇民玩家会以为自己是一个在场的爪牙角色] 在你的首个夜晚，你得知两名玩家：他们是那个镇民以及那个爪牙。如果其中的爪牙被处决，该镇民在当晚寻回自己的角色，即使你死了。",
+    "image": "https://www.bloodstar.xyz/p/westwind/xiudao111/15_xiudao111.png",
+    "setup": true,
+    "reminders": [
+      "得知",
+      "镇民"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3045,
+    "otherNight": 7
+  },
+  {
+    "id": "de84b70c",
+    "team": "townsfolk",
+    "name": "时间旅行者",
+    "ability": "夜间即将死亡的其他玩家会额外存活到下个夜晚，你得知他们是谁。你不会获取错误信息。你可以在下个白天拜访说书人并选择代替其中一名玩家死亡。[说书人额外具有一个不在场爪牙的能力]",
+    "image": "https://www.bloodstar.xyz/p/westwind/xiudao111/20_xiudao111.png",
+    "setup": false,
+    "reminders": [
+      "延缓",
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 78
+  },
+  {
+    "id": "87e9c3a3",
+    "team": "outsider",
+    "name": "流浪儿",
+    "ability": "在你的首个夜晚，你选择一名其他玩家：你的胜利条件与他相同，即使你死了。 如果你选择的玩家是邪恶的，会有善良玩家得知此事。",
+    "image": "https://www.bloodstar.xyz/p/westwind/xiudao111/21_xiudao111.png",
+    "setup": false,
+    "reminders": [
+      "主人"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3072,
+    "otherNight": 0
+  },
+  {
+    "id": "06d6cf9e",
+    "team": "outsider",
+    "name": "狂信者",
+    "ability": "你不知道自己是狂信者，你以为自己是一个镇民、爪牙或者恶魔角色。恶魔可能知道你的角色和行动。",
+    "image": "https://www.bloodstar.xyz/p/westwind/xiudao111/22_xiudao111.png",
+    "setup": true,
+    "reminders": [],
+    "remindersGlobal": [
+      "狂信者"
+    ],
+    "firstNight": 0,
+    "otherNight": 0
+  },
+  {
+    "id": "384f87e2",
+    "team": "outsider",
+    "name": "百万富翁",
+    "ability": "如果你死亡，可能会有一个镇民在当晚死亡。你的首次死亡会被推迟到下个黄昏，除非你被处决。",
+    "image": "https://www.bloodstar.xyz/p/westwind/xiudao111/23_xiudao111.png",
+    "setup": false,
+    "reminders": [
+      "延迟死亡",
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 61
+  },
+  {
+    "id": "4551adc5",
+    "team": "outsider",
+    "name": "半身人",
+    "ability": "如果你死亡，会发生一些对你的阵营不利的事情。每个白天，你可以询问说书人一个“是否”问题来了解你的能力是什么，即使你死了。",
+    "image": "https://www.bloodstar.xyz/p/westwind/xiudao111/24_xiudao111.png",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 67
+  },
+  {
+    "id": "40344ee5",
+    "team": "minion",
+    "name": "鲜血画家",
+    "ability": "每个夜晚*，如果你在当天最高票数的提名中投票，与被提名者邻近的两名镇民中毒直到下个黄昏。如果你在恶魔被处决时投票，并且场上存活玩家（不计旅行者）至少有5名，你成为那个恶魔。[-1外来者]",
+    "image": "https://www.bloodstar.xyz/p/westwind/xiudao111/3_xiudao111.png",
+    "setup": true,
+    "reminders": [
+      "中毒"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 18
+  },
+  {
+    "id": "ad3dc0b3",
+    "team": "minion",
+    "name": "食尸鬼",
+    "ability": "每局游戏限一次：夜晚*：选择一名玩家，他死亡，即使因为任何原因让他不会死亡。然后，你获得一个不在场的爪牙能力。",
+    "image": "https://www.bloodstar.xyz/p/westwind/xiudao111/7_xiudao111.png",
+    "setup": false,
+    "reminders": [
+      "死亡",
+      "是食尸鬼"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 56
+  },
+  {
+    "id": "ab040162",
+    "team": "minion",
+    "name": "魔笛手",
+    "ability": "在你的首个夜晚，你要选择三个角色。说出该角色名的玩家可能会被说书人处决。所有人知道你选择了什么角色。",
+    "image": "https://www.bloodstar.xyz/p/westwind/xiudao111/6_xiudao111.png",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 3018,
+    "otherNight": 0
+  },
+  {
+    "id": "e6b0d617",
+    "team": "minion",
+    "name": "魅影人",
+    "ability": "[你以为你是一个镇民角色，一名镇民以为自己是一个爪牙或外来者] 如果你被处决，那名镇民寻回自己的角色。即使你死了。",
+    "image": "https://www.bloodstar.xyz/p/westwind/xiudao111/5_xiudao111.png",
+    "setup": true,
+    "reminders": [],
+    "remindersGlobal": [
+      "魅影人",
+      "被仿生",
+      "觉醒"
+    ],
+    "firstNight": 0,
+    "otherNight": 12
+  },
+  {
+    "id": "d9a7b997",
+    "team": "minion",
+    "name": "催眠师",
+    "ability": "在游戏首个夜晚，你得知所有狂信者是谁，以及他们眼中的队友是谁。每局游戏限一次，夜晚*，选择一名玩家和一个角色：他以为他变成这个角色，但其实他变成狂信者。[所有外来者都是狂信者]",
+    "image": "https://www.bloodstar.xyz/p/westwind/xiudao111/4_xiudao111.png",
+    "setup": true,
+    "reminders": [
+      "失去能力"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3009,
+    "otherNight": 23
+  },
+  {
+    "id": "9e364a51",
+    "team": "demon",
+    "name": "织夜者",
+    "ability": "每个夜晚，选择一名玩家，他中毒并在下个夜晚死亡。每局游戏限一次*：从现在开始，所有爪牙中毒，所有镇民获取错误信息，你的能力变为： 每个夜晚*选择两名玩家：他们死亡。",
+    "image": "https://www.bloodstar.xyz/p/westwind/xiudao111/_xiudao111.png",
+    "setup": false,
+    "reminders": [
+      "中毒",
+      "死亡",
+      "恐怖梦境"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 2006,
+    "otherNight": 29
+  },
+  {
+    "id": "dbb24890",
+    "team": "demon",
+    "name": "悲剧演员",
+    "ability": "你以为你是一个善良的镇民。爪牙们知道你是什么角色，并且代替你获得恶魔信息。每个夜晚*，说书人选择至多三名玩家，他们死亡。如果剩余三名玩家存活（不计旅行者），今天死于处决的一方获胜。",
+    "image": "https://www.bloodstar.xyz/p/westwind/xiudao111/25_xiudao111.png",
+    "setup": true,
+    "reminders": [],
+    "remindersGlobal": [
+      "悲剧演员",
+      "死亡"
+    ],
+    "firstNight": 0,
+    "otherNight": 40
+  },
+  {
+    "id": "65244238",
+    "team": "demon",
+    "name": "死亡圣神",
+    "ability": "如果白天没有善良玩家发起提名，邪恶阵营获胜。每个夜晚*，你要选择一名玩家，他死亡。你每提名一次爪牙或恶魔，此后的每个夜晚你就多行动一次。",
+    "image": "https://www.bloodstar.xyz/p/westwind/xiudao111/1_xiudao111.png",
+    "setup": false,
+    "reminders": [
+      "死亡",
+      "强化"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 34
+  },
+  {
+    "id": "799400eb",
+    "team": "demon",
+    "name": "最终恶魔",
+    "ability": "游戏结束前所有爪牙加入善良阵营。你与爪牙互相不认识，爪牙把一名狂信者当作恶魔。在游戏的首个夜晚，查看魔典。每个夜晚*，选择任意数量的玩家（至多为存活非旅行者玩家的一半）：他们死亡。如果你选择了至少三名玩家，下一晚你不会被唤醒。[至少存在一名狂信者]",
+    "image": "https://www.bloodstar.xyz/p/westwind/xiudao111/2_xiudao111.png",
+    "setup": false,
+    "reminders": [
+      "死亡",
+      "不会唤醒"
+    ],
+    "remindersGlobal": [
+      "狂信者"
+    ],
+    "firstNight": 11,
+    "otherNight": 45
+  },
+  {
+    "id": "b11f50f3",
+    "team": "traveller",
+    "name": "鸢尾花骑士",
+    "ability": "你不知道你的阵营。在你的首个白天，你得知三名玩家，其实只有一名与你同阵营。",
+    "image": "https://www.bloodstar.xyz/p/westwind/xiudao111/30_xiudao111.png",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0
+  },
+  {
+    "id": "eab541d1",
+    "team": "traveller",
+    "name": "交际花“血腥玛丽”",
+    "ability": "你不知道你的阵营。每局游戏限一次：夜晚*，选择两名玩家：其中与你不同阵营的一名玩家死亡。",
+    "image": "https://www.bloodstar.xyz/p/westwind/xiudao111/29_xiudao111.png",
+    "setup": false,
+    "reminders": [
+      "失去能力",
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 50
+  },
+  {
+    "id": "0e4953d0",
+    "team": "traveller",
+    "name": "圣殿骑士裁判长",
+    "ability": "你免疫中毒和醉酒。在你发起的提名中，你的投票算作4票。 ",
+    "image": "https://www.bloodstar.xyz/p/westwind/xiudao111/28_xiudao111.png",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0
+  }
+]

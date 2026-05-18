@@ -1,0 +1,473 @@
+[
+  {
+    "hint": "线上魔典支持直接输入剧本的URL。不必将此文件保存到你的电脑。",
+    "id": "_meta",
+    "name": "黑潮叛约 High Seas of Mutiny FINAL",
+    "author": "Gordon Fitzgerald"
+  },
+  {
+    "id": "deaae89c",
+    "team": "townsfolk",
+    "name": "水手长I",
+    "ability": "在你的首个夜晚，你会得知最多有多少名善良玩家连坐。",
+    "image": "/blood-on-the-clocktower/image/downloaded/836e50e2b5a5e53a7672952550220b75.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 3048,
+    "otherNight": 0,
+    "original_image": "https://i.postimg.cc/zDLdpPRC/image.png"
+  },
+  {
+    "id": "b4ef2c37",
+    "team": "townsfolk",
+    "name": "老海员",
+    "ability": "在你的首个夜晚，你会得知五个角色：其中三个不在场，两个在场。",
+    "image": "/blood-on-the-clocktower/image/downloaded/793b06676850ca69084ee3bd3d9cdedc.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 3032,
+    "otherNight": 0,
+    "original_image": "https://i.postimg.cc/Bb11DFtf/image.png"
+  },
+  {
+    "id": "9b2ca806",
+    "team": "townsfolk",
+    "name": "领航员RI",
+    "ability": "在你的首个夜晚，你会得知三名玩家：其中有一名镇民、一名外来者和一名爪牙。[-1或+1外来者]",
+    "image": "/blood-on-the-clocktower/image/downloaded/08bd43e3a16368718d8de5b70e33d012.webp",
+    "setup": true,
+    "reminders": [
+      "得知",
+      "得知",
+      "得知"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3040,
+    "otherNight": 0,
+    "original_image": "https://i.postimg.cc/SRzz89jp/image.png"
+  },
+  {
+    "id": "f3b518cd",
+    "team": "townsfolk",
+    "name": "甲板水手",
+    "ability": "在你的首个夜晚，你会得知一个在场角色。如果你得知的角色死于处决，当晚你会得知一个与之前不同阵营的在场角色。",
+    "image": "/blood-on-the-clocktower/image/downloaded/8d92cf9437509687903372bccd14041a.webp",
+    "setup": false,
+    "reminders": [
+      "得知",
+      "死于处决"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3057,
+    "otherNight": 92,
+    "original_image": "https://i.postimg.cc/d3TTdC3d/image.png"
+  },
+  {
+    "id": "45bb25e5",
+    "team": "townsfolk",
+    "name": "旱鸭子R",
+    "ability": "每个夜晚*，如果你在今天白天时提名了一名爪牙，你死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/4a22fea905c85c7472b38592771be68e.webp",
+    "setup": false,
+    "reminders": [
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 99,
+    "original_image": "https://i.postimg.cc/KzWMRfG4/image.png"
+  },
+  {
+    "id": "1c0c363a",
+    "team": "townsfolk",
+    "name": "西印度海盗RC",
+    "ability": "每个夜晚*，你要选择除你以外的两名玩家：如果他们阵营不同，你死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/a3001d843f0bd4a9e6ea91d2e36184f2.webp",
+    "setup": false,
+    "reminders": [
+      "重启",
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 43,
+    "original_image": "https://i.postimg.cc/WpQ5y6MB/image.png"
+  },
+  {
+    "id": "8991f41f",
+    "team": "townsfolk",
+    "name": "船长IC",
+    "ability": "每个夜晚*，你要选择除你以外的两名玩家：如果第一名玩家在今晚死亡，第二名玩家代替他死亡。如果恶魔因为你的能力将要死亡，当晚的死亡由说书人决定。",
+    "image": "/blood-on-the-clocktower/image/downloaded/75153b8372065d127050fda2e5b48673.webp",
+    "setup": false,
+    "reminders": [
+      "保护",
+      "标记",
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 36,
+    "original_image": "https://i.postimg.cc/wvMNqZd4/image.png"
+  },
+  {
+    "id": "651a7880",
+    "team": "townsfolk",
+    "name": "酒馆女C",
+    "ability": "每个白天，你可以私下拜访说书人以得知一条关于与你邻近的一名存活的玩家的正确信息。",
+    "image": "/blood-on-the-clocktower/image/downloaded/6f5cd652ab595cda6524b4404bc5aee8.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://i.postimg.cc/XqyyF5qg/image.png"
+  },
+  {
+    "id": "3d367de5",
+    "team": "townsfolk",
+    "name": "合法海盗RI",
+    "ability": "每个白天，你可以私下拜访说书人以得知一个任务。每个夜晚*，如果你完成了上一个得知的任务，你会得知一个在场的角色。",
+    "image": "/blood-on-the-clocktower/image/downloaded/b9886c15ef61783033abbdb4a6042cf6.webp",
+    "setup": false,
+    "reminders": [
+      "任务完成"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 106,
+    "original_image": "https://i.postimg.cc/nVsdTwQg/image.png"
+  },
+  {
+    "id": "3a90b987",
+    "team": "townsfolk",
+    "name": "大副RI",
+    "ability": "每局游戏限一次，���夜晚时，你可以选择R, I 或C：你会得知有多少名玩家的角色的英文名称包含该字母。",
+    "image": "/blood-on-the-clocktower/image/downloaded/0a43c2384f454eb635fd564627425a2a.webp",
+    "setup": false,
+    "reminders": [
+      "失去能力"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3065,
+    "otherNight": 113,
+    "original_image": "https://i.postimg.cc/FRzSr8QD/image.png"
+  },
+  {
+    "id": "be3c3eee",
+    "team": "townsfolk",
+    "name": "火药猴R",
+    "ability": "在你的首个白天，你可以公开选择两名玩家：如果这两名玩家其中之一是爪牙，你和他会在当晚死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/8fcc4c822b2d3f0463ea37ca596528df.webp",
+    "setup": false,
+    "reminders": [
+      "死亡",
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 85,
+    "original_image": "https://i.postimg.cc/MTLQv56b/image.png"
+  },
+  {
+    "id": "c4ec1150",
+    "team": "townsfolk",
+    "name": "巴巴里海盗",
+    "ability": "如果你在夜晚死亡，你要选择一名玩家和一个镇民角色：如果该玩家不是恶魔，他会变成你选择的镇民角色。",
+    "image": "/blood-on-the-clocktower/image/downloaded/af01726b9d81db040bc18efd5093588c.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 120,
+    "original_image": "https://i.postimg.cc/QtC78wrf/image.png"
+  },
+  {
+    "id": "4bbed77d",
+    "team": "townsfolk",
+    "name": "寄居蟹RIC",
+    "ability": "如果只有三名玩家存活且你没有发起过提名，你的阵营获胜。[+1外来者]",
+    "image": "/blood-on-the-clocktower/image/downloaded/3db5697d3123c0f554a908b5198fb2e7.webp",
+    "setup": true,
+    "reminders": [
+      "提名"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://i.postimg.cc/Rhnnftht/image.png"
+  },
+  {
+    "id": "62443474",
+    "team": "outsider",
+    "name": "藤壶RC",
+    "ability": "在你的首个夜晚，你要选择一名玩家：只有他投票时你才能投票，只有他获胜时你才会获胜，即使你已死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/ea24e8d3d4902c20931ed4142db9a39e.webp",
+    "setup": false,
+    "reminders": [
+      "镶嵌"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3073,
+    "otherNight": 0,
+    "original_image": "https://i.postimg.cc/L4qyv0Zr/image.png"
+  },
+  {
+    "id": "102b90b9",
+    "team": "outsider",
+    "name": "酒糟鼻R",
+    "ability": "你不知道你是酒槽鼻。你以为你是一个镇民角色，但其实你不是。你会被当作邪恶阵营、爪牙角色或外来者角色。",
+    "image": "/blood-on-the-clocktower/image/downloaded/bf220586b2444cc5f13c6f83b660a6e4.webp",
+    "setup": true,
+    "reminders": [],
+    "remindersGlobal": [
+      "是酒糟鼻"
+    ],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://i.postimg.cc/RhnnfthX/image.png"
+  },
+  {
+    "id": "5c7e8422",
+    "team": "outsider",
+    "name": "偷渡客",
+    "ability": "如果你“疯狂”地证明你是一个在场的镇民角色，你不会在夜晚死亡。当你死亡时，每个夜晚，一名爪牙玩家能查看魔典。",
+    "image": "/blood-on-the-clocktower/image/downloaded/701e9d99eedfed7b436232d76e88662c.webp",
+    "setup": false,
+    "reminders": [
+      "查看魔典"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 15,
+    "original_image": "https://i.postimg.cc/rydhgYtB/image.png"
+  },
+  {
+    "id": "853b9178",
+    "team": "outsider",
+    "name": "美人鱼RI",
+    "ability": "提名你的玩家（除了你和恶魔）会中毒直到你下次被提名，即使你已死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/0c1c6e820ccdc576a18d53bf5f30da84.webp",
+    "setup": false,
+    "reminders": [
+      "中毒"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://i.postimg.cc/23RLx5Lg/image.png"
+  },
+  {
+    "id": "5a1527ec",
+    "team": "minion",
+    "name": "食尸者R",
+    "ability": "每个夜晚，你要选择一名玩家：如果他是镇民，他的能力会产生错误信息，直到下个黄昏。如果当晚他即将死亡，改为他在明晚死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/9d4fb6eedc55af08f2a898298d36131c.webp",
+    "setup": false,
+    "reminders": [
+      "饥肠辘辘",
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3007,
+    "otherNight": 29,
+    "original_image": "https://i.postimg.cc/3W50ZwD4/image.png"
+  },
+  {
+    "id": "23e1f574",
+    "team": "minion",
+    "name": "海灵RI",
+    "ability": "在你的首个夜晚，你要选择一名善良玩家：他中毒。如果只有三名玩家存活且他是其中之一，邪恶阵营获胜，即使你已死亡。始终会有一名善良玩家知道海灵在场。",
+    "image": "/blood-on-the-clocktower/image/downloaded/32fcac1c29f612d82aaabdbfa9bc2cd6.webp",
+    "setup": false,
+    "reminders": [
+      "挚爱",
+      "知道"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 2004,
+    "otherNight": 0,
+    "original_image": "https://i.postimg.cc/gJjhzQW0/image.png"
+  },
+  {
+    "id": "013a5b65",
+    "team": "minion",
+    "name": "神秘祭司RI",
+    "ability": "如果一名邪恶玩家提名了恶魔：你和被提名的恶魔交换角色，然后他中毒直到下个黎明。如果只有四名或更少存活玩家，你失去此能力。",
+    "image": "/blood-on-the-clocktower/image/downloaded/ec7f30029b7639695e1addbec154d5be.webp",
+    "setup": false,
+    "reminders": [
+      "失去能力",
+      "交换",
+      "交换"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://i.postimg.cc/7PCBXQTS/image.png"
+  },
+  {
+    "id": "e01d0e56",
+    "team": "minion",
+    "name": "亡灵海盗RI",
+    "ability": "After you are executed & die, tonight you may choose a living good neighbour: they die.",
+    "image": "/blood-on-the-clocktower/image/downloaded/aab9c77301edae13d15c8e7cc935ea6e.webp",
+    "setup": false,
+    "reminders": [
+      "失去能力",
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 50,
+    "original_image": "https://i.postimg.cc/kMVjwhb9/image.png"
+  },
+  {
+    "id": "716a93ef",
+    "team": "demon",
+    "name": "卡吕普索C",
+    "ability": "每个夜晚，你要选择三名玩家：上个夜晚被你选择的首位玩家会死亡。如果该玩家今天白天死于处决，上个夜晚被你选择的另外两名玩家会在当晚死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/09be33f9073155ec0fae6e8bf91bd8c9.webp",
+    "setup": false,
+    "reminders": [
+      "1",
+      "2",
+      "3",
+      "死亡",
+      "死亡",
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3015,
+    "otherNight": 64,
+    "original_image": "https://i.postimg.cc/L5ZZfP5Q/image.png"
+  },
+  {
+    "id": "56850a29",
+    "team": "demon",
+    "name": "克拉肯R",
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡。当你首次杀死外来者时，与他邻近的���活的善良玩家之一会死亡。[-1或+1外来者]",
+    "image": "/blood-on-the-clocktower/image/downloaded/5dcd7380622e6208c19f69893314942e.webp",
+    "setup": true,
+    "reminders": [
+      "死亡",
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 57,
+    "original_image": "https://i.postimg.cc/wMssJNMn/image.png"
+  },
+  {
+    "id": "9cc15d14",
+    "team": "demon",
+    "name": "海坊主I",
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡。如果另一名恶魔选择了不同的玩家，该能力失效。你可能会被当作爪牙角色。[-1爪牙, +1海坊主]",
+    "image": "/blood-on-the-clocktower/image/downloaded/975c1ea8f3fd068cee55ddf0526f8912.webp",
+    "setup": true,
+    "reminders": [
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 78,
+    "original_image": "https://i.postimg.cc/FRzSr84R/image.png"
+  },
+  {
+    "id": "54b12ac1",
+    "team": "demon",
+    "name": "鲁萨尔卡R",
+    "ability": "你不知道你的能力是什么，每个夜晚，你会得知关于你能力的提示。一名善良玩家知道你的能力是什么，如果他“疯狂”地证明鲁萨尔卡在场，你会得知你的能力。",
+    "image": "/blood-on-the-clocktower/image/downloaded/793c99b37a3c4c4937cdf2cca251430e.webp",
+    "setup": false,
+    "reminders": [
+      "疯狂",
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3023,
+    "otherNight": 71,
+    "original_image": "https://i.postimg.cc/nMb91L9g/image.png"
+  },
+  {
+    "id": "b0e00fbf",
+    "team": "traveller",
+    "name": "无赖汉RC",
+    "ability": "每个夜晚，你要选择除你以外的一名玩家：他获得一枚1d6投票骰。明天白天，他的投票算作自身加上等同于骰子点数的票数。如果掷出6点，他被处决。",
+    "image": "/blood-on-the-clocktower/image/downloaded/e9e79f780d7cae8026e640f02d94fed6.webp",
+    "setup": false,
+    "reminders": [
+      "2票",
+      "3票",
+      "4票",
+      "5票",
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 10,
+    "otherNight": 22,
+    "original_image": "https://i.postimg.cc/SQwgP760/image.png"
+  },
+  {
+    "id": "5958651a",
+    "team": "traveller",
+    "name": "舱底鼠RI",
+    "ability": "每局游戏限一次，在夜晚时，你可以选择一名死亡的玩家：他的投票标记算作三票",
+    "image": "/blood-on-the-clocktower/image/downloaded/5f5ef28ea50644bf1dd2ed2d8db30b67.webp",
+    "setup": false,
+    "reminders": [
+      "3票",
+      "失去能力"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 8,
+    "original_image": "https://i.postimg.cc/DZ0GvHKC/image.png"
+  },
+  {
+    "id": "fec51924",
+    "team": "traveller",
+    "name": "海军准将RC",
+    "ability": "每局游戏限一次，你可以公开选择一名当天发言疑似海盗的玩家。如果你们阵营不同，他死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/c294b1d63ef6447c380d938f956b7a4d.webp",
+    "setup": false,
+    "reminders": [
+      "死亡",
+      "失去能力 "
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://i.postimg.cc/V6hCdgfc/image.png"
+  },
+  {
+    "id": "da6f469b",
+    "team": "traveller",
+    "name": "荒岛生还者C",
+    "ability": "如果你使用了投票标记，你会在当晚获得一个在场的角色能力，即使你已死亡。你不能对自己发起流放。",
+    "image": "/blood-on-the-clocktower/image/downloaded/8860aad8defa60415187b0499515c9ae.webp",
+    "setup": false,
+    "reminders": [
+      "获得能力"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://i.postimg.cc/G2fyHKLh/image.png"
+  },
+  {
+    "id": "8b7c6a4b",
+    "team": "traveller",
+    "name": "叛船咒徒RIC",
+    "ability": "如果有死亡的玩家在场，只有你和死亡的玩家可以提名。",
+    "image": "/blood-on-the-clocktower/image/downloaded/d18e9e9018b6d09fbd4533a4a2bb37e3.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://i.postimg.cc/G9wTjpsB/image.png"
+  }
+]

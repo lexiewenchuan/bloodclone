@@ -1,0 +1,496 @@
+[
+  {
+    "hint": "线上魔典支持直接输入剧本的URL。不必将此文件保存到你的电脑。",
+    "id": "_meta",
+    "name": "钟摆陷阱",
+    "author": "gordy-gordy-gordy"
+  },
+  {
+    "id": "ea91dcfc",
+    "team": "townsfolk",
+    "name": "呃…魔",
+    "ability": "在你的首个夜晚，你会得知在场的恶魔角色。如果有三名恶魔在场，善良阵营获胜。",
+    "image": "/blood-on-the-clocktower/image/downloaded/7334fd1a87f1fe75245e54edc0de175f.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 3045,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/librarypimp21/Pedagogic_Pits_And_Pendulums/dmone_pedagogic_pits_and_pendulums.png"
+  },
+  {
+    "id": "8b8ee866",
+    "team": "townsfolk",
+    "name": "\"不是外来者\"",
+    "ability": "在你的首个夜晚，你会得知三条正确信息。如果你公开说出任意其中之一，你会加入落败的阵营，即使你已死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/39c562c568b9890ab98f23f3c7971630.webp",
+    "setup": false,
+    "reminders": [
+      "败者食尘"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3054,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/librarypimp21/Pedagogic_Pits_And_Pendulums/notanoutsider_pedagogic_pits_and_pendulums.png"
+  },
+  {
+    "id": "d71f8396",
+    "team": "townsfolk",
+    "name": "\"邪恶的\"",
+    "ability": "每个夜晚，你要选择两名玩家（与之前均不同）：你会得知其中有多少名邪恶玩家。",
+    "image": "/blood-on-the-clocktower/image/downloaded/7101909ecfc719fbc752d29c9b845109.webp",
+    "setup": false,
+    "reminders": [
+      "已选择"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3063,
+    "otherNight": 83,
+    "original_image": "https://www.bloodstar.xyz/p/librarypimp21/Pedagogic_Pits_And_Pendulums/evil_pedagogic_pits_and_pendulums.png"
+  },
+  {
+    "id": "c0ad1c6e",
+    "team": "townsfolk",
+    "name": "\"中毒\"",
+    "ability": "每个夜晚*，你要选择一名存活的玩家：你或他之一会中毒直到下个黄昏，随后你会得知他的阵营。",
+    "image": "/blood-on-the-clocktower/image/downloaded/26a7abe037dd1bb02a8db5320ede48b4.webp",
+    "setup": false,
+    "reminders": [
+      "中毒",
+      "选择"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 33,
+    "original_image": "https://www.bloodstar.xyz/p/librarypimp21/Pedagogic_Pits_And_Pendulums/poisoned_pedagogic_pits_and_pendulums.png"
+  },
+  {
+    "id": "99ab9763",
+    "team": "townsfolk",
+    "name": "\"说书人\"",
+    "ability": "每个白天，你可以拜访说书人并选择下个“可能”能力的结果。",
+    "image": "/blood-on-the-clocktower/image/downloaded/9de4b21bb434a0398c58675a794fa192.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/librarypimp21/Pedagogic_Pits_And_Pendulums/storyteller_pedagogic_pits_and_pendulums.png"
+  },
+  {
+    "id": "d7ee17f7",
+    "team": "townsfolk",
+    "name": "\"镇民\"",
+    "ability": "每个白天，你可以拜访说书人并得知你是否变成了一名镇民。(由说书人决定何时给\"镇民\"变成镇民以及变成什么镇民。如果\"镇民\"变成了镇民，\"镇民\"会在拜访时得知自己变成了什么镇民。",
+    "image": "/blood-on-the-clocktower/image/downloaded/24e1e1b5d3494e348f76e09a719228bc.webp",
+    "setup": false,
+    "reminders": [
+      "改变自己"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 58,
+    "original_image": "https://www.bloodstar.xyz/p/librarypimp21/Pedagogic_Pits_And_Pendulums/townsfolk_pedagogic_pits_and_pendulums.png"
+  },
+  {
+    "id": "f0283cb2",
+    "team": "townsfolk",
+    "name": "\"拍身份\"",
+    "ability": "每局游戏限一次，在白天时，你可以公开选择一个角色：如果当晚该角色死亡，善良阵营获胜。",
+    "image": "/blood-on-the-clocktower/image/downloaded/a93e11cdd189ec4fb9edd350120860eb.webp",
+    "setup": false,
+    "reminders": [
+      "所谓の公开处决",
+      "选择"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 120,
+    "original_image": "https://www.bloodstar.xyz/p/librarypimp21/Pedagogic_Pits_And_Pendulums/hardclaiming_pedagogic_pits_and_pendulums.png"
+  },
+  {
+    "id": "618b899c",
+    "team": "townsfolk",
+    "name": "\"一个角色\"",
+    "ability": "你以为你是一个剧本外的善良角色并可能拥有该角色的能力。每个夜晚，你可能会变成一个剧本外的善良角色。",
+    "image": "/image/downloaded/274c42019057b520866d434470f858ec.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [
+      "是一个角色"
+    ],
+    "firstNight": 3036,
+    "otherNight": 45,
+    "original_image": "https://www.bloodstar.xyz/p/librarypimp21/Pedagogic_Pits_And_Pendulums/acharacter_pedagogic_pits_and_pendulums.png"
+  },
+  {
+    "id": "41267a76",
+    "team": "townsfolk",
+    "name": "没失忆的镇民",
+    "ability": "你知道你的能力是什么以及你是哪个镇民角色，该角色说只是方便说书人发牌。",
+    "image": "/blood-on-the-clocktower/image/downloaded/fc45da2004852124dff2cdc330a99624.webp",
+    "setup": false,
+    "reminders": [
+      "？"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 11,
+    "otherNight": 14,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/amnesiac.png"
+  },
+  {
+    "id": "b29889f1",
+    "team": "townsfolk",
+    "name": "\"没有死亡\"",
+    "ability": "如果你死亡，当晚你会得知一名死亡玩家的角色。\n如果你被处决两次，你可能会在当晚复活。",
+    "image": "/blood-on-the-clocktower/image/downloaded/b52b23b1c577e63320475f48547968a8.webp",
+    "setup": false,
+    "reminders": [
+      "死而复生",
+      "死于处决"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 102,
+    "original_image": "https://www.bloodstar.xyz/p/librarypimp21/Pedagogic_Pits_And_Pendulums/notdead_pedagogic_pits_and_pendulums.png"
+  },
+  {
+    "id": "d17de3d4",
+    "team": "townsfolk",
+    "name": "\"被处决\"",
+    "ability": "如果你被处决，当晚你会得知两名今天白天投过票的玩家的角色。",
+    "image": "/blood-on-the-clocktower/image/downloaded/3cde1b22e37701ffe77f274b1995e0ae.webp",
+    "setup": false,
+    "reminders": [
+      "得知"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 95,
+    "original_image": "https://www.bloodstar.xyz/p/librarypimp21/Pedagogic_Pits_And_Pendulums/executed_pedagogic_pits_and_pendulums.png"
+  },
+  {
+    "id": "ba366961",
+    "team": "townsfolk",
+    "name": "\"爪牙\"",
+    "ability": "如果你被处决，一名镇民玩家获得一个不在场的爪牙能力并转变阵营。[-1爪牙]",
+    "image": "/blood-on-the-clocktower/image/downloaded/4a5ebc8f3c74fb118fc5a35ded39e3ed.webp",
+    "setup": true,
+    "reminders": [
+      "咒血附身",
+      "新手",
+      "在说谎",
+      "任意",
+      "在场"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 52,
+    "original_image": "https://www.bloodstar.xyz/p/librarypimp21/Pedagogic_Pits_And_Pendulums/minion_pedagogic_pits_and_pendulums.png"
+  },
+  {
+    "id": "5e266b10",
+    "team": "townsfolk",
+    "name": "\"外来者\"",
+    "ability": "如果恶魔杀死了你，在当晚你会被唤醒，随后说书人会对你展示一张魔典的图片，但是经过大量裁剪和编辑。",
+    "image": "/image/downloaded/7cab506b742a00f3caa9758bfcd21a08.webp",
+    "setup": false,
+    "reminders": [
+      "虚假魔典"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 108,
+    "original_image": "https://www.bloodstar.xyz/p/librarypimp21/Pedagogic_Pits_And_Pendulums/outsider_pedagogic_pits_and_pendulums.png"
+  },
+  {
+    "id": "df65b760",
+    "team": "townsfolk",
+    "name": "是酒鬼",
+    "ability": "所有玩家不会醉酒或中毒。如果你“疯狂”地证明你是“是酒鬼”，镇民玩家的能力会产生错误信息，即使你已死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/ad59b6c892d5fefec76db6c9931afd6a.webp",
+    "setup": false,
+    "reminders": [
+      "花间吟游酒"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/librarypimp21/Pedagogic_Pits_And_Pendulums/aiyamdrunk_pedagogic_pits_and_pendulums.png"
+  },
+  {
+    "id": "e01d4efe",
+    "team": "outsider",
+    "name": "\"不是善良的\"",
+    "ability": "每局游戏限一次，说书人会公开承认自己犯的一个错误，但该错误不会影响游戏的结果。",
+    "image": "/image/downloaded/e742fe84c85997150455be5ff70b8343.webp",
+    "setup": false,
+    "reminders": [
+      "非善类哉",
+      "失去能力"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/librarypimp21/Pedagogic_Pits_And_Pendulums/notgood_pedagogic_pits_and_pendulums.png"
+  },
+  {
+    "id": "a5d3d0dd",
+    "team": "outsider",
+    "name": "”疯狂“",
+    "ability": "你以为你是一个剧本外的角色，但其实你不是。如果你的阵营即将落败，你的能力可能会生效。",
+    "image": "/blood-on-the-clocktower/image/downloaded/d8e2b84d1744e259641b9f629280b08c.webp",
+    "setup": false,
+    "reminders": [
+      "抽象の意外"
+    ],
+    "remindersGlobal": [
+      "是”疯狂“"
+    ],
+    "firstNight": 3009,
+    "otherNight": 39,
+    "original_image": "https://www.bloodstar.xyz/p/librarypimp21/Pedagogic_Pits_And_Pendulums/mad_pedagogic_pits_and_pendulums.png"
+  },
+  {
+    "id": "fa7cb1e8",
+    "team": "outsider",
+    "name": "三者之一",
+    "ability": "你可能会被当作与你邻近的存活玩家的角色或邪恶的爪牙。",
+    "image": "/blood-on-the-clocktower/image/downloaded/d054510d1113681ac4f71c8dc6a44cea.webp",
+    "setup": false,
+    "reminders": [
+      "三神谜题"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/librarypimp21/Pedagogic_Pits_And_Pendulums/oneofthesethree_pedagogic_pits_and_pendulums.png"
+  },
+  {
+    "id": "c416dc12",
+    "team": "outsider",
+    "name": "\"自提\"",
+    "ability": "你随时可能复活。你随时可能死亡。你随时可能不会死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/57b48e29f73ad8ef1d5cadec8a4cf647.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [
+      "生死交错",
+      "不死之身"
+    ],
+    "firstNight": 3072,
+    "otherNight": 114,
+    "original_image": "https://www.bloodstar.xyz/p/librarypimp21/Pedagogic_Pits_And_Pendulums/nominatingmyself_pedagogic_pits_and_pendulums.png"
+  },
+  {
+    "id": "5cacbf78",
+    "team": "outsider",
+    "name": "没失忆的外来者",
+    "ability": "你知道你的能力是什么以及你是哪个外来者角色，该角色说只是方便说书人发牌。",
+    "image": "/blood-on-the-clocktower/image/downloaded/fc45da2004852124dff2cdc330a99624.webp",
+    "setup": false,
+    "reminders": [
+      "？"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 2006,
+    "otherNight": 20,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/amnesiac.png"
+  },
+  {
+    "id": "8e014f45",
+    "team": "minion",
+    "name": "新手",
+    "ability": "每个夜晚，你要选择一名玩家：他在当晚和明天白天醉酒。",
+    "image": "/blood-on-the-clocktower/image/downloaded/228b5c26b8e3c135999d224007c385e9.webp",
+    "setup": false,
+    "reminders": [
+      "醉酒",
+      "新手村の小恶魔"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3018,
+    "otherNight": 8,
+    "original_image": "https://www.bloodstar.xyz/p/librarypimp21/Pedagogic_Pits_And_Pendulums/newplayer_pedagogic_pits_and_pendulums.png"
+  },
+  {
+    "id": "3aeb22fb",
+    "team": "minion",
+    "name": "\"任意\"",
+    "ability": "每个白天，你可以拜访说书人以获得一个新能力，然后你失去上个能力。",
+    "image": "/blood-on-the-clocktower/image/downloaded/e63eb0a7fc7dacbb838d6505aed87810.webp",
+    "setup": false,
+    "reminders": [
+      "科技狠活改造"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 64,
+    "original_image": "https://www.bloodstar.xyz/p/librarypimp21/Pedagogic_Pits_And_Pendulums/anything_pedagogic_pits_and_pendulums.png"
+  },
+  {
+    "id": "42bec1ba",
+    "team": "minion",
+    "name": "\"在场\"",
+    "ability": "每局游戏限一次，你可以公开猜测所有玩家的角色。如果你正确猜测所有善良玩家的角色，你的阵营获胜。",
+    "image": "/blood-on-the-clocktower/image/downloaded/f6de0c22d52342f422d623378f5ad0ec.webp",
+    "setup": false,
+    "reminders": [
+      "真正の魔典构造区"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/librarypimp21/Pedagogic_Pits_And_Pendulums/inplay_pedagogic_pits_and_pendulums.png"
+  },
+  {
+    "id": "93911f5b",
+    "team": "minion",
+    "name": "\"在说谎\"",
+    "ability": "“疯狂”地证明自己是除了自己真正角色之外的角色的玩家可能会被处决。你会被当作善良阵营。[+1或-1外来者]",
+    "image": "/blood-on-the-clocktower/image/downloaded/3da1914afc1929af6a85404b44efece1.webp",
+    "setup": true,
+    "reminders": [
+      "哪来的皮？"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/librarypimp21/Pedagogic_Pits_And_Pendulums/lying_pedagogic_pits_and_pendulums.png"
+  },
+  {
+    "id": "6bfd455b",
+    "team": "demon",
+    "name": "非小恶魔局",
+    "ability": "每个夜晚，你要选择一名玩家：他中毒。上个因你的能力中毒的玩家会死亡并恢复健康。",
+    "image": "/blood-on-the-clocktower/image/downloaded/3836229a211f5f829ceac823b3256b17.webp",
+    "setup": false,
+    "reminders": [
+      "中毒",
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3027,
+    "otherNight": 27,
+    "original_image": "https://www.bloodstar.xyz/p/librarypimp21/Pedagogic_Pits_And_Pendulums/notanimpgame_pedagogic_pits_and_pendulums.png"
+  },
+  {
+    "id": "8f2e16ec",
+    "team": "demon",
+    "name": "准小恶魔",
+    "ability": "每个夜晚*，你要选择一名玩家：他可能会死亡。当你首次死亡时，一名爪牙会变成类小恶魔。",
+    "image": "/image/downloaded/ad120b4aeb068e989f34075b9e2dd2b1.webp",
+    "setup": false,
+    "reminders": [
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 70,
+    "original_image": "https://www.bloodstar.xyz/p/librarypimp21/Pedagogic_Pits_And_Pendulums/regularimp_pedagogic_pits_and_pendulums.png"
+  },
+  {
+    "id": "8f5c1c87",
+    "team": "demon",
+    "name": "真小恶魔！",
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡。如果你以这种方式自杀，一名爪牙会变成准小恶魔。",
+    "image": "/image/downloaded/4b39c97d5efba84e38dc0f688fe965d1.webp",
+    "setup": false,
+    "reminders": [
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 89,
+    "original_image": "https://www.bloodstar.xyz/p/librarypimp21/Pedagogic_Pits_And_Pendulums/imp_pedagogic_pits_and_pendulums.png"
+  },
+  {
+    "id": "09c87f49",
+    "team": "demon",
+    "name": "类小恶魔",
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡。被该能力杀死的“新手”改为变成邪恶的真小恶魔！且你代替他死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/01e8f1aba914dd2847910350a8c100b5.webp",
+    "setup": false,
+    "reminders": [
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 77,
+    "original_image": "https://www.bloodstar.xyz/p/librarypimp21/Pedagogic_Pits_And_Pendulums/impish_pedagogic_pits_and_pendulums.png"
+  },
+  {
+    "id": "fd7ed3c8",
+    "team": "fabled",
+    "name": "毫无头绪",
+    "ability": "说书人可能会在正常对话中混用术语和角色名。",
+    "image": "/blood-on-the-clocktower/image/downloaded/ae1edb500ac69fbbda6a99b679171861.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/librarypimp21/Pedagogic_Pits_And_Pendulums/clueless_pedagogic_pits_and_pendulums.png"
+  },
+  {
+    "id": "09d46ab6",
+    "team": "traveller",
+    "name": "\"对跳\"",
+    "ability": "在你的首个夜晚，你会得知两个不能分���的密语。首个说出该密语的与你阵营相同的玩家会变成一个新的旅行者，然后你变成他的角色。",
+    "image": "/blood-on-the-clocktower/image/downloaded/5e6f734b1d931658a5a7cf09642ba09a.webp",
+    "setup": false,
+    "reminders": [
+      "秘辛线索"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://i.postimg.cc/9Q8fmNHt/e.png"
+  },
+  {
+    "id": "d6e416aa",
+    "team": "traveller",
+    "name": "\"没有玩家\"",
+    "ability": "每个夜晚，你获得一个新的旅行者能力。与你阵营相同的一名玩家会得知你获得了哪个能力。",
+    "image": "/blood-on-the-clocktower/image/downloaded/bd4afeded08b8a56159ecd37db5503ec.webp",
+    "setup": false,
+    "reminders": [
+      "除我似乎无人知晓"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://i.postimg.cc/9f5n7c2W/Nobody.png"
+  },
+  {
+    "id": "ba5dd51b",
+    "team": "traveller",
+    "name": "\"编故事\"",
+    "ability": "你不知道你的能力和任务是什么。每个白天，你可以私下询问说书人有关该任务的一个问题并得知一个提示。如果你完成了你的任务，你得知你的能力。",
+    "image": "/blood-on-the-clocktower/image/downloaded/62cc69e7125295df5912cfefb38d391a.webp",
+    "setup": false,
+    "reminders": [
+      "获得能力",
+      "完成任务"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://i.postimg.cc/sx6LQSj8/M.png"
+  },
+  {
+    "id": "9f1eb714",
+    "team": "traveller",
+    "name": "\"要走了\"",
+    "ability": "除你以外提议流放你的玩家会死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/3470285a65462a294f6980b9f11fb114.webp",
+    "setup": false,
+    "reminders": [
+      "滚!"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://i.postimg.cc/2yQyHm6F/Leaving.png"
+  }
+]

@@ -1,0 +1,405 @@
+[
+  {
+    "hint": "线上魔典支持直接输入剧本的URL。不必将此文件保存到你的电脑。",
+    "id": "_meta",
+    "name": "一夜鱼龙舞3.2",
+    "author": "驯鹿&痴愚"
+  },
+  {
+    "id": "b805e985",
+    "team": "townsfolk",
+    "name": "阴阳师",
+    "ability": "在你的首个夜晚，你会得知两个善良角色和两个邪恶角色，其中有且只有两个角色在场。",
+    "image": "/blood-on-the-clocktower/image/downloaded/d95538d3d7a01e4b43ead0358eb5c99f.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 3059,
+    "otherNight": 0,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/yinyangshi_600w.webp"
+  },
+  {
+    "id": "1c6f6500",
+    "team": "townsfolk",
+    "name": "钦天监",
+    "ability": "在你的首个夜晚，你会得知离你最近的邪恶玩家位于你的哪一侧（左/右/相同）。如果与你邻近的玩家中有邪恶阵营，你会得知错误信息作为替代。",
+    "image": "/blood-on-the-clocktower/image/downloaded/5febf68329faa53b98646f7b7ec46543.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 3073,
+    "otherNight": 0,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/qintianjian_600w.webp"
+  },
+  {
+    "id": "685d180f",
+    "team": "townsfolk",
+    "name": "舞狮人",
+    "ability": "每个夜晚，你会得知一个在场角色。每局游戏限一次，你得知的信息改为恶魔的伪装之一。",
+    "image": "/blood-on-the-clocktower/image/downloaded/10cf1fe1c1a8a9dd50f8838f558c9f68.webp",
+    "setup": false,
+    "reminders": [
+      "限一次"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3076,
+    "otherNight": 105,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/upload/202301/c_7613877694761_6041a632.jpg"
+  },
+  {
+    "id": "bb10e248",
+    "team": "townsfolk",
+    "name": "引路人",
+    "ability": "每个夜晚，你要选择至多三名玩家：你会得知今晚是否有邪恶玩家的能力选择或影响了他们之中的玩家。",
+    "image": "/blood-on-the-clocktower/image/downloaded/e462ac8c404a86146c3b75a5b96924b3.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 3077,
+    "otherNight": 123,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/yinluren_600w.webp"
+  },
+  {
+    "id": "faefa7c4",
+    "team": "townsfolk",
+    "name": "舞龙头",
+    "ability": "每个夜晚，你会得知你和舞龙尾最近距离间存活的善良玩家数量（不含旅行者）。[离你最远的一名镇民是舞龙尾]",
+    "image": "/blood-on-the-clocktower/image/downloaded/9945087f0527eb083c3d99c3a751b2bd.webp",
+    "setup": true,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 3075,
+    "otherNight": 97,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/custom/d_5464670695861_6d8fec4c.jpg"
+  },
+  {
+    "id": "4becbe96",
+    "team": "townsfolk",
+    "name": "知府",
+    "ability": "每个夜晚*，你会得知今天是否有非镇民且非旅行者的玩家死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/979baaf01d2a8a150141aa0a86f082f4.webp",
+    "setup": false,
+    "reminders": [
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 121,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/zhifu_600w.webp"
+  },
+  {
+    "id": "178c9949",
+    "team": "townsfolk",
+    "name": "道士",
+    "ability": "每个夜晚*，你要选择一名玩家：如果你选中了恶魔，你死亡，然后他醉酒直到下个黎明。",
+    "image": "/blood-on-the-clocktower/image/downloaded/1e2011c130b9e67f8977225fa6025c1b.webp",
+    "setup": false,
+    "reminders": [
+      "死亡",
+      "醉酒"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 49,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/daoshi_600w.webp"
+  },
+  {
+    "id": "236ed8c8",
+    "team": "townsfolk",
+    "name": "御史",
+    "ability": "每个夜晚*，你要选择一名玩家：你会得知该玩家与其邻座的存活玩家之一是否为同一阵营。",
+    "image": "https://www.bloodstar.xyz//p//comm503//extra-role//13_extrarole.png",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 111
+  },
+  {
+    "id": "df36937a",
+    "team": "townsfolk",
+    "name": "香客",
+    "ability": "每个夜晚*，你要点一根香：你会得知香能否被点燃。如果当天你曾与恶魔一起投票，香无法被点燃。",
+    "image": "/blood-on-the-clocktower/image/downloaded/d4c88c1e5efff826b7c4f9f91d5a4210.webp",
+    "setup": false,
+    "reminders": [
+      "点燃",
+      "无法点燃"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 113,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/custom/d_8308070695861_d98cd8b7.jpg"
+  },
+  {
+    "id": "f4b8b37c",
+    "team": "townsfolk",
+    "name": "宠妃",
+    "ability": "每局游戏限一次，说书人会在关于你的事情上打破规则。随后，你会秘密得知说书人为此做了什么。",
+    "image": "/blood-on-the-clocktower/image/downloaded/9871af16c68e649cc7b83b8b95572d3a.webp",
+    "setup": false,
+    "reminders": [
+      "失去能力"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/chongfei_600w.webp"
+  },
+  {
+    "id": "c73868ec",
+    "team": "townsfolk",
+    "name": "司簿",
+    "ability": "在你的首个夜晚，你要选择一名玩家，你会得知该玩家及其相邻玩家的角色种类数量。",
+    "image": "https://www.bloodstar.xyz//p//comm503//extra-role//14_extrarole.png",
+    "setup": false,
+    "reminders": [
+      "廪赐"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3074,
+    "otherNight": 0
+  },
+  {
+    "id": "d3789807",
+    "team": "townsfolk",
+    "name": "舞龙尾",
+    "ability": "你不知道你是舞龙尾，你以为你是其他镇民角色。如果你和舞龙头之间的其他玩家都已死亡，这些玩家变成舞龙身并复活，在此之前你只会死于处决。[+舞龙头]",
+    "image": "/blood-on-the-clocktower/image/downloaded/4d96122d763bc1ab6ccbe8893e7dcdfa.webp",
+    "setup": true,
+    "reminders": [],
+    "remindersGlobal": [
+      "舞龙尾"
+    ],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/custom/d_3353870695861_ee9adf9e.jpg"
+  },
+  {
+    "id": "3c8d14e1",
+    "team": "townsfolk",
+    "name": "贤者",
+    "ability": "如果恶魔杀死了你，在当晚你会被唤醒并得知两名玩家，其中一名是杀死你的那个恶魔。",
+    "image": "/blood-on-the-clocktower/image/downloaded/1ba92b7e10ca4f17e2d58247bbc30381.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/sage_600w.webp"
+  },
+  {
+    "id": "6202677c",
+    "team": "townsfolk",
+    "name": "提刑官",
+    "ability": "在你首次提名玩家后，你会在当晚得知他的角色。恶魔会被你的能力当作善良角色。",
+    "image": "/blood-on-the-clocktower/image/downloaded/84a59129c82c89eaea553c9c8d88bec4.webp",
+    "setup": false,
+    "reminders": [
+      "被首次提名"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 100,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/tixingguan_600w.webp"
+  },
+  {
+    "id": "4fc31154",
+    "team": "outsider",
+    "name": "心上人",
+    "ability": "当你死亡时，会有一名玩家开始醉酒。",
+    "image": "/blood-on-the-clocktower/image/downloaded/ee88ee9836a22f0b9d46bfb180501cd6.webp",
+    "setup": false,
+    "reminders": [
+      "醉酒"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/sweetheart_600w.webp"
+  },
+  {
+    "id": "18325e54",
+    "team": "outsider",
+    "name": "天子",
+    "ability": "如果你死于处决，参与处决且与你阵营相同的玩家当晚可能会死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/91c77895ac7253af00e79622b08c6183.webp",
+    "setup": false,
+    "reminders": [
+      "陪葬"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 7,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/custom/d_535080695861_54187956.jpg"
+  },
+  {
+    "id": "f018a337",
+    "team": "outsider",
+    "name": "鱼灯",
+    "ability": "如果你死亡，在当晚恶魔可以选择一名其他邪恶玩家和一个不在场的爪牙角色：他获得该角色的能力。",
+    "image": "/blood-on-the-clocktower/image/downloaded/5b2a430a787dbdfb6a028f0561c6263a.webp",
+    "setup": false,
+    "reminders": [
+      "获得能力"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 12,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/custom/d_8518180695861_43e84706.jpg"
+  },
+  {
+    "id": "77111aaf",
+    "team": "outsider",
+    "name": "红颜",
+    "ability": "如果你死亡，邪恶玩家会得知一个关键词。首个说出该关键词的邪恶玩家会驳回当前所有提名并立即结束白天阶段（最后一天除外）。",
+    "image": "https://www.bloodstar.xyz//p//comm503//extra-role//hongyan_extrarole.png",
+    "setup": false,
+    "reminders": [
+      "祸水"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 89
+  },
+  {
+    "id": "b04b1f26",
+    "team": "minion",
+    "name": "蛊雕",
+    "ability": "每个夜晚，你要选择左或右：你得知该方向上的下一名存活善良玩家的角色，他中毒且其他善良玩家以为他是邪恶的蛊雕，直到下个黄昏。",
+    "image": "/blood-on-the-clocktower/image/downloaded/86a955241a614819f24fb2cf0f1b0396.webp",
+    "setup": false,
+    "reminders": [
+      "中毒"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3017,
+    "otherNight": 23,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/gudiao_600w.webp"
+  },
+  {
+    "id": "3d4da0ec",
+    "team": "minion",
+    "name": "朱厌",
+    "ability": "每局游戏限一次，在夜晚时，你可以选择当晚所有镇民玩家的能力都会产生错误信息。[+1 外来者]",
+    "image": "/blood-on-the-clocktower/image/downloaded/1893a95fca9b5ae4b4682bfbf1e0903c.webp",
+    "setup": true,
+    "reminders": [
+      "失去能力",
+      "天下大乱"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3031,
+    "otherNight": 32,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/custom/d_4240662507861_fab9e140.jpg"
+  },
+  {
+    "id": "369b50f5",
+    "team": "minion",
+    "name": "契灵",
+    "ability": "每局游戏限一次，在夜晚时，你可以选择除你以外的两名玩家：如果第一名玩家存活，第二名玩家就不会死亡。",
+    "image": "https://www.bloodstar.xyz/p/jlghx/qiling/newcharacter_qiling.png",
+    "setup": false,
+    "reminders": [
+      "不会死亡",
+      "契约",
+      "限一次"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3045,
+    "otherNight": 40
+  },
+  {
+    "id": "e5938f4b",
+    "team": "minion",
+    "name": "祸斗",
+    "ability": "如果首个邪恶玩家死亡，与他邻近的善良玩家之一会被当作邪恶阵营，当晚你可以选择两名存活玩家交换角色，即使你已死亡。[-1 外来者]",
+    "image": "/blood-on-the-clocktower/image/downloaded/6caeb3e9981da4ed21f8542805482089.webp",
+    "setup": true,
+    "reminders": [
+      "大祸临头",
+      "福祸相依"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 18,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/custom/d_1314991409271_8df88747.jpg"
+  },
+  {
+    "id": "b99afe40",
+    "team": "demon",
+    "name": "凤",
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡。 当你死于处决（最后一天除外），存活的凰会变成邪恶的凤。［离你最远的一名镇民玩家同时是凰］",
+    "image": "/blood-on-the-clocktower/image/downloaded/c5a18549e3c48329dd0977a3b4159f3b.webp",
+    "setup": false,
+    "reminders": [
+      "死亡",
+      "凰"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 81,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/custom/d_8469358538861_a51cca41.jpg"
+  },
+  {
+    "id": "4f8df24f",
+    "team": "demon",
+    "name": "诡美人",
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡。当你死于处决，如果你与存活外来者之间没有存活善良玩家（最后一天除外），他会变成邪恶的诡美人，但每局游戏仅能成功转化一次。[+1 外来者]",
+    "image": "/blood-on-the-clocktower/image/downloaded/360b00dfb0e2bb12cd993f35aa61920d.webp",
+    "setup": true,
+    "reminders": [
+      "仰慕者",
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 65,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/custom/d_3110570695861_1f3119e7.jpg"
+  },
+  {
+    "id": "9bae2842",
+    "team": "demon",
+    "name": "冤",
+    "ability": "每个夜晚*，你要选择一名玩家:他死亡。如果你在被提名后公开声明我冤呐（最后一天除外），在你死于处决后私下选择一名给你投票的玩家，他会变成邪恶的冤，但每局游戏仅能成功转化一次。[-1外来者]",
+    "image": "/blood-on-the-clocktower/image/downloaded/d02aeeecb24ccd6caa2db008bdcb7428.webp",
+    "setup": true,
+    "reminders": [
+      "死亡",
+      "冤呐"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 73,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/custom/d_8539280695861_536321d6.jpg"
+  },
+  {
+    "id": "e126498c",
+    "team": "demon",
+    "name": "长安红茶",
+    "ability": "首个夜晚，你要选择等同初始爪牙数量的玩家加入邪恶阵营。每个夜晚*，会有一名玩家死亡，只有说书人被处决，邪恶阵营落败，即使你已死亡。[无爪牙角色在场]",
+    "image": "/blood-on-the-clocktower/image/downloaded/b3393d30ce1e8b274084521919890fdf.webp",
+    "setup": true,
+    "reminders": [
+      "死亡",
+      "茶客"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 2005,
+    "otherNight": 57,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/custom/d_5937835934861_d1e3dadd.jpg"
+  },
+  {
+    "id": "587efcde",
+    "team": "traveller",
+    "name": "舞龙身",
+    "ability": "你无法被流放。每个白天舞龙头可以向一名非旅行者玩家发起流放，此次流放仅舞龙能参与且半数以上舞龙同意即可流放成功。[不可选择]",
+    "image": "/blood-on-the-clocktower/image/downloaded/403c07abcf093f3056b3a4ced2be777c.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/custom/d_1234680695861_1a8706ca.jpg"
+  }
+]

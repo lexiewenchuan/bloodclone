@@ -1,0 +1,216 @@
+[
+  {
+    "hint": "线上魔典支持直接输入剧本的URL。不必将此文件保存到你的电脑。",
+    "id": "_meta",
+    "name": "纺都颂歌",
+    "author": "小烯C2H43g"
+  },
+  {
+    "id": "3377c4b4",
+    "team": "townsfolk",
+    "name": "地图师",
+    "ability": "每个夜晚，你会得知与你决斗过的玩家中没有哪个角色类型。",
+    "image": "/blood-on-the-clocktower/image/downloaded/46cfe86c87e6c5dcbd4afe16a71955c1.webp",
+    "setup": false,
+    "reminders": [
+      "已决斗"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 106,
+    "original_image": "https://www.bloodstar.xyz/p/C2H43g/SilkSong/2_silksong.png"
+  },
+  {
+    "id": "a5c204c8",
+    "team": "townsfolk",
+    "name": "大黄蜂",
+    "ability": "每局游戏限一次，在夜晚时*，你可以查看上一个与你决斗的玩家的角色。",
+    "image": "/blood-on-the-clocktower/image/downloaded/7d3600e26fa9cf0ff030bb6a0677a4a5.webp",
+    "setup": false,
+    "reminders": [
+      "对手"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 85,
+    "original_image": "https://www.bloodstar.xyz/p/C2H43g/SilkSong/1_silksong.png"
+  },
+  {
+    "id": "b00b3252",
+    "team": "townsfolk",
+    "name": "针姬",
+    "ability": "每局游戏限一次，你可以在参与决斗时秘密地改为猜测对方的角色类型，如果你猜对，对方醉酒并被处决，反之你被处决。",
+    "image": "/image/downloaded/206b2303d0942c0e3b97b16509088c76.webp",
+    "setup": false,
+    "reminders": [
+      "失去能力"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/C2H43g/SilkSong/6_silksong.png"
+  },
+  {
+    "id": "4196050a",
+    "team": "townsfolk",
+    "name": "朝圣者",
+    "ability": "如果你没有和邪恶玩家决斗过，你在决斗失败时不会被处决。",
+    "image": "/blood-on-the-clocktower/image/downloaded/be64f4324f72977938b4a20e3ec608a0.webp",
+    "setup": false,
+    "reminders": [
+      "不被处决"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/C2H43g/SilkSong/5_silksong.png"
+  },
+  {
+    "id": "ea7dc896",
+    "team": "townsfolk",
+    "name": "老骑士",
+    "ability": "如果你因为决斗被处决，当晚你可以选择一名玩家，如果他不是镇民，他死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/ee34730cc972c784059a5346074cb563.webp",
+    "setup": false,
+    "reminders": [
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 64,
+    "original_image": "https://www.bloodstar.xyz/p/C2H43g/SilkSong/3_silksong.png"
+  },
+  {
+    "id": "749dde37",
+    "team": "townsfolk",
+    "name": "跳蚤首领",
+    "ability": "首个与你决斗的非镇民玩家会失去能力。如果他是外来者，他转变为善良阵营。",
+    "image": "/blood-on-the-clocktower/image/downloaded/b2a044065a477acb816514451658960a.webp",
+    "setup": false,
+    "reminders": [
+      "失去能力",
+      "善良"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 22,
+    "original_image": "https://www.bloodstar.xyz/p/C2H43g/SilkSong/4_silksong.png"
+  },
+  {
+    "id": "c9ffaf4f",
+    "team": "outsider",
+    "name": "寄生者",
+    "ability": "在你的首个夜晚，你选择一名其他玩家，如果游戏结束时你与他均存活，你独自获胜。",
+    "image": "/blood-on-the-clocktower/image/downloaded/fc6a03f811c3f4eb2646b0803917329f.webp",
+    "setup": false,
+    "reminders": [
+      "寄生"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3032,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/C2H43g/SilkSong/8_silksong.png"
+  },
+  {
+    "id": "5a80237f",
+    "team": "outsider",
+    "name": "盗贼",
+    "ability": "你加入上一个决斗获胜的玩家的阵营，但你不会得知阵营变化。",
+    "image": "/blood-on-the-clocktower/image/downloaded/3923e93a519e28c643bbd14ae19dfec2.webp",
+    "setup": false,
+    "reminders": [
+      "善良",
+      "邪恶"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/C2H43g/SilkSong/9_silksong.png"
+  },
+  {
+    "id": "d38479bb",
+    "team": "minion",
+    "name": "幽影",
+    "ability": "每个白天，首个与你决斗的善良角色会中毒直到下个黄昏。即使你已死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/653f9e6af429de332c040c38e27bc7e9.webp",
+    "setup": false,
+    "reminders": [
+      "中毒"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 43,
+    "original_image": "https://www.bloodstar.xyz/p/C2H43g/SilkSong/11_silksong.png"
+  },
+  {
+    "id": "6682958f",
+    "team": "minion",
+    "name": "白骑士",
+    "ability": "你可以在没有你参与的决斗中秘密的睁眼，每局游戏限一次，你可以在睁眼时秘密向说书人示意修改决斗结果。",
+    "image": "/blood-on-the-clocktower/image/downloaded/b8b11cebada42bd9caa0b9ee4e4f76d3.webp",
+    "setup": false,
+    "reminders": [
+      "失去能力"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/C2H43g/SilkSong/10_silksong.png"
+  },
+  {
+    "id": "4c50d180",
+    "team": "demon",
+    "name": "苍白之母",
+    "ability": "你拥有一个不在场爪牙角色的能力。死亡的爪牙的能力会被你继承。",
+    "image": "/blood-on-the-clocktower/image/downloaded/e4667e12903eeb97812a1584de47b92c.webp",
+    "setup": false,
+    "reminders": [
+      "继承能力"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/C2H43g/SilkSong/12_silksong.png"
+  },
+  {
+    "id": "5171d1da",
+    "team": "demon",
+    "name": "虚空之神",
+    "ability": "游戏开始时，一名镇民被虚空之神附身，被虚空之神附身的玩家“是邪恶的恶魔”。如果你在决斗中失败，则将结果反转为胜利。［-1恶魔，+1镇民］",
+    "image": "/image/downloaded/dc3f498b7630d6732eaa1b78e826d0c0.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [
+      "附身"
+    ],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/C2H43g/SilkSong/13_silksong.png"
+  },
+  {
+    "id": "fba398a4",
+    "team": "fabled",
+    "name": "决斗！",
+    "ability": "如果存活玩家大于三名，提名环节改为“决斗环节”：每个白天每名玩家限一次，你可以公开选择一名玩家并进行一个全体玩家闭眼的猜拳，输的玩家会立刻被处决。第四个白天结束时，邪恶阵营获胜。",
+    "image": "/blood-on-the-clocktower/image/downloaded/23c21b09a37565ee4773027abd1c90da.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/C2H43g/SilkSong/_silksong.png"
+  },
+  {
+    "id": "76501df5",
+    "team": "fabled",
+    "name": "《武德》",
+    "ability": "决斗获胜的玩家不能在下个白天发起决斗，多名玩家同时发起决斗时顺序由说书人决定。",
+    "image": "/blood-on-the-clocktower/image/downloaded/71d76eda7e30ae2ab799887855061c43.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/C2H43g/SilkSong/7_silksong.png"
+  }
+]

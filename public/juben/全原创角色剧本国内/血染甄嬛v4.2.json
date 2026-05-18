@@ -1,0 +1,583 @@
+[
+  {
+    "hint": "线上魔典支持直接输入剧本的URL。不必将此文件保存到你的电脑。",
+    "id": "_meta",
+    "name": "血染甄嬛v4.2",
+    "author": "桂花小排骨",
+    "status": [
+      {
+        "name": "退位",
+        "skill": "如果场上出现了两名存活的恶魔，由其他角色变成的恶魔会变回原来的角色和阵营，初始恶魔不发生变化。"
+      },
+      {
+        "name": "性别相关",
+        "skill": "小允子、温实初、苏培盛、夏刈为太监。"
+      },
+      {
+        "name": "说书人五选一",
+        "skill": "在第一个白天，根据局势公布本局使用的传奇角色"
+      }
+    ]
+  },
+  {
+    "id": "2e23d555",
+    "team": "townsfolk",
+    "name": "玉娆",
+    "ability": "在你的首个夜晚，你会得知一名善良玩家和他的角色。如果恶魔杀死了他，你也会死亡。",
+    "image": "/image/downloaded/043e964e96ddeb6ea004b7165ad8c694.webp",
+    "setup": false,
+    "reminders": [
+      "得知",
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3053,
+    "otherNight": 100,
+    "original_image": "https://www.helloimg.com/i/2024/12/31/677406d882861.png"
+  },
+  {
+    "id": "6b46a21b",
+    "team": "townsfolk",
+    "name": "浣碧",
+    "ability": "在你的首个夜晚，你会得知恶魔与爪牙之间最近的距离。（邻座的玩家距离为1）[当你坐在果郡王旁边时，你醉酒]",
+    "image": "/image/downloaded/0b263871989072b7b8226f7a263c77f4.webp",
+    "setup": false,
+    "reminders": [
+      "醉酒"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3060,
+    "otherNight": 59,
+    "original_image": "https://www.helloimg.com/i/2024/12/31/677406d11a719.png"
+  },
+  {
+    "id": "f2264c7b",
+    "team": "townsfolk",
+    "name": "敬妃",
+    "ability": "在你的首个夜晚，你会得知有多少名非男性角色在场。如果恶魔杀死了你，在当晚你会被唤醒并得知场上有多少名存活的邪恶玩家。",
+    "image": "/image/downloaded/a0fb96dc7ea4116b5b567d6b1c080423.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 3046,
+    "otherNight": 95,
+    "original_image": "https://www.helloimg.com/i/2024/12/31/677406d1966b3.png"
+  },
+  {
+    "id": "12fae3f3",
+    "team": "townsfolk",
+    "name": "槿汐姑姑",
+    "ability": "每个夜晚，你要选择两名玩家：你会得知他们之中是否有恶魔。",
+    "image": "/image/downloaded/0fe729f2fd06b9958055cca899447a29.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 3067,
+    "otherNight": 116,
+    "original_image": "https://www.helloimg.com/i/2024/12/31/677406d0c3797.png"
+  },
+  {
+    "id": "6797bcc4",
+    "team": "townsfolk",
+    "name": "小允子",
+    "ability": "每个夜晚，你会得知与你邻近的两名存活的玩家是否为同一阵营。",
+    "image": "/image/downloaded/8cf7a75c2b8dc705e4966cddd2ee5c27.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 3074,
+    "otherNight": 121,
+    "original_image": "https://www.helloimg.com/i/2024/12/31/677406d7ca315.png"
+  },
+  {
+    "id": "007b4879",
+    "team": "townsfolk",
+    "name": "温实初",
+    "ability": "每个夜晚，你可以选择一名玩家：你会得知他是否醉酒或中毒。 如果你得知是，你可以让他恢复清醒健康。",
+    "image": "/image/downloaded/7f3a1d60111b603dc2843b15ea5be37a.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 3032,
+    "otherNight": 33,
+    "original_image": "https://www.helloimg.com/i/2024/12/31/677406d094c8f.png"
+  },
+  {
+    "id": "08fa40b2",
+    "team": "townsfolk",
+    "name": "果郡王",
+    "ability": "每个夜晚*，你要选择一名玩家（与上个夜晚不同）：当晚恶魔 的负面能力对他无效。",
+    "image": "/image/downloaded/ebb34c3df12681c2ed039b603a4a056d.webp",
+    "setup": false,
+    "reminders": [
+      "保护"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 22,
+    "original_image": "https://www.helloimg.com/i/2024/12/31/677406d04be07.png"
+  },
+  {
+    "id": "f53dae29",
+    "team": "townsfolk",
+    "name": "三阿哥",
+    "ability": "每个夜晚*，你可以染指一名与你临近的存活玩家。当染指了宠妃，她会恢复至被侍寝前的阵营和角色。（成功）当染指了当晚被皇上侍寝的女性角色或女皇，你死亡。（失败）若选择了：男性角色、齐妃、胧月、女性爪牙、太后，则此次染指失败。你可能会得知当晚染指是否成功。",
+    "image": "/image/downloaded/0c951fc84d8cfb415ea9b8e80be2fdad.webp",
+    "setup": false,
+    "reminders": [
+      "染指",
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 111,
+    "original_image": "https://www.helloimg.com/i/2024/12/31/677406d03f66c.png"
+  },
+  {
+    "id": "e5dc1511",
+    "team": "townsfolk",
+    "name": "祺贵人",
+    "ability": "每个白天，你可以公开猜测一名玩家的角色。如果猜对，在当晚会有一名玩家死亡。如果猜错，在当晚你死亡。",
+    "image": "/image/downloaded/a7c144a18ec8d52339fb556632c8524a.webp",
+    "setup": false,
+    "reminders": [
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 80,
+    "original_image": "https://www.helloimg.com/i/2024/12/31/677406d1666ac.png"
+  },
+  {
+    "id": "16f4835e",
+    "team": "townsfolk",
+    "name": "敦亲王",
+    "ability": "每个白天，你可以公开猜测一名玩家的角色并宣称「xx（猜测的角色）,给本王炫一个！」，如果你猜对，他醉酒至下一天黎明。",
+    "image": "/image/downloaded/004f071e067cbf7e86d97aecc5166310.webp",
+    "setup": false,
+    "reminders": [
+      "醉酒"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://www.helloimg.com/i/2024/12/31/677406d1b1b39.png"
+  },
+  {
+    "id": "c971ef0d",
+    "team": "townsfolk",
+    "name": "叶澜依",
+    "ability": "每局游戏限一次，在夜晚时*，你可以选择一名死亡的玩家：你会将他起死回生（复活）。",
+    "image": "/image/downloaded/517986f83866bda3044d3322925dac90.webp",
+    "setup": false,
+    "reminders": [
+      "复活",
+      "失去能力"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 106,
+    "original_image": "https://www.helloimg.com/i/2024/12/31/677406d85f7cd.png"
+  },
+  {
+    "id": "f4b8b37c",
+    "team": "townsfolk",
+    "name": "宠妃",
+    "ability": "每局游戏限一次，说书人会在关于你的事情上打破规则。随后，你会秘密得知说书人为此做了什么。",
+    "image": "/blood-on-the-clocktower/image/downloaded/9871af16c68e649cc7b83b8b95572d3a.webp",
+    "setup": false,
+    "reminders": [
+      "失去能力"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/chongfei_600w.webp"
+  },
+  {
+    "id": "3d9ee526",
+    "team": "townsfolk",
+    "name": "年羹尧",
+    "ability": "当你得知你死亡时，你可以公开选择一名玩家：在当晚他会死亡。",
+    "image": "/image/downloaded/5cd20242c0a2e5f19630707f5144842f.webp",
+    "setup": false,
+    "reminders": [
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 85,
+    "original_image": "https://www.helloimg.com/i/2024/12/31/677406d18a4a2.png"
+  },
+  {
+    "id": "4f6b4528",
+    "team": "townsfolk",
+    "name": "纯元皇后",
+    "ability": "当你首次被提名时，如果提名你的玩家是镇民，他立刻被处决。",
+    "image": "/image/downloaded/9a1e82730d60bbe0bbec429a621121d5.webp",
+    "setup": false,
+    "reminders": [
+      "失去能力"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://www.helloimg.com/i/2024/12/31/677406d166c94.png"
+  },
+  {
+    "id": "7145696e",
+    "team": "outsider",
+    "name": "齐妃",
+    "ability": "每个白天限一次，你可以念出「翠果，打烂他的嘴！」并选择一名玩家（与上个白天不同）：他在这个白天不可以说话。如果他说话了，他可能会被处决。",
+    "image": "/image/downloaded/ff285c0d62ffb510ccc3193b1f525b5b.webp",
+    "setup": false,
+    "reminders": [
+      "禁言"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://www.helloimg.com/i/2024/12/31/67740ebab60e2.png"
+  },
+  {
+    "id": "8631ac95",
+    "team": "outsider",
+    "name": "狂徒",
+    "ability": "你随时可能死亡。如果你“疯狂”地证明你是狂徒，你可能会被处决。",
+    "image": "/image/downloaded/b65c15e7f59118d7d203ee009b266fac.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 90,
+    "original_image": "https://www.helloimg.com/i/2024/12/31/67740ebacb1f3.png"
+  },
+  {
+    "id": "b25883f2",
+    "team": "outsider",
+    "name": "孙答应",
+    "ability": "当狂徒死亡时，当晚你也会死亡。当你死亡时，所有镇民醉酒至下个黄昏。",
+    "image": "/image/downloaded/a8a638b33ad179c1173de01b1ac1265f.webp",
+    "setup": false,
+    "reminders": [
+      "死亡",
+      "镇民醉酒"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 17,
+    "original_image": "https://www.helloimg.com/i/2024/12/31/67740ebab70c8.png"
+  },
+  {
+    "id": "fd018b23",
+    "team": "outsider",
+    "name": "甄嬛",
+    "ability": "当你将要在夜晚被恶魔杀死时，你不会死亡，这名恶魔死亡，然后你变成邪恶的女皇。",
+    "image": "/image/downloaded/d7730e859a46022f7ca2fae3383cf744.webp",
+    "setup": false,
+    "reminders": [
+      "死亡"
+    ],
+    "remindersGlobal": [
+      "是女皇"
+    ],
+    "firstNight": 0,
+    "otherNight": 74,
+    "original_image": "https://www.helloimg.com/i/2024/12/31/67740ebabbe2b.png"
+  },
+  {
+    "id": "c7a66be5",
+    "team": "outsider",
+    "name": "胧月",
+    "ability": "如果你死于处决，你的阵营落败。",
+    "image": "/image/downloaded/120100438c1fecd29ca9cec30ab1112f.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://www.helloimg.com/i/2024/12/31/67740ebabe58c.png"
+  },
+  {
+    "id": "519b7a63",
+    "team": "minion",
+    "name": "安陵容",
+    "ability": "每个夜晚，你会得知一个在场的女性角色。每个夜晚，你可以选择一个女性角色：她会中毒直到下个黄昏。",
+    "image": "/image/downloaded/22e4bfa4e49aec4d0cfaeeb6bf906764.webp",
+    "setup": false,
+    "reminders": [
+      "得知",
+      "中毒"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3024,
+    "otherNight": 28,
+    "original_image": "https://www.helloimg.com/i/2024/12/31/67740eefef434.png"
+  },
+  {
+    "id": "7a7456d6",
+    "team": "minion",
+    "name": "华妃",
+    "ability": "每个夜晚，你要选择一名玩家赐予一丈红：如果他明天白天发起提名，他死亡。如果只有三名存活的玩家，你失去此能力。",
+    "image": "/image/downloaded/8cf2ee55819cd39479360a6f5db492a9.webp",
+    "setup": false,
+    "reminders": [
+      "一丈红"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3039,
+    "otherNight": 38,
+    "original_image": "https://www.helloimg.com/i/2024/12/31/67740ef000463.png"
+  },
+  {
+    "id": "0bbd8402",
+    "team": "minion",
+    "name": "皇后",
+    "ability": "如果大于等于五名玩家存活时（旅行者不计算在内）恶魔死亡，你变成女皇。如果恶魔是太后，你发动能力时会变成太后。如果有其他女皇在场，你的能力失效。",
+    "image": "/image/downloaded/77d89d8b0bb8837ea46da9952cccd64c.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [
+      "是恶魔"
+    ],
+    "firstNight": 0,
+    "otherNight": 43,
+    "original_image": "https://www.helloimg.com/i/2024/12/31/67740ef001195.png"
+  },
+  {
+    "id": "c05911a6",
+    "team": "minion",
+    "name": "苏培盛",
+    "ability": "如果槿汐姑姑在场，她会转变为邪恶阵营且你和她会互相认识。[+1外来者]",
+    "image": "/image/downloaded/6c2e9a2d067ea0b5b9deba11b2dd1eef.webp",
+    "setup": true,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 3010,
+    "otherNight": 0,
+    "original_image": "https://www.helloimg.com/i/2024/12/31/67740eefe1df2.png"
+  },
+  {
+    "id": "93e36878",
+    "team": "demon",
+    "name": "太后",
+    "ability": "每个夜晚*，你要选择两名玩家：他们可能会死亡。",
+    "image": "/image/downloaded/d98aacd596df016ce4939211f1381a23.webp",
+    "setup": false,
+    "reminders": [
+      "选择",
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 64,
+    "original_image": "https://www.helloimg.com/i/2024/12/31/67740f284f991.png"
+  },
+  {
+    "id": "93741ca3",
+    "team": "demon",
+    "name": "女皇",
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡。[初始不在游戏中]",
+    "image": "/image/downloaded/0251ad7be6c82cc2998a4b6edb5ed7c0.webp",
+    "setup": true,
+    "reminders": [
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 69,
+    "original_image": "https://www.helloimg.com/i/2024/12/31/67740f27ba90a.png"
+  },
+  {
+    "id": "511a077f",
+    "team": "demon",
+    "name": "皇上",
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡。每局游戏限一次，在夜晚时，你可以选择一名女性角色侍寝：她变成邪恶的宠妃。",
+    "image": "/image/downloaded/71fd3ff4abd21eb42ca86660a43b4d0a.webp",
+    "setup": false,
+    "reminders": [
+      "死亡",
+      "侍寝"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3017,
+    "otherNight": 48,
+    "original_image": "https://www.helloimg.com/i/2024/12/31/67740f281bbe5.png"
+  },
+  {
+    "id": "39e40e73",
+    "team": "demon",
+    "name": "回魂太上皇",
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡。如果你以这种方式自杀，上个白天所有与说书人私聊过的玩家之一会变成邪恶的皇上。",
+    "image": "/image/downloaded/f5f47cc59e0779777ef80485e0d61c5a.webp",
+    "setup": true,
+    "reminders": [
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 54,
+    "original_image": "https://www.helloimg.com/i/2024/12/31/67740f27dbcd6.png"
+  },
+  {
+    "id": "0ead4027",
+    "team": "fabled",
+    "name": "太上老君",
+    "ability": "每局游戏限一次，在夜晚时*，会有一名死亡的玩家复活并变成新的角色。",
+    "image": "/image/downloaded/6714cbbebcecced499b9b6d6ad7d8a0a.webp",
+    "setup": false,
+    "reminders": [
+      "复活"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://www.helloimg.com/i/2024/12/31/67741008f17bc.png"
+  },
+  {
+    "id": "9d8cc613",
+    "team": "fabled",
+    "name": "阎王",
+    "ability": "每局游戏限一次，在夜晚时*，会有一名玩家变成与自身不同的角色，新角色可能会获得错误信息。如果该玩家“疯狂”地证明自己的角色发生变化，会遭遇一些不好的事情。",
+    "image": "/image/downloaded/2595953a7479b4c9a2072a69b3bd5729.webp",
+    "setup": false,
+    "reminders": [
+      "角色改变"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://www.helloimg.com/i/2024/12/31/677410091eb22.png"
+  },
+  {
+    "id": "62ebebf6",
+    "team": "fabled",
+    "name": "酒仙",
+    "ability": "会有一名玩家始终醉酒。",
+    "image": "/image/downloaded/a8968cb74bb61d61d95f918059e68058.webp",
+    "setup": false,
+    "reminders": [
+      "醉酒"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://www.helloimg.com/i/2024/12/31/67741008e8c1e.png"
+  },
+  {
+    "id": "885187ee",
+    "team": "fabled",
+    "name": "方丈",
+    "ability": "宣布一名新手玩家被保护。对这名新手玩家的死亡负最大责任的人，会遭遇一些不好的事情。",
+    "image": "/image/downloaded/e1618eb06a77c3f05f7a2ddcaa3a7bf6.webp",
+    "setup": false,
+    "reminders": [
+      "保护"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://www.helloimg.com/i/2024/12/31/6774100908d73.png"
+  },
+  {
+    "id": "5c466a39",
+    "team": "fabled",
+    "name": "公公",
+    "ability": "第一个白天说书人和所有玩家必须用夹子音说话。不使用夹子音说的玩家可能会被视为邪恶阵营、爪牙角色或恶魔角色。",
+    "image": "/image/downloaded/0572efc3e1c33484942fb2e71f266f8b.webp",
+    "setup": false,
+    "reminders": [
+      "被视为邪恶"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://www.helloimg.com/i/2024/12/31/67741008f0b74.png"
+  },
+  {
+    "id": "319e3f18",
+    "team": "traveller",
+    "name": "夏刈",
+    "ability": "每局游戏限一次，在夜晚时，你要选择两名玩家进行滴血认亲：他们获得亲情羁绊。（如果父/母死于处决，孩子会一同死亡；如果孩子死于处决，父/母会醉酒。）",
+    "image": "/image/downloaded/c341db2613e56c892bdbc7c8e8a83dbd.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 2002,
+    "otherNight": 7,
+    "original_image": "https://www.helloimg.com/i/2024/12/31/67740f54bf14f.png"
+  },
+  {
+    "id": "31f12ad8",
+    "team": "traveller",
+    "name": "舒太妃",
+    "ability": "每局游戏限一次，在处决后，你可以选择一名玩家：如果他不是果郡王，你与他一同死亡。",
+    "image": "/image/downloaded/8442ce0402abaaa564d549c4580dd59d.webp",
+    "setup": false,
+    "reminders": [
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://www.helloimg.com/i/2024/12/31/67740f54b91ba.png"
+  },
+  {
+    "id": "03b29b19",
+    "team": "traveller",
+    "name": "曹琴默",
+    "ability": "在你的首个夜晚，你要选择除你以外的一名玩家：你转变为他的阵营。每局游戏限一次，如果他死亡，在当晚你要选择除你以外的一名玩家，你转变为他的阵营。",
+    "image": "/image/downloaded/ee5d4ae326aa13144b90782fd4804de2.webp",
+    "setup": false,
+    "reminders": [
+      "主子"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3003,
+    "otherNight": 12,
+    "original_image": "https://www.helloimg.com/i/2024/12/31/67740f5448ded.png"
+  },
+  {
+    "id": "4e8c4b96",
+    "team": "traveller",
+    "name": "妙音娘子",
+    "ability": "在你的首个白天，你要选择一个镇民角色并询问一名玩家「我是xx（镇民角色），你相信吗？」如果他回答相信，你获得该角色的能力，如果这个角色在场，这个角色醉酒。如果他回答不相信，你被流放。",
+    "image": "/image/downloaded/fd7cfe09bf35a778f13cd2ca9f9c0789.webp",
+    "setup": false,
+    "reminders": [
+      "醉酒"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://www.helloimg.com/i/2024/12/31/67740f54cad70.png"
+  },
+  {
+    "id": "4c1fef4d",
+    "team": "traveller",
+    "name": "沈眉庄",
+    "ability": "你会得知谁是甄嬛，你的阵营始终与她相同。你的投票算作两票。",
+    "image": "/image/downloaded/6f9317bd3e098764227019efc9f04898.webp",
+    "setup": false,
+    "reminders": [
+      "姐妹情深"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 9,
+    "otherNight": 0,
+    "original_image": "https://www.helloimg.com/i/2024/12/31/67740f54e22b9.png"
+  },
+  {
+    "id": "69be26b3",
+    "team": "traveller",
+    "name": "莫言",
+    "ability": "当一名女性角色因为一名男性角色的提名而即将被处决时，你可以让这次处决变成得票数第二高的玩家被处决。",
+    "image": "/image/downloaded/d2076bb9790b229b8d06e1fcc7916cc0.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://www.helloimg.com/i/2024/12/31/67740f54c6441.png"
+  }
+]

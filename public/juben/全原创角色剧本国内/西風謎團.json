@@ -1,0 +1,406 @@
+[
+  {
+    "hint": "线上魔典支持直接输入剧本的URL。不必将此文件保存到你的电脑。",
+    "id": "_meta",
+    "name": "西風謎團",
+    "author": "R6lover_jerry"
+  },
+  {
+    "id": "bd7cf201",
+    "team": "townsfolk",
+    "name": "安柏",
+    "ability": "在你的首个夜晚，你会得知有多少善良與邪惡玩家鄰座。",
+    "image": "/blood-on-the-clocktower/image/downloaded/09ad9d3de76f515cf3f5e35510da3716.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 3072,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/Jerry0906/The_favonius_Mystery_DE/27_the_favonius_mystery_de.png"
+  },
+  {
+    "id": "9f7d0034",
+    "team": "townsfolk",
+    "name": "米卡",
+    "ability": "在你的首个夜晚，你会得知离你最远的外来者与你之间有多少种角色类型。 [+1外来者]",
+    "image": "/blood-on-the-clocktower/image/downloaded/f57a6aaca2aa062a4a6104f88b6f5d6f.webp",
+    "setup": true,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 3032,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/Jerry0906/The_favonius_Mystery_DE/_the_favonius_mystery_de.png"
+  },
+  {
+    "id": "bb803603",
+    "team": "townsfolk",
+    "name": "莫娜",
+    "ability": "每个夜晚，你要选择一位除你以外的非旅行者玩家：你会得知两个角色，该玩家是其中一个角色。",
+    "image": "/image/downloaded/d4d487a67a7e7ace168dfad1a48b1157.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 3052,
+    "otherNight": 110,
+    "original_image": "https://www.bloodstar.xyz/p/Jerry0906/The_favonius_Mystery_DE/8_the_favonius_mystery_de.png"
+  },
+  {
+    "id": "6c408a7a",
+    "team": "townsfolk",
+    "name": "八重神子",
+    "ability": "每个夜晚*，你要选择一名在今天白天被提名过的玩家：你得知被提名的玩家的角色類別。",
+    "image": "/image/downloaded/3aae96d1017fe75272e6b06a0a0bdabd.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [
+      "殺生櫻"
+    ],
+    "firstNight": 0,
+    "otherNight": 116,
+    "original_image": "https://www.bloodstar.xyz/p/Jerry0906/The_favonius_Mystery_DE/20_the_favonius_mystery_de.png"
+  },
+  {
+    "id": "d63b45b3",
+    "team": "townsfolk",
+    "name": "胡桃",
+    "ability": "每个夜晚*，如果白天有玩家死于处决，你得知被处决玩家與最近的邪恶玩家的距离是否為奇數；如果死于处决的玩家是尘世执政，你額外得知那名邪惡玩家的角色。",
+    "image": "/blood-on-the-clocktower/image/downloaded/7c9ee39359d300bd9a692b664d8bc072.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 94,
+    "original_image": "https://www.bloodstar.xyz/p/Jerry0906/The_favonius_Mystery_DE/10_the_favonius_mystery_de.png"
+  },
+  {
+    "id": "a7dc3b9c",
+    "team": "townsfolk",
+    "name": "优菈",
+    "ability": "每个夜晚*，你要选择一名除你以外在今天白天发起提名的玩家：你得知他与被提名的玩家阵营是否相同。 会有一名善良玩家被视为邪惡陣營、爪牙角色或恶魔角色。",
+    "image": "/blood-on-the-clocktower/image/downloaded/9624c1ce82ad905c3e21807555b64860.webp",
+    "setup": false,
+    "reminders": [
+      "仇"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3002,
+    "otherNight": 105,
+    "original_image": "https://www.bloodstar.xyz/p/Jerry0906/The_favonius_Mystery_DE/9_the_favonius_mystery_de.png"
+  },
+  {
+    "id": "69772970",
+    "team": "townsfolk",
+    "name": "琴",
+    "ability": "每局游戏限一次，在白天時，你可以公开声称你是琴：當晚你會得知今天白天有多少類型的角色發起了提名。",
+    "image": "/blood-on-the-clocktower/image/downloaded/86a07232b17ed64abe173cfde4625bed.webp",
+    "setup": false,
+    "reminders": [
+      "失去能力"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 88,
+    "original_image": "https://www.bloodstar.xyz/p/Jerry0906/The_favonius_Mystery_DE/7_the_favonius_mystery_de.png"
+  },
+  {
+    "id": "aa24b997",
+    "team": "townsfolk",
+    "name": "鹿野院平藏",
+    "ability": "每局游戏限一次，在夜晚時*，你可以选择一名玩家。如果他或与他邻近的存活玩家被惡魔殺死，你會得知該玩家与他邻近的存活玩家之中是否有執行官。",
+    "image": "/blood-on-the-clocktower/image/downloaded/affa098518b23519d3e7e77e505e40bc.webp",
+    "setup": false,
+    "reminders": [
+      "得知",
+      "失去能力"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 23,
+    "original_image": "https://www.bloodstar.xyz/p/Jerry0906/The_favonius_Mystery_DE/22_the_favonius_mystery_de.png"
+  },
+  {
+    "id": "9d11ab62",
+    "team": "townsfolk",
+    "name": "钟离",
+    "ability": "你是尘世执政。每个夜晚*，你要选择一名存活玩家（与上个夜晚不同），他在当晚不会因為邪惡陣營的能力死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/333ed81400e21113090dedbcc9748012.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [
+      "保護"
+    ],
+    "firstNight": 0,
+    "otherNight": 56,
+    "original_image": "https://www.bloodstar.xyz/p/Jerry0906/The_favonius_Mystery_DE/5_the_favonius_mystery_de.png"
+  },
+  {
+    "id": "1fe0dabc",
+    "team": "townsfolk",
+    "name": "纳西妲",
+    "ability": "你是尘世执政。每个夜晚，你要选择一名玩家：你得知他是否为外来者，被你选择的外来者失去能力。[+0~1外来者]",
+    "image": "/blood-on-the-clocktower/image/downloaded/c6063d8c8d87c0b296676acf9d77c381.webp",
+    "setup": true,
+    "reminders": [],
+    "remindersGlobal": [
+      "失去能力"
+    ],
+    "firstNight": 3062,
+    "otherNight": 99,
+    "original_image": "https://www.bloodstar.xyz/p/Jerry0906/The_favonius_Mystery_DE/4_the_favonius_mystery_de.png"
+  },
+  {
+    "id": "a231726d",
+    "team": "townsfolk",
+    "name": "温迪",
+    "ability": "你是尘世执政。每个夜晚，你要选择一名玩家：他免疫爪牙能力直到下個黃昏且你在下一晚得知該玩家在能力生效期間被多少類型的角色選擇。",
+    "image": "/blood-on-the-clocktower/image/downloaded/4b8b2b5967afb13c12779a7459b46f9c.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [
+      "微風"
+    ],
+    "firstNight": 3022,
+    "otherNight": 34,
+    "original_image": "https://www.bloodstar.xyz/p/Jerry0906/The_favonius_Mystery_DE/3_the_favonius_mystery_de.png"
+  },
+  {
+    "id": "b174dbe8",
+    "team": "townsfolk",
+    "name": "雷电将军",
+    "ability": "你是尘世执政。每局游戏限一次，当你发起提名时，你可以公开声称你是雷电将军并说出「此刻，寂灭之时！」，随后，如果被你提名的玩家是邪恶的，他被处决。",
+    "image": "/blood-on-the-clocktower/image/downloaded/a9438c26ce03c3508506a5c8e0b93591.webp",
+    "setup": false,
+    "reminders": [
+      "失去能力",
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 29,
+    "original_image": "https://www.bloodstar.xyz/p/Jerry0906/The_favonius_Mystery_DE/2_the_favonius_mystery_de.png"
+  },
+  {
+    "id": "e9a9c654",
+    "team": "townsfolk",
+    "name": "迪卢克",
+    "ability": "每個夜晚*，你可以選擇一名你以外的玩家和角色（都與之前不同）：如果他是那個角色且不是[執行官]，他死亡且惡魔得知你在場。",
+    "image": "/blood-on-the-clocktower/image/downloaded/6674d3e23a9e2e4d994d99ead1cc7039.webp",
+    "setup": false,
+    "reminders": [
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 40,
+    "original_image": "https://www.bloodstar.xyz/p/Jerry0906/The_favonius_Mystery_DE/11_the_favonius_mystery_de.png"
+  },
+  {
+    "id": "cb524f52",
+    "team": "outsider",
+    "name": "北斗",
+    "ability": "在你的首个夜晚，你得知一个不在场的爪牙角色。如果你死亡：当晚一名恶魔获得该爪牙的能力。",
+    "image": "/blood-on-the-clocktower/image/downloaded/2c9f1ff01ca79f896957751f2c990207.webp",
+    "setup": false,
+    "reminders": [
+      "獲得能力"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3042,
+    "otherNight": 12,
+    "original_image": "https://www.bloodstar.xyz/p/Jerry0906/The_favonius_Mystery_DE/14_the_favonius_mystery_de.png"
+  },
+  {
+    "id": "db2e3c39",
+    "team": "outsider",
+    "name": "芙宁娜",
+    "ability": "你可能被视为镇民。当大于等于五名玩家存活时（旅行者不计算在内）邪恶阵营落败時所有人都會得知芙宁娜在場，且邪恶玩家要猜测谁是芙宁娜，如果所有邪恶玩家都猜测你，邪恶阵营获胜。即使你已死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/cbe601bc0565d173a819bb689b1c8ca1.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 121,
+    "original_image": "https://www.bloodstar.xyz/p/Jerry0906/The_favonius_Mystery_DE/15_the_favonius_mystery_de.png"
+  },
+  {
+    "id": "229d8bf9",
+    "team": "outsider",
+    "name": "七七",
+    "ability": "如果你死亡，第一個被惡魔提名的玩家不計入邪惡陣營獲勝時的人數。",
+    "image": "/blood-on-the-clocktower/image/downloaded/61d20fdc3c8463722d2b0a391c1803e3.webp",
+    "setup": false,
+    "reminders": [
+      "活尸"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 83,
+    "original_image": "https://www.bloodstar.xyz/p/Jerry0906/The_favonius_Mystery_DE/13_the_favonius_mystery_de.png"
+  },
+  {
+    "id": "f82b3571",
+    "team": "outsider",
+    "name": "流浪者",
+    "ability": "恶魔知道流浪者在场。每局游戏限一次，在白天時，恶魔可以拜访说书人并猜测你是流浪者。如果猜测正确，会有一名善良玩家在下个白天开始时被处决，即使你已死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/a1462d35be640441410fdb9c58e9263f.webp",
+    "setup": false,
+    "reminders": [
+      "已猜測"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 12,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/Jerry0906/The_favonius_Mystery_DE/12_the_favonius_mystery_de.png"
+  },
+  {
+    "id": "c0a9ea5e",
+    "team": "minion",
+    "name": "藏镜仕女",
+    "ability": "每个夜晚*，你要选择一名存活玩家（需与上一晚不同）：當晚首个透過自身能力选择该玩家的玩家改为选择自己並死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/6fd1329fd439967cb01ed4b382783766.webp",
+    "setup": false,
+    "reminders": [
+      "折射",
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 45,
+    "original_image": "https://www.bloodstar.xyz/p/Jerry0906/The_favonius_Mystery_DE/19_the_favonius_mystery_de.png"
+  },
+  {
+    "id": "c227279e",
+    "team": "minion",
+    "name": "债务处理人",
+    "ability": "每局游戏限一次，當你發起提名時，你可以公开声称你是债务处理人，并喊出：償債吧！隨後，如果被你提名的玩家不是尘世执政，他被处决。如果你首次以自身能力杀死了一名外来者，當晚你重获能力。",
+    "image": "https://www.bloodstar.xyz/p/Jerry0906/The_favonius_Mystery_DE/18_the_favonius_mystery_de.png",
+    "setup": false,
+    "reminders": [
+      "被處決",
+      "失去能力"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 18
+  },
+  {
+    "id": "f5c643d4",
+    "team": "minion",
+    "name": "雷萤术士",
+    "ability": "在你的首个夜晚，一名非尘世执政玩家中毒。当他提名善良玩家或被善良玩家提名时，该善良玩家中毒且上一位玩家恢复健康。",
+    "image": "/image/downloaded/c0d9ce040bac90c7cb68326d06857c02.webp",
+    "setup": false,
+    "reminders": [
+      "中毒"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3012,
+    "otherNight": 50,
+    "original_image": "https://www.bloodstar.xyz/p/Jerry0906/The_favonius_Mystery_DE/17_the_favonius_mystery_de.png"
+  },
+  {
+    "id": "464d1251",
+    "team": "minion",
+    "name": "渊上之物",
+    "ability": "如果大于等于五名玩家存活时（旅行者不计算在内）恶魔首次死於處決，一名提名过邪恶玩家的镇民会变成那个邪恶的恶魔。[-1外来者]",
+    "image": "/blood-on-the-clocktower/image/downloaded/22c967b642435c7c0cac6457695152e3.webp",
+    "setup": true,
+    "reminders": [
+      "限一次",
+      "是惡魔",
+      "提名邪惡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 7,
+    "original_image": "https://www.bloodstar.xyz/p/Jerry0906/The_favonius_Mystery_DE/16_the_favonius_mystery_de.png"
+  },
+  {
+    "id": "6771e0d1",
+    "team": "demon",
+    "name": "冰之女皇",
+    "ability": "你是尘世执政。每个夜晚*，你要选择一名玩家：他死亡。如果所有爪牙死亡，之后每个夜晚你行动两次。",
+    "image": "/blood-on-the-clocktower/image/downloaded/9b1d62d67d69344cf1edd8d69a5a457a.webp",
+    "setup": false,
+    "reminders": [
+      "行動兩次",
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 72,
+    "original_image": "https://www.bloodstar.xyz/p/Jerry0906/The_favonius_Mystery_DE/29_the_favonius_mystery_de.png"
+  },
+  {
+    "id": "62950d13",
+    "team": "demon",
+    "name": "博士",
+    "ability": "你是执行官。每个夜晚*，你要选择一名玩家：他死亡；那之后，一名与死亡玩家邻近的存活玩家中毒直到下个黄昏。",
+    "image": "/blood-on-the-clocktower/image/downloaded/e011441ce843ba74581f061525ff5266.webp",
+    "setup": false,
+    "reminders": [
+      "死亡",
+      "中毒"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 61,
+    "original_image": "https://www.bloodstar.xyz/p/Jerry0906/The_favonius_Mystery_DE/21_the_favonius_mystery_de.png"
+  },
+  {
+    "id": "6c2fadda",
+    "team": "demon",
+    "name": "女士",
+    "ability": "你是执行官。每个夜晚*，你要选择两名玩家：首个被选择的玩家死亡，另一名得知你在场。如果任意存活玩家「疯狂」地证明女士在场：被你选择过的存活玩家隨時可能死亡。[+1外來者]",
+    "image": "/image/downloaded/d1f11a7c5707929add7f0fc8dfc7a541.webp",
+    "setup": true,
+    "reminders": [
+      "被选择",
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 67,
+    "original_image": "https://www.bloodstar.xyz/p/Jerry0906/The_favonius_Mystery_DE/30_the_favonius_mystery_de.png"
+  },
+  {
+    "id": "89317d38",
+    "team": "demon",
+    "name": "散兵",
+    "ability": "你是执行官。每个夜晚*，你要选择一名玩家：他死亡，如果你首次殺死了塵世執政，一名善良玩家得知散兵在場。若场上没有存活的塵世執政，邪恶阵营获胜。 [半数的镇民是善良的尘世执政(向下取整)、無流浪者]",
+    "image": "/blood-on-the-clocktower/image/downloaded/558d482643be1fe00593b18643ea7813.webp",
+    "setup": true,
+    "reminders": [
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 78,
+    "original_image": "https://www.bloodstar.xyz/p/Jerry0906/The_favonius_Mystery_DE/6_the_favonius_mystery_de.png"
+  },
+  {
+    "id": "1e67d3a5",
+    "team": "fabled",
+    "name": "執行官",
+    "ability": "女士、散兵、博士是執行官。",
+    "image": "/blood-on-the-clocktower/image/downloaded/128da78a05f775967440a12228c5b015.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/Jerry0906/The_favonius_Mystery_DE/24_the_favonius_mystery_de.png"
+  },
+  {
+    "id": "7f17fe1b",
+    "team": "fabled",
+    "name": "尘世执政",
+    "ability": "温迪、钟离、雷电将军、纳西妲和冰之女皇是尘世执政。[至少有一名尘世执政在场]",
+    "image": "https://www.bloodstar.xyz/p/Jerry0906/The_favonius_Mystery_DE/25_the_favonius_mystery_de.png",
+    "setup": true,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0
+  }
+]

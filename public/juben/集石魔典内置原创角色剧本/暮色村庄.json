@@ -1,0 +1,486 @@
+[
+  {
+    "hint": "线上魔典支持直接输入剧本的URL。不必将此文件保存到你的电脑。",
+    "id": "_meta",
+    "name": "暮色村庄",
+    "author": "调和师",
+    "status": [
+      {
+        "name": "瘟疫状态",
+        "skill": "处于瘟疫状态时，因自身能力被唤醒并作出选择前，会得知这次选择失效。瘟疫状态的玩家死于处决，发起提名的玩家会获得瘟疫。瘟疫状态的玩家再次获得瘟疫时死亡。恶魔免疫瘟疫状态。"
+      }
+    ]
+  },
+  {
+    "id": "1cca9610",
+    "team": "townsfolk",
+    "name": "流亡者",
+    "ability": "在你的首个夜晚，你会得知恶魔的角色。之后的每个夜晚*，你会得知一个在场的爪牙角色或者一名爪牙玩家。",
+    "image": "/blood-on-the-clocktower/image/downloaded/f6d831abef22f52b4f1b7a1e3f5abaca.webp",
+    "setup": false,
+    "reminders": [
+      "发现类型",
+      "得知位置"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3023,
+    "otherNight": 103,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/upload/1710330355_197011_3705.png"
+  },
+  {
+    "id": "65efa6bc",
+    "team": "townsfolk",
+    "name": "钟楼管理员",
+    "ability": "在你的首个夜晚，你会得知你与爪牙之间最近的距离。之后的每个夜晚*，你会得知当晚有多少名玩家选择过你。",
+    "image": "/blood-on-the-clocktower/image/downloaded/445e8a74540a6f5eb7de78c3ad0a3d7a.webp",
+    "setup": false,
+    "reminders": [
+      "发现目标",
+      "拜访灯塔"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3065,
+    "otherNight": 121,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/upload/1710330335_197011_2606.png"
+  },
+  {
+    "id": "18818d91",
+    "team": "townsfolk",
+    "name": "街角医生",
+    "ability": "在你的首个夜晚，你会得知你是第几个因为自身能力而被唤醒的玩家。之后的每个夜晚*，你要选择一名其他存活玩家：解除他的所有异常状态。",
+    "image": "/blood-on-the-clocktower/image/downloaded/26ed05221d2f5d32fb2bff2c50d50909.webp",
+    "setup": false,
+    "reminders": [
+      "治疗伤痛"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3073,
+    "otherNight": 79,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/upload/1710330350_197011_8926.png"
+  },
+  {
+    "id": "3bebdd3e",
+    "team": "townsfolk",
+    "name": "圣教祷告者",
+    "ability": "每个夜晚，你会得知一条能帮助你的阵营获胜的建议。第四条建议将是决定性的。",
+    "image": "/blood-on-the-clocktower/image/downloaded/1da9ce9b732d44a7a511899310313c0a.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 3048,
+    "otherNight": 109,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/upload/1710330395_197011_5615.png"
+  },
+  {
+    "id": "a57a952c",
+    "team": "townsfolk",
+    "name": "点灯人",
+    "ability": "每个夜晚，你要选择除你以外的三名存活的玩家，你会得知他们之中是否有爪牙，或场上没有存活爪牙。",
+    "image": "/blood-on-the-clocktower/image/downloaded/84b3e6071641dc28c84ace886cca0588.webp",
+    "setup": false,
+    "reminders": [
+      "发现爪牙",
+      "全场无爪牙",
+      "没有爪牙"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3040,
+    "otherNight": 97,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/upload/1710330365_197011_8259.png"
+  },
+  {
+    "id": "9a0362c6",
+    "team": "townsfolk",
+    "name": "卖报小孩",
+    "ability": "每个夜晚，你要选择除你以外的两名存活的玩家，你会得知你所选择过的存活玩家之中，邪恶玩家的数量是否多于善良玩家。",
+    "image": "/blood-on-the-clocktower/image/downloaded/1cc72d8d0aa236f8f7329d38ff5da775.webp",
+    "setup": false,
+    "reminders": [
+      "卖报标记"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3032,
+    "otherNight": 85,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/upload/1710330393_197011_3508.png"
+  },
+  {
+    "id": "71fc7669",
+    "team": "townsfolk",
+    "name": "共鸣使徒",
+    "ability": "每个夜晚*，你要选择除你以外的一名存活的玩家，你会得知他与邻近的存活玩家是否为同一阵营。",
+    "image": "/blood-on-the-clocktower/image/downloaded/277d34bb34d29405b98657cfcba035a4.webp",
+    "setup": false,
+    "reminders": [
+      "同阵营",
+      "不同阵营"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 91,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/upload/1710330360_197011_5403.png"
+  },
+  {
+    "id": "05f4cb01",
+    "team": "townsfolk",
+    "name": "巧手窃贼",
+    "ability": "每个夜晚*，你要选择除你以外的两名存活的玩家，当晚他们存活时被当作交换座位。若选中恶魔，则当晚你可能醉酒。",
+    "image": "/blood-on-the-clocktower/image/downloaded/54551fa97a8d4f2bb685923a11ee864b.webp",
+    "setup": false,
+    "reminders": [
+      "号码交换"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 25,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/upload/1710330384_197011_2227.png"
+  },
+  {
+    "id": "8a4a58c6",
+    "team": "townsfolk",
+    "name": "十字军",
+    "ability": "每个夜晚*，你要选择除你以外的一名存活的玩家：他当晚首次自身能力被唤醒并作出选择前，他会得知这次选择失效。如果他是爪牙，他死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/16bc85769e3a653ecd91b2cac9badcaa.webp",
+    "setup": false,
+    "reminders": [
+      "阻止行动",
+      "击杀爪牙"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 43,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/upload/1710330403_197011_6261.png"
+  },
+  {
+    "id": "13198622",
+    "team": "townsfolk",
+    "name": "白衣圣女",
+    "ability": "你会得知是否有邪恶玩家选择你为目标，即使你已死亡。每个夜晚*，你要选择除你以外的一名存活的玩家，当晚你会代替他受到负面能力。",
+    "image": "/blood-on-the-clocktower/image/downloaded/caa1e2de40bdff176c85726c7c9b6fff.webp",
+    "setup": false,
+    "reminders": [
+      "邪恶靠近",
+      "圣杯庇护"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 19,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/upload/1710330398_197011_4323.png"
+  },
+  {
+    "id": "8a80d330",
+    "team": "townsfolk",
+    "name": "守墓老者",
+    "ability": "当你在白天处于瘟疫状态时，你不会在白天死亡。如果你在夜晚死亡，你会被唤醒并得知一名存活的爪牙玩家，如果没有存活的存活的爪牙玩家，则得知一名存活的恶魔玩家。",
+    "image": "/blood-on-the-clocktower/image/downloaded/2af8326f2fead142568374016d8575d7.webp",
+    "setup": false,
+    "reminders": [
+      "得知目标",
+      "不会死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 115,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/upload/1710330407_197011_627.png"
+  },
+  {
+    "id": "5df9cd71",
+    "team": "townsfolk",
+    "name": "监狱守卫",
+    "ability": "首夜，选择两个角色。当这两个角色中有玩家首次被唤醒并选择能力目标时，你会得知“有目标行动”。当你在夜晚死亡时，当晚不会再有其他玩家死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/d27f0887d85aea47e5035c791eece512.webp",
+    "setup": false,
+    "reminders": [
+      "标记身份"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 10,
+    "otherNight": 0,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/upload/1710330414_197011_6643.png"
+  },
+  {
+    "id": "bf3655cd",
+    "team": "outsider",
+    "name": "瘾君子",
+    "ability": "在你的首个夜晚，你会得知你对自己施加一个状态或效果。当你被选能力目标或投票对象时，可能会使来源的玩家获得瘟疫状态。",
+    "image": "/blood-on-the-clocktower/image/downloaded/c5c8ae2c9b44204928c01df9cbb9587c.webp",
+    "setup": false,
+    "reminders": [
+      "注射试剂",
+      "瘟疫状态"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3015,
+    "otherNight": 0,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/upload/1710330420_197011_5387.png"
+  },
+  {
+    "id": "7e9cf2f4",
+    "team": "outsider",
+    "name": "畸形秀女主角",
+    "ability": "在你的首个夜晚，一名与你邻近的镇民中当晚可能会获得错误信息。如果你没有“疯狂”地证明自己是场上存在的一种镇民身份，当晚可能会有一名存活镇民醉酒，即使你已死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/c87c9ed9749e5bf59615073d6b821707.webp",
+    "setup": false,
+    "reminders": [
+      "美色醉酒",
+      "错误信息"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 7,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/upload/1710330422_197011_8726.png"
+  },
+  {
+    "id": "465b8945",
+    "team": "outsider",
+    "name": "广场乞丐",
+    "ability": "你可能会被当作邪恶阵营、爪牙角色或恶魔角色。如果你连续两晚没有玩家使用自身能力选择你，那么你将在下一次处决之后死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/bac63807bc82e18cf892bb68447f6252.webp",
+    "setup": false,
+    "reminders": [
+      "乞讨成功",
+      "白天饿死",
+      "首夜标记"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/upload/1710330431_197011_3722.png"
+  },
+  {
+    "id": "9dd3624b",
+    "team": "outsider",
+    "name": "酒馆女郎",
+    "ability": "一名玩家醉酒，即使你已死亡。每个白天限一次，你可以猜测谁是那个醉酒的玩家，如果猜对了，则该玩家解除醉酒状态。",
+    "image": "/blood-on-the-clocktower/image/downloaded/0a52f2ea0af1d3ef91693b46c98ef287.webp",
+    "setup": false,
+    "reminders": [
+      "醉生梦死"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/upload/1710330417_197011_1374.png"
+  },
+  {
+    "id": "1c40210c",
+    "team": "minion",
+    "name": "刺客庭长老",
+    "ability": "每局游戏限一次，夜晚*，你可以选择一名玩家：在他发动能力前，他死亡。如果白天没有任何玩家死亡，增加一次使用机会。",
+    "image": "/blood-on-the-clocktower/image/downloaded/91236df3c536e37cde7a78f9b85eac03.webp",
+    "setup": false,
+    "reminders": [
+      "标记状态",
+      "上限+1"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 31,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/upload/1710330472_197011_7693.png"
+  },
+  {
+    "id": "c3016d81",
+    "team": "minion",
+    "name": "邪恶点票员",
+    "ability": "在你的首个夜晚，可能会有善良玩家得知本局游戏中有邪恶的点票员。每局游戏限一次，在夜晚时秘密发动能力或在白天公开发动能力，下一次处决时存活玩家的投票反转，直到下个黄昏。",
+    "image": "/blood-on-the-clocktower/image/downloaded/fae43c818105ba72b1e779ea866d265f.webp",
+    "setup": false,
+    "reminders": [
+      "开启控票",
+      "得知存在"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3007,
+    "otherNight": 67,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/upload/1710330459_197011_4408.png"
+  },
+  {
+    "id": "23eda3c7",
+    "team": "minion",
+    "name": "魅魔",
+    "ability": "你可能会被当作善良阵营、镇民角色或外来者角色。每个夜晚*，你要选择一名玩家：当晚他的使用自身能力选择目标时，其中一个目标改为选中你；如果该玩家当晚没有选择能力目标，则该玩家死亡并得知魅魔在场。",
+    "image": "/blood-on-the-clocktower/image/downloaded/d6ac6c9dc4398daa027fe1a77d950a49.webp",
+    "setup": false,
+    "reminders": [
+      "魅惑",
+      "击杀并得知存在"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 13,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/upload/1710330455_197011_4554.png"
+  },
+  {
+    "id": "3998cba8",
+    "team": "minion",
+    "name": "异乡人",
+    "ability": "你与其他邪恶玩家互相不认识，你会被当作外来者角色，且免疫瘟疫状态。每个夜晚*，你要选择一名玩家，他获得瘟疫状态。如果死亡的玩家数量大于存活的玩家数量，当晚你会与其他邪恶玩家互相认识，即使你已死亡。[-1外来者]",
+    "image": "/blood-on-the-clocktower/image/downloaded/2f2e9a659f46c54683df59ed80c32129.webp",
+    "setup": true,
+    "reminders": [
+      "瘟疫状态"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 73,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/upload/1710330482_197011_2020.png"
+  },
+  {
+    "id": "a3cdc1b9",
+    "team": "minion",
+    "name": "迷乱子嗣",
+    "ability": "与你邻近的一名存活镇民中毒。当你死亡时，镇民玩家的能力都会产生错误信息，直到下一次提名。",
+    "image": "/blood-on-the-clocktower/image/downloaded/0f03442fa2d95283ee09e44002ef0da9.webp",
+    "setup": false,
+    "reminders": [
+      "蛊惑中毒",
+      "全场迷乱"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/upload/1710330437_197011_9099.png"
+  },
+  {
+    "id": "759eb02b",
+    "team": "demon",
+    "name": "瘟疫之源",
+    "ability": "每个夜晚，你可以选择一名玩家：他获得瘟疫状态。如果你选中了邪恶玩家，与他邻近的存活玩家也会获得瘟疫状态。如果你没有选择任何玩家，当晚处于瘟疫状态的玩家都会死亡。[-1外来者]",
+    "image": "/blood-on-the-clocktower/image/downloaded/348e0a0521ecee8fef9c3f035ad9c535.webp",
+    "setup": true,
+    "reminders": [
+      "瘟疫爆发",
+      "瘟疫状态"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3057,
+    "otherNight": 61,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/upload/1710330534_197011_1606.png"
+  },
+  {
+    "id": "cab76636",
+    "team": "demon",
+    "name": "寄生者",
+    "ability": "每个夜晚，你要选择一名玩家，他可能会被当作邪恶阵营、爪牙角色或恶魔角色，并且他因自身能力选择的目标都会死亡；如果你以这种方式死亡，他变成邪恶的寄生者；如果该玩家当晚没有选择玩家，则他死亡。（首夜不会有玩家死亡）",
+    "image": "/blood-on-the-clocktower/image/downloaded/a2e302dd952d523b52bbaa09f66d8ca2.webp",
+    "setup": false,
+    "reminders": [
+      "寄生状态",
+      "击杀",
+      "成为恶魔"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 2004,
+    "otherNight": 37,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/upload/1710330503_197011_7835.png"
+  },
+  {
+    "id": "ec1fc641",
+    "team": "demon",
+    "name": "大恶魔",
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡。如果你以这种方式自杀，所有邪恶玩家变成“小恶魔”。如果小于等于一名爪牙存活，你可以额外行动一次。",
+    "image": "/blood-on-the-clocktower/image/downloaded/cd5fd0c2f60d4b451b42043461a7f71c.webp",
+    "setup": false,
+    "reminders": [
+      "化身“小恶魔”",
+      "击杀",
+      "行动两次"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 49,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/upload/1710330493_197011_9034.png"
+  },
+  {
+    "id": "574aa912",
+    "team": "demon",
+    "name": "红月教皇",
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡。被该能力杀死的外来者改为在下次处决后死亡，且与他邻近的存活的镇民玩家中毒直到下个黄昏。如果有外来者在白天死亡，当晚你可以额外行动一次。[+1外来者]",
+    "image": "/blood-on-the-clocktower/image/downloaded/be352fc921c6c799f686f94976cdf710.webp",
+    "setup": true,
+    "reminders": [
+      "中毒状态",
+      "延后死亡",
+      "击杀",
+      "行动两次"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 55,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/upload/1710330518_197011_1979.png"
+  },
+  {
+    "id": "e1508bb3",
+    "team": "fabled",
+    "name": "摆渡人",
+    "ability": "在游戏的最后一天，所有已死亡玩家会重新获得投票标记。",
+    "image": "/blood-on-the-clocktower/image/downloaded/f2229ebb12e35c478d7e1a79fa30cdd4.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/ferryman_600w.webp"
+  },
+  {
+    "id": "dde88203",
+    "team": "fabled",
+    "name": "圣教哨兵",
+    "ability": "在初始设置时，可能会额外增加一个外来者。死亡的玩家不可以被提名。",
+    "image": "/blood-on-the-clocktower/image/downloaded/18a11a0ddd26546afd9e96acd81dc7fd.webp",
+    "setup": false,
+    "reminders": [
+      "+1外来者"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/upload/1710330574_197011_1173.png"
+  },
+  {
+    "id": "09a3f0e9",
+    "team": "fabled",
+    "name": "瘟疫的诅咒",
+    "ability": "蔓延在村庄上空的瘟疫，即使“瘟疫状态”的来源已经离场，状态依然存在。",
+    "image": "/blood-on-the-clocktower/image/downloaded/1abfdbb6e00414838b16806d4875ee24.webp",
+    "setup": false,
+    "reminders": [
+      "瘟疫状态"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/upload/1710330555_197011_8314.png"
+  },
+  {
+    "id": "aff522b7",
+    "team": "fabled",
+    "name": "本轮控票",
+    "ability": "因“邪恶的点票员”开启了技能，所以本轮场上的票数计算变为：存活玩家总数-存活玩家投票数+已死亡玩家投票数。（若票数最高者有多名则一起处决）",
+    "image": "/blood-on-the-clocktower/image/downloaded/71c31f028542d223ae06eb6e1d81bc2a.webp",
+    "setup": false,
+    "reminders": [
+      "控票状态"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/upload/1710330564_197011_4810.png"
+  },
+  {
+    "id": "856609b6",
+    "team": "traveller",
+    "name": "古物商贩",
+    "ability": "在夜晚，你不会被其他能力影响。每局游戏限一次，在白天时，你可以打开魔盒获得一条重要信息或能力，但是可能会发生不好的事情。",
+    "image": "/blood-on-the-clocktower/image/downloaded/92346bb3c55020ce57eb8bfc06d410b9.webp",
+    "setup": false,
+    "reminders": [
+      "获得信息",
+      "获得能力",
+      "潘多拉的代价"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/upload/1710330549_197011_9384.png"
+  }
+]

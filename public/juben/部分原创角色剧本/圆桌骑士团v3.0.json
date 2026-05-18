@@ -1,0 +1,406 @@
+[
+  {
+    "hint": "线上魔典支持直接输入剧本的URL。不必将此文件保存到你的电脑。",
+    "id": "_meta",
+    "name": "圆桌骑士团v3.0",
+    "author": "太一"
+  },
+  {
+    "id": "812b4b00",
+    "team": "townsfolk",
+    "name": "贵族",
+    "ability": "在你的首个夜晚，你会得知三名玩家：其中有且只有一名玩家是邪恶的。",
+    "image": "/blood-on-the-clocktower/image/downloaded/d6e3562fe16a44e8d23a98efed7da41f.webp",
+    "setup": false,
+    "reminders": [
+      "得知"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3056,
+    "otherNight": 0,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/noble_600w.webp"
+  },
+  {
+    "id": "f4c8f869",
+    "team": "townsfolk",
+    "name": "牧师",
+    "ability": "每个夜晚，你要选择除你和旅行者以外的两名玩家:你会得知他们皆不属于哪种角色类型。",
+    "image": "/blood-on-the-clocktower/image/downloaded/1288c80ffe545a9b04b3404d618024a0.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 3064,
+    "otherNight": 100,
+    "original_image": "https://www.bloodstar.xyz/p/humlet/che/30_che.png"
+  },
+  {
+    "id": "1ec334fd",
+    "team": "townsfolk",
+    "name": "占卜师",
+    "ability": "每个夜晚，你要选择两名玩家：你会得知他们之中是否有恶魔。会有一名善良玩家始终被你的能力当作恶魔。",
+    "image": "/blood-on-the-clocktower/image/downloaded/373c82aaa45a5fff9387f54ce2bf775a.webp",
+    "setup": false,
+    "reminders": [
+      "干扰项"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3047,
+    "otherNight": 97,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/fortuneTeller_600w.webp"
+  },
+  {
+    "id": "70f8d411",
+    "team": "townsfolk",
+    "name": "月光骑士",
+    "ability": "每个夜晚*，如果今天无人死于处决，你会被唤醒并要选择一名玩家：如果他是爪牙，他死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/acbcb36ecdb0435961f9abcae6bf76ae.webp",
+    "setup": false,
+    "reminders": [
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 44,
+    "original_image": "https://www.bloodstar.xyz/p/humlet/che/32_che.png"
+  },
+  {
+    "id": "7ed78268",
+    "team": "townsfolk",
+    "name": "湖中仙女",
+    "ability": "每个夜晚*，如果当天有玩家被处决，你会得知他是否为镇民，如果他依然存活，你改为得知与他邻近的两名玩家是否皆为镇民。",
+    "image": "/blood-on-the-clocktower/image/downloaded/71585b59f56fcc3f175ffb5e33b383ac.webp",
+    "setup": false,
+    "reminders": [
+      "被处决"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 102,
+    "original_image": "https://www.bloodstar.xyz/p/humlet/che/46_che.png"
+  },
+  {
+    "id": "02903674",
+    "team": "townsfolk",
+    "name": "造谣者",
+    "ability": "每个白天，你可以公开发表一个声明。如果该声明正确，在当晚会有一名玩家死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/e20f353e15a7e9e4b9f615278f5f8fec.webp",
+    "setup": false,
+    "reminders": [
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 88,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/gossip_600w.webp"
+  },
+  {
+    "id": "6d6370eb",
+    "team": "townsfolk",
+    "name": "神秘学家",
+    "ability": "每个白天，你可以私下询问说书人并得知一条正确信息。如果因你的能力导致减少了一名外来者，你获得的信息会是错误的。[-1或-0外来者]",
+    "image": "/blood-on-the-clocktower/image/downloaded/080f8d27dedb075c73d285beb5da70f8.webp",
+    "setup": true,
+    "reminders": [
+      "错误信息"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/humlet/che/5_che.png"
+  },
+  {
+    "id": "2d628af2",
+    "team": "townsfolk",
+    "name": "女裁缝",
+    "ability": "每局游戏限一次，在夜晚时，你可以选择除你以外的两名玩家：你会得知他们是否为同一阵营。",
+    "image": "/blood-on-the-clocktower/image/downloaded/ab924925cfd2953a23045b204034d487.webp",
+    "setup": false,
+    "reminders": [
+      "失去能力"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3053,
+    "otherNight": 105,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/seamstress_600w.webp"
+  },
+  {
+    "id": "9699c285",
+    "team": "townsfolk",
+    "name": "浪人",
+    "ability": "每局游戏限一次，在夜晚时*，你可以选择一名玩家：如果当晚他被恶魔杀死，改为一名邪恶玩家代替他死亡，然后你重获能力。",
+    "image": "/blood-on-the-clocktower/image/downloaded/10979fba8e26c95847dcf5c44739587f.webp",
+    "setup": false,
+    "reminders": [
+      "失去能力",
+      "格挡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 52,
+    "original_image": "https://www.bloodstar.xyz/p/humlet/che/54_che.png"
+  },
+  {
+    "id": "d3442b21",
+    "team": "townsfolk",
+    "name": "真心人",
+    "ability": "在你的首个白天，你可以邀请说书人见证你与一名玩家互通角色，说书人会秘密告诉你是否有人说谎。",
+    "image": "/blood-on-the-clocktower/image/downloaded/100fbd9e7d31eeae5b4d53937708b588.webp",
+    "setup": false,
+    "reminders": [
+      "失去能力"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/humlet/che/25_che.png"
+  },
+  {
+    "id": "4966da8f",
+    "team": "townsfolk",
+    "name": "空中飞人",
+    "ability": "你死亡的当晚会被唤醒并得知所有角色类型的玩家各一名。你死于善良玩家发起的提名处决或能力时你醉酒。",
+    "image": "/blood-on-the-clocktower/image/downloaded/0fc2c80595c379a79497a7c588171c90.webp",
+    "setup": false,
+    "reminders": [
+      "醉酒"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 112,
+    "original_image": "https://www.bloodstar.xyz/p/humlet/che/12_che.png"
+  },
+  {
+    "id": "27dfd36f",
+    "team": "townsfolk",
+    "name": "弄臣",
+    "ability": "当你首次将要死亡时，你不会死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/ca0b98c0114c99e38a882d65d7978c83.webp",
+    "setup": false,
+    "reminders": [
+      "失去能力"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/fool_600w.webp"
+  },
+  {
+    "id": "1ef02cb0",
+    "team": "townsfolk",
+    "name": "茶艺师",
+    "ability": "如果与你邻近的两名存活的玩家是善良的，他们不会死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/3888442b810249bcf638e6fb09d840c0.webp",
+    "setup": false,
+    "reminders": [
+      "不会死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/teaLady_600w.webp"
+  },
+  {
+    "id": "7be092c9",
+    "team": "outsider",
+    "name": "囚犯",
+    "ability": "在你的首个夜晚，你会得知一个不在场角色。如果超过半数玩家同意释放你，你会变成这个角色和对应的阵营。你不能投票。",
+    "image": "/blood-on-the-clocktower/image/downloaded/f1cc9f7f969c5c4216fd205698fbf3f5.webp",
+    "setup": false,
+    "reminders": [
+      "得知",
+      "释放"
+    ],
+    "remindersGlobal": [
+      "是囚犯"
+    ],
+    "firstNight": 3041,
+    "otherNight": 13,
+    "original_image": "https://www.bloodstar.xyz/p/humlet/che/64_che.png"
+  },
+  {
+    "id": "6523e15b",
+    "team": "outsider",
+    "name": "月之子",
+    "ability": "当你得知你死亡时，你要公开选择一名存活的玩家。如果他是善良的，在当晚他会死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/d7a608c566813d9b98723015fff9b162.webp",
+    "setup": false,
+    "reminders": [
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 89,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/moonchild_600w.webp"
+  },
+  {
+    "id": "debcec2b",
+    "team": "outsider",
+    "name": "白骑士",
+    "ability": "如果有玩家“疯狂”地想要存活，那么当天他即将死于处决时可能不会死亡（每局游戏限一次）。",
+    "image": "/blood-on-the-clocktower/image/downloaded/600a13e650ce7e1767203cf3897b6919.webp",
+    "setup": false,
+    "reminders": [
+      "失去能力"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/humlet/che/55_che.png"
+  },
+  {
+    "id": "972a9f3e",
+    "team": "outsider",
+    "name": "解谜大师",
+    "ability": "一名玩家醉酒，即使你已死亡。每局游戏限一次，你可以猜测谁是那个醉酒的玩家，如果猜对了，你会得知谁是恶魔，但如果猜错了，你会得知错误的“谁是恶魔”信息。",
+    "image": "/blood-on-the-clocktower/image/downloaded/289617cfab48fc6a8731ce1d0c574f54.webp",
+    "setup": false,
+    "reminders": [
+      "醉酒",
+      "已猜测"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/puzzlemaster_600w.webp"
+  },
+  {
+    "id": "45ec7754",
+    "team": "minion",
+    "name": "魔鬼代言人",
+    "ability": "每个夜晚，你要选择一名存活的玩家（与上个夜晚不同）：如果明天白天他被处决，他不会死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/becff3f89b06b647c6d074d2842cc319.webp",
+    "setup": false,
+    "reminders": [
+      "处决不死"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3025,
+    "otherNight": 37,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/devilsAdvocate_600w.webp"
+  },
+  {
+    "id": "f08515ab",
+    "team": "minion",
+    "name": "麻醉师",
+    "ability": "每个夜晚，你要选择一名玩家：他中毒直到你更换选择目标，当你更换选择目标时，如果他还存活他会得知麻醉师在场。",
+    "image": "/blood-on-the-clocktower/image/downloaded/a39ebc3846e1922baaca179e101ad6bb.webp",
+    "setup": false,
+    "reminders": [
+      "中毒",
+      "得知"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3003,
+    "otherNight": 25,
+    "original_image": "https://www.bloodstar.xyz/p/humlet/che/39_che.png"
+  },
+  {
+    "id": "b3f79a6d",
+    "team": "minion",
+    "name": "亡灵骑士",
+    "ability": "每个夜晚*，你会得知当天死亡的外来者是谁，且你要猜测他的角色，如果你猜对，会有一名玩家死亡。[+1外来者]",
+    "image": "/image/downloaded/df1104743040581428447abcdc6ca6fb.webp",
+    "setup": true,
+    "reminders": [
+      "死亡",
+      "灵魂抽离"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 97,
+    "original_image": "https://www.bloodstar.xyz/p/humlet/che/50_che.png"
+  },
+  {
+    "id": "685be2fc",
+    "team": "minion",
+    "name": "精神病患者",
+    "ability": "每个白天，在提名开始前，你可以公开选择一名玩家：他死亡。如果你被处决，提名你的玩家需要和你猜拳，只有你输了你才会死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/57946210687da8addc482740e1149e8d.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/psychopath_600w.webp"
+  },
+  {
+    "id": "fc35597f",
+    "team": "demon",
+    "name": "刻耳柏洛斯",
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡。如果你杀死了邪恶的爪牙，他保留能力，你可以再次行动。",
+    "image": "/blood-on-the-clocktower/image/downloaded/c2a4dd85f5c70e499e52fa1484330ae1.webp",
+    "setup": false,
+    "reminders": [
+      "死亡",
+      "保留能力"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 74,
+    "original_image": "https://www.bloodstar.xyz/p/humlet/che/15_che.png"
+  },
+  {
+    "id": "32a9d7ce",
+    "team": "demon",
+    "name": "塞壬",
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡，且你要选择是否永久失去你的下一条能力。镇民玩家的能力都会产生错误信息。",
+    "image": "/blood-on-the-clocktower/image/downloaded/8b10090a934c09b644d2f83ab775b1ec.webp",
+    "setup": false,
+    "reminders": [
+      "死亡",
+      "谢幕"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 82,
+    "original_image": "https://www.bloodstar.xyz/p/humlet/che/3_che.png"
+  },
+  {
+    "id": "65c0e05b",
+    "team": "demon",
+    "name": "恶堕",
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡，即使因为任何原因让他不会死亡。死亡的外来者胜负条件反转，即使你已死亡。[固定2名外来者]",
+    "image": "/blood-on-the-clocktower/image/downloaded/ec2613cb4e490e88fa7e952719372dd6.webp",
+    "setup": true,
+    "reminders": [
+      "死亡",
+      "胜负反转"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 59,
+    "original_image": "https://www.bloodstar.xyz/p/humlet/che/42_che.png"
+  },
+  {
+    "id": "fd20fc29",
+    "team": "demon",
+    "name": "亚瑟王",
+    "ability": "每个夜晚*，你要选择一名��家:他死亡。被该能力杀死的爪牙改为与你交换角色且会有2名玩家代替他死亡，但每局游戏仅能成功转化一次。",
+    "image": "/image/downloaded/b229a2e3160a38f8dd175943eb2c94c5.webp",
+    "setup": false,
+    "reminders": [
+      "死亡",
+      "王车易位"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 67,
+    "original_image": "https://www.bloodstar.xyz/p/humlet/che/51_che.png"
+  },
+  {
+    "id": "befb6fe7",
+    "team": "fabled",
+    "name": "决斗（可选）",
+    "ability": "即将被处决者可以向说书人申请与提名者展开“决斗”。如果说书人同意，提名者与被处决者要轮流公开宣称一个邪恶角色，宣称不在场角色的玩家可能被立即处决。",
+    "image": "/blood-on-the-clocktower/image/downloaded/6fe8f2d86b7708c972aca08ced7f891a.webp",
+    "setup": false,
+    "reminders": [
+      "发起决斗",
+      "被决斗"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/humlet/che/35_che.png"
+  }
+]

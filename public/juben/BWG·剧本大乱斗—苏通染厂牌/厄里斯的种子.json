@@ -1,0 +1,449 @@
+[
+  {
+    "hint": "线上魔典支持直接输入剧本的URL。不必将此文件保存到你的电脑。",
+    "id": "_meta",
+    "name": "厄里斯的种子",
+    "author": "泽度哥"
+  },
+  {
+    "id": "a723d6e6",
+    "team": "townsfolk",
+    "name": "护火贞女",
+    "ability": "在你的首个夜晚，你会得知一个善良角色和一个邪恶角色，其中一个角色在场。当在场角色的玩家死亡时，你在当晚得知一个善良角色和一个邪恶角色，其中一个角色在场。",
+    "image": "/blood-on-the-clocktower/image/downloaded/e73114b78a9f5c8626713d7ecf1b0d44.webp",
+    "setup": false,
+    "reminders": [
+      "已得知"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3067,
+    "otherNight": 119,
+    "original_image": "https://www.bloodstar.xyz/p/westwind/Goldapple/11_goldapple.png"
+  },
+  {
+    "id": "731986cb",
+    "team": "townsfolk",
+    "name": "赞助人",
+    "ability": "每个白天，你可以私下拜访说书人以得知谁是目前最没有价值的存活玩家。",
+    "image": "/blood-on-the-clocktower/image/downloaded/7bbd28bba3d9c3b3f1a8c1171bea8733.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/westwind/Goldapple/8_goldapple.png"
+  },
+  {
+    "id": "ede886a7",
+    "team": "townsfolk",
+    "name": "火柴女孩",
+    "ability": "每个白天，你可以私下拜访说书人以得知一条建议，或一条正确信息，或一条从私聊中提取的正确信息，或你死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/c9ebe012c1a04f39eedeafd5dfabc375.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/westwind/Goldapple/5_goldapple.png"
+  },
+  {
+    "id": "2d628af2",
+    "team": "townsfolk",
+    "name": "女裁缝",
+    "ability": "每局游戏限一次，在夜晚时，你可以选择除你以外的两名玩家：你会得知他们是否为同一阵营。",
+    "image": "/blood-on-the-clocktower/image/downloaded/ab924925cfd2953a23045b204034d487.webp",
+    "setup": false,
+    "reminders": [
+      "失去能力"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3053,
+    "otherNight": 105,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/seamstress_600w.webp"
+  },
+  {
+    "id": "4d703616",
+    "team": "townsfolk",
+    "name": "哲学家",
+    "ability": "每局游戏限一次，在夜晚时，你可以选择一个善良角色：你获得该角色的能力。如果这个角色在场，他醉酒。",
+    "image": "/blood-on-the-clocktower/image/downloaded/2bd3ec5c37c7bf2bf89781db5a7c9df8.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [
+      "醉酒",
+      "是哲学家"
+    ],
+    "firstNight": 11,
+    "otherNight": 13,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/philosopher_600w.webp"
+  },
+  {
+    "id": "13b87440",
+    "team": "townsfolk",
+    "name": "改衣匠",
+    "ability": "每局游戏限一次，在夜晚时，你可以选择一个角色：你会得知两名玩家，如果该角色在场，这两名玩家之一是该角色。",
+    "image": "/image/downloaded/0007e7c0fcd04df5eb15efdd65ab86ba.webp",
+    "setup": false,
+    "reminders": [
+      "失去能力"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3033,
+    "otherNight": 99,
+    "original_image": "https://www.bloodstar.xyz/p/westwind/Goldapple/9_goldapple.png"
+  },
+  {
+    "id": "363a8dbc",
+    "team": "townsfolk",
+    "name": "教授",
+    "ability": "每局游戏限一次，在夜晚时*，你可以选择一名死亡的玩家：如果他是镇民，你会将他起死回生。",
+    "image": "/blood-on-the-clocktower/image/downloaded/501d3759a75f534b3ed8a807e9825a01.webp",
+    "setup": false,
+    "reminders": [
+      "复活",
+      "失去能力"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 93,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/professor_600w.webp"
+  },
+  {
+    "id": "9d198d22",
+    "team": "townsfolk",
+    "name": "女家教",
+    "ability": "在你的首个夜晚，你得知一个距离你最近的非镇民玩家类型（旅行者除外）。",
+    "image": "/blood-on-the-clocktower/image/downloaded/a941e48bcd6cca60f3442b466b197229.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 3038,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/westwind/Goldapple/7_goldapple.png"
+  },
+  {
+    "id": "4f4014a9",
+    "team": "townsfolk",
+    "name": "竖琴手",
+    "ability": "在你的首个夜晚，你要写一条口令，一名善良玩家和一名邪恶玩家得知该口令。如果存活玩家不多于三名，善良阵营获胜。",
+    "image": "/image/downloaded/3888697e57938aa3eed5c5831d9e327a.webp",
+    "setup": false,
+    "reminders": [
+      "口令"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3048,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/westwind/Goldapple/1_goldapple.png"
+  },
+  {
+    "id": "c4289ed2",
+    "team": "townsfolk",
+    "name": "商人",
+    "ability": "你可以与任意一名其他玩家缔结约定。在新约定达成之前，如果有玩家违约，你和他之一会在当晚死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/860d87daa13f24c014bc78c9ec500043.webp",
+    "setup": false,
+    "reminders": [
+      "盟约",
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/westwind/Goldapple/4_goldapple.png"
+  },
+  {
+    "id": "82ac3d05",
+    "team": "townsfolk",
+    "name": "逃脱艺术家",
+    "ability": "如果你即将在夜晚死亡，你会被唤醒并得知一个问题：如果回答正确，改为你存活。",
+    "image": "/image/downloaded/aa5c4ad4de824f1a02d8863c0595d64e.webp",
+    "setup": false,
+    "reminders": [
+      "存活"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/westwind/Goldapple/12_goldapple.png"
+  },
+  {
+    "id": "08b01663",
+    "team": "townsfolk",
+    "name": "邮差",
+    "ability": "在最后一晚，即使你已死亡，选择一名玩家：他得知某些信息。你可以随时决定他得知什么。",
+    "image": "/blood-on-the-clocktower/image/downloaded/54632831c9dbcff35b7c91088e066b1d.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 112,
+    "original_image": "https://www.bloodstar.xyz/p/westwind/Goldapple/6_goldapple.png"
+  },
+  {
+    "id": "de3fa895",
+    "team": "townsfolk",
+    "name": "雅典娜",
+    "ability": "初始携带金苹果。携带金苹果的镇民不受中毒、醉酒的影响。在你的首个夜晚，如果与你相邻的两名存活玩家都是善良的，其中之一会得知你是雅典娜 [必定出场、无法转换阵营]",
+    "image": "/blood-on-the-clocktower/image/downloaded/2a11fcec9a07759ad222b5b5d81f6ef9.webp",
+    "setup": true,
+    "reminders": [],
+    "remindersGlobal": [
+      "已转增"
+    ],
+    "firstNight": 3043,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/westwind/Goldapple/_goldapple.png"
+  },
+  {
+    "id": "d5b526da",
+    "team": "outsider",
+    "name": "酒鬼",
+    "ability": "你不知道你是酒鬼。你以为你是一个镇民角色，但其实你不是。",
+    "image": "/blood-on-the-clocktower/image/downloaded/8f7a6904ef81ddc1f303550c7f22c867.webp",
+    "setup": true,
+    "reminders": [],
+    "remindersGlobal": [
+      "是酒鬼"
+    ],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/drunk_600w.webp"
+  },
+  {
+    "id": "30d77990",
+    "team": "outsider",
+    "name": " 阿芙洛狄忒",
+    "ability": "你可能会被当作邪恶的赫拉。初始携带金苹果。[必定出场、无法转换阵营]",
+    "image": "/blood-on-the-clocktower/image/downloaded/391d12c4127ad8bc07256e66008d58c4.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/westwind/Goldapple/13_goldapple.png"
+  },
+  {
+    "id": "d1dd01af",
+    "team": "outsider",
+    "name": "修补匠",
+    "ability": "你随时可能死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/4bdd48b2f8932c77efd8763012e5aaf1.webp",
+    "setup": false,
+    "reminders": [
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/tinker_600w.webp"
+  },
+  {
+    "id": "1f1c8685",
+    "team": "outsider",
+    "name": "政客",
+    "ability": "如果你是对你的阵营落败负最大责任的人，你转变阵营并获胜，即使你已死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/0af92d818b2185d1805f57cc5b2d03f1.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/politician_600w.webp"
+  },
+  {
+    "id": "15150df0",
+    "team": "outsider",
+    "name": "技能卡结算",
+    "ability": "非角色牌；技能卡在这个夜间结算顺位结算。多张妙手空空，先买的先使用。",
+    "image": "/blood-on-the-clocktower/image/downloaded/6289838bc05711371082c06603e3adee.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 89,
+    "original_image": "https://www.bloodstar.xyz/p/westwind/Goldapple/21_goldapple.png"
+  },
+  {
+    "id": "c62197a6",
+    "team": "minion",
+    "name": "教父",
+    "ability": "在你的首个夜晚，你会得知有哪些外来者角色在场。如果有外来者在白天死亡，你会在当晚被唤醒并且你要选择一名玩家：他死亡。[-1或+1外来者]",
+    "image": "/blood-on-the-clocktower/image/downloaded/a63451fec26b2a470c611e5f4b7048b7.webp",
+    "setup": true,
+    "reminders": [
+      "死于今日",
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3023,
+    "otherNight": 81,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/godfather_600w.webp"
+  },
+  {
+    "id": "862e22e7",
+    "team": "minion",
+    "name": "投毒者",
+    "ability": "每个夜晚，你要选择一名玩家：他在当晚和明天白天中毒。",
+    "image": "/blood-on-the-clocktower/image/downloaded/9815782801954f07b210475b62cd1c72.webp",
+    "setup": false,
+    "reminders": [
+      "中毒"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3016,
+    "otherNight": 22,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/poisoner_600w.webp"
+  },
+  {
+    "id": "36daff86",
+    "team": "minion",
+    "name": "怪盗",
+    "ability": "每个夜晚，你可以选择一个角色：如果该角色不在场，你获得该角色的能力直到下次选择。如果因此获得了恶魔的能力，所有恶魔玩家不会因其自身能力而被唤醒。当你获得能力时，所有玩家都会得知。",
+    "image": "https://www.bloodstar.xyz/p/westwind/Goldapple/19_goldapple.png",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [
+      "妙手空空",
+      "起死回生",
+      "荆棘护体",
+      "英雄归来",
+      "恶魔卡"
+    ],
+    "firstNight": 6,
+    "otherNight": 7
+  },
+  {
+    "id": "34d71089",
+    "team": "minion",
+    "name": "巫婆",
+    "ability": "每局游戏限一次，在夜晚时，你可以选择一名玩家并向他提出一项请求：如果请求没有被满足，你们可能会在白天死亡并转变为邪恶。",
+    "image": "https://www.bloodstar.xyz/p/westwind/Goldapple/17_goldapple.png",
+    "setup": false,
+    "reminders": [
+      "提出请求",
+      "失去能力"
+    ],
+    "remindersGlobal": [
+      "邪恶"
+    ],
+    "firstNight": 3028,
+    "otherNight": 85
+  },
+  {
+    "id": "bb96648e",
+    "team": "demon",
+    "name": "诺-达鲺",
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡。与你邻近的两名镇民中毒。",
+    "image": "/blood-on-the-clocktower/image/downloaded/dc8aec83230dd0fc238ab7c6277ab6af.webp",
+    "setup": false,
+    "reminders": [
+      "死亡",
+      "中毒"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 59,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/noDashii_600w.webp"
+  },
+  {
+    "id": "f5b12c93",
+    "team": "demon",
+    "name": "奥喇剌",
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡。 被你杀死的外来者保留能力并使一名与其相邻的镇民中毒。[+1外来者]",
+    "image": "https://www.bloodstar.xyz/p/westwind/Goldapple/16_goldapple.png",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0
+  },
+  {
+    "id": "21090a28",
+    "team": "demon",
+    "name": "哈迪寂亚",
+    "ability": "每个夜晚*，你可以选择三名玩家（所有玩家都会得知你选了谁）：他们分别秘密决定自己的生死，然后如果他们都存活则都死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/fb7d0bc272bc2fdf4caada76209657b2.webp",
+    "setup": false,
+    "reminders": [
+      "1",
+      "2",
+      "3",
+      "选择生",
+      "选择死"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 64,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/alHadikhia_600w.webp"
+  },
+  {
+    "id": "7eb3612c",
+    "team": "demon",
+    "name": "赫拉",
+    "ability": "初始携带金苹果。所有邪恶玩家共同唤醒。每个夜晚*选择一个其他恶魔，获得其能力直到你下次选择。你杀死玩家后你会获得他的金苹果。当你首次死亡时你会在当晚复活。[必定出场]",
+    "image": "/blood-on-the-clocktower/image/downloaded/fd5d5936d294efccd7c30c79ab842e14.webp",
+    "setup": false,
+    "reminders": [
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 52,
+    "original_image": "https://www.bloodstar.xyz/p/westwind/Goldapple/14_goldapple.png"
+  },
+  {
+    "id": "7b891af6",
+    "team": "fabled",
+    "name": "金币的游戏",
+    "ability": "玩家初始4金币，上限20。每个黎明存活玩家获得2金币（红方4金）。每名玩家白天可进行1次转增，存活玩家可用金币购买技能卡并于当晚使用（效果仍受毒/酒影响）。",
+    "image": "/image/downloaded/449e3183a82708d725f9ae372b315cc0.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/westwind/Goldapple/27_goldapple.png"
+  },
+  {
+    "id": "db10a183",
+    "team": "fabled",
+    "name": "云顶之役",
+    "ability": "原双方获胜条件删除，改为终局结算分数更多的队伍获胜。游戏第四天，对所有死亡玩家进行暗拍拍卖，拍得者秘密决定其生死，全部拍完后一起公布。随后对无主苹果进行明拍，拍得后立即宣布给谁。最后终局结算。",
+    "image": "/blood-on-the-clocktower/image/downloaded/0e263b92c442516724c0e4ffc6d15465.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/westwind/Goldapple/25_goldapple.png"
+  },
+  {
+    "id": "be9585fb",
+    "team": "fabled",
+    "name": "金苹果之战",
+    "ability": "金苹果共三个，赫拉/阿芙洛狄忒/雅典娜初始各持有一颗，白天可以转赠，死亡会掉落。终局计分：金苹果分 8/18/30分（根据团队持有的数量）；存活玩家分：雅典娜8分，其他镇民4分，阿芙洛狄特10分，其他外来6分；赫拉25分，爪牙15分。",
+    "image": "/blood-on-the-clocktower/image/downloaded/a893431d20f7d9ad1dd4120a2d596fc7.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [
+      "金苹果"
+    ],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/westwind/Goldapple/26_goldapple.png"
+  },
+  {
+    "id": "bbe19be8",
+    "team": "fabled",
+    "name": "技能商店",
+    "ability": "每天每人限一张，红方买卡打五折：①妙手空空：8c/偷窃一名玩家全部金币和金苹果，或拾取全部无主苹果。②自我诊断：4c/你得知自己是否中毒/醉酒。③荆棘护体：6c/反弹当晚卡牌效果。④起死回生：6c/如果今晚你死亡，你复活。⑤英雄归来：10c/选择一名死亡玩家复活。",
+    "image": "/blood-on-the-clocktower/image/downloaded/5f34c7657b00fc473e8e48de18465c8b.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/westwind/Goldapple/28_goldapple.png"
+  }
+]

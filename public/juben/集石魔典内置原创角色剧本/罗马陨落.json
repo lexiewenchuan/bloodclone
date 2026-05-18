@@ -1,0 +1,509 @@
+[
+  {
+    "hint": "线上魔典支持直接输入剧本的URL。不必将此文件保存到你的电脑。",
+    "id": "_meta",
+    "name": "罗马陨落",
+    "author": "Alex S;翻译:蒹葭"
+  },
+  {
+    "id": "0ac6c86a",
+    "team": "townsfolk",
+    "name": "雕塑家",
+    "ability": "在你的首个夜晚，你会得知一名玩家。每个夜晚*，你会得知他最近提名的玩家的阵营。",
+    "image": "/blood-on-the-clocktower/image/downloaded/d273d83c72f0d7a49b5aad7f186ac299.webp",
+    "setup": false,
+    "reminders": [
+      "雕塑品",
+      "被提名"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3054,
+    "otherNight": 88,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/upload/1691499634_197011_4857.png"
+  },
+  {
+    "id": "b5ba442a",
+    "team": "townsfolk",
+    "name": "护火贞女",
+    "ability": "在你的首个夜晚，你会得知善良角色和邪恶角色各一个，其中一个角色在场。当在场角色的玩家死亡时，你在当晚得知善良角色和邪恶角色各一个，其中一个角色在场。",
+    "image": "/blood-on-the-clocktower/image/downloaded/d5e3be85a2be3e1c1c215c1c3269d0e0.webp",
+    "setup": false,
+    "reminders": [
+      "被得知"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3063,
+    "otherNight": 93,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/upload/1691499636_197011_4122.png"
+  },
+  {
+    "id": "b128a11b",
+    "team": "townsfolk",
+    "name": "军团士兵",
+    "ability": "每个夜晚，你会得知在顺时针方向上，你与一名存活的军团士兵之间有多少名存活的邪恶玩家。[0至+2军团士兵]",
+    "image": "/blood-on-the-clocktower/image/downloaded/90930dcc93f04ee0748b1cddec5728ba.webp",
+    "setup": true,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 3072,
+    "otherNight": 98,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/upload/1691499646_197011_3580.png"
+  },
+  {
+    "id": "f471eea0",
+    "team": "townsfolk",
+    "name": "医师",
+    "ability": "每个夜晚，你要选择除你以外的两名玩家：今晚他们清醒健康且获得正确信息。如果恶魔首次杀死被你选择的玩家，你会得知恶魔角色。",
+    "image": "/blood-on-the-clocktower/image/downloaded/1ad37673a2bbcc7ad1c09f8d20d4abf9.webp",
+    "setup": false,
+    "reminders": [
+      "患者",
+      "首次杀死"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3045,
+    "otherNight": 50,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/upload/1691499643_197011_1126.png"
+  },
+  {
+    "id": "0e65a3fa",
+    "team": "townsfolk",
+    "name": "军号手",
+    "ability": "每个夜晚*，你会得知今天白天有多少名邪恶玩家公开声明自己是斯巴达克斯。",
+    "image": "/blood-on-the-clocktower/image/downloaded/00d147e783a2c5569bc9232b1b36cf79.webp",
+    "setup": false,
+    "reminders": [
+      "邪恶声明"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 102,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/upload/1691499649_197011_639.png"
+  },
+  {
+    "id": "74b27372",
+    "team": "townsfolk",
+    "name": "收殓人",
+    "ability": "每个夜晚*，你会得知与今天白天死于处决的玩家邻近的存活玩家中是否有邪恶玩家。",
+    "image": "/blood-on-the-clocktower/image/downloaded/a9bea391f34354ff69b4767a97ca573f.webp",
+    "setup": false,
+    "reminders": [
+      "死于今日"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 107,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/upload/1691499654_197011_7174.png"
+  },
+  {
+    "id": "5178f0d3",
+    "team": "townsfolk",
+    "name": "商人",
+    "ability": "每局游戏限一次，在夜晚时，你可以得知所有曾提名你的玩家的角色。",
+    "image": "/blood-on-the-clocktower/image/downloaded/b86c2957b2f07c684da573c09930a93e.webp",
+    "setup": false,
+    "reminders": [
+      "已提名",
+      "失去能力"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 122,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/upload/1691499665_197011_4434.png"
+  },
+  {
+    "id": "3cf2e417",
+    "team": "townsfolk",
+    "name": "角斗士",
+    "ability": "每局游戏限一次，你可以在白天时公开选择一名存活玩家。在当晚，你与他醒来并秘密进行猜拳至决出胜负：输者死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/3615ce01d2a0f07b59a8b7c0c596811a.webp",
+    "setup": false,
+    "reminders": [
+      "决斗",
+      "死亡",
+      "失去能力"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 83,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/upload/1691499675_197011_3556.png"
+  },
+  {
+    "id": "eae512ee",
+    "team": "townsfolk",
+    "name": "歌剧演员",
+    "ability": "每局游戏限一次，你可以在白天时公开猜测除你以外的三名玩家的角色类型（每个角色类型猜一次）。在当晚，你会得知猜测正确的数量。",
+    "image": "/blood-on-the-clocktower/image/downloaded/fb534272b80c07c749c6c9a1d85cdcb1.webp",
+    "setup": false,
+    "reminders": [
+      "猜测正确",
+      "失去能力"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 117,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/upload/1691499676_197011_2464.png"
+  },
+  {
+    "id": "3b307b90",
+    "team": "townsfolk",
+    "name": "学者",
+    "ability": "你提名的首个存活外来者立刻变成一个不在场镇民角色。[+1外来者]",
+    "image": "/blood-on-the-clocktower/image/downloaded/22a2bfc38cbb1c03fa32239cb83e7ac4.webp",
+    "setup": true,
+    "reminders": [
+      "已讲授",
+      "失去能力"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 6,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/upload/1691499686_197011_5214.png"
+  },
+  {
+    "id": "2a6d5a64",
+    "team": "townsfolk",
+    "name": "铁匠",
+    "ability": "当你首次被恶魔杀死时，你存活并获得一个不在场镇民的能力。你会得知是什么能力。",
+    "image": "/blood-on-the-clocktower/image/downloaded/ba84fa010bde119e9551bed9987c0b69.webp",
+    "setup": false,
+    "reminders": [
+      "是铁匠"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 78,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/upload/1691499681_197011_2992.png"
+  },
+  {
+    "id": "7016778a",
+    "team": "townsfolk",
+    "name": "掌旗官",
+    "ability": "当你被提名时，你可以作出一个关于提名者（不能是你自己）的独特公开声明。在当晚，你会在得知这个声明是否正确。",
+    "image": "/blood-on-the-clocktower/image/downloaded/d37520f97b31d65416ade5df01e2152f.webp",
+    "setup": false,
+    "reminders": [
+      "正确",
+      "错误"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 112,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/upload/1691499658_197011_1386.png"
+  },
+  {
+    "id": "61118f0c",
+    "team": "townsfolk",
+    "name": "百夫长",
+    "ability": "如果你提名一名存活玩家且他被处决，他的阵营落败。恶魔的负面能力对你无效。如果你今天白天公开声明自己是斯巴达克斯，你醉酒直到下个黎明。",
+    "image": "/blood-on-the-clocktower/image/downloaded/ef536a417fb67ffdf1a7de956f20f177.webp",
+    "setup": false,
+    "reminders": [
+      "醉酒"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/upload/1691499659_197011_1621.png"
+  },
+  {
+    "id": "115b030e",
+    "team": "outsider",
+    "name": "狼城双子",
+    "ability": "在你的首个夜晚，你会得知一名玩家。如果你或者他被处决，所有镇民醉酒直到下个黄昏。",
+    "image": "/blood-on-the-clocktower/image/downloaded/2ca48c5b3e6497266624bb8f1a36eafa.webp",
+    "setup": false,
+    "reminders": [
+      "胞弟",
+      "全体镇民醉酒"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3036,
+    "otherNight": 45,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/upload/1691499693_197011_1957.png"
+  },
+  {
+    "id": "7917f7c9",
+    "team": "outsider",
+    "name": "斯巴达克斯",
+    "ability": "每局游戏限一次，任意邪恶玩家可以公开猜测你是斯巴达克斯，如果猜对，你的阵营落败。你可能会被当作镇民角色，除非你今天白天没有公开声明自己是斯巴达克斯。",
+    "image": "/blood-on-the-clocktower/image/downloaded/e9893adca9f048f9d3fa325ab728e9a8.webp",
+    "setup": false,
+    "reminders": [
+      "已被猜测"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/upload/1691499697_197011_8602.png"
+  },
+  {
+    "id": "9c100f56",
+    "team": "outsider",
+    "name": "不祥之兆",
+    "ability": "你不知道你是不祥之兆。你以为你是一个镇民角色，但你获取错误信息。你可能会被当作邪恶阵营，即使你已死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/9f210163e12b52ac60319dba2c58bfba.webp",
+    "setup": true,
+    "reminders": [
+      "是不祥之兆"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/upload/1691499699_197011_4611.png"
+  },
+  {
+    "id": "58bce321",
+    "team": "outsider",
+    "name": "酒庄主",
+    "ability": "与你邻近的镇民醉酒，但每个奇数或偶数夜晚，你醉酒直到下个黄昏，即使你已死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/c16afebb4665ab759f71ebd919ed9f2f.webp",
+    "setup": false,
+    "reminders": [
+      "奇数",
+      "偶数",
+      "醉酒"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3027,
+    "otherNight": 40,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/upload/1691499694_197011_4395.png"
+  },
+  {
+    "id": "9c8b8ad1",
+    "team": "minion",
+    "name": "脏卜师",
+    "ability": "每个夜晚，你要选择一名玩家：你会得知他的角色。首个被你以此方式选择两次的玩家，他死亡。[+斯巴达克斯]",
+    "image": "/blood-on-the-clocktower/image/downloaded/25beb06f648bc3be69ae5201c073ab77.webp",
+    "setup": true,
+    "reminders": [
+      "已预言",
+      "死亡",
+      "无法攻击"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3018,
+    "otherNight": 74,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/upload/1691499704_197011_6595.png"
+  },
+  {
+    "id": "b7503614",
+    "team": "minion",
+    "name": "交际花",
+    "ability": "在你的首个夜晚，你要选择两名玩家：他们得知自己被交际花选中。如果他们之中有玩家首次死于处决，另一名玩家在当晚变为邪恶。",
+    "image": "/blood-on-the-clocktower/image/downloaded/17c21c8bd9200db234abd94042b92636.webp",
+    "setup": false,
+    "reminders": [
+      "诱惑",
+      "邪恶"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 2006,
+    "otherNight": 11,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/upload/1691499701_197011_9256.png"
+  },
+  {
+    "id": "7c7e2332",
+    "team": "minion",
+    "name": "蛇神使",
+    "ability": "你可能会被当作善良阵营。被你提名的玩家会被当作与他对立的阵营直到下个黎明。如果他是镇民，他中毒直到下个黎明。",
+    "image": "/blood-on-the-clocktower/image/downloaded/7012626bc43b6bc07ae314ea1f4e13cf.webp",
+    "setup": false,
+    "reminders": [
+      "蛇咬",
+      "中毒"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/upload/1691499707_197011_463.png"
+  },
+  {
+    "id": "da0d9244",
+    "team": "minion",
+    "name": "占兆官",
+    "ability": "如果镇民提名了你，他立刻变成不祥之兆。",
+    "image": "/blood-on-the-clocktower/image/downloaded/4b50a0702806cbf059a8ea468752ba2d.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/upload/1691499709_197011_4090.png"
+  },
+  {
+    "id": "b89f98d4",
+    "team": "demon",
+    "name": "克利奥帕特拉",
+    "ability": "每个夜晚，你要选择两名玩家：如果他们之中有人在下个白天发起提名，提名者会在当晚死亡。每个白天，如果没有除旅行者以外的善良玩家发起提名，邪恶阵营获胜。",
+    "image": "/blood-on-the-clocktower/image/downloaded/3ac8640df9373c6823deefade95273da.webp",
+    "setup": false,
+    "reminders": [
+      "被选择",
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3009,
+    "otherNight": 54,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/upload/1691499711_197011_910.png"
+  },
+  {
+    "id": "cab5c9c8",
+    "team": "demon",
+    "name": "凯撒",
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡。首个邪恶玩家死于处决的当晚，你要额外选择一名玩家：他死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/63e1de907b01657fb6d6cdbaae928792.webp",
+    "setup": false,
+    "reminders": [
+      "背叛",
+      "已额外攻击",
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 69,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/upload/1691499716_197011_3930.png"
+  },
+  {
+    "id": "132e9271",
+    "team": "demon",
+    "name": "克拉苏",
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡。如果大于等于五名玩家存活时首个克拉苏死亡，且他在今天白天公开声明自己是斯巴达克斯，一名邪恶玩家会变为克拉苏。",
+    "image": "/blood-on-the-clocktower/image/downloaded/38bea4f192dc619e22fa95b1a79bee32.webp",
+    "setup": false,
+    "reminders": [
+      "死亡",
+      "首个克拉苏"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 59,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/upload/1691499712_197011_6729.png"
+  },
+  {
+    "id": "8759c897",
+    "team": "demon",
+    "name": "汉尼拔",
+    "ability": "你以为你是一个善良角色，但其实你不是。爪牙会得知你是谁，以及得知恶魔的伪装。每个夜晚*，可能有一名玩家死亡。首个死亡的汉尼拔会转变为善良阵营。[+1汉尼拔]",
+    "image": "/blood-on-the-clocktower/image/downloaded/b242b47411be00f2684b6ab657d495cb.webp",
+    "setup": true,
+    "reminders": [
+      "是汉尼拔",
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 11,
+    "otherNight": 64,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/upload/1691499714_197011_4739.png"
+  },
+  {
+    "id": "a99bcb5a",
+    "team": "fabled",
+    "name": "我是斯巴达克斯！",
+    "ability": "每个白天，至多半数的存活玩家（向上取整且不计旅行者）可以公开声明自己是斯巴达克斯。",
+    "image": "/blood-on-the-clocktower/image/downloaded/882973b0c2476c20dee75cf39d9b103c.webp",
+    "setup": false,
+    "reminders": [
+      "我是斯巴达克斯!"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/upload/1691499732_197011_9225.png"
+  },
+  {
+    "id": "1c70fe2d",
+    "team": "traveller",
+    "name": "雇佣兵",
+    "ability": "每个夜晚*，你拥有今天白天公开声明自己是斯巴达克斯的一名玩家的角色能力。如果有雇佣兵被流放，你也会被流放。[+1对立阵营的雇佣兵]",
+    "image": "/blood-on-the-clocktower/image/downloaded/e45e942b51d34a06a2835d30bb5affe3.webp",
+    "setup": false,
+    "reminders": [
+      "善良",
+      "邪恶",
+      "善良角色能力",
+      "邪恶角色能力"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 16,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/upload/1691499718_197011_7442.png"
+  },
+  {
+    "id": "f1286432",
+    "team": "traveller",
+    "name": "建筑师",
+    "ability": "每个夜晚*，你要选择一名玩家，并由说书人选择：1)他变为一个相同角色类型的不在场角色，或者2)他和一名相同角色类型的玩家交换角色。",
+    "image": "/blood-on-the-clocktower/image/downloaded/0239714bec5a3fab5814a283794554b9.webp",
+    "setup": false,
+    "reminders": [
+      "被重建"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 30,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/upload/1691499721_197011_9479.png"
+  },
+  {
+    "id": "14a45675",
+    "team": "traveller",
+    "name": "皇帝",
+    "ability": "每个白天，你可以决定首个处决的结果。如果你选择保护今天被处决的玩家：他存活。否则，今晚你会得知他的阵营。",
+    "image": "/blood-on-the-clocktower/image/downloaded/dde52c2af8a03f795dcb9043961fc984.webp",
+    "setup": false,
+    "reminders": [
+      "死于今日"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 35,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/upload/1691499730_197011_5303.png"
+  },
+  {
+    "id": "57aa62b7",
+    "team": "traveller",
+    "name": "祀命之女",
+    "ability": "每个白天，在首个处决发生后，你可以公开选择一名死亡玩家：他可以发起提名。如果你以及过半数的死亡玩家同意，被提名的玩家被处决。",
+    "image": "/blood-on-the-clocktower/image/downloaded/5f85d96f841c67743094c7694aaf7e1c.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/upload/1691499724_197011_6904.png"
+  },
+  {
+    "id": "06db273f",
+    "team": "traveller",
+    "name": "大祭司",
+    "ability": "每个白天，你可以公开选择一名之前未选择过的存活玩家：如果过半数玩家同意祝福他，会有好事发生在他以及他的阵营上。只能有一个大祭司在场。",
+    "image": "/blood-on-the-clocktower/image/downloaded/53a77591fa5015931e2f929938c9d6d3.webp",
+    "setup": false,
+    "reminders": [
+      "被祝福",
+      "失败"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 21,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/upload/1691499726_197011_6744.png"
+  },
+  {
+    "id": "19b6fc6a",
+    "team": "traveller",
+    "name": "大祭司",
+    "ability": "每个白天，你可以公开选择一名之前未选择过的存活玩家：如果过半数玩家同意祝福他，他会在下个白天得知一条信息。在当晚你要决定提供的信息是否正确。只能有一个大祭司在场。",
+    "image": "/blood-on-the-clocktower/image/downloaded/5c9d9aa233406bf2c17b8112d09cb42c.webp",
+    "setup": false,
+    "reminders": [
+      "被祝福",
+      "失败",
+      "正确",
+      "错误"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 26,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/upload/1691499728_197011_7593.png"
+  }
+]

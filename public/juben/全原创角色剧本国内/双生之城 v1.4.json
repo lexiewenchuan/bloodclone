@@ -1,0 +1,503 @@
+[
+  {
+    "hint": "线上魔典支持直接输入剧本的URL。不必将此文件保存到你的电脑。",
+    "id": "_meta",
+    "name": "双生之城 v1.4",
+    "author": "际尘"
+  },
+  {
+    "id": "ddc0fff3",
+    "team": "townsfolk",
+    "name": "观测员",
+    "ability": "每个夜晚，你要选择至多三名玩家，如果当晚有邪恶角色的能力选择或影响了他们之中的玩家，你获得一条有关该玩家的信息。",
+    "image": "/blood-on-the-clocktower/image/downloaded/fe390af06a680d3b34704d1d120c6381.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 3076,
+    "otherNight": 120,
+    "original_image": "https://www.bloodstar.xyz/p/jc3635/TwinCity/20_twincity.png"
+  },
+  {
+    "id": "accf157f",
+    "team": "townsfolk",
+    "name": "吹笛手",
+    "ability": "每个夜晚，你可以选择除你以外的三名玩家：如果他们的类型都不相同，你失去能力；如果仅有两名玩家角色类型相同，另一名玩家得知吹笛手在场。",
+    "image": "/blood-on-the-clocktower/image/downloaded/2f4d9d5278d537910bda004c5a247b3e.webp",
+    "setup": false,
+    "reminders": [
+      "失去能力",
+      "得知"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3064,
+    "otherNight": 106,
+    "original_image": "https://www.bloodstar.xyz/p/jc3635/TwinCity/15_twincity.png"
+  },
+  {
+    "id": "852b39ea",
+    "team": "townsfolk",
+    "name": "双面间谍",
+    "ability": "每个夜晚，你要选择一名玩家：你得知他的角色类型。一名邪恶玩家得知一条有关你的信息，每局游戏限一次，他可以猜测谁是双面间谍，如果正确，当晚你变成一个不在场的外来者角色。",
+    "image": "/blood-on-the-clocktower/image/downloaded/b738dd96755d11157fc0a2d875bdba54.webp",
+    "setup": false,
+    "reminders": [
+      "已猜测",
+      "得知"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3070,
+    "otherNight": 113,
+    "original_image": "https://www.bloodstar.xyz/p/jc3635/TwinCity/19_twincity.png"
+  },
+  {
+    "id": "5b54e0fa",
+    "team": "townsfolk",
+    "name": " 双子龙",
+    "ability": "每个夜晚*，你要选择一名玩家和一个角色：如果他是该角色，他获得一枚龙蛋。【+对立阵营的双子龙】",
+    "image": "/blood-on-the-clocktower/image/downloaded/d5289ef8902d014688c17b253410c905.webp",
+    "setup": true,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 50,
+    "original_image": "https://www.bloodstar.xyz/p/jc3635/TwinCity/23_twincity.png"
+  },
+  {
+    "id": "cf00b056",
+    "team": "townsfolk",
+    "name": "草药商人",
+    "ability": "每个白天，你可以邀请其他玩家光顾你的药店，秘密选择其中一名玩家，当晚他不受邪恶玩家能力的影响。每局游戏限一次，效果改为他中毒或保护自己。",
+    "image": "/blood-on-the-clocktower/image/downloaded/3f0ffc5106c31ecbe3c514e0c1135df6.webp",
+    "setup": false,
+    "reminders": [
+      "已下毒",
+      "毒药",
+      "灵药"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/jc3635/TwinCity/21_twincity.png"
+  },
+  {
+    "id": "71eda5a7",
+    "team": "townsfolk",
+    "name": "懂王",
+    "ability": "每局游戏限一次，在白天时，你可以公开宣称“没有人比我更懂［其他善良角色名］”，该角色的玩家解除一切状态，你获得该角色的能力，直到下个黎明。",
+    "image": "/blood-on-the-clocktower/image/downloaded/f339cf0f4c329217677cc803e76aaf9c.webp",
+    "setup": false,
+    "reminders": [
+      "失去能力"
+    ],
+    "remindersGlobal": [
+      "是懂王"
+    ],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/jc3635/TwinCity/16_twincity.png"
+  },
+  {
+    "id": "921e1e01",
+    "team": "townsfolk",
+    "name": "先知",
+    "ability": "每局游戏限一次，你可以在第x个白天拜访说书人回答x个问题，随后你得知你答对了几题。",
+    "image": "/blood-on-the-clocktower/image/downloaded/6671a79df271b986dd484d419def840c.webp",
+    "setup": false,
+    "reminders": [
+      "失去能力"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/jc3635/TwinCity/18_twincity.png"
+  },
+  {
+    "id": "3f8706f5",
+    "team": "townsfolk",
+    "name": "工匠",
+    "ability": "在你的首个夜晚，与邪恶玩家邻近的一名善良玩家得知工匠在场。",
+    "image": "/blood-on-the-clocktower/image/downloaded/baf00c6202f8a56fc7a26a1a452e9a02.webp",
+    "setup": false,
+    "reminders": [
+      "得知"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3040,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/jc3635/TwinCity/11_twincity.png"
+  },
+  {
+    "id": "c7c65769",
+    "team": "townsfolk",
+    "name": "执旗手",
+    "ability": "在你的首个夜晚，一名存活善良玩家得知执旗手在场。如果你在夜晚死亡，他获得执旗手的能力。",
+    "image": "/blood-on-the-clocktower/image/downloaded/6a77b88dd4f21fd92ca70dd37521913e.webp",
+    "setup": false,
+    "reminders": [
+      "得知",
+      "获得能力"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3046,
+    "otherNight": 92,
+    "original_image": "https://www.bloodstar.xyz/p/jc3635/TwinCity/12_twincity.png"
+  },
+  {
+    "id": "4f4014a9",
+    "team": "townsfolk",
+    "name": "竖琴手",
+    "ability": "在你的首个夜晚，你要写一条口令，一名善良玩家和一名邪恶玩家得知该口令。如果存活玩家不多于三名，善良阵营获胜。",
+    "image": "/blood-on-the-clocktower/image/downloaded/dd7dfa2bc612a826303e08a3df318afd.webp",
+    "setup": false,
+    "reminders": [
+      "口令"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3052,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/jc3635/TwinCity/14_twincity.png"
+  },
+  {
+    "id": "a3a311e3",
+    "team": "townsfolk",
+    "name": "史莱姆",
+    "ability": "在你的首个夜晚，你可以选择两名其他玩家，如果他们阵营相同，一名邪恶玩家得知史莱姆在场，否则一名善良玩家得知史莱姆在场。当首次因你的能力得知史莱姆在场的玩家死亡时，你重获能力。",
+    "image": "/blood-on-the-clocktower/image/downloaded/3e2418a18fd5897de374ee3c81fda37c.webp",
+    "setup": false,
+    "reminders": [
+      "重获能力",
+      "得知"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3058,
+    "otherNight": 99,
+    "original_image": "https://www.bloodstar.xyz/p/jc3635/TwinCity/17_twincity.png"
+  },
+  {
+    "id": "c3aed9d9",
+    "team": "townsfolk",
+    "name": " 末日预言官",
+    "ability": "在你的首个夜晚，你得知你将在第几夜死亡，且当晚不会有其他玩家死亡。每个夜晚，你要选择一名玩家：如果他是邪恶的，你提前一天死亡。如果你死于自身能力，一名善良玩家得知“末日降临”。",
+    "image": "/blood-on-the-clocktower/image/downloaded/ae2df880f3e7885442f24682a6e485f9.webp",
+    "setup": false,
+    "reminders": [
+      "剩余一天",
+      "剩余二天",
+      "剩余三天",
+      "剩余四天",
+      "剩余五天",
+      "末日降临",
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3034,
+    "otherNight": 57,
+    "original_image": "https://www.bloodstar.xyz/p/jc3635/TwinCity/13_twincity.png"
+  },
+  {
+    "id": "4d572fe9",
+    "team": "townsfolk",
+    "name": "双生子",
+    "ability": "你以为你是一个在场的镇民角色，且拥有该角色的能力。如果你或者该角色的玩家死于处决，另一名玩家开始醉酒。",
+    "image": "/image/downloaded/44277456b66c1bf480eefb5e9f296992.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [
+      "是双生子",
+      "醉酒"
+    ],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/jc3635/TwinCity/22_twincity.png"
+  },
+  {
+    "id": "58bfb9fa",
+    "team": "outsider",
+    "name": "弗兰肯斯坦",
+    "ability": "在你的首个夜晚，你要选择三名其他玩家，说书人将他们的能力重新排列组合后成为你的能力，但你不知道是什么。每个白天你可以找说书人猜测一次，你会得知你的猜测有多准确。",
+    "image": "/blood-on-the-clocktower/image/downloaded/caccf7ee63191be55442aff97cf5ca38.webp",
+    "setup": false,
+    "reminders": [
+      "已选择",
+      "标记"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3023,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/jc3635/TwinCity/10_twincity.png"
+  },
+  {
+    "id": "671c85a5",
+    "team": "outsider",
+    "name": "机关触发者",
+    "ability": "你死亡后的某时刻会突然听见“咔嗒！”，最后举手的存活善良玩家死亡且被当作存活。如果你对外来者疯狂，当晚可能会有一名邪恶玩家行动两次，即使你已死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/d4d63503ccfcac786f426c040cb8d5cf.webp",
+    "setup": false,
+    "reminders": [
+      "机关开启",
+      "以为存活"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/jc3635/TwinCity/9_twincity.png"
+  },
+  {
+    "id": "4f189f9a",
+    "team": "outsider",
+    "name": "渥金",
+    "ability": "如果你是善良的，在第四个夜晚死亡。你首次在夜晚被邪恶玩家选择时，转变为邪恶阵营，一名善良玩家得知“渥金已离去”，随后他代替你成为目标。",
+    "image": "/blood-on-the-clocktower/image/downloaded/b965efce1278020ca12a04ebdc5580f3.webp",
+    "setup": false,
+    "reminders": [
+      "死亡",
+      "邪恶"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 85,
+    "original_image": "https://www.bloodstar.xyz/p/jc3635/TwinCity/7_twincity.png"
+  },
+  {
+    "id": "7e3d01a0",
+    "team": "outsider",
+    "name": "睡鼠",
+    "ability": "一名邪恶玩家知道你在场，每局游戏限一次，他可以猜测谁是睡鼠：如果猜测正确，他选择一名玩家在夜晚不再被唤醒。你在夜晚只能听到“嘶嘶嘶”的声音。你死亡后保留能力。",
+    "image": "/blood-on-the-clocktower/image/downloaded/1c17a5911eb430b539b5d33a84ecf141.webp",
+    "setup": false,
+    "reminders": [
+      "得知",
+      "沉睡",
+      "已猜测"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3029,
+    "otherNight": 36,
+    "original_image": "https://www.bloodstar.xyz/p/jc3635/TwinCity/8_twincity.png"
+  },
+  {
+    "id": "eaf2a11f",
+    "team": "minion",
+    "name": "死寂",
+    "ability": "每个夜晚，你要选择一名玩家：当晚他不会被唤醒，如果他私聊说书人，他可能会死亡。在下个黄昏前，如果他对自己本应被唤醒疯狂，他可能会被处决。",
+    "image": "/blood-on-the-clocktower/image/downloaded/1c2db2c8cb79ad2db20c16898be7fec8.webp",
+    "setup": false,
+    "reminders": [
+      "寂静",
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3011,
+    "otherNight": 29,
+    "original_image": "https://www.bloodstar.xyz/p/jc3635/TwinCity/5_twincity.png"
+  },
+  {
+    "id": "10449927",
+    "team": "minion",
+    "name": "双子龙",
+    "ability": "每个夜晚*，你要选择一名玩家和一个角色：如果他是该角色，他获得一枚龙蛋。【+对立阵营的双子龙】",
+    "image": "/blood-on-the-clocktower/image/downloaded/2db71860c035f110208c064114d070a3.webp",
+    "setup": true,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 43,
+    "original_image": "https://www.bloodstar.xyz/p/jc3635/TwinCity/6_twincity.png"
+  },
+  {
+    "id": "f03e8532",
+    "team": "minion",
+    "name": "迷雾人",
+    "ability": "在你的首个夜晚，你要选择一个善良角色：你拥有该角色能力且会被当作善良的该角色。如果该角色在场，他中毒，你得知他是谁，且他会被当作邪恶的迷雾人。【-1外来者】。",
+    "image": "/blood-on-the-clocktower/image/downloaded/01d64cafed160e412e3c4529ccc151e6.webp",
+    "setup": true,
+    "reminders": [
+      "中毒"
+    ],
+    "remindersGlobal": [
+      "是迷雾人"
+    ],
+    "firstNight": 3005,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/jc3635/TwinCity/4_twincity.png"
+  },
+  {
+    "id": "2c67a31d",
+    "team": "minion",
+    "name": "死亡牧者",
+    "ability": "你可能被当作恶魔角色，如果你首次死于处决，你存活但被当作死亡，且获得能力：如果恶魔死亡，你与该恶魔交换角色（不刷新能力），一名存活善良玩家得知“献祭完成”。",
+    "image": "/blood-on-the-clocktower/image/downloaded/e2c9a0637bffbb75a24e2699e298001f.webp",
+    "setup": false,
+    "reminders": [
+      "死于处决",
+      "献祭完成"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 22,
+    "original_image": "https://www.bloodstar.xyz/p/jc3635/TwinCity/26_twincity.png"
+  },
+  {
+    "id": "9e9a0788",
+    "team": "demon",
+    "name": "惨绝戏子",
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡。你死于处决后保留能力且在结算游戏胜利条件时被当作存活。【+1外来者；邪恶阵营胜利条件改为处决所有初始爪牙和恶魔】",
+    "image": "/blood-on-the-clocktower/image/downloaded/82d730385e317f1d642830fc5d7d2445.webp",
+    "setup": true,
+    "reminders": [
+      "被处决",
+      "死亡"
+    ],
+    "remindersGlobal": [
+      "保留能力"
+    ],
+    "firstNight": 0,
+    "otherNight": 78,
+    "original_image": "https://www.bloodstar.xyz/p/jc3635/TwinCity/3_twincity.png"
+  },
+  {
+    "id": "b4214962",
+    "team": "demon",
+    "name": "瓦尔拉文",
+    "ability": "在你的首个夜晚，你要选择两个角色（至多一个镇民），说书人可能会开始制造这些角色在场的假象。每个夜晚*，你要选择一名玩家：他死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/6821114af0bebc6dd5be158678370db2.webp",
+    "setup": false,
+    "reminders": [
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3017,
+    "otherNight": 64,
+    "original_image": "https://www.bloodstar.xyz/p/jc3635/TwinCity/1_twincity.png"
+  },
+  {
+    "id": "af5435f4",
+    "team": "demon",
+    "name": "地城领主",
+    "ability": "你可以随时查看魔典并提出打破规则的建议，当说书人第三次打破规则时，一名善良玩家得知“魔王降临”。在你的首个夜晚，你可以选择获得一个其他恶魔角色的能力。如果说书人被处决，善良阵营获胜。【无爪牙】",
+    "image": "/image/downloaded/d78cea0c4c9dfbee02ac0906c24f31bf.webp",
+    "setup": true,
+    "reminders": [
+      "死亡",
+      "打破规则",
+      "魔王降临"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 13,
+    "otherNight": 15,
+    "original_image": "https://www.bloodstar.xyz/p/jc3635/TwinCity/_twincity.png"
+  },
+  {
+    "id": "bdfdd6f2",
+    "team": "demon",
+    "name": "魂火",
+    "ability": "两名善良玩家是恶魔、中毒且必定产生错误信息，爪牙代替恶魔获取初始恶魔信息，并得知这两名玩家的角色。每个夜晚*，爪牙们商议决定让一名玩家死亡。所有玩家都知道魂火在场。【-1恶魔，+1镇民】",
+    "image": "/blood-on-the-clocktower/image/downloaded/d1ee6e92a02b67465c17b3a52848fb65.webp",
+    "setup": true,
+    "reminders": [],
+    "remindersGlobal": [
+      "魂火碎片",
+      "死亡"
+    ],
+    "firstNight": 2005,
+    "otherNight": 71,
+    "original_image": "https://www.bloodstar.xyz/p/jc3635/TwinCity/2_twincity.png"
+  },
+  {
+    "id": "a8f25067",
+    "team": "fabled",
+    "name": "地城领主&魂火",
+    "ability": "如果地城领主选择了魂火，地城领主是爪牙且死亡后保留能力。",
+    "image": "/image/downloaded/d78cea0c4c9dfbee02ac0906c24f31bf.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/jc3635/TwinCity/_twincity.png"
+  },
+  {
+    "id": "eac7f5d4",
+    "team": "fabled",
+    "name": "双子龙&双子龙",
+    "ability": "如果红蓝双子龙同时猜对了对方的角色，那么他们同时获得一颗龙蛋。",
+    "image": "/blood-on-the-clocktower/image/downloaded/d5289ef8902d014688c17b253410c905.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/jc3635/TwinCity/23_twincity.png"
+  },
+  {
+    "id": "26f7f8b7",
+    "team": "fabled",
+    "name": "独奏家",
+    "ability": "旅行者会被非旅行者角色的能力当作不在游戏中，但恶魔仍然可以选择杀死旅行者。",
+    "image": "/blood-on-the-clocktower/image/downloaded/176c121582e637d49326822633346f3c.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/jc3635/City_of_Illusio/28_city_of_illusio.png"
+  },
+  {
+    "id": "d2984a8c",
+    "team": "fabled",
+    "name": "龙蛋",
+    "ability": "得到龙蛋的玩家会得知此事。玩家根据拥有的龙蛋颗数获得以下效果：一枚，失去能力；两枚，可以选择一个善良角色，如果该角色不在场，变为那个角色；三枚，立即死于处决，即使因任何原因不会死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/ef1bdaf33abda3f65fff2f8699ba2750.webp",
+    "setup": false,
+    "reminders": [
+      "龙蛋"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/jc3635/TwinCity/24_twincity.png"
+  },
+  {
+    "id": "6bacb2b9",
+    "team": "fabled",
+    "name": "上古石碑",
+    "ability": "①最多只会有一名善良玩家转变为邪恶，当有更多的玩家将要转变为邪恶阵营时，他们可能会以为自己转变为邪恶阵营。②地城领主无法让玩家转变阵营。③如果惨绝戏子在场，当只有两名玩家实际存活时，善良阵营获胜。",
+    "image": "/blood-on-the-clocktower/image/downloaded/714ca752fc208a7d4a7fa61dc7b8f08f.webp",
+    "setup": false,
+    "reminders": [
+      "以为邪恶"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/jc3635/TwinCity/25_twincity.png"
+  },
+  {
+    "id": "d89f8caa",
+    "team": "traveller",
+    "name": "全视之眼",
+    "ability": "每局游戏限一次，在夜晚时，你可以查看魔典并写一句话给一名对立阵营的玩家（此后该玩家阵营无法被转变），随后你被移出游戏。你死亡后保留能力。",
+    "image": "/blood-on-the-clocktower/image/downloaded/e324a30bdcbcf96fbb12e11866d6b295.webp",
+    "setup": false,
+    "reminders": [
+      "监视"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 7,
+    "otherNight": 8,
+    "original_image": "https://www.bloodstar.xyz/p/jc3635/City_of_Illusio/27_city_of_illusio.png"
+  },
+  {
+    "id": "6a03692a",
+    "team": "traveller",
+    "name": "冒险者",
+    "ability": "你拥有一枚20面骰，每个白天限一次：你可以发表一个公开声明，如果投掷结果大于等于说书人设定的挑战值，挑战成功。如果投掷结果为20，说书人可以给你一些额外的奖励。如果投掷结果小于挑战值的一半，你立即被流放。",
+    "image": "https://vip.helloimg.com/i/2024/08/04/66aef4fbe61e3.png",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0
+  }
+]

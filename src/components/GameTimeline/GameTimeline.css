@@ -1,0 +1,117 @@
+.game-timeline {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgba(30, 30, 35, 0.85);
+  backdrop-filter: blur(12px);
+  padding: 8px 0;
+  border-radius: 20px;
+  border: 1px solid rgba(212, 175, 55, 0.3);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4), inset 0 0 15px rgba(212, 175, 55, 0.1);
+  width: 220px;
+  max-width: 220px;
+  min-width: 220px;
+  user-select: none;
+  z-index: 1000;
+}
+
+.timeline-controls {
+  display: flex;
+  align-items: center;
+  gap: 0;
+  width: 100%;
+  justify-content: space-between;
+  position: relative;
+}
+
+.timeline-btn {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: #fff;
+  width: 60px;
+  height: 28px;
+  border-radius: 14px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  position: absolute;
+  font-size: 10px;
+}
+
+.timeline-btn:first-child {
+  left: 0;
+}
+
+.timeline-btn:last-child {
+  right: 0;
+}
+
+.timeline-btn:hover:not(:disabled) {
+  background: rgba(255, 255, 255, 0.15);
+  transform: scale(1.1);
+  border-color: rgba(212, 175, 55, 0.5);
+}
+
+.timeline-btn:disabled {
+  opacity: 0.3;
+  cursor: not-allowed;
+}
+
+.timeline-btn.highlight {
+  width: 60px;
+  padding: 0 8px;
+  height: 28px;
+  border-radius: 14px;
+  background: linear-gradient(135deg, rgba(212, 175, 55, 0.2), rgba(212, 175, 55, 0.1));
+  border-color: rgba(212, 175, 55, 0.4);
+  color: #d4af37;
+  font-weight: bold;
+  gap: 4px;
+  font-size: 10px;
+}
+
+.next-text {
+  font-size: 9px;
+  letter-spacing: 0.3px;
+}
+
+.timeline-display {
+  padding: 0;
+  width: 100px;
+  min-width: 100px;
+  max-width: 100px;
+  text-align: center;
+  margin: 0 auto;
+  position: relative;
+  left: 0;
+}
+
+.phase-indicator {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  justify-content: center;
+}
+
+.phase-icon {
+  font-size: 12px;
+  filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.5));
+}
+
+.phase-text {
+  font-size: 11px;
+  font-weight: 800;
+  color: #fff;
+  letter-spacing: 0.3px;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.phase-number {
+  color: #d4af37;
+  margin: 0 2px;
+  font-family: 'Georgia', serif;
+  font-style: italic;
+}
+

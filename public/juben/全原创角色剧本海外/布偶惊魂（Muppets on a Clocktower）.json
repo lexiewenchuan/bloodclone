@@ -1,0 +1,381 @@
+[
+  {
+    "hint": "线上魔典支持直接输入剧本的URL。不必将此文件保存到你的电脑。",
+    "id": "_meta",
+    "name": "布偶惊魂（Muppets on a Clocktower）",
+    "author": "Patrick & Josie"
+  },
+  {
+    "id": "6905c43f",
+    "team": "townsfolk",
+    "name": "罗尔夫狗",
+    "ability": "在你的首个夜晚，你会得知两名非镇民玩家。",
+    "image": "/blood-on-the-clocktower/image/downloaded/cbdcff2a8e33c5dc2b8c0eae608dd8ab.webp",
+    "setup": false,
+    "reminders": [
+      "不是镇民"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3022,
+    "otherNight": 0,
+    "original_image": "https://i.postimg.cc/mkdgF5W3/image.png"
+  },
+  {
+    "id": "cd29fd02",
+    "team": "townsfolk",
+    "name": "对虾佩佩",
+    "ability": "在你的首个夜晚，你会得知在场的恶魔角色。",
+    "image": "/blood-on-the-clocktower/image/downloaded/3d98a627696fb7bdd9d302ed9dc68512.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 3042,
+    "otherNight": 0,
+    "original_image": "https://i.postimg.cc/sDwhpT4N/image.png"
+  },
+  {
+    "id": "221d6c12",
+    "team": "townsfolk",
+    "name": "本森博士",
+    "ability": "在你的首个夜晚，你会得知有多少名在场角色能够创造人类演员。",
+    "image": "/blood-on-the-clocktower/image/downloaded/af17d6582d7efb8c5404a316cb678430.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 3002,
+    "otherNight": 0,
+    "original_image": "https://i.postimg.cc/c4s3gpw3/image.png"
+  },
+  {
+    "id": "7a27f145",
+    "team": "townsfolk",
+    "name": "山姆鹰",
+    "ability": "每个夜晚，你会得知一名存活的邪恶玩家与你之间的距离。（邻座的玩家距离为1）[+1人类演员]",
+    "image": "/blood-on-the-clocktower/image/downloaded/162dbc0fd35d17e82fdc5ec7b9508f56.webp",
+    "setup": true,
+    "reminders": [
+      "是人类"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3062,
+    "otherNight": 87,
+    "original_image": "https://i.postimg.cc/wv26SGMK/image.png"
+  },
+  {
+    "id": "bc8bf460",
+    "team": "townsfolk",
+    "name": "甜怪",
+    "ability": "每个夜晚*，你会得知今天白天时有多少名邪恶玩家投过票。",
+    "image": "/blood-on-the-clocktower/image/downloaded/2113b0be60ba1d90a4e1ecfd169f7796.webp",
+    "setup": false,
+    "reminders": [
+      "邪恶投票"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 100,
+    "original_image": "https://i.postimg.cc/7YFyQk9G/image.png"
+  },
+  {
+    "id": "6fe55710",
+    "team": "townsfolk",
+    "name": "卡米拉鸡",
+    "ability": "每个夜晚*，你会得知一名与今天白天死于处决的玩家相同阵营的玩家。",
+    "image": "/blood-on-the-clocktower/image/downloaded/48047ba9beab2f21bc63c4ec95d61b91.webp",
+    "setup": false,
+    "reminders": [
+      "今日被处决"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 94,
+    "original_image": "https://i.postimg.cc/MT2MWNzv/image.png"
+  },
+  {
+    "id": "bc1ec362",
+    "team": "townsfolk",
+    "name": "老鼠里佐",
+    "ability": "每个夜晚*，你可以选择一名玩家：如果他在当晚被恶魔杀死，你会得知一个存活的角色。",
+    "image": "/blood-on-the-clocktower/image/downloaded/de8e33da166a8b199bdd5ea55a540e45.webp",
+    "setup": false,
+    "reminders": [
+      "选择"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 15,
+    "original_image": "https://i.postimg.cc/s2Sx0m5y/image.png"
+  },
+  {
+    "id": "458af8b3",
+    "team": "townsfolk",
+    "name": "伟大冈佐",
+    "ability": "每个夜晚*，你可以选择一名玩家：如果你选中了爪牙，他死亡。如果你选中了镇民，你死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/2c60d694f1178df6a83e1b11fbdb291c.webp",
+    "setup": false,
+    "reminders": [
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 8,
+    "original_image": "https://i.postimg.cc/QtdLWx8P/image.png"
+  },
+  {
+    "id": "3ef9d16b",
+    "team": "townsfolk",
+    "name": "科米蛙",
+    "ability": "每个夜晚*，你要选择除你以外的一名玩家：如果你选中了人类演员，他会变成他以为的那个镇民角色。",
+    "image": "/blood-on-the-clocktower/image/downloaded/82567c36c1f1a6ff7f7f51cf3606cfe6.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 80,
+    "original_image": "https://i.postimg.cc/zGyVT8By/image.png"
+  },
+  {
+    "id": "70d88bb6",
+    "team": "townsfolk",
+    "name": "瑞典厨师",
+    "ability": "每个夜晚*，你会得知相较于上一个夜晚，人类演员的数量是否有变化。如果你在第一个白天用非语言交流，你会转而得知有多少名人类演员在场。",
+    "image": "/blood-on-the-clocktower/image/downloaded/e9b4c6abe10834831831c4eee9ccdcf3.webp",
+    "setup": false,
+    "reminders": [
+      "非语言"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 120,
+    "original_image": "https://i.postimg.cc/4yFX3HpB/image.png"
+  },
+  {
+    "id": "8f5a05e6",
+    "team": "townsfolk",
+    "name": "福滋熊",
+    "ability": "每个白天，你可以公开发表一个玩笑话~哇咔哇咔！，当晚你会得知它是否正确。",
+    "image": "/blood-on-the-clocktower/image/downloaded/fc1d6f7a23f5ccf141a8c9d9b02d7cd1.webp",
+    "setup": false,
+    "reminders": [
+      "正确",
+      "错误"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 107,
+    "original_image": "https://i.postimg.cc/vm6xwbFJ/image.png"
+  },
+  {
+    "id": "5b3350fb",
+    "team": "townsfolk",
+    "name": "牙齿博士",
+    "ability": "如果你被恶魔杀死，一名人类演员会变成他以为的那个镇民角色，你会得知他是谁。",
+    "image": "/blood-on-the-clocktower/image/downloaded/12560d1f0b6b9daf2a4d3de3471bbca0.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 67,
+    "original_image": "https://i.postimg.cc/fT0GdPsw/image.png"
+  },
+  {
+    "id": "01d2bab3",
+    "team": "townsfolk",
+    "name": "比克",
+    "ability": "如果你在第一个白天用非语言交流，当晚你会得知白天时非语言交流玩家的角色（最多四个，额外有一个不在场角色）。",
+    "image": "/blood-on-the-clocktower/image/downloaded/3376a8eec580d1380f80ed4430ca0a4a.webp",
+    "setup": false,
+    "reminders": [
+      "非语言"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 113,
+    "original_image": "https://i.postimg.cc/Y0xmDRKj/image.png"
+  },
+  {
+    "id": "ac502bc2",
+    "team": "outsider",
+    "name": "史约翰",
+    "ability": "每个夜晚*，一名今天白天时给你投票玩家可能会死亡，即使你已死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/77817c19b9f5392e0affbca8265b6305.webp",
+    "setup": false,
+    "reminders": [
+      "死亡",
+      "已投票"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 74,
+    "original_image": "https://i.postimg.cc/XYPBPXhK/image.png"
+  },
+  {
+    "id": "0926f80c",
+    "team": "outsider",
+    "name": "人类演员",
+    "ability": "你不知道你是人类演员。你以为你是一个镇民角色，但其实你不是。",
+    "image": "/blood-on-the-clocktower/image/downloaded/7424cbb2b157dcd8fb931dcec87ad529.webp",
+    "setup": true,
+    "reminders": [],
+    "remindersGlobal": [
+      "是人类"
+    ],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://i.postimg.cc/RVFFz4wg/image.png"
+  },
+  {
+    "id": "46ef50f5",
+    "team": "outsider",
+    "name": "摄像师",
+    "ability": "如果你在第一个白天用语言交流，一名镇民玩家可能会立刻变成人类演员。",
+    "image": "/blood-on-the-clocktower/image/downloaded/7fcb685bf2311fa58ebf8bb29fe39e5e.webp",
+    "setup": false,
+    "reminders": [
+      "是人类"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://i.postimg.cc/3xG3KRNF/image.png"
+  },
+  {
+    "id": "0af1d8a9",
+    "team": "outsider",
+    "name": "史高治",
+    "ability": "在夜晚时，一名玩家选择其他玩家时可能会改为选中你。",
+    "image": "/blood-on-the-clocktower/image/downloaded/325982941addf0d28e8bc133e322b683.webp",
+    "setup": false,
+    "reminders": [
+      "吝啬"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://i.postimg.cc/jSBCXmwZ/image.png"
+  },
+  {
+    "id": "d0b0c84c",
+    "team": "minion",
+    "name": "疯狂哈利",
+    "ability": "每个夜晚*，你要选择一名玩家：第一名被你选中的外来者会转变成邪恶阵营。[+1外来者]",
+    "image": "/blood-on-the-clocktower/image/downloaded/aca24dfa055d87f13e8624f17f53fd7d.webp",
+    "setup": true,
+    "reminders": [
+      "转为邪恶"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 28,
+    "original_image": "https://i.postimg.cc/7ZhTXSBY/image.png"
+  },
+  {
+    "id": "25a2ddc2",
+    "team": "minion",
+    "name": "康斯坦丁",
+    "ability": "每个夜晚*，你可以选择除恶魔以外的两名玩家：他们交换角色，但不会视作重新入场。你可能会被当作善良阵营或科米蛙，即使你已死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/75dea0aba96442c37bd56d10e4485958.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 34,
+    "original_image": "https://i.postimg.cc/3JSkydKM/image.png"
+  },
+  {
+    "id": "b7cfd8e1",
+    "team": "minion",
+    "name": "斯古特",
+    "ability": "每个白天限一次，你可以公开选择一名玩家：他脱离“即将被处决”状态。如果只有三名存活的玩家，你失去此能力。",
+    "image": "/blood-on-the-clocktower/image/downloaded/1e7c96010e665587d5c281a562d88e30.webp",
+    "setup": false,
+    "reminders": [
+      "今日已用",
+      "失去能力"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://i.postimg.cc/d0KwDYTP/image.png"
+  },
+  {
+    "id": "75b6c540",
+    "team": "minion",
+    "name": "动物鼓手",
+    "ability": "每局游戏限一次，在夜晚时*，你可以选择一名玩家：他死亡。如果你在第一个白天用非语言交流，与他邻近的镇民之一变成人类演员。",
+    "image": "/blood-on-the-clocktower/image/downloaded/edca4b63778acbd8381b57366fab8882.webp",
+    "setup": false,
+    "reminders": [
+      "非语言",
+      "死亡",
+      "失去能力"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 21,
+    "original_image": "https://i.postimg.cc/dQRd0skv/image.png"
+  },
+  {
+    "id": "e9c8a822",
+    "team": "demon",
+    "name": "致命叔叔",
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡。提名你的镇民玩家会变成人类演员。",
+    "image": "/blood-on-the-clocktower/image/downloaded/7f413f739e5c5c273e5b1a0f7f9716d7.webp",
+    "setup": false,
+    "reminders": [
+      "死亡",
+      "是人类"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 61,
+    "original_image": "https://i.postimg.cc/4x6jLhnq/image.png"
+  },
+  {
+    "id": "e551bee8",
+    "team": "demon",
+    "name": "瓦尔多夫",
+    "ability": "每个夜晚*，你与斯塔特勒一同被唤醒并要共同选择一名玩家：他死亡。[+斯塔特勒]",
+    "image": "/blood-on-the-clocktower/image/downloaded/ade5c996cbc6fb419fa8db5f827835ce.webp",
+    "setup": true,
+    "reminders": [
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 54,
+    "original_image": "https://i.postimg.cc/rpc2MNvq/image.png"
+  },
+  {
+    "id": "9c03a001",
+    "team": "demon",
+    "name": "斯塔特勒",
+    "ability": "每个夜晚*，你与瓦尔多夫一同被唤醒并要共同选择一名玩家：他死亡。[+瓦尔多夫,-1爪牙]",
+    "image": "/blood-on-the-clocktower/image/downloaded/dc1291056c3e269250487ad394abf02b.webp",
+    "setup": true,
+    "reminders": [
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 48,
+    "original_image": "https://i.postimg.cc/3rbhmpDZ/image.png"
+  },
+  {
+    "id": "7de566c5",
+    "team": "demon",
+    "name": "猪小姐",
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡。被科米蛙选择的镇民玩家可能会变成人类演员。[+科米蛙]",
+    "image": "/blood-on-the-clocktower/image/downloaded/47d238f9eb646d90a5c00d37b75ea9dc.webp",
+    "setup": true,
+    "reminders": [
+      "死亡",
+      "堕落",
+      "是人类"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 41,
+    "original_image": "https://i.postimg.cc/pdP4gXFT/image.png"
+  }
+]

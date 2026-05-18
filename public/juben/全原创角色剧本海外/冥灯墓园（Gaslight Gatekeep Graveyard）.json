@@ -1,0 +1,456 @@
+[
+  {
+    "hint": "线上魔典支持直接输入剧本的URL。不必将此文件保存到你的电脑。",
+    "id": "_meta",
+    "name": "冥灯墓园（Gaslight Gatekeep Graveyard）",
+    "author": "Cooldoom5"
+  },
+  {
+    "id": "a5f7c999",
+    "team": "townsfolk",
+    "name": "侦察员",
+    "ability": "在你的首个夜晚，你会得知两个恶魔角色，其中之一在场。",
+    "image": "/image/downloaded/f18bf6ecd5c186ae01bfa186b2f37ff6.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 3074,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/papel/YZ_CN_GGG/29_yz_cn_ggg.png"
+  },
+  {
+    "id": "870843c9",
+    "team": "townsfolk",
+    "name": "观星者",
+    "ability": "每个夜晚，你会得知一个不在场角色，你获得该角色能力直到下个黄昏。",
+    "image": "/blood-on-the-clocktower/image/downloaded/b81f4695fe704dd07ce6279d6a1ed385.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [
+      "是观星者"
+    ],
+    "firstNight": 3039,
+    "otherNight": 47,
+    "original_image": "https://www.bloodstar.xyz/p/papel/YZ_CN_GGG/3_yz_cn_ggg.png"
+  },
+  {
+    "id": "d8395459",
+    "team": "townsfolk",
+    "name": "女王",
+    "ability": "每个夜晚，你要选择一名玩家：你会得知他的角色类型。恶魔知道你是女王。",
+    "image": "/blood-on-the-clocktower/image/downloaded/69a9b770bf2f06281d7eebabe0251cb8.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 3067,
+    "otherNight": 115,
+    "original_image": "https://www.bloodstar.xyz/p/papel/YZ_CN_GGG/11_yz_cn_ggg.png"
+  },
+  {
+    "id": "d2f147ec",
+    "team": "townsfolk",
+    "name": "旅行家",
+    "ability": "每个夜晚，你要选择一名玩家：你会得知三个角色，其中之一是该玩家，另外有一个是其他在场角色，有一个是不在场角色。",
+    "image": "/blood-on-the-clocktower/image/downloaded/b87f4a534e9134e018d7f6d2cf96bd81.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 3053,
+    "otherNight": 104,
+    "original_image": "https://www.bloodstar.xyz/p/papel/YZ_CN_GGG/2_yz_cn_ggg.png"
+  },
+  {
+    "id": "77e3bc53",
+    "team": "townsfolk",
+    "name": "侦探",
+    "ability": "每个夜晚，你要选择两名玩家：你会得知他们是否都是邪恶的。会有两名玩家始终被你当作错误阵营；每个白天，你可以拜访说书人并获得关于错误玩家是谁的提示。",
+    "image": "/image/downloaded/2de807e4eddbca7fbb5d1f233de69695.webp",
+    "setup": false,
+    "reminders": [
+      "错误阵营"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3060,
+    "otherNight": 109,
+    "original_image": "https://www.bloodstar.xyz/p/papel/YZ_CN_GGG/8_yz_cn_ggg.png"
+  },
+  {
+    "id": "d722a78a",
+    "team": "townsfolk",
+    "name": "墓园守卫",
+    "ability": "每个夜晚*，你要选择一名玩家(与上个夜晚不同)：他当晚无法被角色能力选择，且不会因其自身能力而被唤醒。",
+    "image": "/blood-on-the-clocktower/image/downloaded/52b46bada06accb30942659459edfd95.webp",
+    "setup": false,
+    "reminders": [
+      "保护"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 70,
+    "original_image": "https://www.bloodstar.xyz/p/papel/YZ_CN_GGG/1_yz_cn_ggg.png"
+  },
+  {
+    "id": "3c8a92c9",
+    "team": "townsfolk",
+    "name": "商人",
+    "ability": "每个夜晚*，你要选择一名玩家：你会得知从1到5，他目前为止的行动对其自身阵营的重要程度。(最低为1，最高为5)",
+    "image": "/blood-on-the-clocktower/image/downloaded/a858791dd758fa0f8b2c2f4c7a49734e.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 121,
+    "original_image": "https://www.bloodstar.xyz/p/papel/YZ_CN_GGG/7_yz_cn_ggg.png"
+  },
+  {
+    "id": "da6aee14",
+    "team": "townsfolk",
+    "name": "萨满",
+    "ability": "每个夜晚*，你要选择一名死亡玩家并猜测他的角色：如果猜对，你获得他的角色能力直到下个黄昏。否则你醉酒直到下个黄昏。",
+    "image": "/blood-on-the-clocktower/image/downloaded/6fdf2401af0e5fb5d49b2bcfd3307f72.webp",
+    "setup": false,
+    "reminders": [
+      "获得能力",
+      "醉酒"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 41,
+    "original_image": "https://www.bloodstar.xyz/p/papel/YZ_CN_GGG/4_yz_cn_ggg.png"
+  },
+  {
+    "id": "4475e5a1",
+    "team": "townsfolk",
+    "name": "赌场老板",
+    "ability": "每个夜晚*，你可以猜测一个角色：如果该角色在场，该角色的所有玩家变成他的角色类型内的另一个角色。如果该角色不在场，当晚恶魔会改为杀死你。",
+    "image": "/blood-on-the-clocktower/image/downloaded/75927b575d996db2f392f0d448670f24.webp",
+    "setup": false,
+    "reminders": [
+      "即将死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 58,
+    "original_image": "https://www.bloodstar.xyz/p/papel/YZ_CN_GGG/6_yz_cn_ggg.png"
+  },
+  {
+    "id": "657c085f",
+    "team": "townsfolk",
+    "name": "探矿员",
+    "ability": "每个白天，你可以公开选择除你以外的大于等于两名玩家。如果他们都是善良的，你会在夜晚得知这一信息。",
+    "image": "/blood-on-the-clocktower/image/downloaded/98fbc24b6f16cbf3613058f9694df48a.webp",
+    "setup": false,
+    "reminders": [
+      "发现金矿!"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 98,
+    "original_image": "https://www.bloodstar.xyz/p/papel/YZ_CN_GGG/9_yz_cn_ggg.png"
+  },
+  {
+    "id": "5d0a85fb",
+    "team": "townsfolk",
+    "name": "强盗",
+    "ability": "每局游戏限一次，在夜晚时，你可以选择一名玩家：如果他是善良的，你变成他的角色且他醉酒。否则你醉酒。",
+    "image": "/blood-on-the-clocktower/image/downloaded/6eb6a1b9cb5d7dc48fa0f89e6273a3f5.webp",
+    "setup": false,
+    "reminders": [
+      "醉酒"
+    ],
+    "remindersGlobal": [
+      "是强盗"
+    ],
+    "firstNight": 3017,
+    "otherNight": 24,
+    "original_image": "https://www.bloodstar.xyz/p/papel/YZ_CN_GGG/5_yz_cn_ggg.png"
+  },
+  {
+    "id": "0bebca24",
+    "team": "townsfolk",
+    "name": "变装演员",
+    "ability": "你会得知一个不在场的爪牙角色。邪恶玩家以为你是爪牙，爪牙不知道恶魔是谁。你会被当作邪恶阵营和爪牙角色，即使你已死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/cd12b65e55b354fb4a291a11f16aa4ac.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 3046,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/papel/YZ_CN_GGG/_yz_cn_ggg.png"
+  },
+  {
+    "id": "a21e73e1",
+    "team": "townsfolk",
+    "name": "皇家卫士",
+    "ability": "如果恶魔杀死女王，所有邪恶玩家会在下个夜晚醉酒，直到之后的下个黄昏。[+女王]",
+    "image": "/blood-on-the-clocktower/image/downloaded/f35602c744729bc2bc0f0445ba9c5566.webp",
+    "setup": true,
+    "reminders": [
+      "复仇",
+      "邪恶醉酒"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 30,
+    "original_image": "https://www.bloodstar.xyz/p/papel/YZ_CN_GGG/10_yz_cn_ggg.png"
+  },
+  {
+    "id": "b8fe8558",
+    "team": "outsider",
+    "name": "掘墓人",
+    "ability": "你以为你是一个爪牙角色，但其实你不是。",
+    "image": "/blood-on-the-clocktower/image/downloaded/23ba582f2d9079cedca440317d8b9d81.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [
+      "是掘墓人"
+    ],
+    "firstNight": 9,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/papel/YZ_CN_GGG/12_yz_cn_ggg.png"
+  },
+  {
+    "id": "2ddbc551",
+    "team": "outsider",
+    "name": "胆小鬼",
+    "ability": "如果你所投票的玩家被处决，你可能会代替他被处决。",
+    "image": "/blood-on-the-clocktower/image/downloaded/0dbb724f5eecab3328294129ca891120.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/papel/YZ_CN_GGG/15_yz_cn_ggg.png"
+  },
+  {
+    "id": "fc7354be",
+    "team": "outsider",
+    "name": "酒馆老板",
+    "ability": "使用其自身能力选择了你的善良玩家会醉酒直到下个黎明，即使你已死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/b3d0a5a798037af77e165fdda3a074c6.webp",
+    "setup": false,
+    "reminders": [
+      "微醺"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/papel/YZ_CN_GGG/13_yz_cn_ggg.png"
+  },
+  {
+    "id": "e814992f",
+    "team": "outsider",
+    "name": "乐子人",
+    "ability": "游戏结束时，你转变为落败的阵营。如果你“疯狂”地证明自己是外来者，从此你不会死于处决。",
+    "image": "/blood-on-the-clocktower/image/downloaded/3d4b43edbfc6ef713bf82393e6a96fe4.webp",
+    "setup": false,
+    "reminders": [
+      "已声明"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/papel/YZ_CN_GGG/14_yz_cn_ggg.png"
+  },
+  {
+    "id": "f488f389",
+    "team": "minion",
+    "name": "幽灵",
+    "ability": "每个夜晚*，你要选择一名玩家：他当晚不会因其自身能力而被唤醒。",
+    "image": "/blood-on-the-clocktower/image/downloaded/2d6a34ae2804bbcf14c64cbea9a78974.webp",
+    "setup": false,
+    "reminders": [
+      "鬼上身"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 64,
+    "original_image": "https://www.bloodstar.xyz/p/papel/YZ_CN_GGG/16_yz_cn_ggg.png"
+  },
+  {
+    "id": "1afbb7b5",
+    "team": "minion",
+    "name": "木乃伊",
+    "ability": "每个夜晚*，你要选择一名玩家：他变成他的角色类型内的一个不在场角色。",
+    "image": "/blood-on-the-clocktower/image/downloaded/748b45974a76b7730c654a37e25f2540.webp",
+    "setup": false,
+    "reminders": [
+      "绷带捆绑"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 53,
+    "original_image": "https://www.bloodstar.xyz/p/papel/YZ_CN_GGG/18_yz_cn_ggg.png"
+  },
+  {
+    "id": "1985a1ec",
+    "team": "minion",
+    "name": "骷髅",
+    "ability": "如果外来者“疯狂”地证明自己是外来者，他可能会被处决。[+1外来者]",
+    "image": "/blood-on-the-clocktower/image/downloaded/6b5de4a9bb4f7f35d6315c4b921d01d8.webp",
+    "setup": true,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/papel/YZ_CN_GGG/19_yz_cn_ggg.png"
+  },
+  {
+    "id": "7309b05b",
+    "team": "minion",
+    "name": "丧尸",
+    "ability": "在提名时对你投票的玩家之一可能会在当晚变为丧尸。",
+    "image": "/blood-on-the-clocktower/image/downloaded/9539f0e2b908e815372a8801b8a6850a.webp",
+    "setup": false,
+    "reminders": [
+      "丧尸感染"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 36,
+    "original_image": "https://www.bloodstar.xyz/p/papel/YZ_CN_GGG/17_yz_cn_ggg.png"
+  },
+  {
+    "id": "0b068cc0",
+    "team": "demon",
+    "name": "巫妖",
+    "ability": "每个夜晚*，你要选择两名玩家：其中一名死亡，另一名变为该死亡玩家的角色。",
+    "image": "/image/downloaded/445d912266ad6eb2a332e53cf376f89b.webp",
+    "setup": false,
+    "reminders": [
+      "诅咒",
+      "谋杀"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 75,
+    "original_image": "https://www.bloodstar.xyz/p/papel/YZ_CN_GGG/20_yz_cn_ggg.png"
+  },
+  {
+    "id": "b50c48c1",
+    "team": "demon",
+    "name": "白骨军团",
+    "ability": "每个夜晚*，所有白骨军团投票选择一名玩家：他死亡。你也会被当作是爪牙。[所有爪牙都是白骨军团]",
+    "image": "/blood-on-the-clocktower/image/downloaded/a7ec1576e2a62e0d58e1ce588396bd4d.webp",
+    "setup": true,
+    "reminders": [
+      "袭杀"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 92,
+    "original_image": "https://www.bloodstar.xyz/p/papel/YZ_CN_GGG/23_yz_cn_ggg.png"
+  },
+  {
+    "id": "d7cb9180",
+    "team": "demon",
+    "name": "吵闹鬼",
+    "ability": "每个夜晚*，会有一名玩家死亡。每个夜晚，你要选择一名玩家：从此他获得错误信息，如果白天无人被处决，他会被处决。",
+    "image": "/blood-on-the-clocktower/image/downloaded/9839ed7a3816f0240878c93fb0a1d40e.webp",
+    "setup": false,
+    "reminders": [
+      "爆吵",
+      "出错",
+      "爆杀"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3024,
+    "otherNight": 81,
+    "original_image": "https://www.bloodstar.xyz/p/papel/YZ_CN_GGG/21_yz_cn_ggg.png"
+  },
+  {
+    "id": "0b11de4a",
+    "team": "demon",
+    "name": "阴魂",
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡。在你的首个夜晚，你要选择一名存活的爪牙。只有他死亡时你才会一同死亡。如果你以其他方式死亡，你仍存活，但会被当作死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/777cf6a9df43d7bd289d7724093c5c08.webp",
+    "setup": false,
+    "reminders": [
+      "暗影共生",
+      "暗杀",
+      "假死"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3032,
+    "otherNight": 87,
+    "original_image": "https://www.bloodstar.xyz/p/papel/YZ_CN_GGG/22_yz_cn_ggg.png"
+  },
+  {
+    "id": "b95c6c2f",
+    "team": "traveller",
+    "name": "矿工",
+    "ability": "每个夜晚，你要选择一名玩家：他会发生不好的事情直到下个黄昏。",
+    "image": "/blood-on-the-clocktower/image/downloaded/2cede114e77caf39f2edb5213049dcc4.webp",
+    "setup": false,
+    "reminders": [
+      "不幸"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3003,
+    "otherNight": 13,
+    "original_image": "https://www.bloodstar.xyz/p/papel/YZ_CN_GGG/27_yz_cn_ggg.png"
+  },
+  {
+    "id": "6014443b",
+    "team": "traveller",
+    "name": "生命之符",
+    "ability": "每个夜晚，你要选择除你以外的一名玩家（与上个夜晚不同）：他在当晚和下个白天不会死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/311c02a7ac073fe6d87900e17bd9f697.webp",
+    "setup": false,
+    "reminders": [
+      "保护"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 2002,
+    "otherNight": 7,
+    "original_image": "https://www.bloodstar.xyz/p/papel/YZ_CN_GGG/26_yz_cn_ggg.png"
+  },
+  {
+    "id": "c60992a6",
+    "team": "traveller",
+    "name": "生化人",
+    "ability": "每个夜晚，你要选择两名玩家：今晚第一名玩家其自身能力的选择改为选择第二名玩家。第一名玩家会得知你选择了他。",
+    "image": "/blood-on-the-clocktower/image/downloaded/e7b405bcb34f93c8aeabc8cc3c1ba1b0.webp",
+    "setup": false,
+    "reminders": [
+      "选择者",
+      "被选择"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3010,
+    "otherNight": 19,
+    "original_image": "https://www.bloodstar.xyz/p/papel/YZ_CN_GGG/28_yz_cn_ggg.png"
+  },
+  {
+    "id": "c645136e",
+    "team": "traveller",
+    "name": "死灵法师",
+    "ability": "每局游戏限一次，在白天时，你可以公开选择一名死亡玩家：他复活。",
+    "image": "/blood-on-the-clocktower/image/downloaded/fae5ffb730639eedcdbf73b05cee1315.webp",
+    "setup": false,
+    "reminders": [
+      "失去能力",
+      "复活"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/papel/YZ_CN_GGG/25_yz_cn_ggg.png"
+  },
+  {
+    "id": "ede41cda",
+    "team": "traveller",
+    "name": "时空行者",
+    "ability": "每局游戏限一次，你随时可以禁止私聊。每局游戏限一次，你可以在一次提名发起后禁止之后的游戏中再发起提名。",
+    "image": "/image/downloaded/738942a4f0cd4bffd7e025c46bd24b1b.webp",
+    "setup": false,
+    "reminders": [
+      "禁止私聊",
+      "禁止提名"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/papel/YZ_CN_GGG/24_yz_cn_ggg.png"
+  }
+]

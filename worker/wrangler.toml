@@ -1,0 +1,19 @@
+name = "botc-town"
+main = "src/index.ts"
+compatibility_date = "2024-12-01"
+
+[[durable_objects.bindings]]
+name = "TOWN_DO"
+class_name = "TownDurableObject"
+
+[[durable_objects.bindings]]
+name = "REGISTRY_DO"
+class_name = "TownRegistry"
+
+[[migrations]]
+tag = "v1"
+new_sqlite_classes = ["TownDurableObject"]
+
+[[migrations]]
+tag = "v2"
+new_sqlite_classes = ["TownRegistry"]

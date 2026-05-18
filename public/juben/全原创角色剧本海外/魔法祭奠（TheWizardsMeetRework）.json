@@ -1,0 +1,522 @@
+[
+  {
+    "hint": "线上魔典支持直接输入剧本的URL。不必将此文件保存到你的电脑。",
+    "id": "_meta",
+    "name": "魔法祭奠（TheWizardsMeetRework）",
+    "author": "Essler + Stell"
+  },
+  {
+    "id": "896fbc6d",
+    "team": "townsfolk",
+    "name": "圣骑士",
+    "ability": "每个夜晚，你会得知是否有邪恶玩家的咒语被抽中。",
+    "image": "/blood-on-the-clocktower/image/downloaded/9eed75aead7cf76acdee9951e65862f6.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 3064,
+    "otherNight": 98,
+    "original_image": "https://www.bloodstar.xyz/p/twf07wfz/TheWizardsMeetRework/paladin_thewizardsmeetrework.png"
+  },
+  {
+    "id": "5257e3fe",
+    "team": "townsfolk",
+    "name": "大魔法师",
+    "ability": "每个夜晚，你可以选择将施法上限的数量+1或-1。",
+    "image": "/blood-on-the-clocktower/image/downloaded/a347f90e6048a713b3380e92fdb0eaac.webp",
+    "setup": false,
+    "reminders": [
+      "+1 施法",
+      "-1 施法"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 7,
+    "otherNight": 6,
+    "original_image": "https://www.bloodstar.xyz/p/twf07wfz/TheWizardsMeetRework/archmage_thewizardsmeetrework.png"
+  },
+  {
+    "id": "c3375626",
+    "team": "townsfolk",
+    "name": "德鲁伊",
+    "ability": "每个夜晚，你会得知一条被抽中的咒语的最多10个连续的字。",
+    "image": "/blood-on-the-clocktower/image/downloaded/2d68221a8ba101d65cb314d9d8ae056f.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 3070,
+    "otherNight": 94,
+    "original_image": "https://www.bloodstar.xyz/p/twf07wfz/TheWizardsMeetRework/druid_thewizardsmeetrework.png"
+  },
+  {
+    "id": "1f2a9b41",
+    "team": "townsfolk",
+    "name": "奇术师",
+    "ability": "每个夜晚，你会得知第一条被抽中的咒语的名称：你可以选择是否将其变为哑咒。",
+    "image": "/blood-on-the-clocktower/image/downloaded/373525d0e6e6be674e5f045d319fcdd2.webp",
+    "setup": false,
+    "reminders": [
+      "Dud"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3029,
+    "otherNight": 86,
+    "original_image": "https://www.bloodstar.xyz/p/twf07wfz/TheWizardsMeetRework/thaumaturge_thewizardsmeetrework.png"
+  },
+  {
+    "id": "164ccf10",
+    "team": "townsfolk",
+    "name": "灵视者",
+    "ability": "每个夜晚，你要选择一名玩家：你会得知两个名称，其中一个是该玩家提交的咒语的名称。",
+    "image": "/blood-on-the-clocktower/image/downloaded/9f6403deda9b5db37833f745e9387e32.webp",
+    "setup": false,
+    "reminders": [
+      "得知"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3058,
+    "otherNight": 102,
+    "original_image": "https://www.bloodstar.xyz/p/twf07wfz/TheWizardsMeetRework/clairvoyant_thewizardsmeetrework.png"
+  },
+  {
+    "id": "f1b06080",
+    "team": "townsfolk",
+    "name": "幻术师",
+    "ability": "每个夜晚，你要选择一名玩家：说书人可以更改其提交的咒语中的一个词，你会得知更改前和更改后的词。",
+    "image": "/image/downloaded/3d274e0ae5896a139c1df21e5d26848c.webp",
+    "setup": false,
+    "reminders": [
+      "更改"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3040,
+    "otherNight": 82,
+    "original_image": "https://www.bloodstar.xyz/p/twf07wfz/TheWizardsMeetRework/illusionist_thewizardsmeetrework.png"
+  },
+  {
+    "id": "44563b88",
+    "team": "townsfolk",
+    "name": "防护法师",
+    "ability": "每个夜晚*，你要选择一名玩家：如果他的咒语被抽中，当晚其他玩家的咒语和恶魔的负面效果对他无效。",
+    "image": "/blood-on-the-clocktower/image/downloaded/c39f584485e072f043367d6eba1dde21.webp",
+    "setup": false,
+    "reminders": [
+      "防护"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 34,
+    "original_image": "https://www.bloodstar.xyz/p/twf07wfz/TheWizardsMeetRework/abjurer_thewizardsmeetrework.png"
+  },
+  {
+    "id": "3c73f3c0",
+    "team": "townsfolk",
+    "name": "女附魔师",
+    "ability": "每个夜晚*，你要选择一名玩家：首个被你的能力选中的外来者会变成一个不在场的镇民。[+0-1外来者]",
+    "image": "/blood-on-the-clocktower/image/downloaded/d3a3be4918533603bb542bc6daddd430.webp",
+    "setup": false,
+    "reminders": [
+      "失去能力",
+      "附魔"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3034,
+    "otherNight": 74,
+    "original_image": "https://www.bloodstar.xyz/p/twf07wfz/TheWizardsMeetRework/enchantress_thewizardsmeetrework.png"
+  },
+  {
+    "id": "6da50483",
+    "team": "townsfolk",
+    "name": "冰霜法师",
+    "ability": "每个夜晚*，你要选择一名玩家：如果你选中了爪牙，他会得知被冰霜法师选中。所有被你选中的爪牙的咒语不会被抽取。",
+    "image": "/blood-on-the-clocktower/image/downloaded/58008c1b3aec462bd644a910b698e05c.webp",
+    "setup": false,
+    "reminders": [
+      "冻结"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 78,
+    "original_image": "https://www.bloodstar.xyz/p/twf07wfz/TheWizardsMeetRework/cryostat_thewizardsmeetrework.png"
+  },
+  {
+    "id": "ebe034b2",
+    "team": "townsfolk",
+    "name": "召唤法师",
+    "ability": "每局游戏限一次，在夜晚时，你可以选择一个爪牙角色：如果该角色不在场，你获得该角色的能力；反之，你醉酒。",
+    "image": "/image/downloaded/62a23164252a3a3dec01c0bad79199c5.webp",
+    "setup": false,
+    "reminders": [
+      "失去能力",
+      "醉酒"
+    ],
+    "remindersGlobal": [
+      "是召唤法师"
+    ],
+    "firstNight": 3017,
+    "otherNight": 18,
+    "original_image": "https://www.bloodstar.xyz/p/twf07wfz/TheWizardsMeetRework/conjuror_thewizardsmeetrework.png"
+  },
+  {
+    "id": "d782fc30",
+    "team": "townsfolk",
+    "name": "神职者",
+    "ability": "你不会因为提交包含了禁咒3(第3条禁咒)的咒语而死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/ffa08b61ea9ef6563eee98d15f1e746e.webp",
+    "setup": false,
+    "reminders": [
+      "复活"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 106,
+    "original_image": "https://www.bloodstar.xyz/p/twf07wfz/TheWizardsMeetRework/cleric_thewizardsmeetrework.png"
+  },
+  {
+    "id": "54b0cd31",
+    "team": "townsfolk",
+    "name": "仪式祭司",
+    "ability": "你降下的第一条诅咒不会消耗投票标记。你可以在存活时降下诅咒。",
+    "image": "/blood-on-the-clocktower/image/downloaded/4a421d2f453f2ac23f1e584b6270ab22.webp",
+    "setup": false,
+    "reminders": [
+      "降下诅咒"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 110,
+    "original_image": "https://www.bloodstar.xyz/p/twf07wfz/TheWizardsMeetRework/ritualist_thewizardsmeetrework.png"
+  },
+  {
+    "id": "b8ccf95f",
+    "team": "townsfolk",
+    "name": "吟游诗人",
+    "ability": "当一名爪牙死于处决时，除了你和旅行者以外的所有其他玩家醉酒直到明天黄昏。",
+    "image": "/blood-on-the-clocktower/image/downloaded/8e8ec8d9aa27a9960d1c33783ef50ad9.webp",
+    "setup": false,
+    "reminders": [
+      "全员醉酒"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/minstrel_600w.webp"
+  },
+  {
+    "id": "51a4c407",
+    "team": "townsfolk",
+    "name": "血契师",
+    "ability": "如果你即将成为一个咒语的目标，该咒语会改为以施法者为目标。",
+    "image": "/image/downloaded/15375707c6f8a77cef46bbaf22ff22c0.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/twf07wfz/TheWizardsMeetRework/sorcerer_thewizardsmeetrework.png"
+  },
+  {
+    "id": "5ccbc8d3",
+    "team": "outsider",
+    "name": "熵术师",
+    "ability": "每个夜晚，你会得知一名玩家。你当晚提交的咒语只会以该玩家为目标。",
+    "image": "/blood-on-the-clocktower/image/downloaded/edb9b8218fe5fb292e17100e69c00668.webp",
+    "setup": false,
+    "reminders": [
+      "仅为目标"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 2005,
+    "otherNight": 14,
+    "original_image": "https://www.bloodstar.xyz/p/twf07wfz/TheWizardsMeetRework/entropist_thewizardsmeetrework.png"
+  },
+  {
+    "id": "156d32c4",
+    "team": "outsider",
+    "name": "侍僧",
+    "ability": "你不知道你是侍僧。你以为你是一个镇民角色，但其实你不是。说书人可能会更改你提交的咒语。",
+    "image": "/blood-on-the-clocktower/image/downloaded/2dc1ee8ab6f4b755bead858e266356ed.webp",
+    "setup": true,
+    "reminders": [],
+    "remindersGlobal": [
+      "是侍僧"
+    ],
+    "firstNight": 13,
+    "otherNight": 10,
+    "original_image": "https://www.bloodstar.xyz/p/twf07wfz/TheWizardsMeetRework/acolyte_thewizardsmeetrework.png"
+  },
+  {
+    "id": "4c08807d",
+    "team": "outsider",
+    "name": "咒缚者",
+    "ability": "你的咒语要对你的对立阵营有利。如果你死于处决，你可能无法降下诅咒。",
+    "image": "/blood-on-the-clocktower/image/downloaded/322997adcc336a33f30cb1495ed336c3.webp",
+    "setup": false,
+    "reminders": [
+      "无法诅咒"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/twf07wfz/TheWizardsMeetRework/accursed_thewizardsmeetrework.png"
+  },
+  {
+    "id": "5f5acea7",
+    "team": "outsider",
+    "name": "焰碎者",
+    "ability": "当与你相同阵营的一名玩家成为一条咒语的目标时，施法者可能会死亡。",
+    "image": "/image/downloaded/2f742f5687e61185185cd0573af662e8.webp",
+    "setup": false,
+    "reminders": [
+      "目标",
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3076,
+    "otherNight": 118,
+    "original_image": "https://www.bloodstar.xyz/p/twf07wfz/TheWizardsMeetRework/pyroclast_thewizardsmeetrework.png"
+  },
+  {
+    "id": "a0f3818c",
+    "team": "minion",
+    "name": "术士",
+    "ability": "每个夜晚*，如果你当晚提交了一条空白咒语，你要选择昨天被施放咒语的名称：该咒语的施法者会死亡。如果恶魔因你的能力而死亡，游戏不会因此结束，随后你“是恶魔”且保留你的能力。",
+    "image": "/blood-on-the-clocktower/image/downloaded/3dfa1379300f4c5658ebccbf7fc18ff7.webp",
+    "setup": false,
+    "reminders": [
+      "死亡",
+      "恶魔"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 22,
+    "original_image": "https://www.bloodstar.xyz/p/twf07wfz/TheWizardsMeetRework/warlock_thewizardsmeetrework.png"
+  },
+  {
+    "id": "48799134",
+    "team": "minion",
+    "name": "血法师",
+    "ability": "你提交禁咒后可能不会死亡。在大于等于五名玩家存活时，如果有多于一条禁咒被成功释放或者没有禁咒被成功释放，你不会死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/756512afd4e754fb3b2fbbb45eee8730.webp",
+    "setup": false,
+    "reminders": [
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 54,
+    "original_image": "https://www.bloodstar.xyz/p/twf07wfz/TheWizardsMeetRework/bloodmage_thewizardsmeetrework.png"
+  },
+  {
+    "id": "cb63e296",
+    "team": "minion",
+    "name": "死灵法师",
+    "ability": "如果你的咒语被施放，一名死亡的玩家可能会复活。你降下诅咒时不会消耗投票标记。",
+    "image": "/blood-on-the-clocktower/image/downloaded/f2664cabb89d9a6d2e23f9388145e0ba.webp",
+    "setup": false,
+    "reminders": [
+      "复活"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 58,
+    "original_image": "https://www.bloodstar.xyz/p/twf07wfz/TheWizardsMeetRework/necromancer_thewizardsmeetrework.png"
+  },
+  {
+    "id": "bae24a2c",
+    "team": "minion",
+    "name": "百牲祭",
+    "ability": "在你死亡的当晚，镇民的咒语不会被抽中。每个夜晚*，如果大于等于五名玩家存活，你可以选择死亡。[+1外来者]",
+    "image": "/blood-on-the-clocktower/image/downloaded/80864f47a736013072b8743bcc7c47c7.webp",
+    "setup": true,
+    "reminders": [
+      "牺牲"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 46,
+    "original_image": "https://www.bloodstar.xyz/p/twf07wfz/TheWizardsMeetRework/hecatomb_thewizardsmeetrework.png"
+  },
+  {
+    "id": "4a53fc88",
+    "team": "demon",
+    "name": "上古魔龙",
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡。每个夜晚你可以提交最多三条咒语。[施法上限数量增加1]",
+    "image": "/blood-on-the-clocktower/image/downloaded/bc6060851526510070561e0413bedc73.webp",
+    "setup": false,
+    "reminders": [
+      "死亡",
+      "+1施法"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3005,
+    "otherNight": 62,
+    "original_image": "https://www.bloodstar.xyz/p/twf07wfz/TheWizardsMeetRework/elderdrake_thewizardsmeetrework.png"
+  },
+  {
+    "id": "c95c2e31",
+    "team": "demon",
+    "name": "苦难根源",
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡。每个夜晚*，如果一条咒语以一名邪恶玩家为目标，你会得知施法者且可以选择杀死他。",
+    "image": "/blood-on-the-clocktower/image/downloaded/2eddb975a28239ad79e0ee12e4b48a67.webp",
+    "setup": false,
+    "reminders": [
+      "目标",
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 66,
+    "original_image": "https://www.bloodstar.xyz/p/twf07wfz/TheWizardsMeetRework/scourge_thewizardsmeetrework.png"
+  },
+  {
+    "id": "feb29ffb",
+    "team": "demon",
+    "name": "蔽世之影",
+    "ability": "每个夜晚*，你可以查看魔典并得知任意提交的咒语，然后你要盖上一个角色标记。你提交禁咒后不会死亡。你提交的咒语总是最先被抽中。[无爪牙在场]",
+    "image": "/blood-on-the-clocktower/image/downloaded/7fb367f286e55c085ded1c0f6161fb86.webp",
+    "setup": false,
+    "reminders": [
+      "施法优先",
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3011,
+    "otherNight": 70,
+    "original_image": "https://www.bloodstar.xyz/p/twf07wfz/TheWizardsMeetRework/theveiledone_thewizardsmeetrework.png"
+  },
+  {
+    "id": "26aafc23",
+    "team": "demon",
+    "name": "地狱业火",
+    "ability": "每个夜晚*，你要选择一名玩家：你会得知该玩家当晚提交的咒语，并以原名称提交一个新的能力效果。该咒语会成为今晚首条施放的咒语，然后该施法者死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/640ac74e899854463122df14e848b271.webp",
+    "setup": false,
+    "reminders": [
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 42,
+    "original_image": "https://www.bloodstar.xyz/p/twf07wfz/TheWizardsMeetRework/infernus_thewizardsmeetrework.png"
+  },
+  {
+    "id": "21930989",
+    "team": "fabled",
+    "name": "法术研究",
+    "ability": "每个夜晚，所有存活的玩家要提交一条咒语或一条不会被抽取的空白咒语。每个咒语至多60个字，且需附带一个至多5字的准确或富有创意的名称。",
+    "image": "/blood-on-the-clocktower/image/downloaded/9611fa63f775c124d9012556a70e4821.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 3023,
+    "otherNight": 26,
+    "original_image": "https://www.bloodstar.xyz/p/twf07wfz/TheWizardsMeetRework/study_thewizardsmeetrework.png"
+  },
+  {
+    "id": "23f0ffae",
+    "team": "fabled",
+    "name": "咒法仪式",
+    "ability": "每个夜晚，等同于施法上限数量的咒语将被抽取然后施放。[初始为玩家总数的1/3，向下取整]说书人可以将任何被抽中的咒语变为失去效果的哑咒。具有持续效果的咒语需要“施法专注”，如果另外一条此类的咒语被施放则前一个咒语的效果终止。每个黎明，被施放的咒语的名称会被公布。",
+    "image": "/blood-on-the-clocktower/image/downloaded/07f3894b8eb8a935f5b4ff371b93304b.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [
+      "释放",
+      "释放",
+      "释放",
+      "释放"
+    ],
+    "firstNight": 3046,
+    "otherNight": 90,
+    "original_image": "https://www.bloodstar.xyz/p/twf07wfz/TheWizardsMeetRework/ritual_thewizardsmeetrework.png"
+  },
+  {
+    "id": "079c25cc",
+    "team": "fabled",
+    "name": "禁咒",
+    "ability": "如果一名玩家提交以下任何咒语，他死亡。（1）改变阵营。（2）更改角色能力或使角色能力失效（醉酒和中毒除外）。（3）复活。",
+    "image": "/blood-on-the-clocktower/image/downloaded/288d97a0c3a33a841e553fb03e384c93.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [
+      "死亡",
+      "死亡",
+      "死亡",
+      "死亡"
+    ],
+    "firstNight": 3052,
+    "otherNight": 50,
+    "original_image": "https://www.bloodstar.xyz/p/twf07wfz/TheWizardsMeetRework/forbiddenspells_thewizardsmeetrework.png"
+  },
+  {
+    "id": "9a5e1491",
+    "team": "fabled",
+    "name": "诅咒",
+    "ability": "死亡玩家可以消耗自己的投票标记以降下一个诅咒，诅咒是一个具有持续效果且会被公布的咒语。说书人可以拒绝诅咒被降下，被拒绝的玩家不会消耗投票标记。",
+    "image": "/blood-on-the-clocktower/image/downloaded/5bffacfa89dfcb4b449a33431bde9578.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 30,
+    "original_image": "https://www.bloodstar.xyz/p/twf07wfz/TheWizardsMeetRework/curse_thewizardsmeetrework.png"
+  },
+  {
+    "id": "1331839d",
+    "team": "traveller",
+    "name": "录咒师",
+    "ability": "每个夜晚，你会得知所有提交的咒语的名称：你可以选择一个名称并得知其咒语的具体效果。",
+    "image": "/image/downloaded/b71426c291b340dcb6f8e7262a07c701.webp",
+    "setup": false,
+    "reminders": [
+      "录咒"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 122,
+    "original_image": "https://www.bloodstar.xyz/p/twf07wfz/TheWizardsMeetRework/scribe_thewizardsmeetrework.png"
+  },
+  {
+    "id": "02e0b82a",
+    "team": "traveller",
+    "name": "派对魔术师",
+    "ability": "你提交的咒语不会对任意阵营有利。",
+    "image": "/blood-on-the-clocktower/image/downloaded/3fbe96e3b7efbd31a68592ebf2052631.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/twf07wfz/TheWizardsMeetRework/partymagician_thewizardsmeetrework.png"
+  },
+  {
+    "id": "d1b98ec8",
+    "team": "traveller",
+    "name": "疑咒师",
+    "ability": "你不能提交咒语。每个夜晚，你会得知你的对立阵营提交的一条被施放的咒语：你可以选择将它变为哑咒，随后所有玩家会得知此事。",
+    "image": "/blood-on-the-clocktower/image/downloaded/e2b7d6f9bf2f07cb775e86414a4b756f.webp",
+    "setup": false,
+    "reminders": [
+      "哑咒"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 114,
+    "original_image": "https://www.bloodstar.xyz/p/twf07wfz/TheWizardsMeetRework/skeptic_thewizardsmeetrework.png"
+  },
+  {
+    "id": "e08743b9",
+    "team": "traveller",
+    "name": "涌咒者",
+    "ability": "当你存活时，你提交的咒语不会被抽中。如果你死亡，会按提交顺序释放所有之前提交过的咒语(提交过的咒语可能因被说书人否决而变成哑咒)。",
+    "image": "/blood-on-the-clocktower/image/downloaded/e05937329a26da70fa9b1690034ceefa.webp",
+    "setup": false,
+    "reminders": [
+      "魔法之泉"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 38,
+    "original_image": "https://www.bloodstar.xyz/p/twf07wfz/TheWizardsMeetRework/wellspring_thewizardsmeetrework.png"
+  }
+]

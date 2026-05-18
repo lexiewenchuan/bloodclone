@@ -1,0 +1,119 @@
+[
+  {
+    "hint": "线上魔典支持直接输入剧本的URL。不必将此文件保存到你的电脑。",
+    "id": "_meta",
+    "name": "全员失忆",
+    "author": "佚名"
+  },
+  {
+    "id": "8861792c",
+    "team": "townsfolk",
+    "name": "失忆者",
+    "ability": "你不知道你的能力是什么。每个白天你可以找说书人猜测一次，你会得知你的猜测有多准确。",
+    "image": "/blood-on-the-clocktower/image/downloaded/aa08d1b7d7110ea67f88c5b046878b85.webp",
+    "setup": false,
+    "reminders": [
+      "？"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 6,
+    "otherNight": 4,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/amnesiac_600w.webp"
+  },
+  {
+    "id": "d9f1cc28",
+    "team": "outsider",
+    "name": "失忆的外来者",
+    "ability": "你不知道你有什么能力，但你的能力会如常生效。你的能力可能会超过现有角色的能力范畴。每个白天，你可以私下拜访说书人并猜测你的能力是什么：你会得知“无关/有关/接近/完美”四种正确程度之一。",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/qymyr_2.png",
+    "setup": false,
+    "reminders": [
+      "已使用"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3,
+    "otherNight": 3
+  },
+  {
+    "id": "8c02b67f",
+    "team": "minion",
+    "name": "失忆的爪牙",
+    "ability": "你不知道你有什么能力，但你的能力会如常生效。你的能力可能会超过现有角色的能力范畴。每个白天，你可以私下拜访说书人并猜测你的能力是什么：你会得知“无关/有关/接近/完美”四种正确程度之一。",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/qymyr_3.png",
+    "setup": false,
+    "reminders": [
+      "已使用"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 4,
+    "otherNight": 3
+  },
+  {
+    "id": "b20920c3",
+    "team": "demon",
+    "name": "失忆的恶魔",
+    "ability": "你不知道你有什么能力，但你的能力会如常生效。你的能力可能会超过现有角色的能力范畴。每个白天，你可以私下拜访说书人并猜测你的能力是什么：你会得知“无关/有关/接近/完美”四种正确程度之一。",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/qymyr_4.png",
+    "setup": false,
+    "reminders": [
+      "已使用"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 5,
+    "otherNight": 4
+  },
+  {
+    "id": "38332841",
+    "team": "fabled",
+    "name": "真理之眼",
+    "ability": "你可以在你死亡后的下一个白天再进行一次猜测。每局游戏限一次，在晚上猜测一次你的能力，就算你已经死亡。",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/qymyr_6.png",
+    "setup": false,
+    "reminders": [
+      "遗愿",
+      "已使用"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0
+  },
+  {
+    "id": "79edb9ed",
+    "team": "fabled",
+    "name": "哨兵",
+    "ability": "在初始设置时，可能会额外增加或减少一个外来者。",
+    "image": "/blood-on-the-clocktower/image/downloaded/3b2888f864d12c2aacea84365ff654ba.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/sentinel_600w.webp"
+  },
+  {
+    "id": "b90e906c",
+    "team": "fabled",
+    "name": "顺序规则",
+    "ability": "一般情况下，夜间顺序如下: 使玩家醉酒/中毒类> 保护类 > 杀死玩家类 > 信息类",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/qymyr_7.png",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0
+  },
+  {
+    "id": "90837fa1",
+    "team": "traveller",
+    "name": "失忆的旅行者",
+    "ability": "你不知道你有什么能力，但你的能力会如常生效。你的能力可能会超过现有角色的能力范畴。每个白天，你可以私下拜访说书人并猜测你的能力是什么：你会得知“无关/有关/接近/完美”四种正确程度之一。",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/qymyr_5.png",
+    "setup": false,
+    "reminders": [
+      "已使用"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 2,
+    "otherNight": 2
+  }
+]

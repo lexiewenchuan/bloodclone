@@ -1,0 +1,425 @@
+[
+  {
+    "hint": "线上魔典支持直接输入剧本的URL。不必将此文件保存到你的电脑。",
+    "id": "_meta",
+    "name": "寰宇尽头v2",
+    "author": "斯派德米"
+  },
+  {
+    "id": "d401f279",
+    "team": "townsfolk",
+    "name": "暮光精灵",
+    "ability": "在你的首个夜晚，你会得知最多的相邻镇民数量。",
+    "image": "/blood-on-the-clocktower/image/downloaded/dac27428b51ad251d9b24c7e4dc8a4ae.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 3052,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/spdm/SpaceBound/2_spacebound.png"
+  },
+  {
+    "id": "70bba421",
+    "team": "townsfolk",
+    "name": "铁匠",
+    "ability": "在你的首个夜晚，你会得知有几名外来者在场。所有外来者醉酒。[+1外来者]",
+    "image": "/blood-on-the-clocktower/image/downloaded/583c2939b8f5c922ded27b477433ca00.webp",
+    "setup": true,
+    "reminders": [
+      "醉酒"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3044,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/spdm/SpaceBound/29_spacebound.png"
+  },
+  {
+    "id": "c1e097cc",
+    "team": "townsfolk",
+    "name": "风水师",
+    "ability": "在你的首个夜晚，你会得知一名玩家的角色类型。每个夜晚*，你会从他的顺时针方向得知下一名非旅行者玩家的角色类型。",
+    "image": "/blood-on-the-clocktower/image/downloaded/30ea201faf3679bb8fffb5c7831b792d.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 3061,
+    "otherNight": 110,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/fengshuishi_600w.webp"
+  },
+  {
+    "id": "1c6f6500",
+    "team": "townsfolk",
+    "name": "钦天监",
+    "ability": "在你的首个夜晚，你会得知离你最近的邪恶玩家位于你的哪一侧（左/右/相同）。如果与你邻近的玩家中有邪恶阵营，你会得知错误信息作为替代。",
+    "image": "/blood-on-the-clocktower/image/downloaded/5febf68329faa53b98646f7b7ec46543.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 3073,
+    "otherNight": 0,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/qintianjian_600w.webp"
+  },
+  {
+    "id": "433a5f62",
+    "team": "townsfolk",
+    "name": "天外来客",
+    "ability": "每个夜晚，一名玩家的信息会变得毫无意义。",
+    "image": "/blood-on-the-clocktower/image/downloaded/d192071c5a2198cf8c43c9d245196b3a.webp",
+    "setup": false,
+    "reminders": [
+      "拜访"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3019,
+    "otherNight": 31,
+    "original_image": "https://www.bloodstar.xyz/p/spdm/SpaceBound/8_spacebound.png"
+  },
+  {
+    "id": "17996c37",
+    "team": "townsfolk",
+    "name": "猎犬饲养员",
+    "ability": "每个夜晚，你得知当晚被邪恶玩家能力选择的存活玩家与你的最近距离。",
+    "image": "/blood-on-the-clocktower/image/downloaded/10abbcc93a2473c463b18971d2fcafff.webp",
+    "setup": false,
+    "reminders": [
+      "浊气"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3076,
+    "otherNight": 116,
+    "original_image": "https://www.bloodstar.xyz/p/spdm/SpaceBound/11_spacebound.png"
+  },
+  {
+    "id": "cba2ff8f",
+    "team": "townsfolk",
+    "name": "气球驾驶员",
+    "ability": "每个夜晚，你会得知一名与上个夜晚得知的玩家角色类型不同的玩家。[+0~1外来者]",
+    "image": "/blood-on-the-clocktower/image/downloaded/a66f82569c163af187becb6eb803f021.webp",
+    "setup": true,
+    "reminders": [
+      "得知"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3057,
+    "otherNight": 107,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/balloonist_600w.webp"
+  },
+  {
+    "id": "956a5d2c",
+    "team": "townsfolk",
+    "name": "数学家",
+    "ability": "每个夜晚，你会得知有多少名玩家的能力因为其他角色的能力而未正常生效。（从上个黎明到你被唤醒时）",
+    "image": "/blood-on-the-clocktower/image/downloaded/6cf82698634d95e599a29f091c3a1725.webp",
+    "setup": false,
+    "reminders": [
+      "未正常生效"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3078,
+    "otherNight": 124,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/mathematician_600w.webp"
+  },
+  {
+    "id": "1d301d71",
+    "team": "townsfolk",
+    "name": "航天员",
+    "ability": "每个夜晚，你会得知你与恶魔最近距离之间的存活玩家中一共有多少种角色类型。如果你即将得知0，你得知错误信息。",
+    "image": "/blood-on-the-clocktower/image/downloaded/5cf0e9381e3c345fd6d205ea5f64c659.webp",
+    "setup": false,
+    "reminders": [
+      "相撞"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3053,
+    "otherNight": 109,
+    "original_image": "https://www.bloodstar.xyz/p/spdm/SpaceBound/3_spacebound.png"
+  },
+  {
+    "id": "900796ed",
+    "team": "townsfolk",
+    "name": "打更人",
+    "ability": "每个夜晚*，你要猜测今晚首个死亡的玩家与你的距离。如果你猜测正确，则除你以外的所有玩家今晚不会死亡，但你可能会死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/921f358b49bab416153bd17342f408b0.webp",
+    "setup": false,
+    "reminders": [
+      "警惕",
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 27,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/dagengren_600w.webp"
+  },
+  {
+    "id": "a3f31561",
+    "team": "townsfolk",
+    "name": "勘探者",
+    "ability": "每个夜晚*，你会得知与你今天提名的玩家最近的邪恶玩家位于他的顺时针还是逆时针方向。如果距离相等，你得知的信息由说书人决定。",
+    "image": "/blood-on-the-clocktower/image/downloaded/c77182aa99a66828c7776b7e4a4ffbe5.webp",
+    "setup": false,
+    "reminders": [
+      "被提名"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 108,
+    "original_image": "https://www.bloodstar.xyz/p/spdm/SpaceBound/7_spacebound.png"
+  },
+  {
+    "id": "9a6243d4",
+    "team": "townsfolk",
+    "name": "宇航员",
+    "ability": "每个白天，你可以私下询问说书人以得知一条有关游戏的神秘暗示。",
+    "image": "/blood-on-the-clocktower/image/downloaded/d9ba5cddf77b828a247537e8fad3d668.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/spdm/SpaceBound/4_spacebound.png"
+  },
+  {
+    "id": "f8828f7a",
+    "team": "townsfolk",
+    "name": "车夫",
+    "ability": "每个白天，你可以拜访说书人并选择一个话题，说书人会告诉你一个与他有关的事实。如果你的邻近存活玩家阵营不同，你得知错误信息。",
+    "image": "/blood-on-the-clocktower/image/downloaded/fbd5d526cd82f742109338020a2a38da.webp",
+    "setup": false,
+    "reminders": [
+      "错误信息"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/spdm/SpaceBound/28_spacebound.png"
+  },
+  {
+    "id": "3c8d14e1",
+    "team": "townsfolk",
+    "name": "贤者",
+    "ability": "如果恶魔杀死了你，在当晚你会被唤醒并得知两名玩家，其中一名是杀死你的那个恶魔。",
+    "image": "/blood-on-the-clocktower/image/downloaded/1ba92b7e10ca4f17e2d58247bbc30381.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/sage_600w.webp"
+  },
+  {
+    "id": "a0fd95d5",
+    "team": "outsider",
+    "name": "逆臣",
+    "ability": "在你的首个夜晚，你要选择除你以外的一名玩家：如果他先死于处决，你会在当晚转变为邪恶；如果你先死于处决，他会在当晚转变为邪恶。",
+    "image": "/blood-on-the-clocktower/image/downloaded/f0d69a6c348296cf80bf00b51b0b5e9b.webp",
+    "setup": false,
+    "reminders": [
+      "不共戴天"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3049,
+    "otherNight": 44,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/nichen_600w.webp"
+  },
+  {
+    "id": "9e85a289",
+    "team": "outsider",
+    "name": "石像鬼",
+    "ability": "你以为你是一个在场的镇民角色，但其实你不是。如果该镇民死亡，你转变为对立阵营。",
+    "image": "/blood-on-the-clocktower/image/downloaded/8c7c026799326a9de5d1f3cc78ca8be0.webp",
+    "setup": true,
+    "reminders": [],
+    "remindersGlobal": [
+      "是石像鬼"
+    ],
+    "firstNight": 0,
+    "otherNight": 86,
+    "original_image": "https://www.bloodstar.xyz/p/spdm/SpaceBound/_spacebound.png"
+  },
+  {
+    "id": "4561776a",
+    "team": "outsider",
+    "name": "风之旅人",
+    "ability": "当你死亡时，你会以一个旅行者角色复活并选择阵营。",
+    "image": "/blood-on-the-clocktower/image/downloaded/02dd47062f33c894dc54c53e9669464a.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/spdm/SpaceBound/9_spacebound.png"
+  },
+  {
+    "id": "cbeff3ab",
+    "team": "outsider",
+    "name": "邪教徒",
+    "ability": "当你在夜晚首次将要被恶魔杀死时，你转变为邪恶阵营并与恶魔相识，然后你可以与恶魔交换角色并让他代替你死亡",
+    "image": "/blood-on-the-clocktower/image/downloaded/16990d512300e7b34e56a7b4016eb8a3.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/spdm/SpaceBound/14_spacebound.png"
+  },
+  {
+    "id": "4c1d8d59",
+    "team": "minion",
+    "name": "江湖骗子",
+    "ability": "每个夜晚，选择两名玩家：他们的信息直到那个黄昏变得毫无意义。",
+    "image": "/blood-on-the-clocktower/image/downloaded/3f327635dd6dc6477c9efd54071f5bf9.webp",
+    "setup": false,
+    "reminders": [
+      "干扰"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3012,
+    "otherNight": 23,
+    "original_image": "https://www.bloodstar.xyz/p/spdm/SpaceBound/16_spacebound.png"
+  },
+  {
+    "id": "b01de8e6",
+    "team": "minion",
+    "name": "女巫",
+    "ability": "每个夜晚，你要选择一名玩家：如果他明天白天发起提名，他死亡。如果只有三名存活的玩家，你失去此能力。",
+    "image": "/blood-on-the-clocktower/image/downloaded/606360ca98842ba0e524fe53f7510387.webp",
+    "setup": false,
+    "reminders": [
+      "被诅咒"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3027,
+    "otherNight": 38,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/witch_600w.webp"
+  },
+  {
+    "id": "7e5b4ee3",
+    "team": "minion",
+    "name": "航线",
+    "ability": "你拥有其他所有爪牙的能力。【无其他爪牙角色在场，仅可通过航天员转化入场，+任意数量外来者】",
+    "image": "/blood-on-the-clocktower/image/downloaded/fcc4ab49ca3fe8131211e46e6906adf6.webp",
+    "setup": true,
+    "reminders": [
+      "被诅咒",
+      "控制"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 9,
+    "otherNight": 9,
+    "original_image": "https://www.bloodstar.xyz/p/spdm/SpaceBound/18_spacebound.png"
+  },
+  {
+    "id": "cbf91f08",
+    "team": "minion",
+    "name": "幽灵",
+    "ability": "你可以选择在夜晚睁眼。其他邪恶玩家被唤醒时，你也会被一同唤醒。",
+    "image": "/blood-on-the-clocktower/image/downloaded/0e6c70ac0af8e1a7bb91d885bbcdb7f4.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 2003,
+    "otherNight": 16,
+    "original_image": "https://www.bloodstar.xyz/p/spdm/SpaceBound/19_spacebound.png"
+  },
+  {
+    "id": "4eb39936",
+    "team": "minion",
+    "name": "主谋",
+    "ability": "如果恶魔因为死于处决而因此导致游戏结束时，再额外进行一个夜晚和一个白天。在那个白天如果有玩家被处决，他的阵营落败。",
+    "image": "/blood-on-the-clocktower/image/downloaded/0cdd5f61f37469c3c3e673b57cb0f5af.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/mastermind_600w.webp"
+  },
+  {
+    "id": "30ff1332",
+    "team": "demon",
+    "name": "普卡",
+    "ability": "每个夜晚，你要选择一名玩家：他中毒。上个因你的能力中毒的玩家会死亡并恢复健康。",
+    "image": "/image/downloaded/0d431246720ef310b2314b956a354195.webp",
+    "setup": false,
+    "reminders": [
+      "死亡",
+      "中毒"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3035,
+    "otherNight": 55,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/pukka_600w.webp"
+  },
+  {
+    "id": "bb96648e",
+    "team": "demon",
+    "name": "诺-达鲺",
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡。与你邻近的两名镇民中毒。",
+    "image": "/blood-on-the-clocktower/image/downloaded/dc8aec83230dd0fc238ab7c6277ab6af.webp",
+    "setup": false,
+    "reminders": [
+      "死亡",
+      "中毒"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 59,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/noDashii_600w.webp"
+  },
+  {
+    "id": "901a547b",
+    "team": "demon",
+    "name": "奥赫",
+    "ability": "每个夜晚*，你要选择一个角色：他死亡。如果该角色不在场，则由说书人来决定谁会被你杀死。",
+    "image": "/blood-on-the-clocktower/image/downloaded/b66ed0d8ee2e4e1a5292d80c0d14eb28.webp",
+    "setup": false,
+    "reminders": [
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 62,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/ojo_600w.webp"
+  },
+  {
+    "id": "44b57896",
+    "team": "demon",
+    "name": "超新星",
+    "ability": "你以为你是个善良角色，其实你不是。爪牙认识你且代替你得知三个不在场的善良角色。每晚的死亡由说书人决定。【±1外来者，如果初始航天员在场，替换为邪恶的航线】",
+    "image": "/image/downloaded/36fda2369bde54ff84c404ccd0df7d32.webp",
+    "setup": true,
+    "reminders": [],
+    "remindersGlobal": [
+      "是超新星",
+      "死亡"
+    ],
+    "firstNight": 3004,
+    "otherNight": 41,
+    "original_image": "https://www.bloodstar.xyz/p/spdm/SpaceBound/26_spacebound.png"
+  },
+  {
+    "id": "7a4f9e93",
+    "team": "fabled",
+    "name": "超新星与幽灵",
+    "ability": "幽灵不会和超新星同时被唤醒",
+    "image": "",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0
+  },
+  {
+    "id": "49bffaa3",
+    "team": "fabled",
+    "name": "圣洁之魂",
+    "ability": "游戏过程中邪恶玩家的总数最多能比初始设置多一名。",
+    "image": "/blood-on-the-clocktower/image/downloaded/9f70c717e5c6472c247077c6acbfe60a.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/spiritOfIvory_600w.webp"
+  }
+]

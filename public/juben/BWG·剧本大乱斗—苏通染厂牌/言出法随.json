@@ -1,0 +1,493 @@
+[
+  {
+    "hint": "线上魔典支持直接输入剧本的URL。不必将此文件保存到你的电脑。",
+    "id": "_meta",
+    "name": "言出法随",
+    "author": "讷之"
+  },
+  {
+    "id": "cba2ff8f",
+    "team": "townsfolk",
+    "name": "气球驾驶员",
+    "ability": "每个夜晚，你会得知一名与上个夜晚得知的玩家角色类型不同的玩家。[+0~1外来者]",
+    "image": "/blood-on-the-clocktower/image/downloaded/a66f82569c163af187becb6eb803f021.webp",
+    "setup": true,
+    "reminders": [
+      "得知"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3057,
+    "otherNight": 107,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/balloonist_600w.webp"
+  },
+  {
+    "id": "b22a5af6",
+    "team": "townsfolk",
+    "name": "无眠者",
+    "ability": "每个夜晚*，你可以选择至多两名名玩家：你得知他们当中是否有玩家在上个白天发动过自身能力。",
+    "image": "/blood-on-the-clocktower/image/downloaded/7cff6fd76ed2ae20367cbc76dd2e5272.webp",
+    "setup": false,
+    "reminders": [
+      "选择"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 76,
+    "original_image": "https://www.bloodstar.xyz/usersave/static_h/sta/4_sta.png"
+  },
+  {
+    "id": "eaabacc5",
+    "team": "townsfolk",
+    "name": "送报童",
+    "ability": "每个白天，你可以私下询问说书人以得知一条“新闻”，如果你公开宣读了该“新闻”，当天晚上你会得知它是否正确。",
+    "image": "/blood-on-the-clocktower/image/downloaded/107313f8cf85751327813dabfad65d1b.webp",
+    "setup": false,
+    "reminders": [
+      "真新闻",
+      "假新闻"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 94,
+    "original_image": "https://www.bloodstar.xyz/p/humlet/baobao/24_baobao.png"
+  },
+  {
+    "id": "59a647ba",
+    "team": "townsfolk",
+    "name": "植物学家",
+    "ability": "每局游戏限一次，在夜晚时，你可以选择一名玩家：你会得知与他邻近的两名存活的玩家中邪恶玩家的数量。",
+    "image": "/blood-on-the-clocktower/image/downloaded/92ff7a175d7b884545f638dff827386d.webp",
+    "setup": false,
+    "reminders": [
+      "失去能力"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3047,
+    "otherNight": 85,
+    "original_image": "https://www.bloodstar.xyz/p/jc3635/EquinoxFlower/9_equinoxflower.png"
+  },
+  {
+    "id": "82c7491f",
+    "team": "townsfolk",
+    "name": "治安官",
+    "ability": "每局游戏限一次，在夜晚时*，你可以选择三名存活玩家，他们之外的玩家在下个白天与夜晚不会受到恶魔能力的影响。恶魔得知你选择了哪些玩家。",
+    "image": "/blood-on-the-clocktower/image/downloaded/98c552c03b28ed173cc467adea817191.webp",
+    "setup": false,
+    "reminders": [
+      "选择",
+      "选择",
+      "选择"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 55,
+    "original_image": "https://www.bloodstar.xyz/usersave/static_h/sta/7_sta.png"
+  },
+  {
+    "id": "71eda5a7",
+    "team": "townsfolk",
+    "name": "懂王",
+    "ability": "每局游戏限一次，在白天时，你可以公开宣称“没有人比我更懂［其他善良角色名］”，该角色的玩家解除一切状态，你获得该角色的能力，直到下个黎明。",
+    "image": "/blood-on-the-clocktower/image/downloaded/f339cf0f4c329217677cc803e76aaf9c.webp",
+    "setup": false,
+    "reminders": [
+      "失去能力"
+    ],
+    "remindersGlobal": [
+      "是懂王"
+    ],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/jc3635/TwinCity/16_twincity.png"
+  },
+  {
+    "id": "819a9e84",
+    "team": "townsfolk",
+    "name": "猎手",
+    "ability": "每局游戏限一次，你可以在白天时公开选择一名玩家：如果他是恶魔，他死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/22447002dbaa5e4d197496874e90cb77.webp",
+    "setup": false,
+    "reminders": [
+      "失去能力"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/slayer_600w.webp"
+  },
+  {
+    "id": "e240befc",
+    "team": "townsfolk",
+    "name": "编剧",
+    "ability": "每局游戏限一次，你可以在白天公开宣称你是编剧并声明一段短语，当晚你会得知当日有几名邪恶玩家在此之后公开说出这段短语。",
+    "image": "/blood-on-the-clocktower/image/downloaded/55da45848d3e83e00757b61ec98a6423.webp",
+    "setup": false,
+    "reminders": [
+      "已出演",
+      "未出演"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 103,
+    "original_image": "https://www.bloodstar.xyz/usersave/static_h/sta/6_sta.png"
+  },
+  {
+    "id": "3134dad3",
+    "team": "townsfolk",
+    "name": "女家教",
+    "ability": "在你的首个夜晚，你得知一个距离你最近的非镇民玩家的角色类型（旅行者除外）。",
+    "image": "/blood-on-the-clocktower/image/downloaded/b07209db8ba470234416a8364840c80b.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 3033,
+    "otherNight": 0,
+    "original_image": "https://i.postimg.cc/TYgZyjvh/image.png"
+  },
+  {
+    "id": "f3344097",
+    "team": "townsfolk",
+    "name": "俑匠",
+    "ability": "在你的首个夜晚，你要选择一名非旅行者玩家：如果他是善良的且已死亡的玩家中没有邪恶玩家，你和他只会死于处决。",
+    "image": "/blood-on-the-clocktower/image/downloaded/e97c4a416f3d9f4034e763ad82a5599a.webp",
+    "setup": false,
+    "reminders": [
+      "泥塑"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3069,
+    "otherNight": 0,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/yongjiang_600w.webp"
+  },
+  {
+    "id": "437e56f1",
+    "team": "townsfolk",
+    "name": "刀客",
+    "ability": "在你的首个夜晚，你得知一个在场的爪牙角色。每局游戏限一次，你可以在白天公开选择一名玩家：如果他是你得知的角色，他死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/12469cb6be07209513ab634d67178564.webp",
+    "setup": false,
+    "reminders": [
+      "追杀",
+      "失去能力"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3045,
+    "otherNight": 0,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/upload/202403/c_5751437760171_79dd1401.jpg"
+  },
+  {
+    "id": "f6d3809a",
+    "team": "townsfolk",
+    "name": "秉笔",
+    "ability": "如果你在白天死亡，当晚你会得知一名善良玩家。如果你在夜晚死亡，当晚你会得知一名邪恶玩家。",
+    "image": "/blood-on-the-clocktower/image/downloaded/a13411b083cacf262c2d2e15aecda275.webp",
+    "setup": false,
+    "reminders": [
+      "白天死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 112,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/bingbi_600w.webp"
+  },
+  {
+    "id": "cd9e83a2",
+    "team": "townsfolk",
+    "name": "罂粟种植者",
+    "ability": "爪牙和恶魔互相不认识。如果你死亡，当晚他们会互相认识。",
+    "image": "/blood-on-the-clocktower/image/downloaded/eacc588c8463edd465104bc81cc9336c.webp",
+    "setup": false,
+    "reminders": [
+      "唤醒邪恶"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 13,
+    "otherNight": 15,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/poppyGrower_600w.webp"
+  },
+  {
+    "id": "c64358c5",
+    "team": "outsider",
+    "name": "隐修者",
+    "ability": "你拥有其他所有外来者的能力。其他对外来者的设置调整不会生效。[无其他外来者在场]",
+    "image": "/blood-on-the-clocktower/image/downloaded/07c27ff29d5525062dfd244ed247a465.webp",
+    "setup": true,
+    "reminders": [
+      "是隐修者"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/usersave/static_h/sta/2_sta.png"
+  },
+  {
+    "id": "52077b81",
+    "team": "outsider",
+    "name": "猪倌",
+    "ability": "如果你死亡，恶魔选择并获得第二个恶魔能力。每个夜晚，他选择要作为哪个恶魔行动。",
+    "image": "/blood-on-the-clocktower/image/downloaded/c430cb559f04495cfa2882d68d916f28.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [
+      "更换短语"
+    ],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/usersave/static_h/sta/1_sta.png"
+  },
+  {
+    "id": "d030f2d8",
+    "team": "outsider",
+    "name": "皮影",
+    "ability": "说书人可以欺骗你，邪恶玩家可能会得知关于你的信息，即使你已死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/50d75fb4ef727b1fddfa206808b7a534.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [
+      "是皮影"
+    ],
+    "firstNight": 7,
+    "otherNight": 6,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/custom/d_5730606766861_ed1daf16.jpg"
+  },
+  {
+    "id": "a8b3c52b",
+    "team": "outsider",
+    "name": "魔像",
+    "ability": "每局游戏你只能发起提名一次。当你发起提名时，如果被你提名的玩家不是恶魔，他死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/e8fe8e2a0a52f05d43796c148b64f01b.webp",
+    "setup": false,
+    "reminders": [
+      "无法提名"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/golem_600w.webp"
+  },
+  {
+    "id": "92bdb24c",
+    "team": "minion",
+    "name": "灵言师",
+    "ability": "在你的首个夜晚，你会得知一个关键词。首个说出该关键词的善良玩家会在当晚转变为邪恶阵营。",
+    "image": "/blood-on-the-clocktower/image/downloaded/44ddf65f27284e40ae5054e184ae9812.webp",
+    "setup": false,
+    "reminders": [
+      "邪恶",
+      "失去能力"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3032,
+    "otherNight": 42,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/mezepheles_600w.webp"
+  },
+  {
+    "id": "e8ed6c9d",
+    "team": "minion",
+    "name": "妖猫",
+    "ability": "每个夜晚，你要选择一名存活玩家（可选说书人1次）：他中毒（恶魔除外）且发言只能是“喵喵喵”直至下个黄昏，不然可能被处决。",
+    "image": "/blood-on-the-clocktower/image/downloaded/5233bfa2ba30f716ad47de1454722f14.webp",
+    "setup": false,
+    "reminders": [
+      "喵",
+      "说书人"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3019,
+    "otherNight": 21,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/custom/d_5567085766861_90ba278e.jpg"
+  },
+  {
+    "id": "685be2fc",
+    "team": "minion",
+    "name": "精神病患者",
+    "ability": "每个白天，在提名开始前，你可以公开选择一名玩家：他死亡。如果你被处决，提名你的玩家需要和你猜拳，只有你输了你才会死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/57946210687da8addc482740e1149e8d.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/psychopath_600w.webp"
+  },
+  {
+    "id": "3f984801",
+    "team": "minion",
+    "name": "巫师",
+    "ability": "每局游戏限一次，你可以向说书人许愿。如果愿望被实现，可能会伴随着代价和线索。",
+    "image": "/blood-on-the-clocktower/image/downloaded/4db8b3739f18186ab541b1098a83b072.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 3021,
+    "otherNight": 26,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/wizard_600w.webp"
+  },
+  {
+    "id": "db1e7e17",
+    "team": "minion",
+    "name": "继生王爵",
+    "ability": "在你的首个夜晚，你要选择任意名玩家，你分别得知他们的角色。如果他们全部死亡，你获得能力：恶魔死亡时，你变为那个恶魔。",
+    "image": "/blood-on-the-clocktower/image/downloaded/6bde6f123fbc704a29ec9a1786d7d6a3.webp",
+    "setup": false,
+    "reminders": [
+      "目标",
+      "可继位"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3006,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/jc3635/EquinoxFlower/18_equinoxflower.png"
+  },
+  {
+    "id": "ca4e3001",
+    "team": "demon",
+    "name": "牙噶巴卜",
+    "ability": "在你的首个夜晚，你会得知一段秘密短语。每次你在白天公开说出这段短语，当天便可能会有一名玩家在这之后死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/e260aafa9088456a0212ff9ab47376a1.webp",
+    "setup": false,
+    "reminders": [
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3036,
+    "otherNight": 67,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/yaggababble_600w.webp"
+  },
+  {
+    "id": "d880a747",
+    "team": "fabled",
+    "name": "继生王爵&牙噶巴卜",
+    "ability": "每个夜晚，你可以选择若干名你得知过角色的玩家，他们可能会优先成为牙噶巴卜的目标，直到你的下一次选择",
+    "image": "/blood-on-the-clocktower/image/downloaded/6bde6f123fbc704a29ec9a1786d7d6a3.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/jc3635/EquinoxFlower/18_equinoxflower.png"
+  },
+  {
+    "id": "f3a4a320",
+    "team": "fabled",
+    "name": "明修栈道",
+    "ability": "当日你的下一次公开宣称不会生效且视为未发生。",
+    "image": "/blood-on-the-clocktower/image/downloaded/8828002f9b83e3e2ca8b17531e7f99fc.webp",
+    "setup": false,
+    "reminders": [
+      "明修栈道"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://clocktower-wiki.gstonegames.com/images/thumb/9/97/Bootlegger.png/300px-Bootlegger.png"
+  },
+  {
+    "id": "f16f7b72",
+    "team": "fabled",
+    "name": "暗度陈仓",
+    "ability": "当日你的下一次公开宣称以可以改为秘密进行。如果该宣称导致了一名玩家死亡，可能会改为在黄昏前某个时刻死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/8828002f9b83e3e2ca8b17531e7f99fc.webp",
+    "setup": false,
+    "reminders": [
+      "暗度陈仓"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://clocktower-wiki.gstonegames.com/images/thumb/9/97/Bootlegger.png/300px-Bootlegger.png"
+  },
+  {
+    "id": "fc2131c2",
+    "team": "fabled",
+    "name": "懂王&刀客",
+    "ability": "如果懂王选择了刀客的能力，会立刻得知一个在场的爪牙角色。",
+    "image": "/blood-on-the-clocktower/image/downloaded/f339cf0f4c329217677cc803e76aaf9c.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/jc3635/TwinCity/16_twincity.png"
+  },
+  {
+    "id": "59db6574",
+    "team": "fabled",
+    "name": "魔像&皮影",
+    "ability": "拥有魔像能力但认知自身非魔像的玩家会在首次提名后失去魔像能力。",
+    "image": "/blood-on-the-clocktower/image/downloaded/d29ef1bcdcb281dc7a5c07698b707db4.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/golem.png"
+  },
+  {
+    "id": "1e261fbe",
+    "team": "fabled",
+    "name": "魔像&明修栈道",
+    "ability": "魔像如果在首次提名前索要了明修栈道，他当日的提名不触发自身能力且不计入次数。",
+    "image": "/blood-on-the-clocktower/image/downloaded/d29ef1bcdcb281dc7a5c07698b707db4.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/golem.png"
+  },
+  {
+    "id": "325c395f",
+    "team": "fabled",
+    "name": "明修暗度",
+    "ability": "每名玩家限一次，可以在白天提名阶段之前私下拜访说书人并索要明修栈道/暗度陈仓之一。",
+    "image": "/blood-on-the-clocktower/image/downloaded/8828002f9b83e3e2ca8b17531e7f99fc.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://clocktower-wiki.gstonegames.com/images/thumb/9/97/Bootlegger.png/300px-Bootlegger.png"
+  },
+  {
+    "id": "75420125",
+    "team": "fabled",
+    "name": "猪倌&牙噶巴卜",
+    "ability": "猪倌能力修改：如果你死亡，牙噶巴卜得知第二条秘密短语。每个夜晚，他选择哪条短语在下一天生效。",
+    "image": "/blood-on-the-clocktower/image/downloaded/c430cb559f04495cfa2882d68d916f28.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/usersave/static_h/sta/1_sta.png"
+  },
+  {
+    "id": "86e93f1b",
+    "team": "fabled",
+    "name": "言咒",
+    "ability": "过于沉默或强制他人沉默的玩家可能会发生不好的事情。游戏开始时，一名善良玩家会获得能力：首个夜晚，你得知一段短语。每局游戏限一次，一名存活爪牙可以公开猜测你是言咒。如果猜测正确或你在某个白天没有公开说过该短语，你的阵营落败，即使你已死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/8828002f9b83e3e2ca8b17531e7f99fc.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 4,
+    "otherNight": 0,
+    "original_image": "https://clocktower-wiki.gstonegames.com/images/thumb/9/97/Bootlegger.png/300px-Bootlegger.png"
+  },
+  {
+    "id": "0db91fd8",
+    "team": "traveller",
+    "name": "洞幽之耳",
+    "ability": "你不知道自己的阵营。每个夜晚*，你会得知一段短语，来自一名与你阵营相同的玩家在上个白天的发言。",
+    "image": "/blood-on-the-clocktower/image/downloaded/e324a30bdcbcf96fbb12e11866d6b295.webp",
+    "setup": false,
+    "reminders": [
+      "监听"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 10,
+    "otherNight": 11,
+    "original_image": "https://www.bloodstar.xyz/p/jc3635/City_of_Illusio/27_city_of_illusio.png"
+  }
+]

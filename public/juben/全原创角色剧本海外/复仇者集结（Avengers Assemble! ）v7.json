@@ -1,0 +1,562 @@
+[
+  {
+    "hint": "线上魔典支持直接输入剧本的URL。不必将此文件保存到你的电脑。",
+    "id": "_meta",
+    "name": "复仇者集结（Avengers Assemble! ）v7",
+    "author": "Jobs"
+  },
+  {
+    "id": "1e24bfd8",
+    "team": "townsfolk",
+    "name": "尼克·弗瑞",
+    "ability": "在你的首个夜晚，你会得知一段秘密短语。如果首个公开说出这段短语的玩家是一名外来者，当晚他会有好事发生。[+0~1外来者]",
+    "image": "/blood-on-the-clocktower/image/downloaded/dab5af01188b1089a1bd26cacfca3839.webp",
+    "setup": true,
+    "reminders": [
+      "激活",
+      "失去能力"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 10,
+    "otherNight": 58,
+    "original_image": "https://www.bloodstar.xyz/p/omarmotta008/AvengersV2/nickfury_avengersv2.png"
+  },
+  {
+    "id": "5c66e592",
+    "team": "townsfolk",
+    "name": "夜魔侠",
+    "ability": "每个夜晚，你会得知有多少名玩家在当晚因其自身能力而被唤醒。",
+    "image": "/blood-on-the-clocktower/image/downloaded/b808f5fa6e93f7919413ff9644db1320.webp",
+    "setup": false,
+    "reminders": [
+      "唤醒",
+      "唤醒",
+      "唤醒",
+      "唤醒",
+      "唤醒",
+      "唤醒",
+      "唤醒",
+      "唤醒",
+      "唤醒",
+      "唤醒",
+      "唤醒",
+      "唤醒",
+      "唤醒",
+      "唤醒",
+      "唤醒"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3073,
+    "otherNight": 122,
+    "original_image": "https://www.bloodstar.xyz/p/omarmotta008/AvengersV2/daredevil_avengersv2.png"
+  },
+  {
+    "id": "687c4368",
+    "team": "townsfolk",
+    "name": "幻视",
+    "ability": "每个夜晚，你会得知一个不在场的邪恶角色（与之前不同），直到所有不在场的邪恶角色你都得知过一次。",
+    "image": "/blood-on-the-clocktower/image/downloaded/1fa1dc9e85ba588e47f04edaa400bd28.webp",
+    "setup": false,
+    "reminders": [
+      "得知洛基",
+      "得知卡西利亚斯",
+      "得知灭霸",
+      "得知阿尼姆·佐拉",
+      "得知红骷髅",
+      "得知多玛姆",
+      "得知海拉",
+      "得知奥创"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3048,
+    "otherNight": 109,
+    "original_image": "https://www.bloodstar.xyz/p/omarmotta008/AvengersV2/vision_avengersv2.png"
+  },
+  {
+    "id": "f4173b02",
+    "team": "townsfolk",
+    "name": "蜘蛛侠",
+    "ability": "每个夜晚，你要选择一名玩家（与上个夜晚不同）：如果你选中了爪牙，他会得知此事，且明天白天他的投票算作零票。",
+    "image": "/blood-on-the-clocktower/image/downloaded/d9c8bac15a653e5fb56dad78ed70089e.webp",
+    "setup": false,
+    "reminders": [
+      "织网"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3040,
+    "otherNight": 105,
+    "original_image": "https://www.bloodstar.xyz/p/omarmotta008/AvengersV2/spiderman_avengersv2.png"
+  },
+  {
+    "id": "04ef716d",
+    "team": "townsfolk",
+    "name": "绿巨人浩克",
+    "ability": "每个夜晚*，如果你今天白天公开声明“我生气了”，你要选择与你邻近的一名存活的玩家：如果他是爪牙或外来者，他死亡。[+0~1外来者]",
+    "image": "/blood-on-the-clocktower/image/downloaded/625a6209a60c77cb029e1100d61e1906.webp",
+    "setup": true,
+    "reminders": [
+      "生气"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 101,
+    "original_image": "https://www.bloodstar.xyz/p/omarmotta008/AvengersV2/hulk_avengersv2.png"
+  },
+  {
+    "id": "ddca5b25",
+    "team": "townsfolk",
+    "name": "鹰眼",
+    "ability": "每局游戏限一次，在夜晚时*，你可以选择一个非恶魔的角色：他死亡。如果这个角色不在场，则由说书人来决定谁会被你杀死。",
+    "image": "https://www.bloodstar.xyz/p/omarmotta008/Avengers_v5/hawkeye_avengers_v5.png",
+    "setup": false,
+    "reminders": [
+      "失去能力"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 92
+  },
+  {
+    "id": "0d53efde",
+    "team": "townsfolk",
+    "name": "美国队长",
+    "ability": "在你的首个夜晚，你要选择一个方向：每个白天，该方向上的下一名存活的镇民玩家不会死于处决。",
+    "image": "/blood-on-the-clocktower/image/downloaded/e5998536baa69735bc3f3073b252b74b.webp",
+    "setup": false,
+    "reminders": [
+      "顺时针",
+      "逆时针",
+      "守护"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 2004,
+    "otherNight": 118,
+    "original_image": "https://www.bloodstar.xyz/p/omarmotta008/AvengersV2/captainamerica_avengersv2.png"
+  },
+  {
+    "id": "521e76e9",
+    "team": "townsfolk",
+    "name": "雷神托尔",
+    "ability": "在你的首个夜晚，你要选择一名玩家：如果你在夜晚死亡且他存活，他会变成雷神托尔。如果你选中了一名邪恶玩家，你醉酒。",
+    "image": "/blood-on-the-clocktower/image/downloaded/3471aaa515ea9bb55444b8db7e82fdd7.webp",
+    "setup": false,
+    "reminders": [
+      "大人物",
+      "醉酒"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3032,
+    "otherNight": 88,
+    "original_image": "https://www.bloodstar.xyz/p/omarmotta008/AvengersV2/thor_avengersv2.png"
+  },
+  {
+    "id": "ecf7adfb",
+    "team": "townsfolk",
+    "name": "快银",
+    "ability": "你不会死亡。如果你发起过提名或投过票，你醉酒。",
+    "image": "/blood-on-the-clocktower/image/downloaded/a1cd9d06aa6b77b21ec429a947655b15.webp",
+    "setup": false,
+    "reminders": [
+      "醉酒"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/omarmotta008/AvengersV2/quicksilver_avengersv2.png"
+  },
+  {
+    "id": "6decaa7c",
+    "team": "townsfolk",
+    "name": "钢铁侠",
+    "ability": "如果你在被提名后公开声明自己是钢铁侠且在那个白天被处决，提名你的玩家会在当晚死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/c9d23fe42af6e20d641701caf3a9d590.webp",
+    "setup": false,
+    "reminders": [
+      "我是钢铁侠"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 45,
+    "original_image": "https://www.bloodstar.xyz/p/omarmotta008/AvengersV2/ironman_avengersv2.png"
+  },
+  {
+    "id": "9210ab27",
+    "team": "townsfolk",
+    "name": "星爵",
+    "ability": "如果恶魔杀死了你，在当晚你会被唤醒并得知哪些玩家是爪牙。",
+    "image": "/blood-on-the-clocktower/image/downloaded/7946842912276814c260f387a51f31fb.webp",
+    "setup": false,
+    "reminders": [
+      "得知",
+      "得知",
+      "得知"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 83,
+    "original_image": "https://www.bloodstar.xyz/p/omarmotta008/AvengersV2/starlord_avengersv2.png"
+  },
+  {
+    "id": "55125855",
+    "team": "townsfolk",
+    "name": "黑寡妇",
+    "ability": "如果一名善良玩家在夜晚时即将死亡，你可能会代替他死亡，随后你会被唤醒并得知他是哪名玩家。",
+    "image": "https://www.bloodstar.xyz/p/omarmotta008/Avengers_v5/blackwidow_avengers_v5.png",
+    "setup": false,
+    "reminders": [
+      "拯救"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 114
+  },
+  {
+    "id": "ef8233e5",
+    "team": "townsfolk",
+    "name": "奇异博士",
+    "ability": "在你的第二个夜晚，你要选择一名玩家：他醉酒。如果只有三名存活的玩家且他是其中之一，善良阵营获胜，即使你已死亡。如果你选中了一名邪恶玩家，你醉酒。",
+    "image": "/blood-on-the-clocktower/image/downloaded/fb9550d82616fea410a6bc7585ecd677.webp",
+    "setup": false,
+    "reminders": [
+      "醉酒"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 62,
+    "original_image": "https://www.bloodstar.xyz/p/omarmotta008/AvengersV2/doctorstrange_avengersv2.png"
+  },
+  {
+    "id": "5a2850f4",
+    "team": "outsider",
+    "name": "绯红女巫",
+    "ability": "在你的首个夜晚，你会得知一个不在场的镇民角色。如果幻视死亡，当晚你转变为邪恶阵营。[+幻视]",
+    "image": "https://www.bloodstar.xyz/p/omarmotta008/Avengers_v5/scarletwitch_avengers_v5.png",
+    "setup": true,
+    "reminders": [
+      "转变邪恶"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3057,
+    "otherNight": 96
+  },
+  {
+    "id": "b294378b",
+    "team": "outsider",
+    "name": "星云",
+    "ability": "每个夜晚*，如果你今天白天投过票，可能会有一名玩家死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/ee5ab298c0cf6a7ed56bf5cfbbd67421.webp",
+    "setup": false,
+    "reminders": [
+      "投票"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 40,
+    "original_image": "https://www.bloodstar.xyz/p/omarmotta008/AvengersV2/nebula_avengersv2.png"
+  },
+  {
+    "id": "2d281121",
+    "team": "outsider",
+    "name": "德拉克斯",
+    "ability": "你不知道你是德拉克斯。你以为你是一个镇民角色，但其实你不是。一名玩家知道你是谁，如果他“疯狂”地证明你是德拉克斯，他可能被处决。",
+    "image": "https://www.bloodstar.xyz/p/omarmotta008/Avengers_V4/drax_avengers_v4.png",
+    "setup": false,
+    "reminders": [
+      "处决",
+      "得知"
+    ],
+    "remindersGlobal": [
+      "是德拉克斯"
+    ],
+    "firstNight": 3065,
+    "otherNight": 0
+  },
+  {
+    "id": "f897c57f",
+    "team": "outsider",
+    "name": "格鲁特",
+    "ability": "你要'疯狂'地证明你是格鲁特，否则你可能被处决。如果你死亡，与你邻近的镇民醉酒直到下个黄昏。",
+    "image": "/blood-on-the-clocktower/image/downloaded/9fe3a741b6cb39406da0f6c8facdc7d2.webp",
+    "setup": false,
+    "reminders": [
+      "醉酒",
+      "醉酒"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 36,
+    "original_image": "https://www.bloodstar.xyz/p/omarmotta008/AvengersV2/groot_avengersv2.png"
+  },
+  {
+    "id": "f428e16a",
+    "team": "minion",
+    "name": "卡西利亚斯",
+    "ability": "每个夜晚，你要选择两名玩家（与上个夜晚不同）：明天如果第一名玩家被提名且被处决，第二名玩家���代替他被处决。如果只有四名存活的玩家，你失去此能力。",
+    "image": "/blood-on-the-clocktower/image/downloaded/38c612ff27af4a387e66f6d29f9f6581.webp",
+    "setup": false,
+    "reminders": [
+      "首选",
+      "次选"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3007,
+    "otherNight": 49,
+    "original_image": "https://www.bloodstar.xyz/p/omarmotta008/AvengersV2/kaecilius_avengersv2.png"
+  },
+  {
+    "id": "db9496dc",
+    "team": "minion",
+    "name": "洛基",
+    "ability": "每个夜晚，你可以选择一名善良玩家：与他邻近的两名存活的镇民中毒直到下个黄昏，随后他会得知被洛基选择。如果他明天“疯狂”地证明自己被洛基选择，他可能被处决。",
+    "image": "/blood-on-the-clocktower/image/downloaded/5c52bc9660fdc644763486f44eb2f106.webp",
+    "setup": false,
+    "reminders": [
+      "中毒",
+      "中毒",
+      "疯狂"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3015,
+    "otherNight": 53,
+    "original_image": "https://www.bloodstar.xyz/p/omarmotta008/AvengersV2/loki_avengersv2.png"
+  },
+  {
+    "id": "2428d0cf",
+    "team": "minion",
+    "name": "红骷髅",
+    "ability": "你提名的玩家中毒。���名你的玩家被当作邪恶阵营和爪牙角色。",
+    "image": "/blood-on-the-clocktower/image/downloaded/5fdbe5d9f6dcee5e8257941666532ef9.webp",
+    "setup": false,
+    "reminders": [
+      "中毒",
+      "中毒",
+      "中毒",
+      "中毒",
+      "中毒",
+      "误认",
+      "误认",
+      "误认",
+      "误认",
+      "误认"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/omarmotta008/AvengersV2/redskull_avengersv2.png"
+  },
+  {
+    "id": "94b9ae28",
+    "team": "minion",
+    "name": "阿尼姆·佐拉",
+    "ability": "有一对相同的善良角色在场，在你的首个夜晚，你会得知他们是谁以及他们的角色是什么。[-1或+1外来者。有一对相同的善良角色在场，其中之一中毒]",
+    "image": "/blood-on-the-clocktower/image/downloaded/0cac5776f5e84b80afbe5517b2647881.webp",
+    "setup": true,
+    "reminders": [
+      "中毒"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3023,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/omarmotta008/AvengersV2/arnimzola_avengersv2.png"
+  },
+  {
+    "id": "f6e18f92",
+    "team": "demon",
+    "name": "海拉",
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡。被处决的爪牙可能不会死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/bceda539554922aa6e64a6b18585b49f.webp",
+    "setup": false,
+    "reminders": [
+      "死亡",
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 75,
+    "original_image": "https://www.bloodstar.xyz/p/omarmotta008/AvengersV2/hela_avengersv2.png"
+  },
+  {
+    "id": "71d0ab5d",
+    "team": "demon",
+    "name": "奥创",
+    "ability": "每个夜晚*，可能会有至多两名玩家死亡。如果有爪牙存活，你不会死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/ad96b6965cf555cc6e9bd069d5a7001f.webp",
+    "setup": false,
+    "reminders": [
+      "死亡",
+      "死亡",
+      "死亡",
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 79,
+    "original_image": "https://www.bloodstar.xyz/p/omarmotta008/AvengersV2/ultron_avengersv2.png"
+  },
+  {
+    "id": "8d3dd375",
+    "team": "demon",
+    "name": "灭霸",
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡。每有一名死亡的玩家持有无限宝石，你就要额外行动一次。[无限宝石加入游戏]",
+    "image": "/blood-on-the-clocktower/image/downloaded/9bba0d7200b1e48fb5042e9c8964a0ac.webp",
+    "setup": true,
+    "reminders": [
+      "死亡",
+      "死亡",
+      "死亡",
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 66,
+    "original_image": "https://www.bloodstar.xyz/p/omarmotta008/AvengersV2/thanos_avengersv2.png"
+  },
+  {
+    "id": "edfc7177",
+    "team": "demon",
+    "name": "多玛姆",
+    "ability": "每个夜晚*，你可以选择一名玩家：他死亡。如果你首次在夜晚选择放弃攻击，在此之后的每个夜晚改为你可以选择两名玩家：他们死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/726e6a8cdd0deed099eeab7df14548c0.webp",
+    "setup": false,
+    "reminders": [
+      "额外刀",
+      "死亡",
+      "死亡",
+      "死亡",
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 70,
+    "original_image": "https://www.bloodstar.xyz/p/omarmotta008/AvengersV2/dormammu_avengersv2.png"
+  },
+  {
+    "id": "ad5024c7",
+    "team": "fabled",
+    "name": "心灵宝石",
+    "ability": "每局游戏限一次，在夜晚时*，你可以选择一名玩家：你会得知他的阵营。",
+    "image": "https://www.bloodstar.xyz/p/omarmotta008/Avengers_v5/mindstone_avengers_v5.png",
+    "setup": false,
+    "reminders": [
+      "心灵宝石"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 14
+  },
+  {
+    "id": "eab1eca1",
+    "team": "fabled",
+    "name": "时间宝石",
+    "ability": "每局游戏限一次，在夜晚时*，你可以选择一名死亡的玩家：他复活，但会在下个黄昏死亡。",
+    "image": "https://www.bloodstar.xyz/p/omarmotta008/Avengers_v5/timestone_avengers_v5.png",
+    "setup": false,
+    "reminders": [
+      "时间宝石",
+      "借用光阴"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 23
+  },
+  {
+    "id": "9d3c8636",
+    "team": "fabled",
+    "name": "灵魂宝石",
+    "ability": "每局游戏限一次，在夜晚时*，你可以选择一名玩家：如果你选中了恶魔，他醉酒直到下个黎明。",
+    "image": "https://www.bloodstar.xyz/p/omarmotta008/Avengers_v5/soulstone_avengers_v5.png",
+    "setup": false,
+    "reminders": [
+      "灵魂宝石",
+      "醉酒"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 32
+  },
+  {
+    "id": "4a3b2ca8",
+    "team": "fabled",
+    "name": "空间宝石",
+    "ability": "每局游戏限一次，在夜晚时*，你可以选择一名玩家：邪恶玩家的负面能力对他无效直到下个黄昏。",
+    "image": "https://www.bloodstar.xyz/p/omarmotta008/Avengers_v5/spacestone_avengers_v5.png",
+    "setup": false,
+    "reminders": [
+      "空间宝石",
+      "安全"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 19
+  },
+  {
+    "id": "af319306",
+    "team": "fabled",
+    "name": "现实宝石",
+    "ability": "每局游戏限一次，在夜晚时*，你可以选择一个镇民角色：如果这个角色不在场，你变成这个角色。",
+    "image": "https://www.bloodstar.xyz/p/omarmotta008/Avengers_v5/realitystone_avengers_v5.png",
+    "setup": false,
+    "reminders": [
+      "现实宝石"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 27
+  },
+  {
+    "id": "a018e983",
+    "team": "fabled",
+    "name": "力量宝石",
+    "ability": "每局游戏限一次，在夜晚时*，你可以选择一名玩家：如果他是善良的，他死亡，并且当晚不会再有其他玩家死亡。",
+    "image": "https://www.bloodstar.xyz/p/omarmotta008/Avengers_v6/powerstone_avengers_v6.png",
+    "setup": false,
+    "reminders": [
+      "力量宝石",
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 10
+  },
+  {
+    "id": "4a32c909",
+    "team": "fabled",
+    "name": "无限手套",
+    "ability": "如果灭霸在场，等同于爪牙数量的善良玩家初始会持有一颗无限宝石且他们会得知此事。无限宝石在其持有者存活时会提供不同的限次能力，该能力不受中毒和醉酒的影响。",
+    "image": "https://www.bloodstar.xyz/p/omarmotta008/Avengers_v5/thegauntlet_avengers_v5.png",
+    "setup": false,
+    "reminders": [
+      "失去能力",
+      "失去能力",
+      "失去能力"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 6
+  },
+  {
+    "id": "078737cb",
+    "team": "traveller",
+    "name": "死侍",
+    "ability": "每个白天，你可以拜访说书人以得知关于本局的一件有趣的事。",
+    "image": "https://www.bloodstar.xyz/p/omarmotta008/Avengers_v5/deadpool_avengers_v5.png",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0
+  },
+  {
+    "id": "2c084f3c",
+    "team": "traveller",
+    "name": "斯坦·李",
+    "ability": "如果最高得票出现了平局，你要选择得票相同的其中一名玩家：他立刻被处决。",
+    "image": "/blood-on-the-clocktower/image/downloaded/854864432371c866dbdbabb77a1b4fee.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/omarmotta008/AvengersV2/stanlee_avengersv2.png"
+  }
+]

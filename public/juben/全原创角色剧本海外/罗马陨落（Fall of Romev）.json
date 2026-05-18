@@ -1,0 +1,503 @@
+[
+  {
+    "hint": "线上魔典支持直接输入剧本的URL。不必将此文件保存到你的电脑。",
+    "id": "_meta",
+    "name": "罗马陨落（Fall of Romev）",
+    "author": "Alex S"
+  },
+  {
+    "id": "0ac6c86a",
+    "team": "townsfolk",
+    "name": "雕塑家",
+    "ability": "在你的首个夜晚，你会得知一名玩家。每个夜晚*，你会得知他最近提名的玩家的阵营。",
+    "image": "/image/downloaded/8425ceac3744b1ac94514d2a49229b4a.webp",
+    "setup": false,
+    "reminders": [
+      "雕塑品",
+      "被提名"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3054,
+    "otherNight": 88,
+    "original_image": "https://www.bloodstar.xyz/p/AlexS/Fall_of_Rome/sculptor_fall_of_rome.png"
+  },
+  {
+    "id": "a723d6e6",
+    "team": "townsfolk",
+    "name": "护火贞女",
+    "ability": "在你的首个夜晚，你会得知一个善良角色和一个邪恶角色，其中一个角色在场。当在场角色的玩家死亡时，你在当晚得知一个善良角色和一个邪恶角色，其中一个角色在场。",
+    "image": "/blood-on-the-clocktower/image/downloaded/19cd08b051d2d802e1785f8c823bb84a.webp",
+    "setup": false,
+    "reminders": [
+      "已得知"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3063,
+    "otherNight": 93,
+    "original_image": "https://www.bloodstar.xyz/p/AlexS/Fall_of_Rome/vestalvirgin_fall_of_rome.png"
+  },
+  {
+    "id": "a60ecae0",
+    "team": "townsfolk",
+    "name": "军团士兵",
+    "ability": "每个夜晚，你会得知在顺时针方向上，你与一名存活的军团士兵之间有多少名存活的邪恶玩家。[+0,+1或+2军团士兵]",
+    "image": "/blood-on-the-clocktower/image/downloaded/c512ea1daf031ee0080b20f0df4dd8a4.webp",
+    "setup": true,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 3072,
+    "otherNight": 98,
+    "original_image": "https://www.bloodstar.xyz/p/AlexS/Fall_of_Rome/legionary_fall_of_rome.png"
+  },
+  {
+    "id": "4531c969",
+    "team": "townsfolk",
+    "name": "医师",
+    "ability": "每个夜晚，你要选择除你以外的两名玩家：他们今晚不会中毒与醉酒且获得正确信息。如果他们之中有玩家首次被恶魔杀死，当晚你会得知恶魔角色。",
+    "image": "/blood-on-the-clocktower/image/downloaded/6ca208a56fc68cdcf7ba52a80993e258.webp",
+    "setup": false,
+    "reminders": [
+      "患者",
+      "首次杀死"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3036,
+    "otherNight": 50,
+    "original_image": "https://www.bloodstar.xyz/p/AlexS/Fall_of_Rome/physician_fall_of_rome.png"
+  },
+  {
+    "id": "0e65a3fa",
+    "team": "townsfolk",
+    "name": "军号手",
+    "ability": "每个夜晚*，你会得知今天白天有多少名邪恶玩家公开声明自己是斯巴达克斯。",
+    "image": "/blood-on-the-clocktower/image/downloaded/b0643671daaa1201adf661175ca1d245.webp",
+    "setup": false,
+    "reminders": [
+      "邪恶声明"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 102,
+    "original_image": "https://www.bloodstar.xyz/p/AlexS/Fall_of_Rome/trumpeter_fall_of_rome.png"
+  },
+  {
+    "id": "d344155b",
+    "team": "townsfolk",
+    "name": "殡葬师",
+    "ability": "每个夜晚*，如果今天白天有玩家死于处决，你会得知与他邻近的存活玩家中是否有邪恶玩家。",
+    "image": "/image/downloaded/abf7d191e3bd77a00723a243efdbc50d.webp",
+    "setup": false,
+    "reminders": [
+      "死于今日"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 107,
+    "original_image": "https://www.bloodstar.xyz/p/AlexS/Fall_of_Rome/mortician_fall_of_rome.png"
+  },
+  {
+    "id": "2c7baf60",
+    "team": "townsfolk",
+    "name": "商人",
+    "ability": "每局游戏限一次，在夜晚时，你可以得知有哪些角色提名过你。",
+    "image": "/image/downloaded/bb92e3a39d6f7db77f56b59deeb3cbb3.webp",
+    "setup": false,
+    "reminders": [
+      "已提名",
+      "失去能力"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 122,
+    "original_image": "https://www.bloodstar.xyz/p/AlexS/Fall_of_Rome/merchant_fall_of_rome.png"
+  },
+  {
+    "id": "2d405802",
+    "team": "townsfolk",
+    "name": "角斗士",
+    "ability": "每局游戏限一次，你可以在白天时公开选择一名存活玩家。当晚，你与他醒来并秘密进行猜拳：输者死亡（必须决出胜负）。",
+    "image": "/image/downloaded/3d83c8011b34fa7656f2db718d7899d3.webp",
+    "setup": false,
+    "reminders": [
+      "决斗",
+      "死亡",
+      "失去能力"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 83,
+    "original_image": "https://www.bloodstar.xyz/p/AlexS/Fall_of_Rome/gladiator_fall_of_rome.png"
+  },
+  {
+    "id": "e10d004e",
+    "team": "townsfolk",
+    "name": "歌剧演员",
+    "ability": "每局游戏限一次，你可以在白天时公开猜测三名除你以外的玩家的角色类型（每个角色类型限一次）。在当晚，你会得知猜测正确的数量。",
+    "image": "/image/downloaded/cb237b752565035689e98301b4050f02.webp",
+    "setup": false,
+    "reminders": [
+      "猜测正确",
+      "失去能力"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 117,
+    "original_image": "https://www.bloodstar.xyz/p/AlexS/Fall_of_Rome/actor_fall_of_rome.png"
+  },
+  {
+    "id": "49466e93",
+    "team": "townsfolk",
+    "name": "铁匠",
+    "ability": "当你首次将要被恶魔杀死时，你存活并获得一个不在场镇民的能力。（你会得知是什么能力）",
+    "image": "/image/downloaded/6a9b69d1de033cab074efc22980794c1.webp",
+    "setup": false,
+    "reminders": [
+      "是铁匠"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 78,
+    "original_image": "https://www.bloodstar.xyz/p/AlexS/Fall_of_Rome/blacksmith_fall_of_rome.png"
+  },
+  {
+    "id": "1ce36f8b",
+    "team": "townsfolk",
+    "name": "掌旗官",
+    "ability": "当你被提名时，你可以公开作出一个关于提名者（不能是你自己）的独特声明。当晚，你会得知这个声明是否正确。",
+    "image": "/blood-on-the-clocktower/image/downloaded/3eefdca51f5c668a290c3e6b1adb4f35.webp",
+    "setup": false,
+    "reminders": [
+      "正确",
+      "错误"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 112,
+    "original_image": "https://www.bloodstar.xyz/p/AlexS/Fall_of_Rome/standardbearer_fall_of_rome.png"
+  },
+  {
+    "id": "7e50eab1",
+    "team": "townsfolk",
+    "name": "学者",
+    "ability": "首个被你提名的存活外来者立刻变为一个不在场镇民角色。[+1外来者]",
+    "image": "/blood-on-the-clocktower/image/downloaded/17e510d6d7b413c4434517f3d4d78519.webp",
+    "setup": true,
+    "reminders": [
+      "已讲授",
+      "失去能力"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 6,
+    "original_image": "https://www.bloodstar.xyz/p/AlexS/Fall_of_Rome/scholar_fall_of_rome.png"
+  },
+  {
+    "id": "8304e719",
+    "team": "townsfolk",
+    "name": "百夫长",
+    "ability": "恶魔的负面能力对你无效。每个白天，如果你提名一名存活玩家并将其处决，他的阵营落败。如果你今天白天公开声明自己是斯巴达克斯，你醉酒直到下个黄昏。",
+    "image": "/image/downloaded/44107cb078c8f9566da569d2416fa26b.webp",
+    "setup": false,
+    "reminders": [
+      "醉酒"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/AlexS/Fall_of_Rome/centurion1_fall_of_rome.png"
+  },
+  {
+    "id": "b110794b",
+    "team": "outsider",
+    "name": "狼城双子",
+    "ability": "在你的首个夜晚，你会得知一名玩家。如果你或者那名玩家被处决，所有镇民醉酒直到下个黄昏。",
+    "image": "/image/downloaded/7b16ea4d8facbb2931b6f68f8f45cc1d.webp",
+    "setup": false,
+    "reminders": [
+      "胞弟",
+      "全体镇民醉酒"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3045,
+    "otherNight": 45,
+    "original_image": "https://www.bloodstar.xyz/p/AlexS/Fall_of_Rome/thetwins_fall_of_rome.png"
+  },
+  {
+    "id": "4afa2df3",
+    "team": "outsider",
+    "name": "斯巴达克斯",
+    "ability": "每局游戏限一次，任意邪恶玩家可以公开猜测你是斯巴达克斯，如果���对，你的阵营落败。你可能会被当作镇民角色，除非你没有在今天白天公开声明自己是斯巴达克斯。",
+    "image": "/blood-on-the-clocktower/image/downloaded/a793ec1ef17d3661101fdb87cebb83ca.webp",
+    "setup": false,
+    "reminders": [
+      "已被猜测"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/AlexS/Fall_of_Rome/spartacus_fall_of_rome.png"
+  },
+  {
+    "id": "9c100f56",
+    "team": "outsider",
+    "name": "不祥之兆",
+    "ability": "你不知道你是不祥之兆。你以为你是一个镇民角色，但你获取错误信息。你可能会被当作邪恶阵营，即使你已死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/0f052d9ac090f057d5b14b67e98532f8.webp",
+    "setup": true,
+    "reminders": [],
+    "remindersGlobal": [
+      "是不祥之兆"
+    ],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/AlexS/Fall_of_Rome/badomen_fall_of_rome.png"
+  },
+  {
+    "id": "e0ecb267",
+    "team": "outsider",
+    "name": "酒庄工人",
+    "ability": "与你邻近的镇民醉酒，但每个奇数或偶数夜晚，你醉酒直到下个黄昏，即使你已死亡。",
+    "image": "/image/downloaded/c92e1f54baa36df55fc22f5af8d251e7.webp",
+    "setup": false,
+    "reminders": [
+      "奇数",
+      "偶数",
+      "醉酒"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3027,
+    "otherNight": 40,
+    "original_image": "https://www.bloodstar.xyz/p/AlexS/Fall_of_Rome/winemaker_fall_of_rome.png"
+  },
+  {
+    "id": "e74eb989",
+    "team": "minion",
+    "name": "脏卜师",
+    "ability": "每个夜晚，你要选择一名玩家：你得知他的角色。首个被你以此方式选择两次的玩家死亡。[+斯巴达克斯]",
+    "image": "/blood-on-the-clocktower/image/downloaded/ace3037b6c9f1cc00c8ab8c1a7b25280.webp",
+    "setup": true,
+    "reminders": [
+      "已预言",
+      "死亡",
+      "无法攻击"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3018,
+    "otherNight": 74,
+    "original_image": "https://www.bloodstar.xyz/p/AlexS/Fall_of_Rome/haruspex_fall_of_rome.png"
+  },
+  {
+    "id": "ebacaed9",
+    "team": "minion",
+    "name": "交际花",
+    "ability": "在你的首个夜晚，你要选择两名玩家：他们得知自己被交际花选中。如果其中一名玩家被处决，另一名玩家会在当晚转变为邪恶阵营。",
+    "image": "/blood-on-the-clocktower/image/downloaded/14a3276dcc38debfee716d712c663caf.webp",
+    "setup": false,
+    "reminders": [
+      "诱惑"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 2006,
+    "otherNight": 11,
+    "original_image": "https://www.bloodstar.xyz/p/AlexS/Fall_of_Rome/temptress_fall_of_rome.png"
+  },
+  {
+    "id": "7f9d7f06",
+    "team": "minion",
+    "name": "蛇神使",
+    "ability": "你可能会被当作善良阵营。被你提名的玩家会被当作他对立的阵营直到下个黄昏。如果他是镇民，他中毒直到下个黄昏。",
+    "image": "/blood-on-the-clocktower/image/downloaded/cdd35ee922d3243fc634d46d96ef8b4b.webp",
+    "setup": false,
+    "reminders": [
+      "当作对立阵营",
+      "中毒"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/AlexS/Fall_of_Rome/glykon1_fall_of_rome.png"
+  },
+  {
+    "id": "119616ae",
+    "team": "minion",
+    "name": "占兆官",
+    "ability": "提名你的镇民立刻变为不祥之兆。",
+    "image": "/image/downloaded/b7b9fecfdd15fdd2b0f3eddad07570f6.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/AlexS/Fall_of_Rome/augur_fall_of_rome.png"
+  },
+  {
+    "id": "5338e0b6",
+    "team": "demon",
+    "name": "克里奥佩特拉",
+    "ability": "每个夜晚，你要选择两名玩家：他们之中在明天白天发起提名的玩家会在当晚死亡。每个白天，如果没有善良玩家（旅行者不计算在内）发起提名，邪恶阵营获胜。",
+    "image": "/blood-on-the-clocktower/image/downloaded/7c47a5639ea5c855cb166b26f060a015.webp",
+    "setup": false,
+    "reminders": [
+      "被选择",
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3009,
+    "otherNight": 54,
+    "original_image": "https://www.bloodstar.xyz/p/AlexS/Fall_of_Rome/cleopatra_fall_of_rome.png"
+  },
+  {
+    "id": "cab5c9c8",
+    "team": "demon",
+    "name": "凯撒",
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡。首个邪恶玩家死于处决的当晚，你要额外选择一名玩家：他死亡。",
+    "image": "/image/downloaded/fb54395b7ad0a104b8c78d652853851d.webp",
+    "setup": false,
+    "reminders": [
+      "死于今日",
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 69,
+    "original_image": "https://www.bloodstar.xyz/p/AlexS/Fall_of_Rome/caesar_fall_of_rome.png"
+  },
+  {
+    "id": "4c158927",
+    "team": "demon",
+    "name": "克拉苏",
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡。如果大于等于五名玩家存活时（旅行者不计算在内）你死亡，且你在今天白天公开声明过自己是斯巴达克斯，一名邪恶玩家会变成克拉苏，但每局游戏仅能成功转化一次。",
+    "image": "/blood-on-the-clocktower/image/downloaded/367e144371800ad8f8e31be6253c9d18.webp",
+    "setup": false,
+    "reminders": [
+      "死亡",
+      "首个克拉苏"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 59,
+    "original_image": "https://www.bloodstar.xyz/p/AlexS/Fall_of_Rome/crassus_fall_of_rome.png"
+  },
+  {
+    "id": "f5b6b81a",
+    "team": "demon",
+    "name": "汉尼拔",
+    "ability": "你以为你是一个善良角色，但其实你不是。首个死亡的汉尼拔会转变为善良阵营。每个夜晚*，爪牙们要选择一名玩家：他死亡。[+1汉尼拔]",
+    "image": "/blood-on-the-clocktower/image/downloaded/053142168f60db26dfb9fdaceefd63e1.webp",
+    "setup": true,
+    "reminders": [],
+    "remindersGlobal": [
+      "是汉尼拔",
+      "死亡"
+    ],
+    "firstNight": 11,
+    "otherNight": 64,
+    "original_image": "https://www.bloodstar.xyz/p/AlexS/Fall_of_Rome/hannibal_fall_of_rome.png"
+  },
+  {
+    "id": "ade75579",
+    "team": "fabled",
+    "name": "\"我是斯巴达克斯!\"",
+    "ability": "每个白天，至多半数的存活玩家（向上取整且不计旅行者）可以公开声明自己是斯巴达克斯。",
+    "image": "/blood-on-the-clocktower/image/downloaded/bb822d50ce4725afcaa3ec4903be460f.webp",
+    "setup": false,
+    "reminders": [
+      "我是斯巴达克斯"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/AlexS/Fall_of_Rome/iamspartacus_fall_of_rome.png"
+  },
+  {
+    "id": "1c70fe2d",
+    "team": "traveller",
+    "name": "雇佣兵",
+    "ability": "每个夜晚*，你拥有今天白天公开声明自己是斯巴达克斯的一名玩家的角色能力。如果有雇佣兵被流放，你也会被流放。[+1对立阵营的雇佣兵]",
+    "image": "/image/downloaded/d6a3f660cf138969bc70bd1693c4a10b.webp",
+    "setup": false,
+    "reminders": [
+      "善良",
+      "邪恶",
+      "善良拥有能力",
+      "邪恶拥有能力"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 16,
+    "original_image": "https://www.bloodstar.xyz/p/AlexS/Fall_of_Rome/mercenary_fall_of_rome.png"
+  },
+  {
+    "id": "f1286432",
+    "team": "traveller",
+    "name": "建筑师",
+    "ability": "每个夜晚*，你要选择一名玩家，并由说书人选择：1)他变为一个相同角色类型的不在场角色，或者2)他和一名相同角色类型的玩家交换角色。",
+    "image": "/blood-on-the-clocktower/image/downloaded/99adf5fc22f7c393ae694cd13d93d9e5.webp",
+    "setup": false,
+    "reminders": [
+      "被重建"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 21,
+    "original_image": "https://www.bloodstar.xyz/p/AlexS/Fall_of_Rome/architect_fall_of_rome.png"
+  },
+  {
+    "id": "48f71bd1",
+    "team": "traveller",
+    "name": "女先知",
+    "ability": "每个白天，提名阶段开始前，你可以公开选择一名死亡玩家：他今天可以发起提名。",
+    "image": "/blood-on-the-clocktower/image/downloaded/9dd7003d184c792856bb79b08bcb93c2.webp",
+    "setup": false,
+    "reminders": [
+      "被招魂"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/AlexS/Fall_of_Rome/sibyl_fall_of_rome.png"
+  },
+  {
+    "id": "6947ff07",
+    "team": "traveller",
+    "name": "皇帝",
+    "ability": "每个白天，你可以决定处决结果。如果你选择保护今天被处决的玩家：他存活。否则，今晚你会得知他的阵营。",
+    "image": "/image/downloaded/e70f5960d2f6fa7d41864a5fd09308a8.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 35,
+    "original_image": "https://www.bloodstar.xyz/p/AlexS/Fall_of_Rome/emperor_fall_of_rome.png"
+  },
+  {
+    "id": "384a1f59",
+    "team": "traveller",
+    "name": "大祭司",
+    "ability": "每个白天，你可以公开选择一名之前未选择过的玩家：如果过半数玩家同意祝福他，会有好事发生在他以及他的阵营上。",
+    "image": "/blood-on-the-clocktower/image/downloaded/5cb2eaee8539db4e73fb569d5d6a18f3.webp",
+    "setup": false,
+    "reminders": [
+      "被祝福"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 26,
+    "original_image": "https://www.bloodstar.xyz/p/AlexS/Fall_of_Rome/highpriest1_fall_of_rome.png"
+  },
+  {
+    "id": "8a5f2f78",
+    "team": "traveller",
+    "name": "大祭司",
+    "ability": "每个白天，你可以公开选择一名之前未选择过的玩家：如果过半数玩家同意祝福他，第二天它可以得知一条信息。但当晚你要决定这条信息是否正确。",
+    "image": "/blood-on-the-clocktower/image/downloaded/f333444b7625dd746ff02099d5af62c3.webp",
+    "setup": false,
+    "reminders": [
+      "被祝福"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 30,
+    "original_image": "https://www.bloodstar.xyz/p/AlexS/Fall_of_Rome/highpriest2_fall_of_rome.png"
+  }
+]

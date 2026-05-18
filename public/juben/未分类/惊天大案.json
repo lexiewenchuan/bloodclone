@@ -1,0 +1,491 @@
+[
+  {
+    "hint": "线上魔典支持直接输入剧本的URL。不必将此文件保存到你的电脑。",
+    "id": "_meta",
+    "name": "惊天大案",
+    "author": "SUI染钟楼",
+    "status": [
+      {
+        "name": "破晓之时",
+        "skill": "以下角色要等到破晓之时才会得知信息：司机、环卫工、警察局长、法医、糊涂侦探、心理学家、几何大师、调查记者。"
+      }
+    ]
+  },
+  {
+    "id": "4fbc81af",
+    "team": "townsfolk",
+    "name": "司机",
+    "ability": "每个夜晚，你可以选择一名除你以外的玩家：破晓时你会得知他是否为镇民。如果你得知了“否”，你失去能力。",
+    "image": "/blood-on-the-clocktower/image/downloaded/3476d64eab4c048e4a0bd8192dafe0d7.webp",
+    "setup": false,
+    "reminders": [
+      "乘客",
+      "失去能力"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3046,
+    "otherNight": 96,
+    "original_image": "https://antiphoton.github.io/scripts-of-botc/assets/siji-WTIHM2O2.png"
+  },
+  {
+    "id": "f09c829b",
+    "team": "townsfolk",
+    "name": "环卫工",
+    "ability": "每个夜晚，你要选择一名除你以外的玩家：破晓时你会得知他是否为爪牙。如果你得知了“是”，你失去能力。",
+    "image": "/blood-on-the-clocktower/image/downloaded/d45236622695ff6d428aaaf583ac778b.webp",
+    "setup": false,
+    "reminders": [
+      "线索指向",
+      "失去能力"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3052,
+    "otherNight": 101,
+    "original_image": "https://antiphoton.github.io/scripts-of-botc/assets/huanweigong-NKRUHOLE.png"
+  },
+  {
+    "id": "20782cb0",
+    "team": "townsfolk",
+    "name": "机长",
+    "ability": "在你的首个夜晚，你会得知一个在场的外来者角色（或者你会得知没有外来者在场）。每局游戏限一次，在夜晚时*，你可以选择一名存活玩家：如果你选中了外来者，他失去能力。",
+    "image": "/blood-on-the-clocktower/image/downloaded/5d832919828d6d6b0071d24909217d7a.webp",
+    "setup": false,
+    "reminders": [
+      "对应外来者",
+      "签证护照",
+      "失去能力"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3043,
+    "otherNight": 94,
+    "original_image": "https://antiphoton.github.io/scripts-of-botc/assets/jizhang-XJXJSLMX.png"
+  },
+  {
+    "id": "f9f2581f",
+    "team": "townsfolk",
+    "name": "警察局长",
+    "ability": "每个夜晚，你要选择除你以外的两名存活玩家：破晓时，你会得知他们之中的存活玩家是否均属于邪恶阵营。",
+    "image": "/blood-on-the-clocktower/image/downloaded/4ffec737d24f845c6dd701402a811b5d.webp",
+    "setup": false,
+    "reminders": [
+      "审讯"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3047,
+    "otherNight": 97,
+    "original_image": "https://antiphoton.github.io/scripts-of-botc/assets/jingchajuzhang-BNQQW5MX.png"
+  },
+  {
+    "id": "2f7b2da6",
+    "team": "townsfolk",
+    "name": "法医",
+    "ability": "每个夜晚*，你要选择一名死亡玩家：破晓时，你会得知他是否曾经“中毒”、“醉酒”或“能力目标或结果被改变”。你的能力目标一定不会改变。",
+    "image": "/blood-on-the-clocktower/image/downloaded/9ad36885219478dbcba086874b5eaffa.webp",
+    "setup": false,
+    "reminders": [
+      "查验"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 105,
+    "original_image": "https://antiphoton.github.io/scripts-of-botc/assets/fayi-PTDG4GHM.png"
+  },
+  {
+    "id": "c14c4182",
+    "team": "townsfolk",
+    "name": "糊涂侦探",
+    "ability": "每个白天，你可以公开选择一名存活的玩家。如果被你选择过的玩家是镇民且在当晚死亡，你会被唤醒，然后你要选择一名玩家：破晓时，你会得知他的角色类型。",
+    "image": "/blood-on-the-clocktower/image/downloaded/f21ce8ffa6209ba849f7c5c1a44ccd3e.webp",
+    "setup": false,
+    "reminders": [
+      "他是凶手",
+      "查验"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 106,
+    "original_image": "https://antiphoton.github.io/scripts-of-botc/assets/hutuzhentan-ZE562RV7.png"
+  },
+  {
+    "id": "04fcd03b",
+    "team": "townsfolk",
+    "name": "心理学家",
+    "ability": "在你的首个夜晚，你要选择四个除你以外的角色（每个角色类型各一个）。每个夜晚，你要选择一名玩家：破晓时，你会得知他是否为你选择的角色之一。",
+    "image": "/blood-on-the-clocktower/image/downloaded/f8acbc52b50a0151d3bf8279ad8d3225.webp",
+    "setup": false,
+    "reminders": [
+      "催眠"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3058,
+    "otherNight": 108,
+    "original_image": "https://antiphoton.github.io/scripts-of-botc/assets/xinlixuejia-JDUHHS2S.png"
+  },
+  {
+    "id": "75599681",
+    "team": "townsfolk",
+    "name": "几何学家",
+    "ability": "每局游戏限一次，在夜晚时*，你可以选择座位形成“等腰三角形”或“直角三角形”的三名玩家：破晓时，你会得知他们之中有几名邪恶玩家。[仅限线上游戏]",
+    "image": "/blood-on-the-clocktower/image/downloaded/71e6ba6f3df3f1de970972fbda18a7a5.webp",
+    "setup": false,
+    "reminders": [
+      "三角",
+      "失去能力"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 110,
+    "original_image": "https://antiphoton.github.io/scripts-of-botc/assets/jihexuejia-WYM2BFSR.png"
+  },
+  {
+    "id": "f21a634e",
+    "team": "townsfolk",
+    "name": "狙击手",
+    "ability": "每局游戏限一次，在夜晚时，你可以选择一名玩家：下个夜晚，如果他不是镇民且存活，他死亡，当晚不会有其他玩家死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/020499b3b104626da68ec2b77d13ffa4.webp",
+    "setup": false,
+    "reminders": [
+      "狙击目标",
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3041,
+    "otherNight": 24,
+    "original_image": "https://antiphoton.github.io/scripts-of-botc/assets/jujishou-DYVISRVY.png"
+  },
+  {
+    "id": "c167b679",
+    "team": "townsfolk",
+    "name": "调查记者",
+    "ability": "每个夜晚*，你要选择除你以外的一名存活玩家：破晓时，你会得知与他邻近的两名存活玩家中不存在哪两种角色类型。",
+    "image": "/blood-on-the-clocktower/image/downloaded/7a29ef9b1a25bf803f90baddf1117436.webp",
+    "setup": false,
+    "reminders": [
+      "调查"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 111,
+    "original_image": "https://antiphoton.github.io/scripts-of-botc/assets/diaochajizhe-LZPJTJH4.png"
+  },
+  {
+    "id": "c0558d98",
+    "team": "townsfolk",
+    "name": "辩护律师",
+    "ability": "在你的首个夜晚，你要选择除你以外的一名玩家：如果他健康清醒且存活，你可以在白天时私下询问说书人并得知一条正确信息。如果他中毒、醉酒或死亡，你可能会得知错误信息。",
+    "image": "/blood-on-the-clocktower/image/downloaded/05d3f44a73872fabf1f476dcc0c891f1.webp",
+    "setup": false,
+    "reminders": [
+      "辩护目标"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3065,
+    "otherNight": 0,
+    "original_image": "https://antiphoton.github.io/scripts-of-botc/assets/bianhulvshi-3PJYF4JC.png"
+  },
+  {
+    "id": "a4137ca2",
+    "team": "townsfolk",
+    "name": "机械哨兵",
+    "ability": "每个夜晚*，你可以选择一名之前未选择过的玩家：如果该玩家已死亡且是镇民，你获得他的能力直到你下次选择，否则你醉酒直到下次选择。",
+    "image": "/blood-on-the-clocktower/image/downloaded/4bff33d82ad0e47e0ce3e467d7928184.webp",
+    "setup": false,
+    "reminders": [
+      "已学习",
+      "醉酒"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 24,
+    "original_image": "https://antiphoton.github.io/scripts-of-botc/assets/jixiehaobing-IUTWQLZG.png"
+  },
+  {
+    "id": "68c0dde3",
+    "team": "townsfolk",
+    "name": "天选之子",
+    "ability": "你不会死亡。每个夜晚*，如果你即将醉酒或中毒，改为你失去能力并死亡。[+1外来者]",
+    "image": "/blood-on-the-clocktower/image/downloaded/f579ff5909051afc3f2a2844d285a815.webp",
+    "setup": true,
+    "reminders": [
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://antiphoton.github.io/scripts-of-botc/assets/tianxuanzhizi-E62PUX2D.png"
+  },
+  {
+    "id": "0a3574e0",
+    "team": "townsfolk",
+    "name": "作曲家",
+    "ability": "如果你在夜晚死亡，下个夜晚所有玩家不会死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/8c34a7475399a56aa24777b1a572dfff.webp",
+    "setup": false,
+    "reminders": [
+      "余音绕梁"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 121,
+    "original_image": "https://antiphoton.github.io/scripts-of-botc/assets/zuoqujia-3DSIBV5A.png"
+  },
+  {
+    "id": "ffc9d4f8",
+    "team": "outsider",
+    "name": "小丑",
+    "ability": "在第三个白天开始时，你立刻被处决。",
+    "image": "/blood-on-the-clocktower/image/downloaded/841c5eead75096147ea1a5d52c13743b.webp",
+    "setup": false,
+    "reminders": [
+      "被处决"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://antiphoton.github.io/scripts-of-botc/assets/xiaochou-F7ETYH44.png"
+  },
+  {
+    "id": "49ec3c63",
+    "team": "outsider",
+    "name": "调酒师",
+    "ability": "每个夜晚，如果有善良玩家首次使用其自身能力选择了你，会有一名善良玩家醉酒直到下个黄昏，即使你已死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/42b3a3d97b800c2090c47710d5267849.webp",
+    "setup": false,
+    "reminders": [
+      "醉酒"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://antiphoton.github.io/scripts-of-botc/assets/tiaojiushi-ARRRNOHK.png"
+  },
+  {
+    "id": "ab910750",
+    "team": "outsider",
+    "name": "精神病人",
+    "ability": "如果今天白天没有除精神病人以外的存活玩家“疯狂”地证明自己是精神病人，在夜晚时*，可能会有一名镇民变成精神病人。如果所有存活的善良玩家都是精神病人，邪恶阵营获胜。",
+    "image": "/blood-on-the-clocktower/image/downloaded/aa5801f9aee46b3416278c024ec29a34.webp",
+    "setup": false,
+    "reminders": [
+      "发病"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 94,
+    "original_image": "https://antiphoton.github.io/scripts-of-botc/assets/jingshenbingren-J7KOMDY3.png"
+  },
+  {
+    "id": "00cfcb5e",
+    "team": "outsider",
+    "name": "潜伏者",
+    "ability": "你在你的第四个夜晚转变为邪恶阵营。",
+    "image": "/blood-on-the-clocktower/image/downloaded/0acf8279ba1b008d44a352c0df19d7a8.webp",
+    "setup": false,
+    "reminders": [
+      "第一夜",
+      "第二夜",
+      "第三夜",
+      "加入邪恶"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3009,
+    "otherNight": 17,
+    "original_image": "https://antiphoton.github.io/scripts-of-botc/assets/qianfuzhe-M4XGWAPK.png"
+  },
+  {
+    "id": "bb78a5e3",
+    "team": "minion",
+    "name": "催眠医师",
+    "ability": "每个夜晚，每当你或与你邻近的玩家被镇民使用其自身能力选择时，你会得知做出选择的角色。你可以选择其中一个角色，其能力产生错误信息。",
+    "image": "/blood-on-the-clocktower/image/downloaded/a58d113279812ef7eb1eadaf1c3e046c.webp",
+    "setup": false,
+    "reminders": [
+      "已改变"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3076,
+    "otherNight": 122,
+    "original_image": "https://antiphoton.github.io/scripts-of-botc/assets/cuimianyishi-VNFN5Q5P.png"
+  },
+  {
+    "id": "100a11af",
+    "team": "minion",
+    "name": "无相幽闭",
+    "ability": "你可能会被当作善良阵营、恶魔角色、镇民角色或外来者角色。如果大于等于五名玩家存活时（旅行者不计算在内）恶魔死亡，你变成那个恶魔，所有人会得知这一信息。",
+    "image": "/blood-on-the-clocktower/image/downloaded/21a1a5f7a3ab5c621149d66243546d07.webp",
+    "setup": false,
+    "reminders": [
+      "继承"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://antiphoton.github.io/scripts-of-botc/assets/wuxiangyoubi-CPOPJXAZ.png"
+  },
+  {
+    "id": "7489336a",
+    "team": "minion",
+    "name": "制毒大枭",
+    "ability": "在你的首个夜晚，你要选择一名玩家：他中毒。当你或他其中之一首次死亡时，下个夜晚你可以再次使用这个能力。你的中毒持续生效，即使你已死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/41e5b4c63b7f6265ad6f20b95e030ade.webp",
+    "setup": false,
+    "reminders": [
+      "中毒",
+      "首次死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3016,
+    "otherNight": 22,
+    "original_image": "https://antiphoton.github.io/scripts-of-botc/assets/zhidudaxiao-QSD2B67Z.png"
+  },
+  {
+    "id": "44facdb3",
+    "team": "minion",
+    "name": "机械大师",
+    "ability": "每个夜晚，你要选择一名玩家和一个角色（与上个夜晚的玩家不同）：他被当作那个角色及相应阵营直到下个黄昏。",
+    "image": "/blood-on-the-clocktower/image/downloaded/bf78b4873beb85737f37f8eb7c413f1f.webp",
+    "setup": false,
+    "reminders": [
+      "改造为"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3010,
+    "otherNight": 18,
+    "original_image": "https://antiphoton.github.io/scripts-of-botc/assets/jixiedashi-XO7A47XG.png"
+  },
+  {
+    "id": "0ab4bf7f",
+    "team": "demon",
+    "name": "空间大盗",
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡。所有镇民能力在夜晚选择的目标将改为选择目标顺时针方向的下个玩家。",
+    "image": "/blood-on-the-clocktower/image/downloaded/bec9c3247cc913a92369e1b739cef6b6.webp",
+    "setup": false,
+    "reminders": [
+      "死亡",
+      "被转移"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 53,
+    "original_image": "https://antiphoton.github.io/scripts-of-botc/assets/kongjiandadao-DOAFMJBC.png"
+  },
+  {
+    "id": "371cd18c",
+    "team": "demon",
+    "name": "时间旅人",
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡。如果你死亡且因此导致游戏结束时，所有玩家的状态回到上个黄昏，然后你可以与一名玩家交换角色，所有镇民中毒直到下个黄昏，下个白天直接开始提名阶段。每局游戏仅能成功时空回溯一次。",
+    "image": "/blood-on-the-clocktower/image/downloaded/bd844315ab4ee1466f0c39bb00a49620.webp",
+    "setup": false,
+    "reminders": [
+      "死亡",
+      "中毒",
+      "仅一次"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 53,
+    "original_image": "https://antiphoton.github.io/scripts-of-botc/assets/shijianlvren-SMKAT3BG.png"
+  },
+  {
+    "id": "a4efcbf1",
+    "team": "demon",
+    "name": "邪恶祭典",
+    "ability": "如果所有存活玩家都是邪恶阵营或只有两名存活玩家，邪恶阵营落败。每个夜晚*，你要选择一名存活玩家(不能选择初始爪牙玩家，在他们死亡前你不能选择自己)：他中毒，然后死亡。如果没有存活的爪牙且你选择了自己，你的阵营获胜。",
+    "image": "/blood-on-the-clocktower/image/downloaded/ef0be3b5bf3ade36af94e38e30662744.webp",
+    "setup": false,
+    "reminders": [
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 53,
+    "original_image": "https://antiphoton.github.io/scripts-of-botc/assets/xieejidian-YLMWOUAT.png"
+  },
+  {
+    "id": "1786fc94",
+    "team": "demon",
+    "name": "机械大军",
+    "ability": "每个夜晚*，所有机械大军同时醒来并要一起选择一名玩家：他死亡。[所有爪牙都是机械大军]",
+    "image": "/blood-on-the-clocktower/image/downloaded/ff9c3f433aaf05ce32f2c47c756add32.webp",
+    "setup": true,
+    "reminders": [
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 53,
+    "original_image": "https://antiphoton.github.io/scripts-of-botc/assets/jixiedajun-QKBVSXPF.png"
+  },
+  {
+    "id": "f2cfea23",
+    "team": "traveller",
+    "name": "示威者",
+    "ability": "在夜晚时*，与你阵营不同的玩家使用其自身能力进行选择时，可能会改为选择你。",
+    "image": "/blood-on-the-clocktower/image/downloaded/f3c420f13ab7fd3740d99f4e06f793c6.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://antiphoton.github.io/scripts-of-botc/assets/shiweizhe-JQF3LKQ5.png"
+  },
+  {
+    "id": "4774c8e2",
+    "team": "traveller",
+    "name": "终结者T800",
+    "ability": "当你得知你死亡时，你可以公开声明“我会回来的！”，然后你会在下个提名阶段开始时复活。但每局游戏仅能成功复活一次。",
+    "image": "/blood-on-the-clocktower/image/downloaded/3625e1f3b6aa9d5c8b686e50983674c8.webp",
+    "setup": false,
+    "reminders": [
+      "复活",
+      "仅一次"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://antiphoton.github.io/scripts-of-botc/assets/zhongjiezhe-BABJKHFX.png"
+  },
+  {
+    "id": "c22bb9ea",
+    "team": "traveller",
+    "name": "光明祭典",
+    "ability": "每个夜晚*，你要选择一名玩家（与上个夜晚不同）：他今晚不会中毒或醉酒。",
+    "image": "/blood-on-the-clocktower/image/downloaded/90a57e2ea1c3086eb9f8635ac2b39b5e.webp",
+    "setup": false,
+    "reminders": [
+      "光耀"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 9,
+    "original_image": "https://antiphoton.github.io/scripts-of-botc/assets/guangmingjidian-X5P453XR.png"
+  },
+  {
+    "id": "15456b77",
+    "team": "traveller",
+    "name": "话痨机器人",
+    "ability": "每个夜晚，你要选择一名玩家：他可能会被当作爪牙角色。你要在下个白天全程跟随他并可以偷听他的所有私聊内容",
+    "image": "/blood-on-the-clocktower/image/downloaded/d3a5a1578e0eca72bd6f02c401997847.webp",
+    "setup": false,
+    "reminders": [
+      "叽叽喳喳"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 9,
+    "otherNight": 8,
+    "original_image": "https://antiphoton.github.io/scripts-of-botc/assets/hualaojiqiren-QCA3DWLL.png"
+  },
+  {
+    "id": "e9887012",
+    "team": "traveller",
+    "name": "机器猫",
+    "ability": "每个白天，你会随机生产一个神奇道具。如果你是邪恶的，你可以选择今天的神奇道具。",
+    "image": "/blood-on-the-clocktower/image/downloaded/b3771487bcbd545e338311e4739e7297.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/upload/1691596285_197011_6736.png"
+  }
+]

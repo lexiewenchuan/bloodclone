@@ -1,0 +1,268 @@
+[
+  {
+    "id": "_meta",
+    "name": "飞越疯人院Ⅱ v1.1.1",
+    "author": "太一",
+    "logo": "/blood-on-the-clocktower/image/downloaded/6c9259110c49aacaa057e96b083e86ac.webp",
+    "almanac": "https://www.bloodstar.xyz/p/humlet/FRY7-9/almanac.html",
+    "original_logo": "https://www.bloodstar.xyz/p/humlet/FRY7-9/_meta.png"
+  },
+  {
+    "id": "2_fry79",
+    "image": "/blood-on-the-clocktower/image/downloaded/82aab69315640cfe61e528aa5bedc7a9.webp",
+    "otherNightReminder": "给他展示数字手势来告诉他他当天白天猜测正确的次数。",
+    "reminders": [
+      "猜测正确"
+    ],
+    "name": "杂耍艺人",
+    "team": "townsfolk",
+    "ability": "在你的第一个白天，你可以公开猜测任意玩家的角色最多五次。在当晚，你会得知猜测正确的角色数量。",
+    "attribution": "官方角色",
+    "flavor": "下一场表演，我需要一盆花、一捆干草、一条玩具蛇、一支画笔、和一个电动的树篱修剪机。不过我得和你说，宝贝，这可能是我最后的表演了哦。",
+    "otherNight": 12,
+    "original_image": "https://www.bloodstar.xyz/p/humlet/FRY7-9/2_fry79.png"
+  },
+  {
+    "id": "1_fry79",
+    "image": "/blood-on-the-clocktower/image/downloaded/de3ac496d958b490572a7509f3589f12.webp",
+    "firstNightReminder": "对小精灵展示一个在场的镇民角色。",
+    "reminders": [
+      "疯狂",
+      "获得能力"
+    ],
+    "name": "小精灵",
+    "team": "townsfolk",
+    "ability": "在你的第一个夜晚，你会得知一个在场的镇民角色。如果你疯狂地证明你是该角色，当他死亡时你获得该角色的能力。",
+    "attribution": "官方角色",
+    "original_image": "https://www.bloodstar.xyz/p/humlet/FRY7-9/1_fry79.png"
+  },
+  {
+    "id": "72_fry79",
+    "image": "/blood-on-the-clocktower/image/downloaded/2fd0c4c5627942a6951ae71fcb689dc7.webp",
+    "firstNightReminder": "选择一种角色类型，并告知其一个符合该类型的玩家。在该玩家身边标记已被知晓。",
+    "otherNightReminder": "选择一种与气球驾驶员上个夜晚知晓的角色类型不同的，并告知其一个符合该类型的玩家。",
+    "reminders": [
+      "得知"
+    ],
+    "setup": 1,
+    "name": "气球驾驶员",
+    "team": "townsfolk",
+    "ability": "每个夜晚，你会得知一名与上个夜晚得知的玩家角色类型不同的玩家。[+0~1外来者]",
+    "attribution": "官方角色",
+    "flavor": "再来点热度！高点！高点！再高点！啊~从这上面往下看，风景真美，你说呢？你能看到孩子们在河边柳树下钓鱼吗？你能看到马戏团长帐篷上反射的阳光吗？这是什么？一位老人独自一人在花园里晕倒了？来点热度！低点！低点！再低点！",
+    "firstNight": 16,
+    "otherNight": 14,
+    "original_image": "https://www.bloodstar.xyz/p/humlet/FRY7-9/72_fry79.png"
+  },
+  {
+    "id": "47_fry79",
+    "image": "/blood-on-the-clocktower/image/downloaded/61de29a4ba1ce88fde70c8df41ef7c4a.webp",
+    "otherNightReminder": "让驱魔人选择一名玩家，不能是上一夜他选择过的玩家。让驱魔人重新入睡。如果驱魔人选中了恶魔：唤醒恶魔。展示该角色的能力对你生效信息标记和驱魔人角色标记。指向驱魔人玩家。",
+    "reminders": [
+      "被选择"
+    ],
+    "name": "驱魔人",
+    "team": "townsfolk",
+    "ability": "每个夜晚*，你要选择一名玩家（与上个夜晚不同）：如果你选中了恶魔，他会得知你是驱魔人，但他当晚不会因其自身能力而被唤醒。",
+    "attribution": "官方角色",
+    "flavor": "每一个不洁之灵，每一股邪恶之力，每一次残杀活人的暴行，每一支军队，每一个对抗恶魔的组织和教派，以我主耶稣基督的名义和力量，将你们驱逐。我命令你们，远离上帝的教堂，远离上帝按其形象所创造并受神圣祝福的灵魂。",
+    "otherNight": 5,
+    "original_image": "https://www.bloodstar.xyz/p/humlet/FRY7-9/47_fry79.png"
+  },
+  {
+    "id": "3_fry79",
+    "image": "/blood-on-the-clocktower/image/downloaded/da0d614bd9cb1c11d0e21d9ff1a2385c.webp",
+    "otherNightReminder": "让旅店老板选择两名玩家。标记这两名玩家不会死亡，并标记其中一人醉酒。",
+    "reminders": [
+      "不会死亡",
+      "醉酒"
+    ],
+    "name": "旅店老板",
+    "team": "townsfolk",
+    "ability": "每个夜晚*，你要选择两名玩家：他们当晚不会死亡，但其中一人会醉酒到下个黄昏。",
+    "attribution": "官方角色",
+    "otherNight": 4,
+    "original_image": "https://www.bloodstar.xyz/p/humlet/FRY7-9/3_fry79.png"
+  },
+  {
+    "id": "73_fry79",
+    "image": "/blood-on-the-clocktower/image/downloaded/7fc7f7a62b048ad1abc47b273a2a377b.webp",
+    "otherNightReminder": "如果守鸦人今晚死亡，唤醒他并让他选择一名玩家。对他展示那名玩家的角色标记。",
+    "name": "守鸦人",
+    "team": "townsfolk",
+    "ability": "如果你在夜晚死亡，你会被唤醒，然后你要选择一名玩家：你会得知他的角色。",
+    "attribution": "官方角色",
+    "flavor": "我的孩子们会替我复仇的！飞吧！飞吧，我尽职的小可爱！去到花园和溪边！去到小屋和会所里！快去飞吧！",
+    "otherNight": 10,
+    "original_image": "https://www.bloodstar.xyz/p/humlet/FRY7-9/73_fry79.png"
+  },
+  {
+    "id": "78_fry79",
+    "image": "/blood-on-the-clocktower/image/downloaded/577dd73a04ede06311c0be609c1dc97b.webp",
+    "otherNightReminder": "如果当天一名爪牙死于处决，且当晚殉教少女能够因为自身能力死亡，将殉教与死亡提示标记放置在酿酒少女旁，表示所有邪恶角色醉酒直到明天黄昏。",
+    "reminders": [
+      "殉教",
+      "死亡"
+    ],
+    "name": "殉教少女",
+    "team": "townsfolk",
+    "ability": "如果刺客死于处决，当晚你会死亡，随后所有邪恶角色醉酒直到明天黄昏。",
+    "attribution": "太一",
+    "flavor": "我窗棂的雕花是阿波罗的锁，也是海浪中微弱的光。当我用指尖划破光晕，言语将随血浪喷溅。请记住，我的死亡不是终点，而是你们直面真相的黎明。",
+    "otherNight": 2,
+    "original_image": "https://www.bloodstar.xyz/p/humlet/FRY7-9/78_fry79.png"
+  },
+  {
+    "id": "53_fry79",
+    "image": "/blood-on-the-clocktower/image/downloaded/f8d957864e2251d0e04a7762145e9c4d.webp",
+    "name": "魔术师",
+    "team": "townsfolk",
+    "ability": "恶魔会以为你是刺客。刺客会以为你是恶魔。",
+    "attribution": "官方角色",
+    "flavor": "1…2…各位好…3…4…哈哈…（笑！）是的，正如你们所见，女士们先生们，帕斯捷尔纳克的那串数字不见了！没了！无影无踪！感谢诸位，晚安！",
+    "original_image": "https://www.bloodstar.xyz/p/humlet/FRY7-9/53_fry79.png"
+  },
+  {
+    "id": "21_fry79",
+    "image": "/blood-on-the-clocktower/image/downloaded/80fb701810b92e3e09a8e47095e8301e.webp",
+    "firstNightReminder": "如果有七名或更多玩家，唤醒疯子：展示他们是你的刺客信息标记。指向任意对应数量的玩家。展示这些角色不在场信息标记。展示三个善良角色。让疯子重新入睡。唤醒恶魔。展示你是信息标记和恶魔角色标记。展示这名玩家是信息标记和疯子角色标记，然后指向疯子玩家。",
+    "otherNightReminder": "做任何需要做的事情来模拟一名恶魔的行动。让疯子重新入睡。唤醒恶魔。对恶魔展示疯子角色标记，并指向疯子玩家，随后是疯子的攻击目标。",
+    "remindersGlobal": [
+      "被选择",
+      "是疯子"
+    ],
+    "name": "疯子",
+    "team": "outsider",
+    "ability": "你以为你是一个恶魔，但其实你不是。恶魔知道你是疯子以及你在每个夜晚选择了哪些玩家。",
+    "attribution": "官方角色",
+    "flavor": "即使是黑夜…没错吧？",
+    "firstNight": 11,
+    "otherNight": 6,
+    "original_image": "https://www.bloodstar.xyz/p/humlet/FRY7-9/21_fry79.png"
+  },
+  {
+    "id": "_fry79",
+    "image": "/blood-on-the-clocktower/image/downloaded/2a995d548d61f394491d979d4c0eb0aa.webp",
+    "reminders": [
+      "已被猜测",
+      "被猜中"
+    ],
+    "name": "雪人",
+    "team": "outsider",
+    "ability": "每局游戏限一次，恶魔可以公开猜测你是雪人，如果猜中，当天他被处决时你会代替他被处决。如果白天没人被处决，你的阵营落败。",
+    "attribution": "太一",
+    "flavor": "我本融于人群，如雪落无声。若恶魔识破这雪白身躯，我愿替他承受焚烧炉的处决。只是…若白日不见审判，我们终将在永恒的寒冬中一同消逝。",
+    "original_image": "https://www.bloodstar.xyz/p/humlet/FRY7-9/_fry79.png"
+  },
+  {
+    "id": "77_fry79",
+    "image": "/blood-on-the-clocktower/image/downloaded/518a6baad10b65fefd19a514c0e95856.webp",
+    "reminders": [
+      "1",
+      "2",
+      "3"
+    ],
+    "remindersGlobal": [
+      "是隐士"
+    ],
+    "name": "隐士",
+    "team": "outsider",
+    "setup": 1,
+    "ability": "你拥有所有外来者能力。[-0~1外来者]",
+    "attribution": "官方角色",
+    "flavor": "于混沌遗忘之境，有光静静淌着，不问归期。",
+    "original_image": "https://www.bloodstar.xyz/p/humlet/FRY7-9/77_fry79.png"
+  },
+  {
+    "id": "65_fry79",
+    "image": "/blood-on-the-clocktower/image/downloaded/b917afdcb346c605e020bba48e01bf0c.webp",
+    "otherNightReminder": "如果恶魔杀死了玩偶，提醒恶魔选择一名新的玩偶。",
+    "remindersGlobal": [
+      "新玩偶",
+      "初始玩偶"
+    ],
+    "setup": 1,
+    "name": "玩偶",
+    "team": "minion",
+    "ability": "你以为你是一个善良角色，但其实你不是。如果你被恶魔杀死，恶魔要选择一名玩家：他变成玩偶。[玩偶会与恶魔邻座]",
+    "attribution": "太一",
+    "flavor": "他们说我是好孩子…但我总听见钟表发条的声音。我背后标签上的那串数字…好像在倒数？那位大人，您需要新朋友了对吗？这次我会乖乖躲进柜子里…",
+    "otherNight": 9,
+    "original_image": "https://www.bloodstar.xyz/p/humlet/FRY7-9/65_fry79.png"
+  },
+  {
+    "id": "46_fry79",
+    "image": "/blood-on-the-clocktower/image/downloaded/8aca2fc0e1d20a29ca02c18feba3b8cd.webp",
+    "name": "主谋",
+    "team": "minion",
+    "ability": "如果恶魔因为被处决而死亡并因此导致游戏结束时，再额外进行一个夜晚和一个白天。在那个白天如果有玩家被处决，他的阵营落败。",
+    "attribution": "官方角色",
+    "flavor": "怪物的触手被钉在了教堂大门上。母亲和孩子们在街上跳舞。棒极了。一切都在按我的计划进行。",
+    "original_image": "https://www.bloodstar.xyz/p/humlet/FRY7-9/46_fry79.png"
+  },
+  {
+    "id": "51_fry79",
+    "image": "/blood-on-the-clocktower/image/downloaded/4d5f7a692687fa53ee52af406d688639.webp",
+    "firstNightReminder": "如果夜晚天数等于初始外来者数量，所有镇民玩家中毒到下个黄昏。",
+    "otherNightReminder": "如果夜晚天数等于初始外来者数量，所有镇民玩家中毒到下个黄昏。",
+    "reminders": [
+      "第一夜",
+      "第二夜",
+      "第三夜",
+      "第四夜",
+      "大限将至"
+    ],
+    "setup": true,
+    "name": "限",
+    "team": "minion",
+    "ability": "在等于初始外来者数量的夜晚，所有镇民玩家中毒直到下个黄昏。[外来者数量任意]",
+    "attribution": "官方角色",
+    "flavor": "他们连接到地下。一个，又一个。两个，三个，五个。",
+    "firstNight": 12,
+    "otherNight": 3,
+    "original_image": "https://www.bloodstar.xyz/p/humlet/FRY7-9/51_fry79.png"
+  },
+  {
+    "id": "29_fry79",
+    "image": "/blood-on-the-clocktower/image/downloaded/52849ef062804aee2526d0bea5fc266f.webp",
+    "otherNightReminder": "让小恶魔选择一名玩家。标记那名玩家死亡。如果小恶魔选择了自己：用一个备用的小恶魔标记替换一个存活的刺客角色标记。让原来的小恶魔重新入睡。唤醒新的小恶魔。对他展示你是信息标记，和小恶魔角色标记。",
+    "reminders": [
+      "死亡"
+    ],
+    "name": "小恶魔",
+    "team": "demon",
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡。如果你以这种方式自杀，一名刺客会变成小恶魔。",
+    "attribution": "官方角色",
+    "flavor": "我们必须让自己的头脑保持敏锐，刀锋保持锋利。邪恶在我们之中潜行，想要不择手段地破坏我们的美好。那些愚蠢之辈，把我们美丽的小镇给毁了。不要相信任何人。但如果你一定要相信某人，请相信我。",
+    "otherNight": 7,
+    "original_image": "https://www.bloodstar.xyz/p/humlet/FRY7-9/29_fry79.png"
+  },
+  {
+    "id": "68_fry79",
+    "image": "/blood-on-the-clocktower/image/downloaded/0f270328aa53f104ce75705cd8ecb3cd.webp",
+    "firstNightReminder": "让普卡选择一名玩家。标记那名玩家中毒。",
+    "otherNightReminder": "让普卡选择一名玩家。标记那名玩家中毒。上个因为普卡中毒的玩家死亡，随后恢复健康。",
+    "reminders": [
+      "死亡",
+      "中毒"
+    ],
+    "name": "普卡",
+    "team": "demon",
+    "ability": "每个夜晚，你要选择一名玩家：他中毒。上个因你的能力中毒的玩家会死亡并恢复健康。",
+    "attribution": "官方角色",
+    "flavor": "您人真好，发生了这样的事情，您还愿意让我来您金碧辉煌的家里做客。我很抱歉，刚才不小心弄伤了您。这是一点点赔偿，没事的，请收下吧，把这根金条当做我那微小的歉意吧。",
+    "firstNight": 13,
+    "otherNight": 8,
+    "original_image": "https://www.bloodstar.xyz/p/humlet/FRY7-9/68_fry79.png"
+  },
+  {
+    "id": "39_fry79",
+    "image": "/blood-on-the-clocktower/image/downloaded/56526b7648042014bf7758060bbc2834.webp",
+    "name": "病房管理",
+    "team": "fabled",
+    "ability": "• 说书人可能会把关于疯子的信息（谁是疯子、疯子得知的刺客玩家及不在场角色、疯子得知谁是疯子等）透露给恶魔及刺客玩家。• 疯子可能会得知其他玩家是疯子（可以是真的也可以是假的）。",
+    "attribution": "太一",
+    "flavor": "1号疯子今天晚上吃希望星空派，2号疯子今天白天与他的刺客私会了三分钟！汇报完毕！",
+    "original_image": "https://www.bloodstar.xyz/p/humlet/FRY7-9/39_fry79.png"
+  }
+]

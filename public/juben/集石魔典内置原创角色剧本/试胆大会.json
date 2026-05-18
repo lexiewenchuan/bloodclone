@@ -1,0 +1,178 @@
+[
+  {
+    "hint": "线上魔典支持直接输入剧本的URL。不必将此文件保存到你的电脑。",
+    "id": "_meta",
+    "name": "试胆大会",
+    "author": "Lei的剧本钟楼"
+  },
+  {
+    "id": "fe1f2e21",
+    "team": "townsfolk",
+    "name": "小精灵",
+    "ability": "在你的首个夜晚，你会得知一个在场的镇民角色。如果你“疯狂”地证明你是该角色，当他死亡时你获得该角色的能力。",
+    "image": "/blood-on-the-clocktower/image/downloaded/6ebe77cba4eb001b96ccd2b54ed39d95.webp",
+    "setup": false,
+    "reminders": [
+      "疯狂",
+      "获得能力"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3040,
+    "otherNight": 0,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/pixie_600w.webp"
+  },
+  {
+    "id": "03d2ca37",
+    "team": "townsfolk",
+    "name": "捉鬼专家",
+    "ability": "每个夜晚，如果与你邻近的存活玩家被选择，你会被唤醒。",
+    "image": "/blood-on-the-clocktower/image/downloaded/237457418f6a2f40f0ded308351bbbcb.webp",
+    "setup": false,
+    "reminders": [
+      "唤醒"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3058,
+    "otherNight": 106,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/upload/1703696844_197011_3899.png"
+  },
+  {
+    "id": "6e58cc78",
+    "team": "townsfolk",
+    "name": "共情者",
+    "ability": "每个夜晚，你会得知与你邻近的两名存活的玩家中邪恶玩家的数量。",
+    "image": "/blood-on-the-clocktower/image/downloaded/1cdb1142fba4f7af60ab67396bb16b0d.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 3046,
+    "otherNight": 96,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/empath_600w.webp"
+  },
+  {
+    "id": "df3bb548",
+    "team": "townsfolk",
+    "name": "灵异调查员",
+    "ability": "每个夜晚，你要选择一名玩家：你会得知他不是什么角色。如果他醉酒或中毒，改为得知他是什么角色。",
+    "image": "/blood-on-the-clocktower/image/downloaded/afd3860d7198b7e123dfcca3141b2c0d.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 3070,
+    "otherNight": 116,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/upload/1703696840_197011_7873.png"
+  },
+  {
+    "id": "ed521424",
+    "team": "townsfolk",
+    "name": "博学者",
+    "ability": "每个白天，你可以私下询问说书人以得知两条信息：一个是正确的，一个是错误的。",
+    "image": "/blood-on-the-clocktower/image/downloaded/2d52d51457503f13afae660ef9f09f1b.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/savant_600w.webp"
+  },
+  {
+    "id": "356e48d9",
+    "team": "townsfolk",
+    "name": "摄影记者",
+    "ability": "每局游戏限一次，你公开选择一名玩家，他当晚不会因其自身能力被唤醒。",
+    "image": "/blood-on-the-clocktower/image/downloaded/252d36a56845102e25327c0b728481f4.webp",
+    "setup": false,
+    "reminders": [
+      "被拍照"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/upload/1703696848_197011_554.png"
+  },
+  {
+    "id": "c786b3a0",
+    "team": "townsfolk",
+    "name": "灵媒",
+    "ability": "在你的首个夜晚，你可以选择一个善良角色，然后你会得知两名存活玩家：其中一名玩家是这个角色。如果该角色不在场，这两名玩家中至少一名是邪恶的。",
+    "image": "/blood-on-the-clocktower/image/downloaded/2d465e4aa4454b561eeb9cb433e16475.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 3033,
+    "otherNight": 0,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/upload/1703696842_197011_4011.png"
+  },
+  {
+    "id": "4be8f231",
+    "team": "townsfolk",
+    "name": "化身幽灵",
+    "ability": "你死亡后的每个白天，可以私下询问说书人，说书人会用手指在你的背上写下一个有关恶魔的字符。",
+    "image": "/blood-on-the-clocktower/image/downloaded/29938fd2e53fa642e197b0a39a67aab0.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/upload/1703696850_197011_522.png"
+  },
+  {
+    "id": "d5b526da",
+    "team": "outsider",
+    "name": "酒鬼",
+    "ability": "你不知道你是酒鬼。你以为你是一个镇民角色，但其实你不是。",
+    "image": "/blood-on-the-clocktower/image/downloaded/8f7a6904ef81ddc1f303550c7f22c867.webp",
+    "setup": true,
+    "reminders": [],
+    "remindersGlobal": [
+      "是酒鬼"
+    ],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/drunk_600w.webp"
+  },
+  {
+    "id": "47de9a2d",
+    "team": "outsider",
+    "name": "捣蛋鬼",
+    "ability": "每个黎明，你转变为善良阵营；每个黄昏，你转变为邪恶阵营。",
+    "image": "/blood-on-the-clocktower/image/downloaded/17438d0c35f7c527703e7c89b63f7e4a.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/upload/1703696861_197011_5697.png"
+  },
+  {
+    "id": "8a456136",
+    "team": "minion",
+    "name": "恐惧之灵",
+    "ability": "每个夜晚，你要选择一名玩家：如果你提名他且他被处决，他的阵营落败。当你首次选择或更换目标时，所有玩家都会得知你选择了新的玩家。",
+    "image": "/blood-on-the-clocktower/image/downloaded/b51e333330263c8dd9d87bf738d30747.webp",
+    "setup": false,
+    "reminders": [
+      "恐惧蔓延"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3030,
+    "otherNight": 40,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/fearmonger_600w.webp"
+  },
+  {
+    "id": "3cc7d42e",
+    "team": "fabled",
+    "name": "凶宅",
+    "ability": "每个夜晚，说书人可以选择一名存活玩家：他是邪恶的恶魔，与他邻近的两名存活玩家之一中毒，直到下次选择，上个被该能力选择的玩家会死亡。[-1恶魔，+1善良玩家]",
+    "image": "/blood-on-the-clocktower/image/downloaded/56e825f325e28e4621be637787c1f548.webp",
+    "setup": true,
+    "reminders": [
+      "附身",
+      "中毒"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3037,
+    "otherNight": 68,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/upload/1703696869_197011_6307.png"
+  }
+]

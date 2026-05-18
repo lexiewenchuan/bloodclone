@@ -1,0 +1,400 @@
+[
+  {
+    "hint": "线上魔典支持直接输入剧本的URL。不必将此文件保存到你的电脑。",
+    "id": "_meta",
+    "name": "梅姨阁诗人",
+    "author": "提线苏际泽"
+  },
+  {
+    "id": "12e33e4c",
+    "team": "townsfolk",
+    "name": "海盗",
+    "ability": "在你的首个夜晚，你会得知几名海盗在场。如果所有存活善良角色均为海盗，善良阵营获胜。[+0或+1海盗]",
+    "image": "/blood-on-the-clocktower/image/downloaded/402dcd947c3dd34451fc0c7f658f4567.webp",
+    "setup": true,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 3038,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz//p//Deodar2//noone//1_noone.png"
+  },
+  {
+    "id": "c5fd1cc3",
+    "team": "townsfolk",
+    "name": "游戏玩家",
+    "ability": "在你的首个夜晚，你会得知一个俄罗斯方块类型：它在剧本列表中能够存在一种框选情况使得框选的角色都在场。",
+    "image": "/blood-on-the-clocktower/image/downloaded/e3db5732718c926bffabe0cbf481453a.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 3072,
+    "otherNight": 0,
+    "original_image": "https://free.picui.cn/free/2025/09/23/68d2086dda9a2.png"
+  },
+  {
+    "id": "433a5f62",
+    "team": "townsfolk",
+    "name": "天外来客",
+    "ability": "每个夜晚，一名玩家的信息会变得毫无意义。",
+    "image": "/blood-on-the-clocktower/image/downloaded/f87e49dd86154eaa110f3309d90f1e22.webp",
+    "setup": false,
+    "reminders": [
+      "虚无"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3073,
+    "otherNight": 95,
+    "original_image": "https://www.bloodstar.xyz//p//Deodar2//noone//16_noone.png"
+  },
+  {
+    "id": "0e68a8a1",
+    "team": "townsfolk",
+    "name": "女祭司",
+    "ability": "每个夜晚，你会得知一名说书人认为你最应该与其交流的玩家。",
+    "image": "/blood-on-the-clocktower/image/downloaded/f6d9aa756d508c9b8052c3af2ac51d1b.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 3071,
+    "otherNight": 117,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/highPriestess_600w.webp"
+  },
+  {
+    "id": "5b26baf4",
+    "team": "townsfolk",
+    "name": "将军",
+    "ability": "每个夜晚，你会得知说书人认为哪个阵营当前更有优势（善良/邪恶/均势）。",
+    "image": "/blood-on-the-clocktower/image/downloaded/c706a9178a7128e7bccaf879663d99cd.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 3074,
+    "otherNight": 118,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/general_600w.webp"
+  },
+  {
+    "id": "956a5d2c",
+    "team": "townsfolk",
+    "name": "数学家",
+    "ability": "每个夜晚，你会得知有多少名玩家的能力因为其他角色的能力而未正常生效。（从上个黎明到你被唤醒时）",
+    "image": "/blood-on-the-clocktower/image/downloaded/6cf82698634d95e599a29f091c3a1725.webp",
+    "setup": false,
+    "reminders": [
+      "未正常生效"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3078,
+    "otherNight": 124,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/mathematician_600w.webp"
+  },
+  {
+    "id": "1ba43976",
+    "team": "townsfolk",
+    "name": "情人",
+    "ability": "每个夜晚*，你会得知说书人认为恶魔现在是什么情绪状态。",
+    "image": "/blood-on-the-clocktower/image/downloaded/9e0f0870e4f65c775a473bea4cbd1b81.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 123,
+    "original_image": "https://free.picui.cn/free/2025/09/23/68d2085396457.png"
+  },
+  {
+    "id": "a59bc296",
+    "team": "townsfolk",
+    "name": "瘸子",
+    "ability": "每个夜晚*，你选一名玩家。你会得知他在角色表的左边还是右边。",
+    "image": "/blood-on-the-clocktower/image/downloaded/4ac872a06cbed5458f4020266fb63e9b.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 119,
+    "original_image": "https://free.picui.cn/free/2025/09/23/68d2088b8da20.png"
+  },
+  {
+    "id": "f20697d3",
+    "team": "townsfolk",
+    "name": "美学家",
+    "ability": "每个夜晚*，你会得知一个说书人认为你当前最应该认真思考的角色。",
+    "image": "/blood-on-the-clocktower/image/downloaded/fd65b334bc040eba0a39628571b9d842.webp",
+    "setup": false,
+    "reminders": [
+      "得知"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 121,
+    "original_image": "https://www.bloodstar.xyz//p//Deodar2//noone//11_noone.png"
+  },
+  {
+    "id": "f7ce0e17",
+    "team": "townsfolk",
+    "name": "讲师",
+    "ability": "每个白天，你可以拜访说书人并得知一名玩家做错的事。",
+    "image": "/blood-on-the-clocktower/image/downloaded/38ba03def7c40e1392986c603dc16f63.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz//p//Deodar2//noone//6_noone.png"
+  },
+  {
+    "id": "731986cb",
+    "team": "townsfolk",
+    "name": "赞助人",
+    "ability": "每个白天，你可以私下拜访说书人以得知谁是目前最没有价值的存活玩家。",
+    "image": "/blood-on-the-clocktower/image/downloaded/342427aa698c017df71999fc8f769020.webp",
+    "setup": false,
+    "reminders": [
+      "得知"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://free.picui.cn/free/2025/09/23/68d20899cb7f8.png"
+  },
+  {
+    "id": "67fdafda",
+    "team": "townsfolk",
+    "name": "阴谋家",
+    "ability": "每个白天，你可以私下访问说书人以得知一条能够妨害占据优势的阵营获胜的建议。",
+    "image": "/blood-on-the-clocktower/image/downloaded/f710abb35a4c7fb54766a635d65c9ac8.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 3080,
+    "otherNight": 125,
+    "original_image": "https://www.bloodstar.xyz//p//Deodar2//noone//14_noone.png"
+  },
+  {
+    "id": "f296fb9a",
+    "team": "townsfolk",
+    "name": "象棋大师",
+    "ability": "每局游戏限一次，在白天时，你可以私下询问说书人以得知你最重要的队友是谁，但不知道为什么",
+    "image": "/blood-on-the-clocktower/image/downloaded/f19dc6f89196783210593ec7bd538cc1.webp",
+    "setup": false,
+    "reminders": [
+      "得知",
+      "失去能力"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz//p//Deodar2//noone//3_noone.png"
+  },
+  {
+    "id": "3be8f127",
+    "team": "townsfolk",
+    "name": "天文学家",
+    "ability": "每局游戏限一次，在白天时，你可以私下询问说书人并得知他做出一个决定的原因，但你不知道是哪个决定。",
+    "image": "/blood-on-the-clocktower/image/downloaded/1c2d5c0418a20204ec47af6f20cfcfcf.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/jc3635/self-righteous/13_selfrighteous.png"
+  },
+  {
+    "id": "2eb5fdd7",
+    "team": "townsfolk",
+    "name": "历史学家",
+    "ability": "每局游戏限一次，在白天时，你可以私下询问说书人以得知说书人将某名玩家评选为最具影响力的玩家的原因。",
+    "image": "/blood-on-the-clocktower/image/downloaded/78eaac78e8002df25c9fc9980c29ca06.webp",
+    "setup": false,
+    "reminders": [
+      "得知",
+      "失去能力"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz//p//Deodar2//noone//5_noone.png"
+  },
+  {
+    "id": "6b11fa1e",
+    "team": "townsfolk",
+    "name": "舰队司令",
+    "ability": "每局游戏限一次，在白天时，你可以私下询问说书人以得知两名玩家：其中一名是对你们帮助最大的对立阵营玩家，另一名是对你们损害最大的我方阵营玩家。",
+    "image": "/blood-on-the-clocktower/image/downloaded/9017e02eeb2f0d5a7e11ffbcf4bf2760.webp",
+    "setup": false,
+    "reminders": [
+      "得知",
+      "失去能力"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz//p//Deodar2//noone//7_noone.png"
+  },
+  {
+    "id": "103c4ba7",
+    "team": "outsider",
+    "name": "隐士",
+    "ability": "你拥有所有外来者能力。[-0~1外来者]",
+    "image": "/blood-on-the-clocktower/image/downloaded/28e8fa7753a94d1e15b6be2e7f9807fb.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/hermit_600w.webp"
+  },
+  {
+    "id": "1f1c8685",
+    "team": "outsider",
+    "name": "政客",
+    "ability": "如果你是对你的阵营落败负最大责任的人，你转变阵营并获胜，即使你已死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/0af92d818b2185d1805f57cc5b2d03f1.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/politician_600w.webp"
+  },
+  {
+    "id": "2abb26c6",
+    "team": "outsider",
+    "name": "异端分子",
+    "ability": "对调胜负结果，即使你已死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/1d232af2335de8388b0e29d146a8516a.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/heretic_600w.webp"
+  },
+  {
+    "id": "5844af10",
+    "team": "outsider",
+    "name": "义务警员",
+    "ability": "疯狂证明你是邪恶的玩家可能会在夜晚死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/23792ec3ec094142ef64308cd14701bf.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [
+      "私刑"
+    ],
+    "firstNight": 0,
+    "otherNight": 71,
+    "original_image": "https://img.cdn1.vip/i/68d20c3b37638_1758596155.png"
+  },
+  {
+    "id": "201ffebf",
+    "team": "minion",
+    "name": "提线木偶",
+    "ability": "你以为你是一个善良角色，但其实你不是。恶魔会知道你是提线木偶。[提线木偶会与恶魔邻座]",
+    "image": "/blood-on-the-clocktower/image/downloaded/bec81b7f094152cd4372747cedd22ccc.webp",
+    "setup": true,
+    "reminders": [],
+    "remindersGlobal": [
+      "是提线木偶"
+    ],
+    "firstNight": 3004,
+    "otherNight": 0,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/marionette_600w.webp"
+  },
+  {
+    "id": "b16944de",
+    "team": "minion",
+    "name": "赝品",
+    "ability": "你拥有一个在场爪牙的能力。如果没有其他爪牙在场，在你的首个夜晚，你选择一名爪牙：你获得他的能力。",
+    "image": "/blood-on-the-clocktower/image/downloaded/6cb1e3b7c552f836362da767eada3960.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [
+      "是赝品"
+    ],
+    "firstNight": 13,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/jc3635/self-righteous/15_selfrighteous.png"
+  },
+  {
+    "id": "ef02b621",
+    "team": "minion",
+    "name": "蠹金客",
+    "ability": "如果超过半数死亡玩家在最后一个白天仍然拥有投票标记，你的阵营获胜。",
+    "image": "/blood-on-the-clocktower/image/downloaded/5099e43a3f54a4da0ad9a699c4e13846.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz//p//Deodar2//noone//23_noone.png"
+  },
+  {
+    "id": "f942195b",
+    "team": "minion",
+    "name": "牧羊人",
+    "ability": "玩家可以在夜晚举手以加入邪恶阵营，直到你死亡。如果邪恶玩家超过半数，所有因此加入邪恶阵营的玩家回归善良阵营，你的阵营获胜。",
+    "image": "/blood-on-the-clocktower/image/downloaded/bac04e94b1509e11b788a536af8ca263.webp",
+    "setup": false,
+    "reminders": [
+      "邪恶",
+      "举手"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz//p//Deodar2//noone//24_noone.png"
+  },
+  {
+    "id": "7e57058a",
+    "team": "demon",
+    "name": "骇愕兽",
+    "ability": "每个夜晚*，选择一名玩家：他死亡。与你意见不同的玩家可能会死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/ac41f167289f8dc9b04a2c109d810141.webp",
+    "setup": false,
+    "reminders": [
+      "死亡",
+      "反对者"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 25,
+    "original_image": "https://img.cdn1.vip/i/68d20ac7f015e_1758595783.webp"
+  },
+  {
+    "id": "59d4ca89",
+    "team": "demon",
+    "name": "铠甲骑士",
+    "ability": "每个夜晚*，你要选择两名玩家：第一名玩家死亡，如果与第二名玩家相邻玩家中有一名存活爪牙，他死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/3eb7db7060bf188112d02e672f9c3ca0.webp",
+    "setup": false,
+    "reminders": [
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 48,
+    "original_image": "https://img.cdn1.vip/i/68d20b20d35a5_1758595872.png"
+  },
+  {
+    "id": "fd7b0487",
+    "team": "fabled",
+    "name": "严肃の说书人",
+    "ability": "说书人会用不同的语气告诉你信息，语气越严肃，信息越重要。",
+    "image": "/blood-on-the-clocktower/image/downloaded/554c58760f48dc56c692b316b8aa3c5e.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz//p//Deodar2//noone//_noone.png"
+  },
+  {
+    "id": "724e50b3",
+    "team": "a jinxed",
+    "name": "数学家 & 提线木偶",
+    "ability": "数学家可能会得知提线木偶产生了错误信息或“能力未正常生效”。",
+    "image": "",
+    "setup": false,
+    "firstNight": 0,
+    "otherNight": 0
+  }
+]

@@ -1,0 +1,71 @@
+.token-carousel-container {
+  display: flex;
+  flex-direction: row;
+  /* 让轮播容器在父容器中充满高度，便于内部内容按整体高度居中 */
+  align-items: center;
+  height: 100%;
+  gap: 12px;
+  position: relative;
+  width: 100%;
+}
+
+.carousel-controls {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  margin-left: 4px;
+  flex-shrink: 0;
+  width: 24px; /* 固定宽度，确保按钮居中 */
+}
+
+.token-carousel-content {
+  display: flex;
+  /* 在轮播容器内部垂直居中 Token */
+  align-items: center;
+  /* 水平方向仍从左开始排布 Token */
+  justify-content: flex-start;
+  gap: 12px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  /* 占满父容器高度，配合 align-items:center 达到垂直居中 */
+  height: 100%;
+  flex-grow: 1; /* 占据剩余空间 */
+}
+
+.carousel-btn {
+  background: rgba(212, 175, 55, 0.2);
+  border: 1px solid rgba(212, 175, 55, 0.4);
+  color: #d4af37;
+  border-radius: 50%;
+  width: 18px;
+  height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-size: 8px;
+  flex-shrink: 0;
+  padding: 0;
+  margin: 0 auto; /* 确保自身水平居中 */
+}
+
+.carousel-btn:hover {
+  background: rgba(212, 175, 55, 0.4);
+  border-color: rgba(212, 175, 55, 0.8);
+  transform: scale(1.1);
+}
+
+.carousel-btn:active {
+  transform: scale(0.95);
+}
+
+.prev-btn {
+  /* margin-right: 4px; */
+}
+
+.next-btn {
+  /* margin-left: 4px; */
+}

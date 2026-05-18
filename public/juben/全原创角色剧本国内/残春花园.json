@@ -1,0 +1,603 @@
+[
+  {
+    "hint": "线上魔典支持直接输入剧本的URL。不必将此文件保存到你的电脑。",
+    "id": "_meta",
+    "name": "残春花园",
+    "author": "烨子"
+  },
+  {
+    "id": "042796ce",
+    "team": "townsfolk",
+    "name": "水草",
+    "ability": "在你的首个夜晚，你会得知四名玩家以及对应的爪牙角色：其中得知正确信息的数量与爪牙数量一致。当他们中有人死亡时，你会+1腐蚀。",
+    "image": "/blood-on-the-clocktower/image/downloaded/f6b5c6bc4ba60baf2eac06d7c13494a3.webp",
+    "setup": false,
+    "reminders": [
+      "得知",
+      "+1"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3072,
+    "otherNight": 62,
+    "original_image": "https://www.bloodstar.xyz/p/Yez/nature/20_nature.png"
+  },
+  {
+    "id": "3ed67fc7",
+    "team": "townsfolk",
+    "name": "向日葵",
+    "ability": "每个夜晚，你要选择一名玩家：他的腐蚀情况不会变化直到下个黄昏。",
+    "image": "/blood-on-the-clocktower/image/downloaded/5d80f86f110d64f1b51a62caf11abe7b.webp",
+    "setup": false,
+    "reminders": [
+      "保护"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3002,
+    "otherNight": 11,
+    "original_image": "https://www.bloodstar.xyz/p/Yez/nature/7_nature.png"
+  },
+  {
+    "id": "5a7a5b2f",
+    "team": "townsfolk",
+    "name": "玫瑰",
+    "ability": "每个夜晚，你会得知与你邻近的存活玩家腐蚀总和。[与你邻近的两名玩家会腐蚀+1]",
+    "image": "/image/downloaded/45fcb9d0ba7d39bd77e2ec7a9c53c724.webp",
+    "setup": true,
+    "reminders": [
+      "+1"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3062,
+    "otherNight": 108,
+    "original_image": "https://www.bloodstar.xyz/p/Yez/nature/2_nature.png"
+  },
+  {
+    "id": "0f22c405",
+    "team": "townsfolk",
+    "name": "藤蔓",
+    "ability": "每个夜晚，你要选择除你以外的一名存活的玩家：如果他是善良的，你不会死亡。当你更换目标时，你们之一会腐蚀+1。",
+    "image": "/image/downloaded/a42cc51d4c6912943b2c6c7a4d3374cc.webp",
+    "setup": false,
+    "reminders": [
+      "+1",
+      "被选择",
+      "不会死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3017,
+    "otherNight": 29,
+    "original_image": "https://www.bloodstar.xyz/p/Yez/nature/3_nature.png"
+  },
+  {
+    "id": "71eb66d2",
+    "team": "townsfolk",
+    "name": "苔藓",
+    "ability": "每个夜晚，你会得知一名玩家：如果你的腐蚀为0，得知镇民；为1，得知外来者；为2，得知爪牙；为3，得知恶魔。（或者得知没有对应的玩家在场）",
+    "image": "/blood-on-the-clocktower/image/downloaded/e900a7b6d245fa0391af8ed9a52db710.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 3067,
+    "otherNight": 113,
+    "original_image": "https://www.bloodstar.xyz/p/Yez/nature/6_nature.png"
+  },
+  {
+    "id": "da10aedc",
+    "team": "townsfolk",
+    "name": "彼岸花",
+    "ability": "每个夜晚*，你可以选择一名玩家：你或他之一死亡，因你能力死亡的玩家会保留能力（除你以外）。(测试中，在开始前需说书人宣布此角色是否可能加入游戏)",
+    "image": "/image/downloaded/f9df0284aee3eed93006dc9a23ea3bae.webp",
+    "setup": false,
+    "reminders": [
+      "永生",
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 57,
+    "original_image": "https://www.bloodstar.xyz/p/Yez/nature/33_nature.png"
+  },
+  {
+    "id": "1f2dabfc",
+    "team": "townsfolk",
+    "name": "仙人掌",
+    "ability": "每个白天限一次，你可以公开选择一名玩家：如果他是恶魔，他死亡；否则你会腐蚀+2。",
+    "image": "/blood-on-the-clocktower/image/downloaded/0705e7129348dc11d0c3d3b6f62d46bb.webp",
+    "setup": false,
+    "reminders": [
+      "+2"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/Yez/nature/21_nature.png"
+  },
+  {
+    "id": "6b756cf5",
+    "team": "townsfolk",
+    "name": "紫荆花",
+    "ability": "每个白天限一次，在提名开始前，你可以公开猜测所有玩家的腐蚀情况总和，如果你猜对，你的阵营获胜。",
+    "image": "/blood-on-the-clocktower/image/downloaded/7f003d0e781a0cae221931938ba3643d.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/Yez/nature/25_nature.png"
+  },
+  {
+    "id": "031f5d74",
+    "team": "townsfolk",
+    "name": "杂草",
+    "ability": "每局游戏限一次，在夜晚时*，你可以选择一名死亡玩家：如果他是镇民，他复活并变成杂草；否则你会腐蚀+2。",
+    "image": "/blood-on-the-clocktower/image/downloaded/488924127d3afa52704a8f3e302bf9a6.webp",
+    "setup": false,
+    "reminders": [
+      "复活",
+      "失去能力",
+      "+2"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 66,
+    "original_image": "https://www.bloodstar.xyz/p/Yez/nature/4_nature.png"
+  },
+  {
+    "id": "0ac407c8",
+    "team": "townsfolk",
+    "name": "四叶草",
+    "ability": "你不会转变为其他角色。说书人可以更改任意数量玩家的腐蚀。小于三名玩家存活时，说书人单独获胜；善良玩家和邪恶玩家的胜利条件改为说书人被处决，即使你已经死亡。[无爪牙在场，+或-任意数量外来者]",
+    "image": "/blood-on-the-clocktower/image/downloaded/91927bac17a1d385e58a86478596ed5c.webp",
+    "setup": true,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/Yez/nature/27_nature.png"
+  },
+  {
+    "id": "bb98d027",
+    "team": "townsfolk",
+    "name": "蒲公英",
+    "ability": "如果今晚有人变成恶魔，你会知道其中一个恶魔角色。",
+    "image": "/blood-on-the-clocktower/image/downloaded/3e4471de1acc167d6484ec94c643488c.webp",
+    "setup": false,
+    "reminders": [
+      "得知"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3057,
+    "otherNight": 103,
+    "original_image": "https://www.bloodstar.xyz/p/Yez/nature/17_nature.png"
+  },
+  {
+    "id": "b641dac1",
+    "team": "townsfolk",
+    "name": "棉花",
+    "ability": "如果提名你的玩家是镇民：他会腐蚀-1，否则你会腐蚀+2。你会在当晚得知他的腐蚀情况。",
+    "image": "/blood-on-the-clocktower/image/downloaded/2adf963a654b2402cf76c183f0eed2e7.webp",
+    "setup": false,
+    "reminders": [
+      "-1",
+      "+2",
+      "提名者"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 117,
+    "original_image": "https://www.bloodstar.xyz/p/Yez/nature/26_nature.png"
+  },
+  {
+    "id": "86889802",
+    "team": "townsfolk",
+    "name": "老树",
+    "ability": "如果一项提名中所有老树都参与投票，此次提名按照最高票数统计。如果你在今天白天参与过投票，你会腐蚀+1。[+0~2老树]",
+    "image": "/blood-on-the-clocktower/image/downloaded/a6699325b07405a9e6c4272b7f384c2c.webp",
+    "setup": true,
+    "reminders": [
+      "+1",
+      "最高票数"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/Yez/nature/5_nature.png"
+  },
+  {
+    "id": "29dbaa95",
+    "team": "townsfolk",
+    "name": "荷花",
+    "ability": "在你的第四个夜晚，如果有爪牙存活，一名邪恶的恶魔会转变为善良阵营。如果你在夜晚死亡，所有善良玩家的腐蚀都会变成0。[+1恶魔]",
+    "image": "/blood-on-the-clocktower/image/downloaded/60c1778fc0ca71e6e22b110c47c9c6b8.webp",
+    "setup": true,
+    "reminders": [
+      "所有善良为0",
+      "善良",
+      "第一夜晚",
+      "第二夜晚",
+      "第三夜晚"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 7,
+    "otherNight": 6,
+    "original_image": "https://www.bloodstar.xyz/p/Yez/nature/23_nature.png"
+  },
+  {
+    "id": "60d46cd3",
+    "team": "outsider",
+    "name": "益虫",
+    "ability": "每个夜晚，一名存活玩家会得知自己获得益虫且腐蚀+1。失去益虫的玩家腐蚀会变成0。[+1镇民]",
+    "image": "/blood-on-the-clocktower/image/downloaded/fa35e46a72c528823413c0753e586422.webp",
+    "setup": true,
+    "reminders": [],
+    "remindersGlobal": [
+      "+1",
+      "益虫",
+      "脱离"
+    ],
+    "firstNight": 3022,
+    "otherNight": 71,
+    "original_image": "https://www.bloodstar.xyz/p/Yez/nature/16_nature.png"
+  },
+  {
+    "id": "1c80bbd5",
+    "team": "outsider",
+    "name": "恶土",
+    "ability": "在你的首个夜晚，你会腐蚀+2。在第三个白天结束时，你变成一名不在场的邪恶爪牙，但会有一名善良玩家得知你的能力被触发。",
+    "image": "/blood-on-the-clocktower/image/downloaded/f69c081c33f63db4537c5b7c0d95d8a4.webp",
+    "setup": false,
+    "reminders": [
+      "+2",
+      "得知",
+      "第一个白天",
+      "第二个白天",
+      "第三个白天",
+      "第四个白天"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 2003,
+    "otherNight": 15,
+    "original_image": "https://www.bloodstar.xyz/p/Yez/nature/15_nature.png"
+  },
+  {
+    "id": "878f096b",
+    "team": "outsider",
+    "name": "蘑菇",
+    "ability": "你以为你是一个镇民角色或一个邪恶的恶魔角色，但其实你不是。每个夜晚*，你会腐蚀+1。",
+    "image": "/blood-on-the-clocktower/image/downloaded/74a0c477fe0d39a928c31b2b99e40fef.webp",
+    "setup": true,
+    "reminders": [],
+    "remindersGlobal": [
+      "是蘑菇",
+      "+1"
+    ],
+    "firstNight": 0,
+    "otherNight": 34,
+    "original_image": "https://www.bloodstar.xyz/p/Yez/nature/9_nature.png"
+  },
+  {
+    "id": "c40903fe",
+    "team": "outsider",
+    "name": "岩石",
+    "ability": "如果你的腐蚀大于0，当晚与你邻近存活的玩家会腐蚀+1，你的腐蚀变为0。",
+    "image": "/blood-on-the-clocktower/image/downloaded/f0bcccceeaefc513e6fb1b069a0ca1e0.webp",
+    "setup": false,
+    "reminders": [
+      "+1"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3042,
+    "otherNight": 89,
+    "original_image": "https://www.bloodstar.xyz/p/Yez/nature/8_nature.png"
+  },
+  {
+    "id": "661fcebe",
+    "team": "minion",
+    "name": "害虫",
+    "ability": "每个夜晚，你要选择一名玩家：他腐蚀+1；如果你选择了邻近的存活玩家，他腐蚀+2。",
+    "image": "/blood-on-the-clocktower/image/downloaded/87ca3028110fa7ffc17e20c9bc90f2a3.webp",
+    "setup": false,
+    "reminders": [
+      "+2",
+      "+1"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3007,
+    "otherNight": 25,
+    "original_image": "https://www.bloodstar.xyz/p/Yez/nature/11_nature.png"
+  },
+  {
+    "id": "ee64875d",
+    "team": "minion",
+    "name": "腐植",
+    "ability": "每个夜晚，你会腐蚀+1。如果你的腐蚀大于2，在当晚你要选择一个不在场的恶魔角色和一个玩家：你变成该恶魔，他变成邪恶的腐植，但每局游戏仅能成功转化一次。",
+    "image": "/blood-on-the-clocktower/image/downloaded/b48e67617800a76a6946ee305c609ccb.webp",
+    "setup": false,
+    "reminders": [
+      "仅一次",
+      "+1"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3012,
+    "otherNight": 20,
+    "original_image": "https://www.bloodstar.xyz/p/Yez/nature/19_nature.png"
+  },
+  {
+    "id": "3fe94c5a",
+    "team": "minion",
+    "name": "浮游生物",
+    "ability": "在你的首个夜晚，你能查看魔典并选择一名非恶魔的存活玩家，每个夜晚，他腐蚀+1；如果他变成恶魔或者死亡，与他邻近的玩家会腐蚀+2，你重新获得能力。",
+    "image": "/image/downloaded/37546046ff40eb165bb13440e0516ba7.webp",
+    "setup": false,
+    "reminders": [
+      "生长",
+      "+1",
+      "+2"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3037,
+    "otherNight": 85,
+    "original_image": "https://www.bloodstar.xyz/p/Yez/nature/12_nature.png"
+  },
+  {
+    "id": "c9808535",
+    "team": "minion",
+    "name": "毒菌",
+    "ability": "所有外来者的腐蚀始终转移至你。如果你的腐蚀大于3，当晚你要选择一名镇民角色：如果他在场，他腐蚀+1，你的腐蚀变为0。如果你死亡，你选择过的所有镇民都会腐蚀+3。[+1~2外来者]",
+    "image": "/blood-on-the-clocktower/image/downloaded/ecadf279281469b12e587500f55a19f4.webp",
+    "setup": true,
+    "reminders": [
+      "+3",
+      "+1",
+      "吸收",
+      "孢子"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3032,
+    "otherNight": 80,
+    "original_image": "https://www.bloodstar.xyz/p/Yez/nature/24_nature.png"
+  },
+  {
+    "id": "6e8a9534",
+    "team": "demon",
+    "name": "腐化荆棘",
+    "ability": "每个夜晚*，你要行动两次，每次选择一名存活玩家：他会腐蚀-1；随后，如果他的腐蚀程度为0，他死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/b635db8786199c574f44e26c9233382d.webp",
+    "setup": true,
+    "reminders": [
+      "-1",
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 48,
+    "original_image": "https://www.bloodstar.xyz/p/Yez/nature/10_nature.png"
+  },
+  {
+    "id": "0a159e7c",
+    "team": "demon",
+    "name": "朽木",
+    "ability": "每个夜晚*，你要选择一名存活玩家：如果他枯萎，他死亡；反之，他腐蚀+3，随后，如果他的腐蚀超过3时，他死亡；否则，他枯萎。",
+    "image": "/blood-on-the-clocktower/image/downloaded/b7f99b36cfb1764a1ae236befdf7e808.webp",
+    "setup": true,
+    "reminders": [
+      "枯萎",
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 43,
+    "original_image": "https://www.bloodstar.xyz/p/Yez/nature/1_nature.png"
+  },
+  {
+    "id": "246d024a",
+    "team": "demon",
+    "name": "腐尸花",
+    "ability": "每个白天，在提名开始前，你可以公开选择一名玩家：他死亡。提名你的玩家会腐蚀+2。当你被处决时，如果提名你的玩家腐蚀大于3，你不会死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/973ecf7cb2e0e522f6b1b1a62fd5d202.webp",
+    "setup": true,
+    "reminders": [
+      "+2"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/Yez/nature/22_nature.png"
+  },
+  {
+    "id": "573e9189",
+    "team": "demon",
+    "name": "黑玫瑰",
+    "ability": "对调胜负结果，即使你已死亡。每个夜晚*，可能会有一名除你以外的玩家死亡。所有恶魔枯萎。[镇民无法变成该恶魔]",
+    "image": "/blood-on-the-clocktower/image/downloaded/5886339ca524e384bf460e100ca2dd7a.webp",
+    "setup": true,
+    "reminders": [
+      "枯萎",
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 12,
+    "otherNight": 52,
+    "original_image": "https://www.bloodstar.xyz/p/Yez/nature/18_nature.png"
+  },
+  {
+    "id": "a2b0563b",
+    "team": "fabled",
+    "name": "枯萎",
+    "ability": "你的腐蚀始终为0。一项提名中，每存在一名处于“枯萎”的玩家参与投票，统计后的总票数-1。",
+    "image": "",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0
+  },
+  {
+    "id": "4c6f7388",
+    "team": "fabled",
+    "name": "轻度腐蚀",
+    "ability": "腐蚀为1",
+    "image": "/blood-on-the-clocktower/image/downloaded/c0566f59f0c7787e122c0be1c6bd1528.webp",
+    "setup": false,
+    "reminders": [
+      "Ⅰ"
+    ],
+    "remindersGlobal": [
+      "Ⅰ"
+    ],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/Yez/nature/35_nature.png"
+  },
+  {
+    "id": "c538ea89",
+    "team": "fabled",
+    "name": "较多腐蚀",
+    "ability": "腐蚀为2",
+    "image": "/blood-on-the-clocktower/image/downloaded/8e3a7e8111291be81c3c8b8298373b86.webp",
+    "setup": false,
+    "reminders": [
+      "Ⅱ"
+    ],
+    "remindersGlobal": [
+      "Ⅱ"
+    ],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/Yez/nature/36_nature.png"
+  },
+  {
+    "id": "9d87aef8",
+    "team": "fabled",
+    "name": "严重腐蚀",
+    "ability": "腐蚀为3",
+    "image": "/blood-on-the-clocktower/image/downloaded/a7ff491f9c642d57a12cd52ce4860f9d.webp",
+    "setup": false,
+    "reminders": [
+      "Ⅲ"
+    ],
+    "remindersGlobal": [
+      "Ⅲ"
+    ],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/Yez/nature/37_nature.png"
+  },
+  {
+    "id": "24b7f330",
+    "team": "fabled",
+    "name": "前夕",
+    "ability": "说书人要在这个时候整合腐蚀标签。(为方便说书人按需加入)",
+    "image": "https://www.bloodstar.xyz/p/Yez/nature/14_nature.png",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 3052,
+    "otherNight": 99
+  },
+  {
+    "id": "c98b2d5b",
+    "team": "fabled",
+    "name": "益虫",
+    "ability": "如有益虫在场，说书人需要在当前调整益虫转移。(为方便说书人按需加入)",
+    "image": "https://www.bloodstar.xyz/p/Yez/nature/28_nature.png",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 3027,
+    "otherNight": 76
+  },
+  {
+    "id": "b6a7978d",
+    "team": "fabled",
+    "name": "蘑菇",
+    "ability": "如有蘑菇在场，说书人需要在当前顺位使蘑菇腐蚀+1。(为方便说书人按需加入)",
+    "image": "https://www.bloodstar.xyz/p/Yez/nature/32_nature.png",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 39
+  },
+  {
+    "id": "dedb25cd",
+    "team": "fabled",
+    "name": "护林员",
+    "ability": "在初始设置时不会有恶魔。爪牙会获得恶魔伪装。如果没有恶魔在场：1）善良玩家无法胜利；2）第五天结束时，说书人单独获胜。",
+    "image": "/blood-on-the-clocktower/image/downloaded/34872c10ca8f25272bdd78aa975ec3ac.webp",
+    "setup": false,
+    "reminders": [
+      "第一天",
+      "第二天",
+      "第三天",
+      "第四天",
+      "第五天",
+      "第六天"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3077,
+    "otherNight": 122,
+    "original_image": "https://www.bloodstar.xyz/p/Yez/nature/13_nature.png"
+  },
+  {
+    "id": "d2f4dacd",
+    "team": "fabled",
+    "name": "腐蚀",
+    "ability": "腐蚀程度初始为0，最低为0。腐蚀程度大于3的玩家会在夜晚时变成不在场的邪恶恶魔，没能成功变成恶魔的玩家会枯萎。死亡玩家、恶魔和旅行者腐蚀程度始终为0",
+    "image": "/blood-on-the-clocktower/image/downloaded/1956a27cc632ca6000a05e1c9dbafc77.webp",
+    "setup": false,
+    "reminders": [
+      "枯萎"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3047,
+    "otherNight": 94,
+    "original_image": "https://www.bloodstar.xyz/p/Yez/nature/_nature.png"
+  },
+  {
+    "id": "f9f309f8",
+    "team": "traveller",
+    "name": "落叶",
+    "ability": "如果有玩家死亡，他的投票标记的票数算作他死亡时的腐蚀情况（最大为三票）。",
+    "image": "/image/downloaded/d246a4f25bab57e86ea4a1cc2f0c900e.webp",
+    "setup": false,
+    "reminders": [
+      "0票",
+      "1票",
+      "2票",
+      "3票"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/Yez/nature/31_nature.png"
+  },
+  {
+    "id": "d69ec559",
+    "team": "traveller",
+    "name": "蚂蚁",
+    "ability": "始终存在一名与你阵营不同的玩家：他枯萎。",
+    "image": "/blood-on-the-clocktower/image/downloaded/b75213bf547dad0866657ff40347fad7.webp",
+    "setup": false,
+    "reminders": [
+      "枯萎"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/Yez/nature/30_nature.png"
+  },
+  {
+    "id": "49fb6302",
+    "team": "traveller",
+    "name": "风滚草",
+    "ability": "在白天时，你可以与多名玩家交换座位，但需要对方同意。",
+    "image": "/blood-on-the-clocktower/image/downloaded/0c9381b18cf301d99c24be81892e8926.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/Yez/nature/29_nature.png"
+  }
+]

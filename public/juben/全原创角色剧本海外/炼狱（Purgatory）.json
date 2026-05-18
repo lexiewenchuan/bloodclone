@@ -1,0 +1,498 @@
+[
+  {
+    "hint": "线上魔典支持直接输入剧本的URL。不必将此文件保存到你的电脑。",
+    "id": "_meta",
+    "name": "炼狱（Purgatory）",
+    "author": "Svendetta",
+    "status": [
+      {
+        "name": "解离·Departed",
+        "skill": "当一名玩家死亡时，他拥有的罪会解离。一些角色的能力能够影响已经解离的罪。"
+      },
+      {
+        "name": "不可知论·Agnostic",
+        "skill": "所有玩家都是善良的。游戏在只有两名玩家存活时结束。在游戏结束时，如果解离的罪大于存活玩家拥有的罪，善良阵营落败。爪牙和恶魔互相不认识。"
+      },
+      {
+        "name": "海外自制",
+        "skill": "本剧本为海外社区Discord玩家自制剧本，由于英文历书不完整，角色缺乏维护，部分内容为猜测补全。"
+      },
+      {
+        "name": "罪·Sin",
+        "skill": "游戏开始时，说书人会为所有玩家分配共计2X点罪[X=游戏人数]。每个夜晚*，拥有最少罪的玩家死亡，相同则爪牙和恶魔优先。“额外的罪”=2。罪的数量至少为0。"
+      }
+    ]
+  },
+  {
+    "id": "bf5386b8",
+    "team": "townsfolk",
+    "name": "冥想·Contemplation",
+    "ability": "在你的首个夜晚，你会得知一个外来者角色和一个爪牙角色：其中至少有一个角色在场。",
+    "image": "/blood-on-the-clocktower/image/downloaded/aefe258d6bcee5d848576e1b690c3ce1.webp",
+    "setup": false,
+    "reminders": [
+      "在场",
+      "哲学",
+      "逻辑",
+      "道德",
+      "模仿",
+      "盲从",
+      "困境",
+      "诱惑",
+      "折磨"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3032,
+    "otherNight": 82,
+    "original_image": "https://www.bloodstar.xyz/p/Svendetta/Purgatory/contemplation_purgatory.png"
+  },
+  {
+    "id": "ba037b1c",
+    "team": "townsfolk",
+    "name": "苦行·Penance",
+    "ability": "在你的首个夜晚，你会得知三名玩家：他们中的一名玩家拥有的罪最多，另一名玩家拥有的罪最少。",
+    "image": "/blood-on-the-clocktower/image/downloaded/46e541cf0abf2b86227364bbef540932.webp",
+    "setup": false,
+    "reminders": [
+      "最多",
+      "最少",
+      "第三名"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3039,
+    "otherNight": 53,
+    "original_image": "https://www.bloodstar.xyz/p/Svendetta/Purgatory/penance_purgatory.png"
+  },
+  {
+    "id": "02188e78",
+    "team": "townsfolk",
+    "name": "圣餐·Communion",
+    "ability": "每个夜晚，你要选择两名玩家：你会得知他们拥有的罪之和。",
+    "image": "/blood-on-the-clocktower/image/downloaded/205b0d64611167a771f456a37ee7d9c3.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 3060,
+    "otherNight": 112,
+    "original_image": "https://www.bloodstar.xyz/p/Svendetta/Purgatory/communion_purgatory.png"
+  },
+  {
+    "id": "457a14b6",
+    "team": "townsfolk",
+    "name": "仪式·Ritual",
+    "ability": "每个夜晚，你可以选择获得2点罪。若如此做，与你邻近的两名存活玩家各失去1点罪。",
+    "image": "/blood-on-the-clocktower/image/downloaded/e898f9cc4dba6e6ba548300d697da15c.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 3046,
+    "otherNight": 31,
+    "original_image": "https://www.bloodstar.xyz/p/Svendetta/Purgatory/ritual_purgatory.png"
+  },
+  {
+    "id": "f91566cd",
+    "team": "townsfolk",
+    "name": "忏悔·Repentance",
+    "ability": "每个夜晚*，你要选择一名除你以外的玩家：他会得知一些当晚发生的与他有关的事。",
+    "image": "/image/downloaded/f23c0725d49f3c8e98a3e9523f3dc64f.webp",
+    "setup": false,
+    "reminders": [
+      "你改悔罢"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3067,
+    "otherNight": 90,
+    "original_image": "https://www.bloodstar.xyz/p/Svendetta/Purgatory/repentance_purgatory.png"
+  },
+  {
+    "id": "38e507cf",
+    "team": "townsfolk",
+    "name": "祈求·Supplication",
+    "ability": "每个夜晚*，如果你存活，一名存活玩家失去1点罪；如果你死亡，一名死亡玩家失去1点罪。",
+    "image": "/blood-on-the-clocktower/image/downloaded/e8617c423618492751891dfaf9668c5a.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 46,
+    "original_image": "https://www.bloodstar.xyz/p/Svendetta/Purgatory/supplication_purgatory.png"
+  },
+  {
+    "id": "4f8218f6",
+    "team": "townsfolk",
+    "name": "奉献·Devotion",
+    "ability": "每个夜晚*，你得知两个数字：其中一个是存活玩家的罪之和，另一个是已解离的罪之和。你不知道数字的对应关系。",
+    "image": "/blood-on-the-clocktower/image/downloaded/42d8d2e988be828b13b568d166e33cd0.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 3024,
+    "otherNight": 75,
+    "original_image": "https://www.bloodstar.xyz/p/Svendetta/Purgatory/devotion_purgatory.png"
+  },
+  {
+    "id": "eaf38482",
+    "team": "townsfolk",
+    "name": "祷告·Prayer",
+    "ability": "每个夜晚*，你要选择两名存活玩家：他们中罪更少的失去1点罪，罪更多的获得1点罪。如果他们的罪相等，则改为无事发生。",
+    "image": "/blood-on-the-clocktower/image/downloaded/931fb44dcbbfa42d86ec91dabe499e6a.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 38,
+    "original_image": "https://www.bloodstar.xyz/p/Svendetta/Purgatory/prayer_purgatory.png"
+  },
+  {
+    "id": "c2d1c2a5",
+    "team": "townsfolk",
+    "name": "信仰·Faith",
+    "ability": "每个夜晚*，你要选择一个角色类型：你得知一个与该类型相关的数字，但你不知道其含义。每局游戏限一次，你可以拜访说书人并选择一个你获得过的数字：你得知其含义，然后你失去能力。",
+    "image": "/blood-on-the-clocktower/image/downloaded/5f1db9716a7540e288a287d36b96a898.webp",
+    "setup": false,
+    "reminders": [
+      "过界信仰"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 119,
+    "original_image": "https://www.bloodstar.xyz/p/Svendetta/Purgatory/faith_purgatory.png"
+  },
+  {
+    "id": "18fc5ce6",
+    "team": "townsfolk",
+    "name": "告解·Confession",
+    "ability": "每个白天，你可以拜访说书人猜测你拥有的罪的数量。如果你猜对，你会得知此事，然后你失去1点罪。",
+    "image": "/blood-on-the-clocktower/image/downloaded/5e29aaa9ed4b3bc7db6196a7347772e3.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/Svendetta/Purgatory/confession_purgatory.png"
+  },
+  {
+    "id": "73ea7518",
+    "team": "townsfolk",
+    "name": "宽恕·Mercy",
+    "ability": "每局游戏限一次，在白天时，你可以公开选择一名存活玩家：他失去所有罪，你获得等量罪。",
+    "image": "/blood-on-the-clocktower/image/downloaded/76d17907fd862ebb0973e7f54fd65567.webp",
+    "setup": false,
+    "reminders": [
+      "慈悲为怀"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/Svendetta/Purgatory/mercy_purgatory.png"
+  },
+  {
+    "id": "d25df899",
+    "team": "townsfolk",
+    "name": "施舍·Charity",
+    "ability": "每局游戏限一次，在白天时，你可以拜访说书人并提出一个问题。随后，你与说书人通过“三门游戏”来决定你能否获得正确答案。",
+    "image": "/blood-on-the-clocktower/image/downloaded/04cf6460cc53ecb58f014c292e2c0d48.webp",
+    "setup": false,
+    "reminders": [
+      "真门",
+      "假门"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/Svendetta/Purgatory/charity_purgatory.png"
+  },
+  {
+    "id": "a525c190",
+    "team": "townsfolk",
+    "name": "意志·Volition",
+    "ability": "如果你即将在夜晚死亡，会有一名玩家代替你死亡，然后你会被唤醒并选择一项：1.知识，你得知谁是恶魔；2.力量，你变成一个不在场的恶魔并获得“额外的罪”。",
+    "image": "/blood-on-the-clocktower/image/downloaded/fe1597367e1c010e777ed653a5e9675f.webp",
+    "setup": false,
+    "reminders": [
+      "知识",
+      "力量"
+    ],
+    "remindersGlobal": [
+      "是意志"
+    ],
+    "firstNight": 3053,
+    "otherNight": 60,
+    "original_image": "https://www.bloodstar.xyz/p/Svendetta/Purgatory/volition_purgatory.png"
+  },
+  {
+    "id": "07a63027",
+    "team": "townsfolk",
+    "name": "恩赐·Grace",
+    "ability": "如果只有三名玩家存活且白天没有发生处决，当晚，你要选择两名玩家（无论他们存活或死亡）：交换他们拥有的罪值。",
+    "image": "/blood-on-the-clocktower/image/downloaded/143246b72d00c7fc7003cedafd9b433b.webp",
+    "setup": false,
+    "reminders": [
+      "沐恩"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/Svendetta/Purgatory/grace_purgatory.png"
+  },
+  {
+    "id": "3971c4fe",
+    "team": "outsider",
+    "name": "伦理·Ethics",
+    "ability": "每个夜晚*，你要选择3名存活玩家进入“电车难题”：你会得知其中一名玩家，你要选择让你得知的玩家死亡，或让你选择但未得知的玩家死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/bdd2e488c0eec34c78747a17ee030486.webp",
+    "setup": false,
+    "reminders": [
+      "选择",
+      "得知",
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 97,
+    "original_image": "https://www.bloodstar.xyz/p/Svendetta/Purgatory/ethics_purgatory.png"
+  },
+  {
+    "id": "195c323a",
+    "team": "outsider",
+    "name": "模仿·Simulation",
+    "ability": "你以为你是一个不在场的恶魔，但其实你不是。每局游戏限一次，你认知的恶魔能力会生效，除非你在此之前死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/c3d60db02cbda134afdd4d55aedbe81d.webp",
+    "setup": true,
+    "reminders": [],
+    "remindersGlobal": [
+      "是模仿",
+      "已生效"
+    ],
+    "firstNight": 3003,
+    "otherNight": 104,
+    "original_image": "https://www.bloodstar.xyz/p/Svendetta/Purgatory/simulation_purgatory.png"
+  },
+  {
+    "id": "b6ff31e2",
+    "team": "outsider",
+    "name": "逻辑·Logic",
+    "ability": "镇民角色的能力始终会产生错误信息。如果你被处决，在你死亡前，你获得“额外的罪”。",
+    "image": "/blood-on-the-clocktower/image/downloaded/d8b0317d5d262fc706384163fd8f92d6.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [
+      "镇民错误"
+    ],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/Svendetta/Purgatory/logic_purgatory.png"
+  },
+  {
+    "id": "041a9b5d",
+    "team": "outsider",
+    "name": "哲学·Philosophy",
+    "ability": "一名玩家会被当作与他所拥有的罪值相差1的镇民，即使你已死亡。每局游戏限一次，你可以猜测谁是那个玩家，如果猜测正确，你会得知一条有用的建议；如果猜测错误，你会得知错误的“有用的建议”。",
+    "image": "/blood-on-the-clocktower/image/downloaded/b55a75f7cd993f267673119c9a8f6219.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [
+      "思考",
+      "已猜测"
+    ],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/Svendetta/Purgatory/philosophy_purgatory.png"
+  },
+  {
+    "id": "e6eef396",
+    "team": "minion",
+    "name": "困境·Trappings",
+    "ability": "每个夜晚，你要选择一名玩家（与上个夜晚不同）：他的能力无法使用且不会生效，直到下个黄昏。游戏开始时，你获得额外的罪。",
+    "image": "/blood-on-the-clocktower/image/downloaded/893347ae8a45722bd090caf327de1232.webp",
+    "setup": false,
+    "reminders": [
+      "受困",
+      "额外的罪"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3010,
+    "otherNight": 16,
+    "original_image": "https://www.bloodstar.xyz/p/Svendetta/Purgatory/trappings_purgatory.png"
+  },
+  {
+    "id": "5d2c1d31",
+    "team": "minion",
+    "name": "盲从·Tendency",
+    "ability": "每个白天提名阶段开始时，所有玩家都会得知你和一名罪值不为最多的其他玩家：你们视为已经拥有达到处决所需的最低票数且均即将被处决，你们今天获得的票数会在此基础上累计。",
+    "image": "/blood-on-the-clocktower/image/downloaded/0a5ab6990aa04c396e05629950cf9592.webp",
+    "setup": false,
+    "reminders": [
+      "已有2票",
+      "已有3票",
+      "已有4票",
+      "已有5票",
+      "已有6票",
+      "已有7票",
+      "已有8票"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/Svendetta/Purgatory/tendency_purgatory.png"
+  },
+  {
+    "id": "42508c5c",
+    "team": "minion",
+    "name": "诱惑·Temptation",
+    "ability": "你不知道你是诱惑，你以为你是一个不在场且能够使用自身能力进行选择的善良角色。被你选择的玩家获得1点罪，除非你选择了你自己。",
+    "image": "/blood-on-the-clocktower/image/downloaded/40f784ba65d64e7f312d6c91d91c6033.webp",
+    "setup": true,
+    "reminders": [],
+    "remindersGlobal": [
+      "是诱惑"
+    ],
+    "firstNight": 3017,
+    "otherNight": 24,
+    "original_image": "https://www.bloodstar.xyz/p/Svendetta/Purgatory/temptation_purgatory.png"
+  },
+  {
+    "id": "583706ab",
+    "team": "minion",
+    "name": "折磨·Torment",
+    "ability": "游戏开始时，会有“额外的罪”在场。如果你没有疯狂证明你自己“是镇民”，拥有最多罪的存活玩家可能被处决。",
+    "image": "/blood-on-the-clocktower/image/downloaded/9f10bfaf78ab09626ec213aeb8b20d79.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 9,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/Svendetta/Purgatory/torment_purgatory.png"
+  },
+  {
+    "id": "4481b99a",
+    "team": "demon",
+    "name": "天谴·Damnation",
+    "ability": "你始终与说书人胜负一致，即使你已死亡。每个夜晚，你可以选择一个你未选择过的角色：你可以正常使用该角色的能力一次，直到下个黄昏。",
+    "image": "/blood-on-the-clocktower/image/downloaded/cd31bf5660de2c04e152c7eeae3bd5da.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [
+      "是天谴"
+    ],
+    "firstNight": 2002,
+    "otherNight": 9,
+    "original_image": "https://www.bloodstar.xyz/p/Svendetta/Purgatory/damnation_purgatory.png"
+  },
+  {
+    "id": "5d5e140f",
+    "team": "demon",
+    "name": "救赎·Salvation",
+    "ability": "如果你提名了一名玩家且他因此被处决，他失去所有罪，然后你获得等量罪。[+1爪牙]",
+    "image": "/blood-on-the-clocktower/image/downloaded/032791858a1ac7e3d0c7d2694b94c2e9.webp",
+    "setup": true,
+    "reminders": [
+      "戴罪"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3074,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/Svendetta/Purgatory/salvation_purgatory.png"
+  },
+  {
+    "id": "91c39bef",
+    "team": "demon",
+    "name": "边狱·Limbo",
+    "ability": "如果上个白天和这个白天都没有处决发生，你和所有存活的外来者获胜，其他所有玩家落败。[+1外来者]",
+    "image": "/blood-on-the-clocktower/image/downloaded/0d98df6a68bc81436174889aff97a589.webp",
+    "setup": true,
+    "reminders": [
+      "第一日",
+      "第二日"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/Svendetta/Purgatory/limbo_purgatory.png"
+  },
+  {
+    "id": "3cf9097a",
+    "team": "fabled",
+    "name": "罪·Sin",
+    "ability": "每个夜晚*，拥有最少罪的玩家死亡，相同则爪牙和恶魔优先。游戏开始时，说书人会为所有玩家分配共计2X点罪[X=游戏人数]。“额外的罪”=2。每名玩家罪的数量至少为0。",
+    "image": "/image/downloaded/7db0266699b2c822e2a67280be7eb87b.webp",
+    "setup": false,
+    "reminders": [
+      "死亡",
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "13",
+      "14",
+      "15",
+      "16",
+      "17",
+      "18",
+      "19",
+      "20",
+      "21",
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 68,
+    "original_image": "https://www.bloodstar.xyz/p/Svendetta/Purgatory/sin_purgatory.png"
+  },
+  {
+    "id": "14d8cd6a",
+    "team": "fabled",
+    "name": "解离·Departed",
+    "ability": "当一名玩家死亡时，他拥有的罪会解离。一些角色的能力能够影响已经解离的罪。",
+    "image": "/blood-on-the-clocktower/image/downloaded/2ce2cf4a13bf861a51f2c64637dad3ae.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/Svendetta/Purgatory/departed_purgatory.png"
+  },
+  {
+    "id": "e9888484",
+    "team": "fabled",
+    "name": "盲从·运作",
+    "ability": "如果受盲从能力影响的两名玩家之一没有获得更高票数，盲从可以导致受到他的能力影响的两名玩家同时被处决；如果这两名玩家之一被提名且获得更高票数(而另一个未被提名)，优先处决该玩家；如果有第三名或更多玩家得到了相等的票数，不会因此导致他(们)和受到盲从能力影响的玩家同时被处决。",
+    "image": "/blood-on-the-clocktower/image/downloaded/0a5ab6990aa04c396e05629950cf9592.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/Svendetta/Purgatory/tendency_purgatory.png"
+  },
+  {
+    "id": "707ef7e9",
+    "team": "fabled",
+    "name": "不可知论·Agnostic",
+    "ability": "所有玩家都是善良的。游戏在只有两名玩家存活时结束。在游戏结束时，如果存活玩家拥有的罪小于解离的罪，善良阵营落败。爪牙和恶魔互相不认识。",
+    "image": "/image/downloaded/4e1f560a56237dcad72df3536a1d7e18.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/Svendetta/Purgatory/agnostic_purgatory.png"
+  }
+]

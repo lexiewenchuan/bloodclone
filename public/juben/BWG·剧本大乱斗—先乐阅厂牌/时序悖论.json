@@ -1,0 +1,381 @@
+[
+  {
+    "hint": "线上魔典支持直接输入剧本的URL。不必将此文件保存到你的电脑。",
+    "id": "_meta",
+    "name": "时序悖论",
+    "author": "时域"
+  },
+  {
+    "id": "8ca57fc2",
+    "team": "townsfolk",
+    "name": "守秘人",
+    "ability": "在你的首个夜晚，你会得知一个善良玩家和他的角色，如果他死亡，你会得知另一个存活善良玩家和他的角色。",
+    "image": "/blood-on-the-clocktower/image/downloaded/85021b64751587e59904f20d9313cc22.webp",
+    "setup": false,
+    "reminders": [
+      "密钥"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3053,
+    "otherNight": 92,
+    "original_image": "https://www.bloodstar.xyz/p/meiosis/clockparadox/_clockparadox.png"
+  },
+  {
+    "id": "ba93ac64",
+    "team": "townsfolk",
+    "name": "勘测员",
+    "ability": "每个夜晚，你会得知当晚在你之前有几名玩家被唤醒。",
+    "image": "/blood-on-the-clocktower/image/downloaded/db4efbe303c63c78d3c78ae16f540222.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 3046,
+    "otherNight": 87,
+    "original_image": "https://www.bloodstar.xyz/p/meiosis/clockparadox/9_clockparadox.png"
+  },
+  {
+    "id": "da01eb4f",
+    "team": "townsfolk",
+    "name": "护教军",
+    "ability": "每个夜晚，你要选择三名玩家，如果他们中有邪恶，你下次选择玩家减少一名。",
+    "image": "/blood-on-the-clocktower/image/downloaded/a20ecd2fa41c87d0467b8cc62fea7957.webp",
+    "setup": false,
+    "reminders": [
+      "3",
+      "2",
+      "1",
+      "0"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3039,
+    "otherNight": 75,
+    "original_image": "https://www.bloodstar.xyz/p/meiosis/clockparadox/1_clockparadox.png"
+  },
+  {
+    "id": "88b5e8a7",
+    "team": "townsfolk",
+    "name": "队长",
+    "ability": "每个夜晚，你要选择三名除你以外的存活玩家，你会得知他们当晚进行选择的总次数。",
+    "image": "/blood-on-the-clocktower/image/downloaded/71b66048c685e2944506874697daac08.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 3067,
+    "otherNight": 121,
+    "original_image": "https://www.bloodstar.xyz/p/meiosis/clockparadox/7_clockparadox.png"
+  },
+  {
+    "id": "28521a67",
+    "team": "townsfolk",
+    "name": "巡林客",
+    "ability": "每个夜晚，你会得知距离最远的一对存活恶魔与存活爪牙间有几名存活玩家（不含端点），如果没有存活爪牙，你得知任意的信息。",
+    "image": "/blood-on-the-clocktower/image/downloaded/2214fc10313f53b8743ce34be73f19f6.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 3060,
+    "otherNight": 98,
+    "original_image": "https://www.bloodstar.xyz/p/meiosis/clockparadox/15_clockparadox.png"
+  },
+  {
+    "id": "635217b4",
+    "team": "townsfolk",
+    "name": "通灵师",
+    "ability": "每个夜晚*，你要选择三名存活玩家，如果他们的角色类型都不相同，他们中一名玩家死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/c700f7141c725b7dd359f001243beedf.webp",
+    "setup": false,
+    "reminders": [
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 36,
+    "original_image": "https://www.bloodstar.xyz/p/meiosis/clockparadox/5_clockparadox.png"
+  },
+  {
+    "id": "ef09af0e",
+    "team": "townsfolk",
+    "name": "分析师",
+    "ability": "每个夜晚*，你要选择三名除你以外的玩家，你得知当夜他们谁最先被唤醒（或即将最先被唤醒）。",
+    "image": "/blood-on-the-clocktower/image/downloaded/bd14b461b8a20de04a091d88db52f72f.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 81,
+    "original_image": "https://www.bloodstar.xyz/p/meiosis/clockparadox/3_clockparadox.png"
+  },
+  {
+    "id": "f38603f6",
+    "team": "townsfolk",
+    "name": "值夜者",
+    "ability": "每个夜晚*，你会得知当晚死亡的玩家，每局游戏限一次，你可以选择其中一名，你得知他死于哪个角色类型。",
+    "image": "/blood-on-the-clocktower/image/downloaded/c37ecce5c66f56b07b9d4715b55e98aa.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 115,
+    "original_image": "https://www.bloodstar.xyz/p/meiosis/clockparadox/18_clockparadox.png"
+  },
+  {
+    "id": "86fb3693",
+    "team": "townsfolk",
+    "name": "冒险家",
+    "ability": "每个夜晚*，你要选择除你以外的任意名玩家，如果他们都是善良的，他们中当晚首个死亡的玩家首次不会死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/b3d9f617bae9441baf7844b1d3be4637.webp",
+    "setup": false,
+    "reminders": [
+      "保护"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 24,
+    "original_image": "https://www.bloodstar.xyz/p/meiosis/clockparadox/2_clockparadox.png"
+  },
+  {
+    "id": "e1aae052",
+    "team": "townsfolk",
+    "name": "传火者",
+    "ability": "每个白天，你可以公开声称一个角色，当晚邪恶玩家的负面能力对他无效。",
+    "image": "/blood-on-the-clocktower/image/downloaded/7a3ac741a8f83488419fff296c9e28eb.webp",
+    "setup": false,
+    "reminders": [
+      "保护"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/meiosis/clockparadox/22_clockparadox.png"
+  },
+  {
+    "id": "304b27e8",
+    "team": "townsfolk",
+    "name": "旗手",
+    "ability": "每个白天，你可以私下向说书人提交一个词语，如果至少两个不同的在场角色的能力描述中含有有该词语，当晚你会得知一名有该词语的玩家。",
+    "image": "/blood-on-the-clocktower/image/downloaded/51d23298f8ad38d6a7fd353dede5bcb3.webp",
+    "setup": false,
+    "reminders": [
+      "在场"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 109,
+    "original_image": "https://www.bloodstar.xyz/p/meiosis/clockparadox/4_clockparadox.png"
+  },
+  {
+    "id": "3561c6f1",
+    "team": "townsfolk",
+    "name": "日之塔",
+    "ability": "每局游戏限一次，在夜晚时*，你可以让当晚所有的死亡统一延迟到黎明时。",
+    "image": "/blood-on-the-clocktower/image/downloaded/6eb8388ff499b4f4e557f1fbc1b24b3a.webp",
+    "setup": false,
+    "reminders": [
+      "失去能力"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 30,
+    "original_image": "https://www.bloodstar.xyz/p/meiosis/clockparadox/6_clockparadox.png"
+  },
+  {
+    "id": "aa2a9bf7",
+    "team": "townsfolk",
+    "name": "隐修士",
+    "ability": "如果你没有“疯狂”证明自己是任何一个角色，每个夜晚*，你会得知一条信息。",
+    "image": "/blood-on-the-clocktower/image/downloaded/5ef930d73bc234a149e1543d962e0010.webp",
+    "setup": false,
+    "reminders": [
+      "失去能力"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 104,
+    "original_image": "https://www.bloodstar.xyz/p/meiosis/clockparadox/8_clockparadox.png"
+  },
+  {
+    "id": "d884793b",
+    "team": "outsider",
+    "name": "游魂",
+    "ability": "每个夜晚，你会被当作一个除你以外的角色及其相应阵营，即使你已死亡。你会以他的方式被唤醒。",
+    "image": "/blood-on-the-clocktower/image/downloaded/cb237904eb78a4a4a310d040f9a2e149.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 9,
+    "otherNight": 7,
+    "original_image": "https://www.bloodstar.xyz/p/meiosis/clockparadox/17_clockparadox.png"
+  },
+  {
+    "id": "154776a9",
+    "team": "outsider",
+    "name": "破坏狂",
+    "ability": "每个夜晚，你要选择一个未选择过的角色，这些角色每有一个在场，当你死亡时，就会有一名玩家在当晚死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/4feb898e39e83932dab4dfd6c1f087b1.webp",
+    "setup": false,
+    "reminders": [
+      "在场",
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3032,
+    "otherNight": 70,
+    "original_image": "https://www.bloodstar.xyz/p/meiosis/clockparadox/24_clockparadox.png"
+  },
+  {
+    "id": "10eaf1dd",
+    "team": "outsider",
+    "name": "杠精",
+    "ability": "你以为你是一个在场的镇民，其实你不是，你的行动顺位在那个镇民之后。",
+    "image": "/blood-on-the-clocktower/image/downloaded/625083b9db24174ce4f18a38ba2fa0b7.webp",
+    "setup": true,
+    "reminders": [],
+    "remindersGlobal": [
+      "是杠精"
+    ],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/meiosis/clockparadox/10_clockparadox.png"
+  },
+  {
+    "id": "09654a5b",
+    "team": "outsider",
+    "name": "异教徒",
+    "ability": "一名邪恶玩家知道你是异教徒，如果他死于处决，你加入邪恶阵营。",
+    "image": "/blood-on-the-clocktower/image/downloaded/bb1844d84f12ed8fe57cf91da550aae3.webp",
+    "setup": false,
+    "reminders": [
+      "邪恶",
+      "教主"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3003,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/meiosis/clockparadox/23_clockparadox.png"
+  },
+  {
+    "id": "1b182919",
+    "team": "minion",
+    "name": "地狱之眼",
+    "ability": "每个夜晚，你要选择两名玩家，你得知他们的角色，首个被你选择两次的玩家死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/1bbacd37611fb854aa34d701d400ad5d.webp",
+    "setup": false,
+    "reminders": [
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3017,
+    "otherNight": 41,
+    "original_image": "https://www.bloodstar.xyz/p/meiosis/clockparadox/11_clockparadox.png"
+  },
+  {
+    "id": "ae8cbcad",
+    "team": "minion",
+    "name": "报死鸟",
+    "ability": "每个夜晚*，你要选择一名玩家，如果当夜有善良玩家选中了他，他死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/99734788376a56e6627790e75f164f1f.webp",
+    "setup": false,
+    "reminders": [
+      "选择",
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 13,
+    "original_image": "https://www.bloodstar.xyz/p/meiosis/clockparadox/12_clockparadox.png"
+  },
+  {
+    "id": "e0d49763",
+    "team": "minion",
+    "name": "影子侍从",
+    "ability": "在你的首个夜晚，你要选择一名玩家，你获得他的能力且他中毒，如果他死于处决，当晚你要选择一名玩家，他中毒。",
+    "image": "/blood-on-the-clocktower/image/downloaded/05d648a25ab11ff25165f87c458e3548.webp",
+    "setup": false,
+    "reminders": [
+      "中毒"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3010,
+    "otherNight": 19,
+    "original_image": "https://www.bloodstar.xyz/p/meiosis/clockparadox/19_clockparadox.png"
+  },
+  {
+    "id": "e0de3c7b",
+    "team": "minion",
+    "name": "末日行者",
+    "ability": "每当除你以外的玩家因自身能力被唤醒等同于玩家数次时，你会被唤醒并选择一名玩家，他死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/55e69934f30d94956f79d093d0fe4a29.webp",
+    "setup": false,
+    "reminders": [
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/meiosis/clockparadox/16_clockparadox.png"
+  },
+  {
+    "id": "ec283c8c",
+    "team": "demon",
+    "name": "余火",
+    "ability": "每个夜晚*，你要选择一名玩家，他死亡。如果上个白天到你行动前有非镇民死亡，你可以额外选择一名玩家，他在黎明时死亡。【+1外来者】",
+    "image": "/blood-on-the-clocktower/image/downloaded/66cfccb51c2b033bb4eac76759385416.webp",
+    "setup": true,
+    "reminders": [
+      "死于今日",
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 64,
+    "original_image": "https://www.bloodstar.xyz/p/meiosis/clockparadox/21_clockparadox.png"
+  },
+  {
+    "id": "6360e8db",
+    "team": "demon",
+    "name": "残念",
+    "ability": "在你的首个夜晚，你要选择一名玩家，他中毒且“是恶魔”，并始终被当作善良的残念，每个夜晚*，你要选择一名玩家，他死亡，即使你已死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/6e0400cadc598e6d5a54ef99ae210dbb.webp",
+    "setup": false,
+    "reminders": [
+      "死亡",
+      "中毒"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3024,
+    "otherNight": 47,
+    "original_image": "https://www.bloodstar.xyz/p/meiosis/clockparadox/13_clockparadox.png"
+  },
+  {
+    "id": "9136f06c",
+    "team": "demon",
+    "name": "变量",
+    "ability": "首个夜晚，你要选择至多三个在其他夜行动的角色，你可以交换他们的行动顺位。每个夜晚*，你要选择一名玩家，他死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/acc62b8b4fb4538a7e55b9e6e71c9081.webp",
+    "setup": false,
+    "reminders": [
+      "死亡",
+      "行动顺序改变"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3074,
+    "otherNight": 53,
+    "original_image": "https://www.bloodstar.xyz/p/meiosis/clockparadox/14_clockparadox.png"
+  },
+  {
+    "id": "11d8fb3e",
+    "team": "demon",
+    "name": "盟主",
+    "ability": "首个夜晚，你要选择两名玩家，他们加入邪恶阵营并获得能力：“每个夜晚*，选择一名玩家，他死亡，即使你已死亡”。【-2爪牙】",
+    "image": "/blood-on-the-clocktower/image/downloaded/c3c5d4d60f89ed83c01cfe76f635c8aa.webp",
+    "setup": true,
+    "reminders": [
+      "死亡",
+      "邪恶"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 2002,
+    "otherNight": 58,
+    "original_image": "https://www.bloodstar.xyz/p/meiosis/clockparadox/20_clockparadox.png"
+  }
+]

@@ -1,0 +1,311 @@
+/* 基础容器 */
+.dock-panel-container {
+  position: fixed;
+  z-index: 1000;
+  display: flex;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* --- 左侧停靠模式 --- */
+.dock-panel-container.left {
+  left: 0;
+  flex-direction: row;
+  align-items: center;
+  /* 与 dock-tab 高度保持一致，方便统一按设计尺寸缩放 */
+  height: 130px;
+}
+
+/* 左侧：标签按钮 */
+.dock-panel-container.left .dock-tab {
+  /* 设计基准尺寸：宽 45 × 高 130 */
+  width: 45px;
+  height: 130px;
+  background: linear-gradient(to bottom, #1a1a1a, #2d0a0a);
+  border: 1px solid rgba(139, 0, 0, 0.3);
+  border-left: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 0;
+  cursor: pointer;
+  z-index: 2;
+  transition: background 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease;
+  border-radius: 0 12px 12px 0;
+  box-shadow: 2px 0 10px rgba(0, 0, 0, 0.5);
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
+  user-select: none;
+}
+
+.dock-panel-container.left .dock-tab:hover {
+  background: linear-gradient(to bottom, #2d0a0a, #4a0e0e);
+  border-color: rgba(229, 62, 62, 0.5);
+  box-shadow: 2px 0 15px rgba(139, 0, 0, 0.4);
+}
+
+.dock-panel-container.left .dock-tab:active {
+  background: linear-gradient(to bottom, #1a0505, #2d0a0a);
+  border-color: rgba(139, 0, 0, 0.4);
+}
+
+.dock-panel-container.left .dock-tab-text {
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  font-size: 14px;
+  font-weight: 500;
+  color: #e2e8f0;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  white-space: nowrap;
+  padding: 12px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.8), 0 0 10px rgba(139, 0, 0, 0.5); /* 文字发光 */
+}
+
+.dock-panel-container.left.open .dock-tab {
+  border-radius: 0 12px 12px 0; /* 展开时保持圆角，与收起状态一致 */
+  background: #1a0505;
+  border-right: none;
+}
+
+.dock-panel-container.left.open .dock-tab-text {
+  color: #f87171;
+  text-shadow: 0 0 8px rgba(248, 113, 113, 0.6);
+}
+
+/* 左侧：内容面板（高度随 token 尺寸变化，保证不裁切；--left-dock-token-size 由 LeftDrawers 传入） */
+.dock-panel-container.left .dock-content {
+  width: 0;
+  /* 总高度 = Token 尺寸 + 27px，比原来整体少 5px */
+  height: calc(var(--left-dock-token-size, 72px) + 27px);
+  overflow: hidden;
+  background: radial-gradient(circle at center, #1a0505 0%, #0a0202 100%);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(139, 0, 0, 0.3);
+  border-left: none;
+  border-radius: 0 16px 16px 0;
+  box-shadow: 15px 0 35px rgba(0, 0, 0, 0.7);
+  display: flex;
+  flex-direction: column;
+  transition: width 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.dock-panel-container.left.open .dock-content {
+  width: var(--dock-width, auto); /* 使用变量允许外部覆盖，默认为auto自适应 */
+  min-width: 220px; /* 最小宽度（展开时初始更宽） */
+  max-width: 560px; /* 最大宽度 */
+}
+
+.dock-panel-container.left .dock-content-inner {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  justify-content: center; /* 文字 / Token 在面板内垂直居中 */
+  align-items: center; /* 水平居中 */
+  padding: 0 10px; /* 仅左右留白，避免上下 padding 影响居中 */
+  box-sizing: border-box;
+}
+
+/* --- 底部停靠模式 --- */
+.dock-panel-container.bottom {
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  flex-direction: column-reverse;
+  align-items: stretch; /* 保证宽度一致 */
+  width: 800px; /* 默认宽度 */
+  max-width: 90vw;
+}
+
+.dock-panel-container.bottom .dock-tab {
+  height: 32px; /* 进一步压缩高度 */
+  width: 100%;
+  background: #1e293b;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0 20px;
+  cursor: pointer;
+  z-index: 2;
+  transition: all 0.2s;
+}
+
+.dock-panel-container.bottom .dock-tab:hover {
+  background: #334155;
+  box-shadow: inset 0 -2px 0 #f87171; /* 内部阴影反馈 */
+}
+
+.dock-panel-container.bottom .dock-tab-text {
+  font-size: 13px;
+  font-weight: 600;
+  color: #94a3b8;
+  text-transform: uppercase;
+}
+
+.dock-panel-container.bottom .dock-content {
+  height: 0;
+  overflow: hidden;
+  background: rgba(15, 23, 42, 0.95);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-bottom: none;
+  border-radius: 12px 12px 0 0;
+  display: flex;
+  flex-direction: column;
+  transition: height 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.dock-panel-container.bottom.open .dock-content {
+  height: var(--dock-height, 300px); /* 减小默认高度并支持变量覆盖 */
+}
+
+.dock-panel-container.bottom .dock-content-inner {
+  height: var(--dock-height, 300px);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+/* --- 通用内部样式 --- */
+.dock-content-inner {
+  background: url('https://www.transparenttextures.com/patterns/dark-leather.png');
+  opacity: 1; /* 增加不透明度以确保背景稳定 */
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* 内部容器也强制居中 */
+  align-items: center;
+}
+
+.dock-body {
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+  padding: 0;
+  display: flex;
+  flex-direction: row; /* 改为横向，与内容排列一致 */
+  justify-content: center; /* 水平居中 */
+  align-items: center; /* 垂直居中 */
+  border-radius: inherit;
+  min-height: 0; /* 确保flex子元素可以正确收缩 */
+}
+
+/* 自定义滚动条 */
+.dock-body::-webkit-scrollbar {
+  width: 4px;
+}
+.dock-body::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+}
+
+/* 业务内部组件样式适配 */
+.drawer-section {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.drawer-hint {
+  font-size: 0.8rem;
+  color: #94a3b8;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 8px;
+  line-height: 1.5;
+}
+
+.bluffs-list {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  flex-wrap: wrap; /* 允许换行 */
+  max-width: 100%; /* 确保不超出容器 */
+}
+
+.bluffs-list + .bluffs-list {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding-top: 12px;
+  margin-top: 12px;
+}
+
+
+
+.fabled-list, .traveler-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(60px, 1fr));
+  gap: 12px;
+}
+
+.jinxed-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 10px;
+  width: auto; /* 自适应宽度 */
+  max-width: 380px; /* 最大宽度 */
+}
+
+.jinxed-item {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  padding: 12px;
+  transition: all 0.2s ease;
+}
+
+.jinxed-item:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+.jinxed-item-content {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.jinxed-item-name {
+  font-size: 14px;
+  font-weight: 600;
+  color: #f87171;
+  text-shadow: 0 0 5px rgba(248, 113, 113, 0.3);
+}
+
+.jinxed-item-ability {
+  font-size: 12px;
+  color: #e2e8f0;
+  line-height: 1.5;
+}
+
+/* 空状态：不撑满，由最外层 dock-content-inner 负责居中 */
+.empty-state {
+  padding: 8px 12px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.empty-state p {
+  font-size: 14px;
+  color: rgba(226, 232, 240, 0.7);
+  margin: 0;
+  line-height: 1.4;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

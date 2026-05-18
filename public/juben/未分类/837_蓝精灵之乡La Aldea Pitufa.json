@@ -1,0 +1,186 @@
+[
+  {
+    "hint": "线上魔典支持直接输入剧本的URL。不必将此文件保存到你的电脑。",
+    "id": "_meta",
+    "name": "蓝精灵之乡La Aldea Pitufa",
+    "author": "Crowley",
+    "original_name": "837#蓝精灵之乡La Aldea Pitufa"
+  },
+  {
+    "id": "a8ceda57",
+    "team": "townsfolk",
+    "name": "蓝妹妹",
+    "ability": "每个夜晚，你得知一个空座位的角色。",
+    "image": "/blood-on-the-clocktower/image/downloaded/332a69f92bbfd28c3f69cc66d6557cc5.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 3007,
+    "otherNight": 80,
+    "original_image": "http://villacuervos.es/personajes/icono/laaldeapitufa_pitufina"
+  },
+  {
+    "id": "6f14ba1f",
+    "team": "townsfolk",
+    "name": "侦探聪聪",
+    "ability": "每个夜晚，你要选择一名玩家。如果你上个夜晚选中了恶魔，当晚你不会被唤醒进行选择。",
+    "image": "/blood-on-the-clocktower/image/downloaded/889226a7ef58e2836493596a2a533d45.webp",
+    "setup": false,
+    "reminders": [
+      "选中"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3032,
+    "otherNight": 95,
+    "original_image": "http://villacuervos.es/personajes/icono/laaldeapitufa_pitufodetective"
+  },
+  {
+    "id": "49ab0075",
+    "team": "townsfolk",
+    "name": "阿兹猫",
+    "ability": "每个夜晚*，你顺时针方向最近的玩家（左手边的玩家）可能会与另一位玩家交换角色。如果因此交换角色的玩家中有格格巫，你转变为邪恶阵营，但你不会得知此事。",
+    "image": "/blood-on-the-clocktower/image/downloaded/10c0c98f995ff3a2155c1bad1172f2ce.webp",
+    "setup": false,
+    "reminders": [
+      "交换"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 64,
+    "original_image": "http://villacuervos.es/personajes/icono/laaldeapitufa_azrael"
+  },
+  {
+    "id": "74698225",
+    "team": "townsfolk",
+    "name": "乐乐",
+    "ability": "你以为你是格格巫，但其实你不是。如果你与格格巫交换了角色，你不会得知你变化后的阵营或角色。",
+    "image": "/blood-on-the-clocktower/image/downloaded/f8a41c70dff9e48e63691b36e45f0575.webp",
+    "setup": true,
+    "reminders": [],
+    "remindersGlobal": [
+      "是乐乐"
+    ],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "http://villacuervos.es/personajes/icono/laaldeapitufa_pitufobromista"
+  },
+  {
+    "id": "cfd1055d",
+    "team": "townsfolk",
+    "name": "黑暗蓝精灵",
+    "ability": "当你首次将要死亡时，如果你与格格巫邻座，你不会死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/9c6306f4d00c0c4ab9911d1113e1b2ba.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "http://villacuervos.es/personajes/icono/laaldeapitufa_pitufotontin"
+  },
+  {
+    "id": "da807e4d",
+    "team": "townsfolk",
+    "name": "蓝爸爸",
+    "ability": "当你首次将要变成格格巫时，会有一名其他玩家代替你变成格格巫并转变阵营。",
+    "image": "/blood-on-the-clocktower/image/downloaded/ac9b765724346d6272b9e12ef868ba97.webp",
+    "setup": false,
+    "reminders": [
+      "首次已转移"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "http://villacuervos.es/personajes/icono/laaldeapitufa_papapitufo"
+  },
+  {
+    "id": "12df1fef",
+    "team": "townsfolk",
+    "name": "笨笨",
+    "ability": "如果你在第二个夜晚死亡，之后不会再有玩家在夜晚死亡。如果格格巫即将被处决，改为你替他死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/94f464e193be9c969f4ca76c129eee29.webp",
+    "setup": false,
+    "reminders": [
+      "代替死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 17,
+    "original_image": "http://villacuervos.es/personajes/icono/laaldeapitufa_pitufooscuro"
+  },
+  {
+    "id": "0a762821",
+    "team": "demon",
+    "name": "格格巫",
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡。然后你与他临近的存活玩家之一交换角色和阵营。",
+    "image": "/blood-on-the-clocktower/image/downloaded/62c25c0da84de7e7e20cf59e906d9510.webp",
+    "setup": false,
+    "reminders": [
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 33,
+    "original_image": "http://villacuervos.es/personajes/icono/laaldeapitufa_gargamel"
+  },
+  {
+    "id": "e6294070",
+    "team": "demon",
+    "name": "吸血鬼精灵",
+    "ability": "每个夜晚*，你要选择一名玩家：他变成邪恶的吸血鬼精灵，然后你死亡。如果在一项提名中只有吸血鬼精灵投票，此次投票会被计为0票。",
+    "image": "/blood-on-the-clocktower/image/downloaded/d5cead250d1a48a0f6d6353279b1fd86.webp",
+    "setup": false,
+    "reminders": [
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 48,
+    "original_image": "http://villacuervos.es/personajes/icono/laaldeapitufa_vampitufo"
+  },
+  {
+    "id": "4666653f",
+    "team": "fabled",
+    "name": "蓝精灵友谊",
+    "ability": "每个夜晚，说书人会为每个空座位随机选择一名玩家：每个白天，如果被提名者不是该玩家，他就会投票。如果只有3名玩家存活，这条规则失效。",
+    "image": "/blood-on-the-clocktower/image/downloaded/4879af132483ecae1768dd4e2f311b37.webp",
+    "setup": false,
+    "reminders": [
+      "1号玩家",
+      "2号玩家",
+      "3号玩家",
+      "4号玩家",
+      "5号玩家",
+      "6号玩家"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3057,
+    "otherNight": 111,
+    "original_image": "http://villacuervos.es/personajes/icono/laaldeapitufa_amistadpitufa"
+  },
+  {
+    "id": "9d0f7361",
+    "team": "fabled",
+    "name": "蓝精灵板凳",
+    "ability": "每名玩家都会带来一个[空座位]。",
+    "image": "/blood-on-the-clocktower/image/downloaded/39b4e209acdd571f4efdff301afc84f1.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "http://villacuervos.es/personajes/icono/laaldeapitufa_apitufar"
+  },
+  {
+    "id": "5ed8f37e",
+    "team": "fabled",
+    "name": "蓝精灵之旅",
+    "ability": "角色的变化不会刷新角色的能力状态。角色变化改为在黎明时通知，而不是像之前那样（立即通知发生变化的玩家）。",
+    "image": "/blood-on-the-clocktower/image/downloaded/53863e45a5c21808a95f47145d04f08a.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "http://villacuervos.es/personajes/icono/laaldeapitufa_viajepitufo"
+  }
+]

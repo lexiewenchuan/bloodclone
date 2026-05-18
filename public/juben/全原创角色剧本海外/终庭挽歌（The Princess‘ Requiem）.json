@@ -1,0 +1,470 @@
+[
+  {
+    "hint": "线上魔典支持直接输入剧本的URL。不必将此文件保存到你的电脑。",
+    "id": "_meta",
+    "name": "终庭挽歌（The Princess‘ Requiem）",
+    "author": "Nightingale"
+  },
+  {
+    "id": "1f641b30",
+    "team": "townsfolk",
+    "name": "侯爵",
+    "ability": "在你的首个夜晚，你会得知一个在场的对立阵营角色。如果邪恶玩家杀死了你，他也会死亡。",
+    "image": "/image/downloaded/1ea66aba66d4e479d6f6a45e8987fd4e.webp",
+    "setup": false,
+    "reminders": [
+      "死亡",
+      "看见"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 10,
+    "otherNight": 64,
+    "original_image": "https://www.bloodstar.xyz/p/Nightingale/Princesses_Requiem/margrave_princesses_requiem.png"
+  },
+  {
+    "id": "80be6f2c",
+    "team": "townsfolk",
+    "name": "档案官",
+    "ability": "每个夜晚，你要选择一个未选择过的角色：他会醉酒直到下个黄昏。",
+    "image": "/blood-on-the-clocktower/image/downloaded/1fef218e26ac0941a635b3f81fae949b.webp",
+    "setup": false,
+    "reminders": [
+      "醉酒"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 2004,
+    "otherNight": 69,
+    "original_image": "https://www.bloodstar.xyz/p/Nightingale/Princesses_Requiem/recordkeeper_princesses_requiem.png"
+  },
+  {
+    "id": "fa9bf66a",
+    "team": "townsfolk",
+    "name": "锻造师",
+    "ability": "每个夜晚，你要选择一名玩家：如果你选中了恶魔，他和一名存活的爪牙交换角色。",
+    "image": "/image/downloaded/425cd70974fc8641a2fc7791457e08ee.webp",
+    "setup": false,
+    "reminders": [
+      "交换"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3007,
+    "otherNight": 74,
+    "original_image": "https://www.bloodstar.xyz/p/Nightingale/Princesses_Requiem/forger_princesses_requiem.png"
+  },
+  {
+    "id": "196f8d27",
+    "team": "townsfolk",
+    "name": "王储",
+    "ability": "每个夜晚，你要选择除你以外的两名玩家：如果明天白天他们“疯狂”地证明你是善良的，当晚他们不会死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/8ee7c26dc86b9c8223ebb65f3c2a2219.webp",
+    "setup": false,
+    "reminders": [
+      "疯狂",
+      "不会死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3032,
+    "otherNight": 85,
+    "original_image": "https://www.bloodstar.xyz/p/Nightingale/Princesses_Requiem/dauphin_princesses_requiem.png"
+  },
+  {
+    "id": "7d0e71ae",
+    "team": "townsfolk",
+    "name": "催眠师",
+    "ability": "每个夜晚，你要选择一名玩家：如果你选中了邪恶玩家，他会得知你是催眠师；如果他“疯狂”地证明你是邪恶的，他可能会在当晚死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/6ca688d19d9d52eb4b0a63c9bfc7eaba.webp",
+    "setup": false,
+    "reminders": [
+      "催眠",
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3015,
+    "otherNight": 80,
+    "original_image": "https://www.bloodstar.xyz/p/Nightingale/Princesses_Requiem/hypnotist_princesses_requiem.png"
+  },
+  {
+    "id": "fd20966c",
+    "team": "townsfolk",
+    "name": "神射手",
+    "ability": "每个夜晚*，你要选择一名玩家：如果你选中了爪牙，与他邻近的一名存活善良玩家会死亡。",
+    "image": "/image/downloaded/7b34763a73fdf07f6b909d352852e0fe.webp",
+    "setup": false,
+    "reminders": [
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 90,
+    "original_image": "https://www.bloodstar.xyz/p/Nightingale/Princesses_Requiem/marksman_princesses_requiem.png"
+  },
+  {
+    "id": "9b5baf5f",
+    "team": "townsfolk",
+    "name": "中尉",
+    "ability": "每个夜晚*，在与恶魔对立阵营中，(除你以外的)对你的阵营最有价值的玩家不会死亡，直到下个黎明。",
+    "image": "/image/downloaded/4ca64582cfb19f5e15a5d0f874fef6f6.webp",
+    "setup": false,
+    "reminders": [
+      "不会死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 95,
+    "original_image": "https://www.bloodstar.xyz/p/Nightingale/Princesses_Requiem/lieutenant_princesses_requiem.png"
+  },
+  {
+    "id": "98480a43",
+    "team": "townsfolk",
+    "name": "夜莺",
+    "ability": "每个夜晚*，如果从上个黎明到你被唤醒时有邪恶玩家死亡且你曾在白天“疯狂”地证明你是一个在场的角色，你所证明的那个在场角色会死亡(你不会因此死亡)。",
+    "image": "/blood-on-the-clocktower/image/downloaded/4983e463980b9b40b13b8f3ac55473bc.webp",
+    "setup": false,
+    "reminders": [
+      "死亡",
+      "疯狂",
+      "伤害",
+      "今晚伤害"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 100,
+    "original_image": "https://www.bloodstar.xyz/p/Nightingale/Princesses_Requiem/nighthawk_princesses_requiem.png"
+  },
+  {
+    "id": "7e876216",
+    "team": "townsfolk",
+    "name": "织梦者",
+    "ability": "每个白天*，你可以私下拜访说书人并选择一名玩家：你会得知哪个角色类型杀死了他（或者你会得知没有）。",
+    "image": "/image/downloaded/5112364ce36b62017ed18d3d7a43e074.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/Nightingale/Princesses_Requiem/dreamweaver_princesses_requiem.png"
+  },
+  {
+    "id": "47578874",
+    "team": "townsfolk",
+    "name": "女侯爵",
+    "ability": "每个白天，你可以公开选择至少两名玩家：如果他们都不是恶魔，当晚其中一名玩家会死亡。（如果你白天处于中毒或醉酒状态，当晚清醒且健康技能会正常发动。）",
+    "image": "/blood-on-the-clocktower/image/downloaded/313dda0ca60b2410be0df962206e7706.webp",
+    "setup": false,
+    "reminders": [
+      "死亡",
+      "选择"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 106,
+    "original_image": "https://www.bloodstar.xyz/p/Nightingale/Princesses_Requiem/marchioness_princesses_requiem.png"
+  },
+  {
+    "id": "22aabb98",
+    "team": "townsfolk",
+    "name": "女猎手",
+    "ability": "每局游戏限一次，在夜晚时，你会得知除你以外离你最近的带有提示标记的一名存活的玩家（或者你会得知没有）。",
+    "image": "/blood-on-the-clocktower/image/downloaded/6a1387b25e29ad7cfc4a266ec9cb654f.webp",
+    "setup": false,
+    "reminders": [
+      "失去能力"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3023,
+    "otherNight": 111,
+    "original_image": "https://www.bloodstar.xyz/p/Nightingale/Princesses_Requiem/huntress_princesses_requiem.png"
+  },
+  {
+    "id": "cf83e143",
+    "team": "townsfolk",
+    "name": "闺女",
+    "ability": "当你首次在夜晚将要死亡时，你不会死亡且会得知谁杀死了你。如果他是邪恶的，他可以选择两名玩家交换角色。",
+    "image": "/image/downloaded/4c9651a0827ae6c2fcbecbdb470dc633.webp",
+    "setup": false,
+    "reminders": [
+      "得知",
+      "交换",
+      "失去能力"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 116,
+    "original_image": "https://www.bloodstar.xyz/p/Nightingale/Princesses_Requiem/demoiselle_princesses_requiem.png"
+  },
+  {
+    "id": "7f30dbc2",
+    "team": "townsfolk",
+    "name": "变形者",
+    "ability": "爪牙不会被唤醒得知爪牙信息。",
+    "image": "/image/downloaded/54934dd05330b66defb422906c8a5ed2.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/Nightingale/Princesses_Requiem/shapeshifter_princesses_requiem.png"
+  },
+  {
+    "id": "361d240f",
+    "team": "outsider",
+    "name": "伯爵",
+    "ability": "每局游戏限一次，在夜晚时*，如果与你邻近的两名存活善良玩家“疯狂”地证明他们是他们对应的角色，其中一名玩家可能会死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/abe18c50a775a5b9efa5ee2839ae690a.webp",
+    "setup": false,
+    "reminders": [
+      "疯狂",
+      "死亡",
+      "失去能力"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 12,
+    "original_image": "https://www.bloodstar.xyz/p/Nightingale/Princesses_Requiem/palsgrave_princesses_requiem.png"
+  },
+  {
+    "id": "59654b80",
+    "team": "outsider",
+    "name": "阴谋家",
+    "ability": "你始终会得知一名存活的善良玩家。如果你没有“疯狂”地证明他是邪恶的，他可能会死亡。",
+    "image": "/image/downloaded/5ee5610a1ae540e16065d4ff3e26ab2b.webp",
+    "setup": false,
+    "reminders": [
+      "嫉妒",
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3040,
+    "otherNight": 7,
+    "original_image": "https://www.bloodstar.xyz/p/Nightingale/Princesses_Requiem/conspirator_princesses_requiem.png"
+  },
+  {
+    "id": "c1988aaa",
+    "team": "outsider",
+    "name": "炎血",
+    "ability": "当你或一名爪牙玩家死亡时，一名邪恶玩家会在当晚变成一个不在场的角色。",
+    "image": "/blood-on-the-clocktower/image/downloaded/73ccc0bf2c69b60546b6efa51816283b.webp",
+    "setup": false,
+    "reminders": [
+      "今晚分裂"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 121,
+    "original_image": "https://www.bloodstar.xyz/p/Nightingale/Princesses_Requiem/fireblood_princesses_requiem.png"
+  },
+  {
+    "id": "f0fb7cac",
+    "team": "outsider",
+    "name": "拷问者",
+    "ability": "如果与你邻近的两名存活玩家都是善良的，他们醉酒，即使你已死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/172fc14ead9ee02ac3045b58150c431f.webp",
+    "setup": false,
+    "reminders": [
+      "醉酒"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/Nightingale/Princesses_Requiem/torturer_princesses_requiem.png"
+  },
+  {
+    "id": "20bd32bd",
+    "team": "minion",
+    "name": "传令使",
+    "ability": "每个夜晚，你要选择一个与之前不同的善良角色：如果该角色不在场或在场但已死亡，你获得该角色的能力直到下个黄昏。如果大于两名玩家存活，善良阵营无法获胜。[-1外来者]",
+    "image": "/blood-on-the-clocktower/image/downloaded/1ea436304569c5cd5c06ae8304bee450.webp",
+    "setup": true,
+    "reminders": [
+      "是传令使",
+      "传令使能力"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3057,
+    "otherNight": 22,
+    "original_image": "https://www.bloodstar.xyz/p/Nightingale/Princesses_Requiem/theherald_princesses_requiem.png"
+  },
+  {
+    "id": "8f937477",
+    "team": "minion",
+    "name": "炽天使",
+    "ability": "你始终会得知一名与你邻近的存活镇民玩家：他中毒。每个夜晚*，你要猜测该玩家的角色：如果你猜测正确，他死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/2e85e3aa467de99bf900100ef385d8cf.webp",
+    "setup": false,
+    "reminders": [
+      "中毒",
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3048,
+    "otherNight": 17,
+    "original_image": "https://www.bloodstar.xyz/p/Nightingale/Princesses_Requiem/theseraph_princesses_requiem.png"
+  },
+  {
+    "id": "3d38997c",
+    "team": "minion",
+    "name": "公主殿下",
+    "ability": "邪恶玩家的负面能力对你无效。选择你或你的角色的邪恶玩家和你交换角色。[+1外来者]",
+    "image": "/image/downloaded/64c26f2ff301af8d622d864228f4673e.webp",
+    "setup": true,
+    "reminders": [
+      "交换"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 43,
+    "original_image": "https://www.bloodstar.xyz/p/Nightingale/Princesses_Requiem/theprincess_princesses_requiem.png"
+  },
+  {
+    "id": "3cfaef45",
+    "team": "demon",
+    "name": "霸主",
+    "ability": "每个夜晚*，会有一名玩家死亡。你拥有一个不在场的爪牙角色的能力。",
+    "image": "/image/downloaded/0bff642d98a83818a02ad21ca97ec5b0.webp",
+    "setup": false,
+    "reminders": [
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3065,
+    "otherNight": 33,
+    "original_image": "https://www.bloodstar.xyz/p/Nightingale/Princesses_Requiem/thehegemon_princesses_requiem.png"
+  },
+  {
+    "id": "43685fa2",
+    "team": "demon",
+    "name": "深渊",
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡。如果你每晚首次击杀的玩家不是镇民，当晚你可以再次行动。",
+    "image": "/blood-on-the-clocktower/image/downloaded/dc6cad8a94a25c013d17f0fa6d334a63.webp",
+    "setup": false,
+    "reminders": [
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 38,
+    "original_image": "https://www.bloodstar.xyz/p/Nightingale/Princesses_Requiem/themaelstrom_princesses_requiem.png"
+  },
+  {
+    "id": "c77a40f6",
+    "team": "demon",
+    "name": "画家",
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡。你和外来者会被镇民当作在场的爪牙角色，爪牙会被镇民当作画家。[+1外来者]",
+    "image": "/image/downloaded/47412bf60db9c7cc3fb20d7d3f0cb6b9.webp",
+    "setup": false,
+    "reminders": [
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 28,
+    "original_image": "https://www.bloodstar.xyz/p/Nightingale/Princesses_Requiem/thepainter_princesses_requiem.png"
+  },
+  {
+    "id": "c07a4581",
+    "team": "demon",
+    "name": "王子",
+    "ability": "爪牙不知道你是恶魔。每个夜晚*，一名爪牙要选择一名玩家：他死亡。如果你“疯狂”地证明你是善良的，当你在夜晚死亡后，你仍存活，但会被当作死亡，随后会有一名其他玩家死亡。",
+    "image": "/image/downloaded/027dccb14368f001322841c70b879901.webp",
+    "setup": false,
+    "reminders": [
+      "死亡",
+      "唤醒"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 48,
+    "original_image": "https://www.bloodstar.xyz/p/Nightingale/Princesses_Requiem/theprince_princesses_requiem.png"
+  },
+  {
+    "id": "f9c61a58",
+    "team": "fabled",
+    "name": "小提琴手",
+    "ability": "每局游戏限一次，恶魔可以秘密选择一名对立阵营的玩家，所有玩家要表决：这两名玩家中谁的阵营获胜。（平局邪恶阵营获胜）",
+    "image": "/blood-on-the-clocktower/image/downloaded/d4c3fbaacf434892ad273ed35b1d93ff.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/fiddler_600w.webp"
+  },
+  {
+    "id": "1403ec63",
+    "team": "traveller",
+    "name": "荷兰人",
+    "ability": "在你的首个夜晚，你会得知与你阵营相同的一名玩家。如果他死亡，你会代替他死亡。",
+    "image": "/image/downloaded/29bb3a8f4576248a2e0a5d9e1db402e0.webp",
+    "setup": false,
+    "reminders": [
+      "得知",
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/Nightingale/Princesses_Requiem/dutchman_princesses_requiem.png"
+  },
+  {
+    "id": "8810b2f3",
+    "team": "traveller",
+    "name": "工贼",
+    "ability": "每个夜晚，你会得知一名玩家。如果他在明天提名了善良玩家，被提名的玩家会在当晚死亡。",
+    "image": "/image/downloaded/78460c1365a4b4f3d68ce702fb78526c.webp",
+    "setup": false,
+    "reminders": [
+      "提名",
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3073,
+    "otherNight": 54,
+    "original_image": "https://www.bloodstar.xyz/p/Nightingale/Princesses_Requiem/strikebreaker_princesses_requiem.png"
+  },
+  {
+    "id": "bbb70740",
+    "team": "traveller",
+    "name": "金匠",
+    "ability": "每个白天，你可以更改一名玩家对自己的投票。",
+    "image": "/image/downloaded/6350e5e15448fb9b4ab2b2b7eed9cdd4.webp",
+    "setup": false,
+    "reminders": [
+      "更改投票"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/Nightingale/Princesses_Requiem/goldsmith_princesses_requiem.png"
+  },
+  {
+    "id": "3821e6ca",
+    "team": "traveller",
+    "name": "审判官",
+    "ability": "每局游戏限一次，在夜晚时*，你要选择一名玩家：他变成他正在“疯狂”地证明自己是的那个角色。",
+    "image": "/blood-on-the-clocktower/image/downloaded/80ce2f19586bc96cd0b603883adc47e3.webp",
+    "setup": false,
+    "reminders": [
+      "疯狂"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 59,
+    "original_image": "https://www.bloodstar.xyz/p/Nightingale/Princesses_Requiem/inquisitor_princesses_requiem.png"
+  },
+  {
+    "id": "7821a392",
+    "team": "traveller",
+    "name": "权臣",
+    "ability": "如果白天提名阶段将以平票结束时，一名在票数最高的平票玩家中与你阵营不同玩家会被处决。如果获得票数最高的平票玩家中没有与你阵营不同玩家，一名在票数最高的平票玩家中与你阵营相同的玩家会被处决。",
+    "image": "/blood-on-the-clocktower/image/downloaded/ad7cf16de4685018b9feb0e6ce740688.webp",
+    "setup": false,
+    "reminders": [
+      "平票",
+      "处决"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/Nightingale/Princesses_Requiem/minister_princesses_requiem.png"
+  }
+]

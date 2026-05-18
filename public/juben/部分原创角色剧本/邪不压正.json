@@ -1,0 +1,208 @@
+[
+  {
+    "hint": "线上魔典支持直接输入剧本的URL。不必将此文件保存到你的电脑。",
+    "id": "_meta",
+    "name": "邪不压正",
+    "author": "503&面哥",
+    "status": [
+      {
+        "name": "",
+        "skill": "②玩家编造的假低语，或仅仅对“听到低语”疯狂，不包含在其中。"
+      },
+      {
+        "name": "古神的低语",
+        "skill": "①“听到低语”的玩家会得知一个恐怖怪诞的短句，如果他对此内容疯狂，他可能随时死亡。"
+      }
+    ]
+  },
+  {
+    "id": "2aae685a",
+    "team": "townsfolk",
+    "name": "舞狮人",
+    "ability": "每个夜晚，你会得知一个在场角色。",
+    "image": "/blood-on-the-clocktower/image/downloaded/10cf1fe1c1a8a9dd50f8838f558c9f68.webp",
+    "setup": false,
+    "reminders": [
+      "限一次"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3049,
+    "otherNight": 99,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/upload/202301/c_7613877694761_6041a632.jpg"
+  },
+  {
+    "id": "6e58cc78",
+    "team": "townsfolk",
+    "name": "共情者",
+    "ability": "每个夜晚，你会得知与你邻近的两名存活的玩家中邪恶玩家的数量。",
+    "image": "/blood-on-the-clocktower/image/downloaded/1cdb1142fba4f7af60ab67396bb16b0d.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 3046,
+    "otherNight": 96,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/empath_600w.webp"
+  },
+  {
+    "id": "f6ebe50e",
+    "team": "townsfolk",
+    "name": "郎中",
+    "ability": "每个夜晚，你要选择除你以外的一名玩家：你会得知一个与他能力相关的词语。",
+    "image": "/blood-on-the-clocktower/image/downloaded/0b09e085d3f549b91baba948b2b79b32.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 3060,
+    "otherNight": 109,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/langzhong_600w.webp"
+  },
+  {
+    "id": "d4f30628",
+    "team": "townsfolk",
+    "name": "筑梦师",
+    "ability": "每个夜晚，你要选择除你及旅行者以外的一名玩家：你会得知一个善良角色和一个邪恶角色，该玩家是其中一个角色。",
+    "image": "/blood-on-the-clocktower/image/downloaded/9f15bc4c3c5f4123c866ed3a0656a44d.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 3052,
+    "otherNight": 101,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/dreamer_600w.webp"
+  },
+  {
+    "id": "babdfae7",
+    "team": "townsfolk",
+    "name": "悟道者",
+    "ability": "你以为你是一个外来者，但你实际上不是。如果有邪恶玩家的能力选择或影响了你，你会立即变成一个不在场的镇民角色。",
+    "image": "/blood-on-the-clocktower/image/downloaded/4474aa3a23ca7643666b1a4296d777cf.webp",
+    "setup": true,
+    "reminders": [],
+    "remindersGlobal": [
+      "是悟道者"
+    ],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/wudaozhe_600w.webp"
+  },
+  {
+    "id": "b691e5c8",
+    "team": "townsfolk",
+    "name": "守鸦人",
+    "ability": "如果你在夜晚死亡，你会被唤醒，然后你要选择一名玩家：你会得知他的角色。",
+    "image": "/blood-on-the-clocktower/image/downloaded/db258dedbd7381735dfc10a16c64b3d7.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/ravenkeeper_600w.webp"
+  },
+  {
+    "id": "35a358b4",
+    "team": "outsider",
+    "name": "隐秘先知",
+    "ability": "每个夜晚，你选择一名其他玩家并写下一个预言，此预言可能会在他身上应验。如果你对你的角色疯狂，你的阵营落败，即使你已死亡。",
+    "image": "https://www.bloodstar.xyz//p//comm503//DeathBetween//prophet_deathbetween.png",
+    "setup": false,
+    "reminders": [
+      "预言锁定"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 13,
+    "otherNight": 9
+  },
+  {
+    "id": "aa40503b",
+    "team": "outsider",
+    "name": "疯子",
+    "ability": "你以为你是一个恶魔，但其实你不是。恶魔知道你是疯子以及你在每个夜晚选择了哪些玩家。",
+    "image": "/blood-on-the-clocktower/image/downloaded/9717a4694dd24b8bef65b95f7eab827d.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [
+      "攻击",
+      "攻击(2)",
+      "攻击(3)",
+      "是疯子"
+    ],
+    "firstNight": 2006,
+    "otherNight": 47,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/lunatic_600w.webp"
+  },
+  {
+    "id": "95ec9031",
+    "team": "minion",
+    "name": "酒蛊师",
+    "ability": "每个夜晚，你选择一名角色，你来决定当晚应以何种言语和动作欺骗他。",
+    "image": "/blood-on-the-clocktower/image/downloaded/9fa79e46ed865f03829465e53bf2a5b7.webp",
+    "setup": false,
+    "reminders": [
+      "蛊惑"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3005,
+    "otherNight": 16,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/upload/202301/c_3356597694761_0a4b67e6.jpg"
+  },
+  {
+    "id": "b04b1f26",
+    "team": "minion",
+    "name": "蛊雕",
+    "ability": "每个夜晚，你要选择左或右：你得知该方向上的下一名存活善良玩家的角色，他中毒且其他善良玩家以为他是邪恶的蛊雕，直到下个黄昏。",
+    "image": "/blood-on-the-clocktower/image/downloaded/86a955241a614819f24fb2cf0f1b0396.webp",
+    "setup": false,
+    "reminders": [
+      "中毒"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3017,
+    "otherNight": 23,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/gudiao_600w.webp"
+  },
+  {
+    "id": "8d6ab48e",
+    "team": "demon",
+    "name": "亡骨魔",
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡。被你杀死的爪牙保留他的能力，且与他邻近的两名镇民之一中毒。[-1外来者]",
+    "image": "/image/downloaded/18ec95cf0d189e999a7a75437a92e6e2.webp",
+    "setup": true,
+    "reminders": [
+      "死亡",
+      "保留能力",
+      "中毒"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 61,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/vigormortis_600w.webp"
+  },
+  {
+    "id": "32aa346c",
+    "team": "demon",
+    "name": "尤格萨隆",
+    "ability": "在你的首个夜晚，一名善良玩家会听到古神的低语。当首个尤格萨隆死亡时，如果该玩家存活且从未对低语的内容疯狂，他变成邪恶的尤格萨隆，此后对调胜负结果。每个夜晚*，你选择一名其他玩家，他死亡。",
+    "image": "https://www.bloodstar.xyz//p//comm503//DeathBetween//yoggsaron_deathbetween.png",
+    "setup": false,
+    "reminders": [
+      "死亡",
+      "低语",
+      "命运之轮"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3030,
+    "otherNight": 54
+  },
+  {
+    "id": "06ad3c38",
+    "team": "fabled",
+    "name": "古董收藏家",
+    "ability": "这个剧本的部分角色能力来自过去。",
+    "image": "/blood-on-the-clocktower/image/downloaded/43cf0015a3e9dbeb715e3547089b35a7.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/Airell_clocktower/Assets_of_Lei_Gallery/antique_assets_of_lei_gallery.png"
+  }
+]

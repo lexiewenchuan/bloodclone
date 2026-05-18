@@ -1,0 +1,463 @@
+[
+  {
+    "hint": "线上魔典支持直接输入剧本的URL。不必将此文件保存到你的电脑。",
+    "id": "_meta",
+    "name": "邙山走阴7.5",
+    "author": "痴愚",
+    "status": [
+      {
+        "name": "氓山",
+        "skill": "氓山由封禅台、氓阴镇、乱葬岗、黑水河四个区域组成。夜晚开始时，存活玩家要秘密选择一个区域前往，然后阴神可以选择一个区域并得知哪些玩家处于该区域。"
+      },
+      {
+        "name": "末法",
+        "skill": "黎明时说书人会公布所有玩家所处的区域，黄昏时会有一个区域冥土化，剩余二个区域后，以上行动不再进行。如果前往冥土化区域，善良玩家会在下个黎明死亡但仍被当作存活、邪恶玩家当晚失去能力。"
+      }
+    ]
+  },
+  {
+    "id": "f40dd7ec",
+    "team": "townsfolk",
+    "name": "走阴人",
+    "ability": "每个夜晚，你要选择一个区域：你会得知是否有存活魍魉处于该区域。",
+    "image": "/blood-on-the-clocktower/image/downloaded/7b366bb46655e96ccec1543d0fa481e7.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 3015,
+    "otherNight": 75,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/custom/d_2203641838171_c3fb0b05.jpg"
+  },
+  {
+    "id": "334d7ed2",
+    "team": "townsfolk",
+    "name": "捞尸人",
+    "ability": "每个夜晚，如果你在黑水河：你和说书人秘密猜拳，如果你获胜你会得知一个不在场角色。",
+    "image": "/blood-on-the-clocktower/image/downloaded/cb00dd890b27f53e27cdbf8841352d21.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 3048,
+    "otherNight": 68,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/custom/d_573231838171_08513820.jpg"
+  },
+  {
+    "id": "024839d5",
+    "team": "townsfolk",
+    "name": "刽子手",
+    "ability": "每个夜晚*，如果你在氓阴镇且上个白天有玩家被处决，你会得知参与处决投票的玩家角色类型数量。",
+    "image": "/blood-on-the-clocktower/image/downloaded/67cf1e2ece052af4a46b05587d494ea8.webp",
+    "setup": false,
+    "reminders": [
+      "行刑"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 60,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/custom/d_6403141838171_edd61114.jpg"
+  },
+  {
+    "id": "2f4f5403",
+    "team": "townsfolk",
+    "name": "棺材佬",
+    "ability": "每个夜晚*，如果你在氓阴镇，你会得知一个在场角色，但如果你和阴神处于同一区域，你得知错误信息。",
+    "image": "/blood-on-the-clocktower/image/downloaded/eb569ba6592967af8d41424aeb1b15a5.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 97,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/custom/d_8348251838171_80d70d1a.jpg"
+  },
+  {
+    "id": "ee8f2b19",
+    "team": "townsfolk",
+    "name": "缝尸匠",
+    "ability": "每个夜晚*，你可以选择一名死亡玩家：如果你处于他死亡时的区域，你获得他的能力，但选中邪恶玩家会死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/8db21939401c26b731a719ed8b453017.webp",
+    "setup": false,
+    "reminders": [
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 16,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/custom/d_8128731838171_65f71723.jpg"
+  },
+  {
+    "id": "7f7626ab",
+    "team": "townsfolk",
+    "name": "仵作",
+    "ability": "每个白天，你可以私下拜访说书人以得知一条信息，并在下次拜访说书人时回答一个相关问题，如果回答正确，你当天获得正确信息。",
+    "image": "/blood-on-the-clocktower/image/downloaded/10f1a9475ab7b0632e3350f70ba60c2f.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/custom/d_4265741838171_c32421e1.jpg"
+  },
+  {
+    "id": "cef9e19b",
+    "team": "townsfolk",
+    "name": "扎纸匠",
+    "ability": "在夜晚时，如果你即将死亡：你不会死亡且变成纸人。",
+    "image": "/blood-on-the-clocktower/image/downloaded/985bf036c3547030466094d381454955.webp",
+    "setup": false,
+    "reminders": [
+      "扎纸"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 82,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/custom/d_6184031838171_86cd5c0e.jpg"
+  },
+  {
+    "id": "16ce774b",
+    "team": "townsfolk",
+    "name": "摘星手",
+    "ability": "首个夜晚，你会得知二个区域和一个数字：该数字为其中一个区域内角色类型的数量。",
+    "image": "/blood-on-the-clocktower/image/downloaded/405ecc6dd59ebd50b34cd8309c190a9e.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 3037,
+    "otherNight": 0,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/custom/d_8830151838171_c4edb48f.jpg"
+  },
+  {
+    "id": "7defa3e2",
+    "team": "townsfolk",
+    "name": "问米婆",
+    "ability": "第二个夜晚，你会得知你今晚所处区域存活玩家的角色类型数量相较于上一晚是否相同。",
+    "image": "/blood-on-the-clocktower/image/downloaded/aa0dec3deb9f275c8d43eb1df4cd7e11.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 104,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/custom/d_9323931838171_4569f587.jpg"
+  },
+  {
+    "id": "20fcd069",
+    "team": "townsfolk",
+    "name": "出马仙",
+    "ability": "从第三个白天起，每个白天，你可以拜访说书人并选择一名存活玩家：你会得知他所处的区域。",
+    "image": "/blood-on-the-clocktower/image/downloaded/401708631862551362be96a9ef4dd914.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/custom/d_8988531838171_9acdca92.jpg"
+  },
+  {
+    "id": "ee02836b",
+    "team": "townsfolk",
+    "name": "阴阳生",
+    "ability": "第二个夜晚，如果你在封禅台，你要选择一名其他存活玩家：你会得知他当晚是否可以被阴神杀害。",
+    "image": "/blood-on-the-clocktower/image/downloaded/88ff36c4d9f93a78d4223a57b62fbe37.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 90,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/custom/d_6220941838171_0a44234c.jpg"
+  },
+  {
+    "id": "6b483283",
+    "team": "townsfolk",
+    "name": "寿衣张",
+    "ability": "首个夜晚，你会得知三个不同类型的非阴神角色。在白天时，你可以公开猜测一次哪些角色在场并得知猜测是否正确。",
+    "image": "/blood-on-the-clocktower/image/downloaded/f28b43852ac3abfc072bc827f5abcd26.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 3026,
+    "otherNight": 0,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/custom/d_9112431838171_b6e5c61a.jpg"
+  },
+  {
+    "id": "697bdd1c",
+    "team": "outsider",
+    "name": "纸人",
+    "ability": "你以为你是一个镇民角色。提名你的镇民玩家会变成纸人，你变成自认为的角色。",
+    "image": "/blood-on-the-clocktower/image/downloaded/095f91d23ff103b52609b791137a94ca.webp",
+    "setup": true,
+    "reminders": [],
+    "remindersGlobal": [
+      "是纸人"
+    ],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/custom/d_9875721838171_0d3978b0.jpg"
+  },
+  {
+    "id": "ca783e37",
+    "team": "outsider",
+    "name": "冥躯",
+    "ability": "你以为你是一个镇民角色且拥有该角色的能力。每个夜晚*，阴神知道你所处的区域，可以让你死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/98f606e94911b0105844b6cae40f8f10.webp",
+    "setup": true,
+    "reminders": [],
+    "remindersGlobal": [
+      "是冥躯"
+    ],
+    "firstNight": 0,
+    "otherNight": 53,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/custom/d_9211621838171_21a5a592.jpg"
+  },
+  {
+    "id": "93f98d63",
+    "team": "outsider",
+    "name": "长明灯",
+    "ability": "如果你的阵营落败，你获胜，但与你相同阵营的其他玩家可以猜测一次谁是长明灯，首个猜对的玩家会和你交换角色，即使你已死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/e0463c4789328c24ea22938fb94d6cc5.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/custom/d_6662311838171_316dc6db.jpg"
+  },
+  {
+    "id": "a7486f0c",
+    "team": "outsider",
+    "name": "病秧子",
+    "ability": "每晚你前往的区域由阴神决定。停留在你死亡时所处区域的善良玩家可能会得知错误信息。",
+    "image": "/blood-on-the-clocktower/image/downloaded/36e0936f9f9d5a91ee0238ee5dbfd851.webp",
+    "setup": false,
+    "reminders": [
+      "瘟疫"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/custom/d_3587611838171_979f8c50.jpg"
+  },
+  {
+    "id": "9eeb7a59",
+    "team": "minion",
+    "name": "僵尸",
+    "ability": "每个夜晚，你要选择一名玩家：如果下个夜晚你和他处于同一区域，他死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/2869083724b932d726fbc2e5be803bdd.webp",
+    "setup": false,
+    "reminders": [
+      "追猎",
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 13,
+    "otherNight": 24,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/custom/d_4223111838171_4d890e69.jpg"
+  },
+  {
+    "id": "9ebf235d",
+    "team": "minion",
+    "name": "怨婴",
+    "ability": "每个夜晚，你可以查看魔典，结束后与阴神讨论十秒，即使你已死亡。[+1殃祸]",
+    "image": "/blood-on-the-clocktower/image/downloaded/b2208bb4364e7641363d75f9539a749b.webp",
+    "setup": true,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 3004,
+    "otherNight": 9,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/custom/d_4561501838171_7d1c4197.jpg"
+  },
+  {
+    "id": "c1cefb6a",
+    "team": "minion",
+    "name": "食香鬼",
+    "ability": "每局游戏限一次，在夜晚时*，你可以让阴神额外行动一次且额外被阴神选择的玩家必定会死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/b36987b64af40835462104c493881eb6.webp",
+    "setup": false,
+    "reminders": [
+      "失去能力"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 31,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/custom/d_5217901838171_57aa03ed.jpg"
+  },
+  {
+    "id": "ec4dc0fa",
+    "team": "minion",
+    "name": "嫁衣新娘",
+    "ability": "每局游戏限一次，你随时可以公开选择一名其他玩家举办冥婚，然后他被处决。如果阴神因此死亡，你和他交换角色。",
+    "image": "/blood-on-the-clocktower/image/downloaded/a0e2a73eb0175306a99a13bfe78ffb5d.webp",
+    "setup": false,
+    "reminders": [
+      "新郎官"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/custom/d_1908601838171_fea6848b.jpg"
+  },
+  {
+    "id": "b531dea8",
+    "team": "minion",
+    "name": "赶尸人",
+    "ability": "与你邻近的两名镇民玩家会在其首次死亡时被当作仍然存活。[-1外来者]",
+    "image": "/blood-on-the-clocktower/image/downloaded/4e4940111b2ae8b51e7b01f4ec4ea510.webp",
+    "setup": true,
+    "reminders": [
+      "以为存活"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/ganshiren_600w.webp"
+  },
+  {
+    "id": "9f73f00a",
+    "team": "demon",
+    "name": "黑无常",
+    "ability": "每个夜晚*，你要选择一名玩家：如果他和你处于同一区域，他死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/d078b8e87655d553623bda538f660bec.webp",
+    "setup": true,
+    "reminders": [
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 46,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/custom/d_2179001838171_87cd7577.jpg"
+  },
+  {
+    "id": "80249f2d",
+    "team": "demon",
+    "name": "白无常",
+    "ability": "每个夜晚*，你要选择一名玩家：如果他和你处于不同区域，他死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/ddab6b8745e34ff136f2bd19ecb4b4ac.webp",
+    "setup": false,
+    "reminders": [
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 38,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/custom/d_5255201838171_aa1fbede.jpg"
+  },
+  {
+    "id": "cf0b8292",
+    "team": "fabled",
+    "name": "黑水河",
+    "ability": "区域：氓山之脚，积年沉尸，河水漆黑腥臭。",
+    "image": "/blood-on-the-clocktower/image/downloaded/e7ecc78fd5437374a772d8bf8214c34d.webp",
+    "setup": false,
+    "reminders": [
+      "在黑水河"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/custom/d_7787362838171_878abf5e.jpg"
+  },
+  {
+    "id": "74820905",
+    "team": "fabled",
+    "name": "氓阴镇",
+    "ability": "区域：氓山之腹，礼乐崩坏，俗神漫天，铜路遍地。",
+    "image": "/blood-on-the-clocktower/image/downloaded/c8ab295bfec69b0c27032707772e446c.webp",
+    "setup": false,
+    "reminders": [
+      "在氓阴镇"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/custom/d_9522852838171_98aabeab.jpg"
+  },
+  {
+    "id": "4dbf954b",
+    "team": "fabled",
+    "name": "封禅台",
+    "ability": "区域：氓山之顶，自古帝王祭天之所，有大功德、大造化。",
+    "image": "/blood-on-the-clocktower/image/downloaded/ada8527a1b5d23015ab7887ae3b1ba46.webp",
+    "setup": false,
+    "reminders": [
+      "在封禅台"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/custom/d_6176562838171_49588d1b.jpg"
+  },
+  {
+    "id": "8ef993ef",
+    "team": "fabled",
+    "name": "乱葬岗",
+    "ability": "区域：氓山之脊，无名无姓者葬身之所，至阴至邪，秽物自生。",
+    "image": "/blood-on-the-clocktower/image/downloaded/73db58bd13ea885c6b21c284d3193b38.webp",
+    "setup": false,
+    "reminders": [
+      "在乱葬岗",
+      "活尸"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/custom/d_8548062838171_b91fcf96.jpg"
+  },
+  {
+    "id": "726abb1c",
+    "team": "traveller",
+    "name": "梦蝶",
+    "ability": "每个夜晚，你会得知一名与你同阵营的玩家（会有一次错误）。你不知道你的阵营。",
+    "image": "/blood-on-the-clocktower/image/downloaded/1d8863179a5d83904ed99d761b5182f0.webp",
+    "setup": false,
+    "reminders": [
+      "知晓"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3070,
+    "otherNight": 119,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/custom/d_3264095766861_67d2bbd5.jpg"
+  },
+  {
+    "id": "9801ea24",
+    "team": "traveller",
+    "name": "黄皮子",
+    "ability": "每个白天，你可以选择一名其他玩家讨封，问道“老乡，你看我像个啥”。若他说的合理，你当场变成黄大仙。",
+    "image": "/blood-on-the-clocktower/image/downloaded/06032fa4c31cb6f6d077b48c620cb5a3.webp",
+    "setup": false,
+    "reminders": [
+      "讨封"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/custom/d_8252585766861_c2652ab3.jpg"
+  },
+  {
+    "id": "e6ca9ce8",
+    "team": "traveller",
+    "name": "黄大仙",
+    "ability": "无法直接选择，只能由黄皮子变成。你获得讨封成功时所述的能力。",
+    "image": "/blood-on-the-clocktower/image/downloaded/79f8845c0535c966965136008c4ef6b1.webp",
+    "setup": false,
+    "reminders": [
+      "仙术"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3059,
+    "otherNight": 112,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/custom/d_7273685766861_2925401f.jpg"
+  },
+  {
+    "id": "8a26233c",
+    "team": "traveller",
+    "name": "稻草人",
+    "ability": "在白天时，如果即将死亡的玩家找你猜拳且你输了，你可能替他死亡。当你连续胜利三次时，你独自获胜。",
+    "image": "/blood-on-the-clocktower/image/downloaded/9e2c653f48830a080fd4760c5b6825f5.webp",
+    "setup": false,
+    "reminders": [
+      "赢！"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/custom/d_2771962020171_5226abbf.jpg"
+  }
+]

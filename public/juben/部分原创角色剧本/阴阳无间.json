@@ -1,0 +1,422 @@
+[
+  {
+    "hint": "线上魔典支持直接输入剧本的URL。不必将此文件保存到你的电脑。",
+    "id": "_meta",
+    "name": "阴阳无间",
+    "author": "503&面哥",
+    "status": [
+      {
+        "name": "",
+        "skill": "②玩家编造的假低语，或仅仅对“听到低语”疯狂，不包含在其中。"
+      },
+      {
+        "name": "古神的低语",
+        "skill": "①“听到低语”的玩家会得知一个恐怖怪诞的短句，如果他对此内容疯狂，他可能随时死亡。"
+      }
+    ]
+  },
+  {
+    "id": "b805e985",
+    "team": "townsfolk",
+    "name": "阴阳师",
+    "ability": "在你的首个夜晚，你会得知两个善良角色和两个邪恶角色，其中有且只有两个角色在场。",
+    "image": "/blood-on-the-clocktower/image/downloaded/d95538d3d7a01e4b43ead0358eb5c99f.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 3059,
+    "otherNight": 0,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/yinyangshi_600w.webp"
+  },
+  {
+    "id": "b07f0524",
+    "team": "townsfolk",
+    "name": "调查员",
+    "ability": "在你的首个夜晚，你会得知两名玩家和一个爪牙角色：这两名玩家之一是该角色（或者你会得知没有爪牙在场）。",
+    "image": "/blood-on-the-clocktower/image/downloaded/c62dd9033ce6c46683c4057872c2fb9d.webp",
+    "setup": false,
+    "reminders": [
+      "爪牙",
+      "错误"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3044,
+    "otherNight": 0,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/investigator_600w.webp"
+  },
+  {
+    "id": "bb10e248",
+    "team": "townsfolk",
+    "name": "引路人",
+    "ability": "每个夜晚，你要选择至多三名玩家：你会得知今晚是否有邪恶玩家的能力选择或影响了他们之中的玩家。",
+    "image": "/blood-on-the-clocktower/image/downloaded/e462ac8c404a86146c3b75a5b96924b3.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 3077,
+    "otherNight": 123,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/yinluren_600w.webp"
+  },
+  {
+    "id": "dd733713",
+    "team": "townsfolk",
+    "name": "传教士",
+    "ability": "每个夜晚，你要选择一名玩家：如果你选中了爪牙，他会得知被传教士选中。所有被你选中的爪牙失去能力。",
+    "image": "/blood-on-the-clocktower/image/downloaded/e6975fb5a1d99fb55d4c2d7f730dcfdc.webp",
+    "setup": false,
+    "reminders": [
+      "布道"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3011,
+    "otherNight": 19,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/preacher_600w.webp"
+  },
+  {
+    "id": "d4f30628",
+    "team": "townsfolk",
+    "name": "筑梦师",
+    "ability": "每个夜晚，你要选择除你及旅行者以外的一名玩家：你会得知一个善良角色和一个邪恶角色，该玩家是其中一个角色。",
+    "image": "/blood-on-the-clocktower/image/downloaded/9f15bc4c3c5f4123c866ed3a0656a44d.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 3052,
+    "otherNight": 101,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/dreamer_600w.webp"
+  },
+  {
+    "id": "bc0d94e5",
+    "team": "townsfolk",
+    "name": "送葬者",
+    "ability": "每个夜晚*，你会得知今天白天死于处决的玩家的角色。",
+    "image": "/blood-on-the-clocktower/image/downloaded/7b4c034d8955f51982765d6bfb422f72.webp",
+    "setup": false,
+    "reminders": [
+      "死于今日"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 99,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/undertaker_600w.webp"
+  },
+  {
+    "id": "a98dfbbb",
+    "team": "townsfolk",
+    "name": "县太爷",
+    "ability": "每个夜晚*，你会得知一个白天互相提名的玩家的角色。",
+    "image": "https://www.bloodstar.xyz//p//comm503//DeathBetween//feudallord_deathbetween.png",
+    "setup": false,
+    "reminders": [
+      "得知角色"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 92
+  },
+  {
+    "id": "178c9949",
+    "team": "townsfolk",
+    "name": "道士",
+    "ability": "每个夜晚*，你要选择一名玩家：如果你选中了恶魔，你死亡，然后他醉酒直到下个黎明。",
+    "image": "/blood-on-the-clocktower/image/downloaded/1e2011c130b9e67f8977225fa6025c1b.webp",
+    "setup": false,
+    "reminders": [
+      "死亡",
+      "醉酒"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 49,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/daoshi_600w.webp"
+  },
+  {
+    "id": "ed521424",
+    "team": "townsfolk",
+    "name": "博学者",
+    "ability": "每个白天，你可以私下询问说书人以得知两条信息：一个是正确的，一个是错误的。",
+    "image": "/blood-on-the-clocktower/image/downloaded/2d52d51457503f13afae660ef9f09f1b.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/savant_600w.webp"
+  },
+  {
+    "id": "a445dced",
+    "team": "townsfolk",
+    "name": "通灵师",
+    "ability": "每个白天，你可以拜访说书人并给出一个关键词，你得知一条相关信息。如果你邻座的存活玩家中存在邪恶，你获得错误的信息。",
+    "image": "https://www.bloodstar.xyz//p//comm503//DeathBetween//psychic_deathbetween.png",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0
+  },
+  {
+    "id": "630fb5d5",
+    "team": "townsfolk",
+    "name": "破戒僧",
+    "ability": "在你的首个夜晚，你获得两个角色的能力，其中一个由恶魔从他的伪装中为你挑选且无法正常生效。",
+    "image": "https://www.bloodstar.xyz//p//comm503//DeathBetween//monkpsychic_deathbetween.png",
+    "setup": false,
+    "reminders": [
+      "灵根突破",
+      "筋脉尽断",
+      "选择"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3006,
+    "otherNight": 16
+  },
+  {
+    "id": "408ed835",
+    "team": "townsfolk",
+    "name": "神像匠人",
+    "ability": "你可以在白天向说书人索要一个能力，如果说书人拒绝，你明天可以继续索要。",
+    "image": "https://www.bloodstar.xyz//p//comm503//DeathBetween//statuebuilder_deathbetween.png",
+    "setup": false,
+    "reminders": [
+      "神迹"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 12
+  },
+  {
+    "id": "d9d0fa1a",
+    "team": "townsfolk",
+    "name": "亡语师",
+    "ability": "当你死亡时，你获得一个除恶魔外的死亡角色能力且在本局游戏中不会失效。",
+    "image": "https://www.bloodstar.xyz//p//comm503//DeathBetween//deathpsychic_deathbetween.png",
+    "setup": false,
+    "reminders": [
+      "是亡语师"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0
+  },
+  {
+    "id": "35a358b4",
+    "team": "outsider",
+    "name": "隐秘先知",
+    "ability": "每个夜晚，你选择一名其他玩家并写下一个预言，此预言可能会在他身上应验。如果你对你的角色疯狂，你的阵营落败，即使你已死亡。",
+    "image": "https://www.bloodstar.xyz//p//comm503//DeathBetween//prophet_deathbetween.png",
+    "setup": false,
+    "reminders": [
+      "预言锁定"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 14,
+    "otherNight": 9
+  },
+  {
+    "id": "aa40503b",
+    "team": "outsider",
+    "name": "疯子",
+    "ability": "你以为你是一个恶魔，但其实你不是。恶魔知道你是疯子以及你在每个夜晚选择了哪些玩家。",
+    "image": "/blood-on-the-clocktower/image/downloaded/9717a4694dd24b8bef65b95f7eab827d.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [
+      "攻击",
+      "攻击(2)",
+      "攻击(3)",
+      "是疯子"
+    ],
+    "firstNight": 2006,
+    "otherNight": 47,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/lunatic_600w.webp"
+  },
+  {
+    "id": "4561776a",
+    "team": "outsider",
+    "name": "风之旅人",
+    "ability": "当你死亡时，你会以一个旅行者角色复活并选择阵营。",
+    "image": "https://www.bloodstar.xyz//p//comm503//DeathBetween//windtraveler_deathbetween.png",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0
+  },
+  {
+    "id": "0212061b",
+    "team": "outsider",
+    "name": "圣徒",
+    "ability": "如果你死于处决，你的阵营落败。",
+    "image": "/blood-on-the-clocktower/image/downloaded/dba8b7991731370b355d82db046f5fc3.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/saint_600w.webp"
+  },
+  {
+    "id": "12cfe626",
+    "team": "minion",
+    "name": "酒蛊师",
+    "ability": "每个夜晚，你选择一名角色，若他在场，你来决定当晚应以何种言语和动作欺骗他。",
+    "image": "https://www.bloodstar.xyz//p//comm503//DeathBetween//winetricker_deathbetween.png",
+    "setup": false,
+    "reminders": [
+      "蛊惑"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3023,
+    "otherNight": 26
+  },
+  {
+    "id": "407656a4",
+    "team": "minion",
+    "name": "暗夜公爵",
+    "ability": "每局游戏限一次，首次有善良玩家使用自身能力选择邪恶玩家时，他立即中毒直到下个黄昏，且你得知他的角色。[+1 外来者]",
+    "image": "https://www.bloodstar.xyz//p//comm503//DeathBetween//nightmareduke_deathbetween.png",
+    "setup": true,
+    "reminders": [
+      "中毒"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0
+  },
+  {
+    "id": "c9004418",
+    "team": "minion",
+    "name": "玷污者",
+    "ability": "在你的首个夜晚，你依次选择两名互相邻座的玩家，首名且善良的玩家中毒，第二名玩家会被视为邪恶阵营和邪恶角色，即使你已死亡。",
+    "image": "https://www.bloodstar.xyz//p//comm503//DeathBetween//defiler_deathbetween.png",
+    "setup": false,
+    "reminders": [
+      "视为邪恶",
+      "中毒"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3035,
+    "otherNight": 33
+  },
+  {
+    "id": "0ec45f96",
+    "team": "minion",
+    "name": "化尸道人",
+    "ability": "你得知所有死亡玩家的角色。每局游戏限一次，在夜晚时*，你可以选择一名玩家和一个已死亡的非恶魔角色，他获得此能力。",
+    "image": "https://www.bloodstar.xyz//p//comm503//DeathBetween//fleshtransfer_deathbetween.png",
+    "setup": false,
+    "reminders": [
+      "炼尸",
+      "获得技能"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 40
+  },
+  {
+    "id": "115eb569",
+    "team": "demon",
+    "name": "混沌",
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡。如果你以这种方式杀死了一名与你邻近的镇民玩家，除旅行者外的所有善良玩家会中毒直到下个黄昏。",
+    "image": "/blood-on-the-clocktower/image/downloaded/140993f04a951aeeb5d037530d9cc7fb.webp",
+    "setup": true,
+    "reminders": [
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 69,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/hundun_600w.webp"
+  },
+  {
+    "id": "587efe96",
+    "team": "demon",
+    "name": "冤",
+    "ability": "每个夜晚*，你要选择一名玩家:他死亡。如果你在被提名时公开声明\"我冤呐\"（最后一天除外），被处决前你要秘密选择一名给你投票的玩家，他会变成邪恶的冤，但每局游戏只能转化一次。[-1外来者]",
+    "image": "/blood-on-the-clocktower/image/downloaded/d02aeeecb24ccd6caa2db008bdcb7428.webp",
+    "setup": true,
+    "reminders": [
+      "死亡",
+      "冤呐"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 84,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/custom/d_8539280695861_536321d6.jpg"
+  },
+  {
+    "id": "32aa346c",
+    "team": "demon",
+    "name": "尤格萨隆",
+    "ability": "在你的首个夜晚，一名善良玩家会听到古神的低语。当首个尤格萨隆死亡时，如果该玩家存活且从未对低语的内容疯狂，他变成邪恶的尤格萨隆，此后对调胜负结果。每个夜晚*，你选择一名其他玩家，他死亡。",
+    "image": "https://www.bloodstar.xyz//p//comm503//DeathBetween//yoggsaron_deathbetween.png",
+    "setup": false,
+    "reminders": [
+      "杀死",
+      "低语",
+      "命运之轮"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3047,
+    "otherNight": 77
+  },
+  {
+    "id": "60b56ee9",
+    "team": "traveller",
+    "name": "重力法师",
+    "ability": "每局游戏限一次，在夜晚你选择一名玩家，无法被任何能力选中，直到天亮他被吸到你的身边。",
+    "image": "https://www.bloodstar.xyz//p//comm503//DeathBetween//gravitywizard_deathbetween.png",
+    "setup": false,
+    "reminders": [
+      "法术目标",
+      "失去技能"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 8,
+    "otherNight": 5
+  },
+  {
+    "id": "e1398369",
+    "team": "traveller",
+    "name": "巫师学徒",
+    "ability": "每局游戏限一次，你可以向说书人提供两个字，以领悟相关法术。每个白天，在提名开始前，你可以公开吟唱此法术，但一夜之后法术才会生效。",
+    "image": "https://www.bloodstar.xyz//p//comm503//DeathBetween//wizardbeginner_deathbetween.png",
+    "setup": false,
+    "reminders": [
+      "施法"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0
+  },
+  {
+    "id": "6e64a0fd",
+    "team": "traveller",
+    "name": "禁咒巫女",
+    "ability": "当你被流放时，你可以选择一名玩家，他失去所有能力。\n",
+    "image": "https://www.bloodstar.xyz//p//comm503//DeathBetween//deathwitch_deathbetween.png",
+    "setup": false,
+    "reminders": [
+      "诅咒"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0
+  },
+  {
+    "id": "c216f7a9",
+    "team": "traveller",
+    "name": "炎爆法师",
+    "ability": "死亡的玩家可以将他的投票标记给你。每个白天，你可以消耗三个投票标记，选择一名玩家释放一次炎爆术，他立刻死亡并移除座位。",
+    "image": "https://www.bloodstar.xyz//p//comm503//DeathBetween//blastwizard_deathbetween.png",
+    "setup": false,
+    "reminders": [
+      "炎爆",
+      "投票标记"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0
+  }
+]

@@ -1,0 +1,400 @@
+[
+  {
+    "hint": "线上魔典支持直接输入剧本的URL。不必将此文件保存到你的电脑。",
+    "id": "_meta",
+    "name": "彻底疯狂",
+    "author": "寒水",
+    "status": [
+      {
+        "name": "相克规则:瘟疫医生&冒名客",
+        "skill": "如果瘟疫医生死亡且说书人会因此获得冒名客的能力，改为一名存活的爪牙玩家获得此能力，且他会得知此事。"
+      },
+      {
+        "name": "相克规则:冒名客&骗子",
+        "skill": "冒名客与骗子：冒名客无法因为骗子能力转变为善良阵营。"
+      },
+      {
+        "name": "相克规则:冒名客 & 骗子",
+        "skill": "冒名客与骗子：冒名客无法因为骗子能力转变为善良阵营。"
+      }
+    ]
+  },
+  {
+    "id": "1c6f6500",
+    "team": "townsfolk",
+    "name": "钦天监",
+    "ability": "在你的首个夜晚，你会得知离你最近的邪恶玩家位于你的哪一侧（左/右/相同）。如果与你邻近的玩家中有邪恶阵营，你会得知错误信息作为替代。",
+    "image": "/blood-on-the-clocktower/image/downloaded/5febf68329faa53b98646f7b7ec46543.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 3073,
+    "otherNight": 0,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/qintianjian_600w.webp"
+  },
+  {
+    "id": "b92834ff",
+    "team": "townsfolk",
+    "name": "马厩男孩",
+    "ability": "每个夜晚，你会得知一个在场角色。",
+    "image": "/blood-on-the-clocktower/image/downloaded/da2e7235ea18188ae13e099e2a136c29.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 3059,
+    "otherNight": 108,
+    "original_image": "https://www.bloodstar.xyz/p/Airell_clocktower/Assets_of_Lei_Gallery/newcharacter22_assets_of_lei_gallery.png"
+  },
+  {
+    "id": "dea5ccdf",
+    "team": "townsfolk",
+    "name": "少妇",
+    "ability": "每个夜晚，你会得知一名玩家：他醉酒并得知错误信息。",
+    "image": "/image/downloaded/e07333398406f283ddb8abb091aa077a.webp",
+    "setup": false,
+    "reminders": [
+      "纸醉金迷"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3011,
+    "otherNight": 14,
+    "original_image": "https://www.bloodstar.xyz/p/Airell_clocktower/Assets_of_Lei_Gallery/wench_assets_of_lei_gallery.png"
+  },
+  {
+    "id": "0a76fe4a",
+    "team": "townsfolk",
+    "name": "猎犬饲养员",
+    "ability": "每个夜晚，你会得知被邪恶玩家的能力选择的存活玩家与你的最近距离。",
+    "image": "/blood-on-the-clocktower/image/downloaded/22fd14188dd24e979d154d54c5396760.webp",
+    "setup": false,
+    "reminders": [
+      "浊气"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3077,
+    "otherNight": 116,
+    "original_image": "https://www.bloodstar.xyz/p/Airell_clocktower/Assets_of_Lei_Gallery/newcharacter21_assets_of_lei_gallery.png"
+  },
+  {
+    "id": "cba2ff8f",
+    "team": "townsfolk",
+    "name": "气球驾驶员",
+    "ability": "每个夜晚，你会得知一名与上个夜晚得知的玩家角色类型不同的玩家。[+0~1外来者]",
+    "image": "/blood-on-the-clocktower/image/downloaded/a66f82569c163af187becb6eb803f021.webp",
+    "setup": true,
+    "reminders": [
+      "得知"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3057,
+    "otherNight": 107,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/balloonist_600w.webp"
+  },
+  {
+    "id": "1cb14f65",
+    "team": "townsfolk",
+    "name": "村夫",
+    "ability": "每个夜晚，你要选择一名玩家：你会得知他的阵营。[+0~2村夫，复数村夫中有一人醉酒]",
+    "image": "/blood-on-the-clocktower/image/downloaded/4c37eefc41263801f2bc3177eee53243.webp",
+    "setup": true,
+    "reminders": [
+      "醉酒"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3064,
+    "otherNight": 111,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/villageIdiot_600w.webp"
+  },
+  {
+    "id": "39d5c2c9",
+    "team": "townsfolk",
+    "name": "诗人",
+    "ability": "每个夜晚，你要选择除你及旅行者以外的一名玩家：你会得知他的角色的英文名字中的一个字母。",
+    "image": "/blood-on-the-clocktower/image/downloaded/74c551bac948fd64a398fd190496f576.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 3062,
+    "otherNight": 110,
+    "original_image": "https://www.bloodstar.xyz/p/Airell_clocktower/Assets_of_Lei_Gallery/newcharacter24_assets_of_lei_gallery.png"
+  },
+  {
+    "id": "c6386e4b",
+    "team": "townsfolk",
+    "name": "投机者",
+    "ability": "每个夜晚*，你得知今天提名你的角色。如果你疯狂地证明你是投机者，你会得知错误信息。",
+    "image": "/blood-on-the-clocktower/image/downloaded/1a063c1b2221ac39533c86a76fb2c52d.webp",
+    "setup": false,
+    "reminders": [
+      "投资",
+      "疯狂"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 98,
+    "original_image": "https://www.bloodstar.xyz/p/Airell_clocktower/Assets_of_Lei_Gallery/newcharacter27_assets_of_lei_gallery.png"
+  },
+  {
+    "id": "5e1afed7",
+    "team": "townsfolk",
+    "name": "占星师",
+    "ability": "每个白天，你要拜访说书人得知一条错误信息。每局游戏限一次，你得知正确信息。",
+    "image": "/blood-on-the-clocktower/image/downloaded/b4585b56bb01ed95d2dda02c162d13c1.webp",
+    "setup": false,
+    "reminders": [
+      "月明星稀"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/Airell_clocktower/Assets_of_Lei_Gallery/astrologer_assets_of_lei_gallery.png"
+  },
+  {
+    "id": "ff6e29cd",
+    "team": "townsfolk",
+    "name": "悲剧演员",
+    "ability": "每个白天，一名邪恶玩家要对某件事疯狂，否则他可能死亡。每个白天，你要对某件事疯狂，否则你可能死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/54b5643de615f007b6556b28d45ab2d5.webp",
+    "setup": false,
+    "reminders": [
+      "疯狂"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3042,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/Airell_clocktower/Assets_of_Lei_Gallery/newcharacter25_assets_of_lei_gallery.png"
+  },
+  {
+    "id": "05369b4d",
+    "team": "townsfolk",
+    "name": "变脸师",
+    "ability": "每个白天，如果你“疯狂”地证明自己是一个善良角色（与之前不同），你可能会在当晚获得那个角色的能力，直到下个黄昏。",
+    "image": "/blood-on-the-clocktower/image/downloaded/f22a0904b1cbc9f2cab47c8299c7567e.webp",
+    "setup": false,
+    "reminders": [
+      "疯狂"
+    ],
+    "remindersGlobal": [
+      "是变脸师"
+    ],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/bianlianshi_600w.webp"
+  },
+  {
+    "id": "2d628af2",
+    "team": "townsfolk",
+    "name": "女裁缝",
+    "ability": "每局游戏限一次，在夜晚时，你可以选择除你以外的两名玩家：你会得知他们是否为同一阵营。",
+    "image": "/blood-on-the-clocktower/image/downloaded/ab924925cfd2953a23045b204034d487.webp",
+    "setup": false,
+    "reminders": [
+      "失去能力"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3053,
+    "otherNight": 105,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/seamstress_600w.webp"
+  },
+  {
+    "id": "892dfa1d",
+    "team": "townsfolk",
+    "name": "大力士",
+    "ability": "如果你在白天是最疯狂证明自己是大力士的人，今晚选择了你的玩家之一会死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/7178933f3128dd62c11118787d4731a0.webp",
+    "setup": false,
+    "reminders": [
+      "疯狂",
+      "死亡",
+      "挑衅"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 121,
+    "original_image": "https://www.bloodstar.xyz/p/Airell_clocktower/Assets_of_Lei_Gallery/newcharacter23_assets_of_lei_gallery.png"
+  },
+  {
+    "id": "d5b526da",
+    "team": "outsider",
+    "name": "酒鬼",
+    "ability": "你不知道你是酒鬼。你以为你是一个镇民角色，但其实你不是。",
+    "image": "/blood-on-the-clocktower/image/downloaded/8f7a6904ef81ddc1f303550c7f22c867.webp",
+    "setup": true,
+    "reminders": [],
+    "remindersGlobal": [
+      "是酒鬼"
+    ],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/drunk_600w.webp"
+  },
+  {
+    "id": "01ed0b5f",
+    "team": "outsider",
+    "name": "瘟疫医生",
+    "ability": "当你死亡时，说书人会获得一个爪牙能力。",
+    "image": "/blood-on-the-clocktower/image/downloaded/56fe4576d781fee2ba449ab9c41df83d.webp",
+    "setup": false,
+    "reminders": [
+      "说书人的能力"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/plagueDoctor_600w.webp"
+  },
+  {
+    "id": "17598211",
+    "team": "outsider",
+    "name": "畸形秀演员",
+    "ability": "如果你“疯狂”地证明自己是外来者，你可能被处决。",
+    "image": "/blood-on-the-clocktower/image/downloaded/9fd65b0ef580849ddd3eae7962107aa5.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/mutant_600w.webp"
+  },
+  {
+    "id": "fe67e025",
+    "team": "outsider",
+    "name": "骗子",
+    "ability": "在夜晚时，你会转变为本局游戏中首个被处决的玩家的阵营。",
+    "image": "/image/downloaded/19e60c8c99f0f5117f8391477923ccaa.webp",
+    "setup": false,
+    "reminders": [
+      "同伙"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 55,
+    "original_image": "https://www.bloodstar.xyz/p/Airell_clocktower/Assets_of_Lei_Gallery/newcharacter26_assets_of_lei_gallery.png"
+  },
+  {
+    "id": "b9d97e73",
+    "team": "minion",
+    "name": "癫人",
+    "ability": "每个夜晚，你要选择至多三名玩家：他们以为自己受到疯狂能力的影响，但实际上没有。",
+    "image": "/blood-on-the-clocktower/image/downloaded/b62c7a732e04115c1259369a31ba4776.webp",
+    "setup": false,
+    "reminders": [
+      "癫狂"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3020,
+    "otherNight": 27,
+    "original_image": "https://www.bloodstar.xyz/p/Airell_clocktower/Assets_of_Lei_Gallery/klaun_assets_of_lei_gallery.png"
+  },
+  {
+    "id": "1ac1af22",
+    "team": "minion",
+    "name": "鹰身女妖",
+    "ability": "每个夜晚，你要选择两名玩家：明天第一名玩家需要“疯狂”地证明第二名玩家是邪恶的，否则他们之中可能会有人死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/3462b7cb3fa90feb824da7aefd03e899.webp",
+    "setup": false,
+    "reminders": [
+      "疯狂",
+      "第二位"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3031,
+    "otherNight": 41,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/harpy_600w.webp"
+  },
+  {
+    "id": "acc17e7c",
+    "team": "minion",
+    "name": "洗脑师",
+    "ability": "每个夜晚，你要选择一名玩家和一个善良角色。他明天白天和夜晚需要“疯狂”地证明自己是这个角色，不然他可能被处决。",
+    "image": "/blood-on-the-clocktower/image/downloaded/c6b05e8a8574d8de6ef3903b4f77962f.webp",
+    "setup": false,
+    "reminders": [
+      "疯狂"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3028,
+    "otherNight": 39,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/cerenovus_600w.webp"
+  },
+  {
+    "id": "32e426f3",
+    "team": "minion",
+    "name": "冒名客",
+    "ability": "每个白天，在你首次“疯狂”地证明自己是一个在场角色时，你在那天让他中毒并获得该角色的能力。",
+    "image": "/blood-on-the-clocktower/image/downloaded/145e29b31e74ce3a2eaedd63c82f68df.webp",
+    "setup": false,
+    "reminders": [
+      "冒名"
+    ],
+    "remindersGlobal": [
+      "是冒名客"
+    ],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/Airell_clocktower/Assets_of_Lei_Gallery/imposter_assets_of_lei_gallery.png"
+  },
+  {
+    "id": "38778b45",
+    "team": "demon",
+    "name": "卡扎力",
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡。[由你决定谁是什么爪牙，-或+任意数量外来者]",
+    "image": "/blood-on-the-clocktower/image/downloaded/b3e387e4e73142870cb716006b3a644c.webp",
+    "setup": false,
+    "reminders": [
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 14,
+    "otherNight": 68,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/kazali_600w.webp"
+  },
+  {
+    "id": "0ab072cf",
+    "team": "demon",
+    "name": "姑获鸟",
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡。当爪牙死于处决时，你可能会获得他的能力，但每局游戏仅能获得一次。",
+    "image": "/blood-on-the-clocktower/image/downloaded/7f663d18e3a9d6fd6c91a5550169f931.webp",
+    "setup": false,
+    "reminders": [
+      "死于处决",
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 77,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/guhuoniao_600w.webp"
+  },
+  {
+    "id": "c879a539",
+    "team": "demon",
+    "name": "提普-提普",
+    "ability": "每个夜晚*，会有一名玩家死亡。在最后一晚，你要选择一名玩家：他必须疯狂地证明你不是恶魔，否则他的阵营落败。",
+    "image": "/blood-on-the-clocktower/image/downloaded/8a73ce414bb8a87998b402d732d6b06b.webp",
+    "setup": false,
+    "reminders": [
+      "疯狂",
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 84,
+    "original_image": "https://oss.gstonegames.com/data_file/clocktower/upload/202412/c_0633240205371_3531622c.jpg"
+  },
+  {
+    "id": "1ec30eaa",
+    "team": "demon",
+    "name": "齐纳克",
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡。始终会有一名善良玩家知道你和另一人中有齐纳克。如果你在有爪牙存活时被处决，你的阵营获胜。",
+    "image": "/blood-on-the-clocktower/image/downloaded/7294aeb2bd3dfe34d04f5c6cac417f67.webp",
+    "setup": false,
+    "reminders": [
+      "死亡",
+      "得知"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3003,
+    "otherNight": 91,
+    "original_image": "https://www.bloodstar.xyz/p/Airell_clocktower/Assets_of_Lei_Gallery/jnak_assets_of_lei_gallery.png"
+  }
+]

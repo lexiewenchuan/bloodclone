@@ -1,0 +1,19 @@
+---
+description: 剧本按 path 加载时的 URL 编码规范，避免 404
+globs: src/App.tsx, src/utils/scriptUrl.ts, src/contexts/AppContext.tsx, public/scripts.json, src/data/script-index.ts
+alwaysApply: false
+---
+
+# 剧本按 path 加载的约定
+
+## 问题背景
+
+剧本 JSON 文件名可能包含 `+`、空格等字符（例如 `全员失忆_官3+实验性+华灯_-钟楼剧本博物馆制作.json`）。在 URL 中这些字符若未编码，部分线上环境会误解析（如把 `+` 当空格），导致请求路径与真实文件不一致而 404。
+
+## 必须遵守
+
+1. **唯一入口**：所有「根据剧本的 path/filePath 发起 fetch」的逻辑，必须使用 `src/utils/scriptUrl.ts` 中的 **`buildScriptFetchUrl(filePath)`** 得到请求 URL，不要手写拼接或只做简单 `baseUrl + path`。
+2. **新增剧本**：在 `public/scripts.json` 或 `src/data/script-index.ts` 中新增条目时，`path` / `filePath` 填写相对 `public/` 的路径即可（如 `juben/分类/文件名.json`），无需为避免特殊字符而改名；加载时会自动对路径逐段编码。
+3. **新增加载逻辑**：若在别处（如预加载、导出、离线等）需要按 path 请求剧本 JSON，请复用 `buildScriptFetchUrl`，不要重复实现编码逻辑。
+
+这样可保证之后新增的剧本无论文件名是否含 `+`、空格等，都不会再出现同类 404 问题。

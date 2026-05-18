@@ -1,0 +1,243 @@
+[
+  {
+    "hint": "线上魔典支持直接输入剧本的URL。不必将此文件保存到你的电脑。",
+    "id": "_meta",
+    "name": "人之常情（Emotions）",
+    "author": "Moll"
+  },
+  {
+    "id": "85f38cee",
+    "team": "townsfolk",
+    "name": "内疚",
+    "ability": "每个夜晚，你要选择一个邪恶角色：你会得知该角色是否在场。",
+    "image": "/blood-on-the-clocktower/image/downloaded/92a0b7f34707d72d8a0fcf4bdc498e33.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 3032,
+    "otherNight": 74,
+    "original_image": "https://i.postimg.cc/7LFcWZpj/image.png"
+  },
+  {
+    "id": "118b4f71",
+    "team": "townsfolk",
+    "name": "愤怒",
+    "ability": "每个夜晚，你会得知你的阵营的一名玩家：他可能会以为有其他角色能力对他生效。",
+    "image": "/blood-on-the-clocktower/image/downloaded/ec369c7492587f45e1b3be2306f631c8.webp",
+    "setup": false,
+    "reminders": [
+      "怒火"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3057,
+    "otherNight": 95,
+    "original_image": "https://i.postimg.cc/KYkwfMsn/image.png"
+  },
+  {
+    "id": "8ff64155",
+    "team": "townsfolk",
+    "name": "焦虑",
+    "ability": "每个夜晚，你会得知所有与存活的恶魔邻近的玩家中共同的角色类型（除旅行者以外）。",
+    "image": "/blood-on-the-clocktower/image/downloaded/cf336c572b3cf6d8ff2cbdc1f56eaea6.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 3044,
+    "otherNight": 85,
+    "original_image": "https://i.postimg.cc/4xFjp5wf/image.png"
+  },
+  {
+    "id": "68573e61",
+    "team": "townsfolk",
+    "name": "伤心",
+    "ability": "每个夜晚*，你会得知一名死亡玩家的角色。",
+    "image": "/blood-on-the-clocktower/image/downloaded/e13177a66ff442e8d1505468565e4d7f.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 106,
+    "original_image": "https://i.postimg.cc/FHK2fqyC/image.png"
+  },
+  {
+    "id": "cdde80c4",
+    "team": "townsfolk",
+    "name": "悲痛",
+    "ability": "每个夜晚*，你会得知今天死于处决的玩家是否与恶魔邻近。",
+    "image": "/blood-on-the-clocktower/image/downloaded/db5c33d0b3b1b42f82833c8b80c13cae.webp",
+    "setup": false,
+    "reminders": [
+      "今日处决"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 116,
+    "original_image": "https://i.postimg.cc/KcrV0FQs/image.png"
+  },
+  {
+    "id": "f53451c1",
+    "team": "townsfolk",
+    "name": "恐惧",
+    "ability": "与你邻近的存活的玩家（旅行者除外）醉酒且获得错误信息。每个夜晚*，如果当晚没人死亡，你死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/29298877948eacca4ec9a2a3ffe58224.webp",
+    "setup": false,
+    "reminders": [
+      "醉酒",
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 64,
+    "original_image": "https://i.postimg.cc/NMRVqwtF/image.png"
+  },
+  {
+    "id": "9db00184",
+    "team": "outsider",
+    "name": "失望",
+    "ability": "你以为你是一个爪牙，但其实你不是。",
+    "image": "/blood-on-the-clocktower/image/downloaded/40bbf97758c99230a73100c7abb092f2.webp",
+    "setup": true,
+    "reminders": [],
+    "remindersGlobal": [
+      "是失望"
+    ],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://i.postimg.cc/L6Dc8R1Z/image.png"
+  },
+  {
+    "id": "bed15a47",
+    "team": "outsider",
+    "name": "无聊",
+    "ability": "与你邻近的玩家在夜晚时可能会以为有其他角色能力对他生效。",
+    "image": "/blood-on-the-clocktower/image/downloaded/0b9227d45d6603a386e70fd9c062f135.webp",
+    "setup": false,
+    "reminders": [
+      "烦闷"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://i.postimg.cc/5y3Ryq6M/image.png"
+  },
+  {
+    "id": "6bb655c5",
+    "team": "minion",
+    "name": "振奋",
+    "ability": "每个夜晚，你要选择一名玩家：他会得知被振奋选中，且他会得知错误信息直到下个黄昏，如果他在下个白天被处决，他的阵营落败。",
+    "image": "/blood-on-the-clocktower/image/downloaded/7dedf95c607c60eb6c9451a1a68aebf5.webp",
+    "setup": false,
+    "reminders": [
+      "激动"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 14,
+    "otherNight": 22,
+    "original_image": "https://i.postimg.cc/nh5wXLcM/image.png"
+  },
+  {
+    "id": "8e846c72",
+    "team": "minion",
+    "name": "感恩",
+    "ability": "每局游戏限一次，你可以在白天时公开猜测所有玩家的角色，如果猜对，你的阵营获胜。[+1外来者]",
+    "image": "/blood-on-the-clocktower/image/downloaded/e701a3a8f74a2ed139751e8af4039c74.webp",
+    "setup": true,
+    "reminders": [
+      "失去能力"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://i.postimg.cc/SRqPmtQr/image.png"
+  },
+  {
+    "id": "7d97af3e",
+    "team": "minion",
+    "name": "幸福",
+    "ability": "在你的首个夜晚，你要选择一名玩家：他会得知被幸福选中，且他只能与你一同获胜。",
+    "image": "/blood-on-the-clocktower/image/downloaded/c46da804dfc866737b938ca9c74753ff.webp",
+    "setup": false,
+    "reminders": [
+      "快乐"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3007,
+    "otherNight": 0,
+    "original_image": "https://i.postimg.cc/Jzt27X89/image.png"
+  },
+  {
+    "id": "2cbf4982",
+    "team": "demon",
+    "name": "爱",
+    "ability": "每个夜晚，你要选择一名玩家：他在下个夜晚死亡。如果你选中了爪牙，改为你会得知他的角色。[+0或+1外来者]",
+    "image": "/blood-on-the-clocktower/image/downloaded/c6a7ba79424a62adc88e52c5c9d26d5c.webp",
+    "setup": true,
+    "reminders": [
+      "明晚死亡",
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3019,
+    "otherNight": 43,
+    "original_image": "https://i.postimg.cc/029gvrbs/image.png"
+  },
+  {
+    "id": "d128a692",
+    "team": "demon",
+    "name": "希望",
+    "ability": "在你的首个夜晚，你能查看魔典。每个夜晚*，你可以选择一名玩家：他死亡。所有爪牙都转变为善良阵营，但他们不会得知此事。其他角色的负面能力对你无效。[+1爪牙]",
+    "image": "/blood-on-the-clocktower/image/downloaded/b9c8c8da4905c5afe2326e8ad59d745f.webp",
+    "setup": true,
+    "reminders": [
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3069,
+    "otherNight": 33,
+    "original_image": "https://i.postimg.cc/kXJHZZpM/image.png"
+  },
+  {
+    "id": "a8845ab7",
+    "team": "demon",
+    "name": "信念",
+    "ability": "你以为你是一个不在场的善良角色，但其实你不是。每个夜晚*，可能会有一名玩家死亡，然后会有一名信念知道另一名信念是谁。如果三名玩家存活时有信念被处决，所有信念都会被处决。[所有爪牙都是信念]",
+    "image": "/blood-on-the-clocktower/image/downloaded/deb9dbccf5949b84e9e4c4b7d14c0f85.webp",
+    "setup": true,
+    "reminders": [],
+    "remindersGlobal": [
+      "是信念",
+      "死亡"
+    ],
+    "firstNight": 0,
+    "otherNight": 54,
+    "original_image": "https://i.postimg.cc/fT8PhKGc/image.png"
+  },
+  {
+    "id": "3bab41f8",
+    "team": "fabled",
+    "name": "螺旋",
+    "ability": "邪恶旅行者不认识恶魔，不会在夜晚死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/abb406ceb2cfca94794fd2f962b89f2c.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://www.bloodstar.xyz/p/Moll_of_Power/Emotions/thespiral_emotions.png"
+  },
+  {
+    "id": "764bb035",
+    "team": "traveller",
+    "name": "抑郁",
+    "ability": "每个夜晚*，你要选择除你以外从未选择过的一名玩家：他会得知你的阵营。如果你被流放，你转变为对立阵营。[无初始信息]",
+    "image": "/blood-on-the-clocktower/image/downloaded/0b74dad9c68887c1d2a3a34dc1721c81.webp",
+    "setup": false,
+    "reminders": [
+      "已选择"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 12,
+    "original_image": "https://www.bloodstar.xyz/p/Moll_of_Power/Emotions/depression_emotions.png"
+  }
+]

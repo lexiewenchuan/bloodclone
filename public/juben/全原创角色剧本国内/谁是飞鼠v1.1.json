@@ -1,0 +1,167 @@
+[
+  {
+    "hint": "线上魔典支持直接输入剧本的URL。不必将此文件保存到你的电脑。",
+    "id": "_meta",
+    "name": "谁是飞鼠v1.1",
+    "author": "作者：OvO飞鼠 美术设计：正义兔子"
+  },
+  {
+    "id": "c035a9b4",
+    "team": "townsfolk",
+    "name": "乌萨奇",
+    "ability": "每个夜晚，你要选择两个角色。在你死亡当晚，你会得知选择过的角色有多少个在场",
+    "image": "/blood-on-the-clocktower/image/downloaded/43073e4135d4b5797bc011e272457016.webp",
+    "setup": false,
+    "reminders": [
+      "乌萨奇选中"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3067,
+    "otherNight": 64,
+    "original_image": "https://free.picui.cn/free/2025/09/21/68ced6609c720.png"
+  },
+  {
+    "id": "b88cfcdf",
+    "team": "townsfolk",
+    "name": "吉伊",
+    "ability": "每个夜晚，你要选择两名玩家:你会得知她们中是否存在邪恶阵营。你得知信息的正误每晚交替，但你不知道首个夜晚信息的正误",
+    "image": "/blood-on-the-clocktower/image/downloaded/d94234d9d99d8df70ab35c65e5387706.webp",
+    "setup": false,
+    "reminders": [
+      "正确",
+      "错误"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3024,
+    "otherNight": 95,
+    "original_image": "https://free.picui.cn/free/2025/09/21/68ced65d34494.png"
+  },
+  {
+    "id": "c2b4aa0d",
+    "team": "townsfolk",
+    "name": "栗子馒头",
+    "ability": "每局游戏限一次，你可以在白天公开声称自己是栗子馒头，当晚恶魔不会造成死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/f4d567b55d53a8cf80b10fa0139d46e8.webp",
+    "setup": false,
+    "reminders": [
+      "失去能力"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://free.picui.cn/free/2025/09/21/68ced6601bff6.png"
+  },
+  {
+    "id": "63e026bf",
+    "team": "townsfolk",
+    "name": "小八",
+    "ability": "在你的首个夜晚，你要选择一个角色类型，然后得知一个相关的信息。如果你两侧的邻座玩家阵营不同，则会获得错误信息。",
+    "image": "/blood-on-the-clocktower/image/downloaded/7c568c97a0424c5638c7fabdad61aa34.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 3039,
+    "otherNight": 0,
+    "original_image": "https://free.picui.cn/free/2025/09/21/68ced660b9ca4.png"
+  },
+  {
+    "id": "a038c02b",
+    "team": "townsfolk",
+    "name": "狮萨",
+    "ability": "在你的首个夜晚，你可以选择任意数量的玩家:你会得知他们当中有几种角色类型。如果你同时选择了爪牙和恶魔，你得到错误信息。",
+    "image": "/blood-on-the-clocktower/image/downloaded/4bfde6bf65c91a3ca488e1745a4ab2f5.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 3053,
+    "otherNight": 0,
+    "original_image": "https://free.picui.cn/free/2025/09/21/68ced6605e456.png"
+  },
+  {
+    "id": "a2e7181e",
+    "team": "townsfolk",
+    "name": "海獭",
+    "ability": "如果场上存活的邪恶玩家都被你提名过，且你提名过的善良玩家不超过一名，你的阵营获胜。",
+    "image": "/blood-on-the-clocktower/image/downloaded/0da40e665e56a9c54e814de7263f1f81.webp",
+    "setup": false,
+    "reminders": [
+      "海獭提名过"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://free.picui.cn/free/2025/09/21/68ced65d624b9.png"
+  },
+  {
+    "id": "b54bb82a",
+    "team": "outsider",
+    "name": "大宝宝",
+    "ability": "你以为自己是一个镇民角色。首个夜晚，你会得知自己是飞鼠，即使你不是。",
+    "image": "/blood-on-the-clocktower/image/downloaded/4d3d0736fd8112a4ef32c85410c62021.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [
+      "是大宝宝"
+    ],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://free.picui.cn/free/2025/09/21/68ced65cd39aa.png"
+  },
+  {
+    "id": "e3268dbd",
+    "team": "outsider",
+    "name": "小宝宝",
+    "ability": "游戏开始前，说书⼈要公开宣布本局游戏中⼩宝宝的能⼒是什么，即使⼩宝宝不在场。",
+    "image": "/blood-on-the-clocktower/image/downloaded/993447fe2ec9ce06c18da6b1c6b163d0.webp",
+    "setup": false,
+    "reminders": [
+      "是小宝宝"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://free.picui.cn/free/2025/09/21/68ced66291515.png"
+  },
+  {
+    "id": "3b96d2a6",
+    "team": "minion",
+    "name": "林中巫婆",
+    "ability": "在你的首个夜晚，你会得知两名玩家：他们当中存在恶魔。你会得知两个在场的善良角色。",
+    "image": "/blood-on-the-clocktower/image/downloaded/d3be6b568f75121535b27f9bbd793cf6.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 2002,
+    "otherNight": 0,
+    "original_image": "https://free.picui.cn/free/2025/09/21/68ced6602f17f.png"
+  },
+  {
+    "id": "e23137b2",
+    "team": "minion",
+    "name": "古本",
+    "ability": "在你的首个夜晚，恶魔会得知自己是飞鼠。你会得知两个在场的善良角色",
+    "image": "/blood-on-the-clocktower/image/downloaded/24c21a15f72123f3488d1d38de5cfcdd.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 3010,
+    "otherNight": 0,
+    "original_image": "https://free.picui.cn/free/2025/09/21/68ced65ce9d3e.png"
+  },
+  {
+    "id": "9f0da6d4",
+    "team": "demon",
+    "name": "飞鼠",
+    "ability": "你以为你是一个善良角色，但其实你不是。每个夜晚*，可能会有一名玩家死亡。",
+    "image": "/blood-on-the-clocktower/image/downloaded/118ca42e641df5c24442abd948ead4aa.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [
+      "死亡",
+      "是飞鼠"
+    ],
+    "firstNight": 0,
+    "otherNight": 33,
+    "original_image": "https://free.picui.cn/free/2025/09/21/68ced65d408fd.png"
+  }
+]

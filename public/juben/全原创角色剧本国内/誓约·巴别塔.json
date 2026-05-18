@@ -1,0 +1,220 @@
+[
+  {
+    "hint": "线上魔典支持直接输入剧本的URL。不必将此文件保存到你的电脑。",
+    "id": "_meta",
+    "name": "誓约·巴别塔",
+    "author": "泽度哥",
+    "status": [
+      {
+        "name": "末日倒计时",
+        "skill": "在第五个白天结束时，邪恶阵营获胜；善良阵营玩家（怪人除外）被投票处决时，邪恶阵营获胜。 "
+      },
+      {
+        "name": "锁定&逃脱",
+        "skill": "锁定：如果你被审判，在回答后你立即被处决，即使有任何原因让审判结果颠倒。逃脱：如果你被审判，你不会被处决，但要失去1次逃脱，即使有任何原因让审判结果颠倒。锁定和逃脱会相互抵消。\n"
+      },
+      {
+        "name": "巴别塔审判",
+        "skill": "没有担任过审判官的玩家可以申请成为今天的审判官，所有玩家要对这项申请举手表决，如果超过半数玩家同意，则申请通过：审判官要公开询问一名其他存活玩家一个是非问题。如果他没有如实回答，他立刻被处决。每个白天至多进行一次审判。"
+      }
+    ]
+  },
+  {
+    "id": "a47380e6",
+    "team": "townsfolk",
+    "name": "猎人",
+    "ability": "每局游戏限一次，在夜晚时，你可以选择一个其他角色：由你选择他获得锁定或逃脱。",
+    "image": "/image/downloaded/2a021a99fa21f6af3a7c75b9a28edcb0.webp",
+    "setup": false,
+    "reminders": [
+      "失去能力"
+    ],
+    "remindersGlobal": [
+      "锁定",
+      "逃脱"
+    ],
+    "firstNight": 3048,
+    "otherNight": 109,
+    "original_image": "https://www.helloimg.com/i/2024/11/27/67460a645ed6d.png"
+  },
+  {
+    "id": "b0123957",
+    "team": "townsfolk",
+    "name": "研究员",
+    "ability": "每局游戏限一次，在夜晚时，你可以选择一个角色：你会得知该角色是否在场。如果你被审判，你重获能力。",
+    "image": "/image/downloaded/1452ca0f41cc6cb027d160a849c2f76c.webp",
+    "setup": false,
+    "reminders": [
+      "失去能力"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3059,
+    "otherNight": 73,
+    "original_image": "https://www.helloimg.com/i/2024/11/27/67460a57ae6fe.png"
+  },
+  {
+    "id": "3e8ead00",
+    "team": "townsfolk",
+    "name": "勇士",
+    "ability": "在你的首个夜晚， 你会得知与恶魔邻近的两名玩家的角色类型。",
+    "image": "/image/downloaded/50b333257b1ad7337a7b7afa238ba3a6.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 3070,
+    "otherNight": 0,
+    "original_image": "https://www.helloimg.com/i/2024/11/27/674609f87b4b6.png"
+  },
+  {
+    "id": "2e4ad519",
+    "team": "townsfolk",
+    "name": "术士",
+    "ability": "如果你被审判，你会在当晚变成一个不在场的镇民角色。",
+    "image": "/image/downloaded/5a8ba0901e5d54bbd1a7f7a2c068bf62.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 37,
+    "original_image": "https://www.helloimg.com/i/2024/11/27/67460a2dbe25b.png"
+  },
+  {
+    "id": "f5b926f0",
+    "team": "townsfolk",
+    "name": "诗人",
+    "ability": "如果你成为审判官，你会在当晚得知被审判者的角色类型。",
+    "image": "/image/downloaded/95992f4cb612dac244e715662c5caa99.webp",
+    "setup": false,
+    "reminders": [
+      "得知"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 55,
+    "original_image": "https://www.helloimg.com/i/2024/11/27/67460a1e0412a.png"
+  },
+  {
+    "id": "1e0d121c",
+    "team": "outsider",
+    "name": "怪人",
+    "ability": "在你的首个夜晚，你获得逃脱。如果你“疯狂”地证明自己是怪人，你会被锁定两次。如果你审判处决一名玩家，且你被审判过，当晚你独自获胜。",
+    "image": "/image/downloaded/2881f790cbf1543d97230cdf6900cf73.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [
+      "锁定",
+      "逃脱"
+    ],
+    "firstNight": 3037,
+    "otherNight": 19,
+    "original_image": "https://www.helloimg.com/i/2024/11/27/67460a8255bf3.png"
+  },
+  {
+    "id": "20461556",
+    "team": "outsider",
+    "name": "信徒",
+    "ability": "你以为你是一个爪牙角色，但其实你不是。",
+    "image": "/image/downloaded/1f8a5417ed6b24c6832a76a75fddd66c.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [
+      "是信徒"
+    ],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://www.helloimg.com/i/2024/11/27/67460a7f5d9b6.png"
+  },
+  {
+    "id": "103c4ba7",
+    "team": "outsider",
+    "name": "隐士",
+    "ability": "你拥有所有外来者能力。[-0~1外来者]",
+    "image": "/blood-on-the-clocktower/image/downloaded/28e8fa7753a94d1e15b6be2e7f9807fb.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://tachyondungeon.xyz/botc/image/characters/hermit_600w.webp"
+  },
+  {
+    "id": "65adacae",
+    "team": "minion",
+    "name": "逆转",
+    "ability": "每局游戏限一次，在夜晚时：你可以选择让下次的审判结果颠倒。",
+    "image": "/image/downloaded/c5fedcd61009b8af5cb6911d6c30c16c.webp",
+    "setup": false,
+    "reminders": [
+      "失去能力"
+    ],
+    "remindersGlobal": [
+      "逆转"
+    ],
+    "firstNight": 3015,
+    "otherNight": 91,
+    "original_image": "https://www.helloimg.com/i/2024/11/27/67460a9d228fe.png"
+  },
+  {
+    "id": "28345794",
+    "team": "minion",
+    "name": "火神",
+    "ability": "在你的首个夜晚，你要选择一个角色类型：如果该类型玩家被审判，审判结果颠倒。",
+    "image": "/image/downloaded/7abadac7829fd4a2d5e1dc82f844d492.webp",
+    "setup": false,
+    "reminders": [
+      "镇民颠倒",
+      "外来者颠倒",
+      "爪牙颠倒",
+      "恶魔颠倒"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 3026,
+    "otherNight": 0,
+    "original_image": "https://www.helloimg.com/i/2024/11/27/67460a9bc248b.png"
+  },
+  {
+    "id": "02753d26",
+    "team": "demon",
+    "name": "战争",
+    "ability": "在你的首个夜晚，你能查看魔典并选择一名玩家，他获得逃脱，如果他是善良的，他中毒。",
+    "image": "/image/downloaded/30279b90167f372953aa1d3422d49a8a.webp",
+    "setup": false,
+    "reminders": [
+      "中毒"
+    ],
+    "remindersGlobal": [
+      "逃脱"
+    ],
+    "firstNight": 3004,
+    "otherNight": 0,
+    "original_image": "https://www.helloimg.com/i/2024/11/27/67460aa343ae8.png"
+  },
+  {
+    "id": "4fafaf15",
+    "team": "demon",
+    "name": "荒芜",
+    "ability": "在你的首个夜晚，你获得逃脱两次，然后你要选择一个角色：如果该角色在场，你会得知他是谁。[+1外来者]",
+    "image": "/image/downloaded/8020e9d5a9e8582cba88f86728ac0718.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [
+      "逃脱"
+    ],
+    "firstNight": 13,
+    "otherNight": 0,
+    "original_image": "https://www.helloimg.com/i/2024/11/27/67460aa3f1de9.png"
+  },
+  {
+    "id": "cda4f1a6",
+    "team": "fabled",
+    "name": "誓约巴别塔",
+    "ability": "审判玩法见状态栏“巴别塔审判”  游戏第五日结束时，或善良阵营（怪人除外）被投票处决时，邪恶阵营获胜。",
+    "image": "/image/downloaded/6cd37274b8e78c138b1baf97ed549cff.webp",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "original_image": "https://www.helloimg.com/i/2024/11/27/674609b931287.png"
+  }
+]
